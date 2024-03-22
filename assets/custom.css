@@ -1,0 +1,30 @@
+:root {
+  --color-bg: #F1F1F1
+}
+
+
+.color-bg {
+  color: var(--color-bg)
+}
+
+.br {
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  overflow: hidden;
+}
+
+
+.overlay-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 300px; /* Width of the overlay */
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+  /* Use your own color and opacity */
+  display: block !important;
+  z-index: 2;
+}

@@ -1,0 +1,39 @@
+<div class="mega-menu">
+  {% for link in linklists.mega_menu.links %}
+    <div class="mega-menu__section">
+      <h3 class="mega-menu__title">{{ link.title }}</h3>
+      <ul class="mega-menu__list">
+        {% for item in link.links %}
+          <li>
+            <a href="{{ item.url }}" class="mega-menu__item" data-product-handle="{{ item.handle }}">
+              {{ item.title }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="mega-menu__image">
+      <img src="{{ linklists.mega_menu.links.first.object.featured_image | img_url: '300x300' }}" alt="" class="mega-menu__product-image">
+    </div>
+    <div class="mega-menu__promo">
+      <a href="{{ link.url }}">
+        <img src="{{ link.object.image.src | img_url: '300x300' }}" alt="{{ link.title }}">
+        <div class="mega-menu__promo-text">{{ link.title }}</div>
+      </a>
+    </div>
+  {% endfor %}
+</div>
+
+<script>
+  document.querySelectorAll('.mega-menu__item').forEach(function(item) {
+  item.addEventListener('mouseover', function() {
+    var handle = this.dataset.productHandle;
+    fetch('/products/' + handle + '.js')
+      .then(response => response.json())
+      .then(product => {
+        var imageUrl = product.images[0];
+        document.querySelector('.mega-menu__product-image').src = imageUrl;
+      });
+  });
+});
+</script>

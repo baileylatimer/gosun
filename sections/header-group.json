@@ -9,25 +9,57 @@
           "type": "announcement",
           "settings": {
             "text": "Welcome to our store",
-            "text_alignment": "center",
-            "color_scheme": "scheme-1",
             "link": ""
           }
         }
       },
       "block_order": [
         "announcement-bar-0"
-      ]
+      ],
+      "settings": {
+        "color_scheme": "",
+        "show_line_separator": true,
+        "show_social": false,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "image_with_text_CwdJUf": {
+          "type": "image-with-text",
+          "settings": {
+            "parent_menu_item": "Ovens",
+            "image": "shopify:\/\/shop_images\/fusion-hero.jpg",
+            "text": "Solar ovens are the future of cooking",
+            "url": "shopify:\/\/pages\/solar-ovens"
+          }
+        },
+        "image_with_text_TVLXmj": {
+          "type": "image-with-text",
+          "settings": {
+            "parent_menu_item": "Coolers",
+            "image": "shopify:\/\/shop_images\/04_1_a8be786d-defc-4bea-93f8-c2b0cbf35386.png",
+            "text": "Solar Coolers never need ice while food and drinks stay cold, dry, and organized.",
+            "url": "shopify:\/\/pages\/solar-coolers"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_CwdJUf",
+        "image_with_text_TVLXmj"
+      ],
       "settings": {
-        "color_scheme": "scheme-1",
         "logo_position": "middle-left",
-        "menu": "main-menu",
-        "menu_type_desktop": "dropdown",
+        "menu": "main-menu-v2",
+        "menu_type_desktop": "mega",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
+        "color_scheme": "scheme-1",
+        "menu_color_scheme": "",
         "enable_country_selector": true,
         "enable_language_selector": true,
         "mobile_logo_position": "center",
