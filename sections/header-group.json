@@ -34,8 +34,13 @@
           "settings": {
             "parent_link_handle": "Ovens",
             "image_1": "shopify:\/\/shop_images\/fusion_0c89b649-37a3-410a-b9c0-d0519ee65f06.jpg",
+            "description_1": "Hybrid Solar Oven • 4-5 Meals",
             "image_2": "shopify:\/\/shop_images\/sport_46fbf846-59e8-4749-8dca-4dd59ba6d631.jpg",
-            "image_3": "shopify:\/\/shop_images\/go_a8285fd8-eaa4-4ad2-8da7-9f4fe1204094.jpg"
+            "description_2": "Hybrid Solar Oven • 2-3 meals",
+            "image_3": "shopify:\/\/shop_images\/go_a8285fd8-eaa4-4ad2-8da7-9f4fe1204094.jpg",
+            "description_3": "Portable Solar Oven • 1-2 Meals",
+            "description_4": "",
+            "description_5": ""
           }
         },
         "images_for_dropdown_gnziAR": {
@@ -43,8 +48,13 @@
           "settings": {
             "parent_link_handle": "Coolers",
             "image_1": "shopify:\/\/shop_images\/chillest-electric-coolerfreezer-gosun-805748_d32d3870-c88a-4fb3-8084-73f53037dc33.jpg",
+            "description_1": "Electric Cooler\/Freezer • 45L",
             "image_2": "shopify:\/\/shop_images\/chill-no-powerbank-electric-cooler-gosun-129202.jpg",
-            "image_3": "shopify:\/\/shop_images\/ChillitoCarosel1_be7ec115-92d9-4a51-a122-50f4603e5fd3.png"
+            "description_2": "Electric Cooler • 40L",
+            "image_3": "shopify:\/\/shop_images\/ChillitoCarosel1_be7ec115-92d9-4a51-a122-50f4603e5fd3.png",
+            "description_3": "Electric Cooler • 18L",
+            "description_4": "",
+            "description_5": ""
           }
         },
         "images_for_dropdown_YdTpcE": {
@@ -52,9 +62,14 @@
           "settings": {
             "parent_link_handle": "Power",
             "image_1": "shopify:\/\/shop_images\/newshield2_9b83cf52-3c21-4797-8728-ed1ec5b45018.png",
+            "description_1": "Foldable 60W Solar Car Shield",
             "image_2": "shopify:\/\/shop_images\/power-266-portable-266wh-power-bank-gosun-265176.jpg",
+            "description_2": "Portable 266wh Power Bank",
             "image_3": "shopify:\/\/shop_images\/power-1100-1100wh-power-bank-gosun-121088.jpg",
-            "image_4": "shopify:\/\/shop_images\/solartable-120-charge-power-gosun-591323.jpg"
+            "description_3": "1100Wh Power Bank",
+            "image_4": "shopify:\/\/shop_images\/solartable-120-charge-power-gosun-591323.jpg",
+            "description_4": "Portable 60W Solar Table",
+            "description_5": ""
           }
         },
         "images_for_dropdown_c3wYwL": {
@@ -62,8 +77,13 @@
           "settings": {
             "parent_link_handle": "Water",
             "image_1": "shopify:\/\/shop_images\/Brew2.jpg",
+            "description_1": "Travel Coffee Maker",
             "image_2": "shopify:\/\/shop_images\/Everyday_Carry-1_ae1811b8-06e2-4437-b973-995ea1b55940.png",
-            "image_3": "shopify:\/\/shop_images\/flow-pro-filter-sink-shower-gosun-929591.jpg"
+            "description_2": "Portable Water Pump + Shower",
+            "image_3": "shopify:\/\/shop_images\/flow-pro-filter-sink-shower-gosun-929591.jpg",
+            "description_3": "Solar Water Purifier + Sink + Shower",
+            "description_4": "",
+            "description_5": ""
           }
         },
         "images_for_dropdown_k4phtK": {
@@ -71,8 +91,13 @@
           "settings": {
             "parent_link_handle": "Campers",
             "image_1": "shopify:\/\/shop_images\/camper_trailer_gosun_camp365_closed_1000x1000_700x-jpg-700x700_77b72e04-dd62-4039-81d0-9b5ad00d5958.png",
+            "description_1": "Off-Grid Solar Trailer",
             "image_2": "shopify:\/\/shop_images\/Van_MegaMenu_480x_b72b023a-8ffe-4f4d-95c0-82db9f563374.webp",
-            "image_3": "shopify:\/\/shop_images\/gosun-dream-solar-off-grid-tiny-house-gosun-201210.jpg"
+            "description_2": "Customize your van with Solar",
+            "image_3": "shopify:\/\/shop_images\/gosun-dream-solar-off-grid-tiny-house-gosun-201210.jpg",
+            "description_3": "Off-Grid Solar Home",
+            "description_4": "",
+            "description_5": ""
           }
         },
         "images_for_dropdown_mtdhjk": {
@@ -80,9 +105,14 @@
           "settings": {
             "parent_link_handle": "Boats",
             "image_1": "shopify:\/\/shop_images\/SplashCover_10608b7e-0550-41ff-baaf-92e8f22140c5.jpg",
+            "description_1": "Electric Boat • 14.8'",
             "image_2": "shopify:\/\/shop_images\/Elcat_480x_2b6223a0-ffb6-4cce-a5d2-6045cd5afb7d.webp",
+            "description_2": "Electric Boat • 15'",
             "image_3": "shopify:\/\/shop_images\/Cover_961e9841-f9bb-4339-8f14-6c2138071437.jpg",
-            "image_4": "shopify:\/\/shop_images\/Ferryboat_480x_6ae659ec-c754-40ea-902a-d5f99db15cbc.webp"
+            "description_3": "Inflatable Jet Boat",
+            "image_4": "shopify:\/\/shop_images\/Ferryboat_480x_6ae659ec-c754-40ea-902a-d5f99db15cbc.webp",
+            "description_4": "Electric Boat • 26'",
+            "description_5": ""
           }
         },
         "images_for_dropdown_qxVaRD": {
@@ -90,9 +120,14 @@
           "settings": {
             "parent_link_handle": "Accessories",
             "image_1": "shopify:\/\/shop_images\/flatware-utensils-gosun-285765.jpg",
+            "description_1": "Portable Utensil Set",
             "image_2": "shopify:\/\/shop_images\/6_1.jpg",
+            "description_2": "The Ultimate Outdoor Companion",
             "image_3": "shopify:\/\/shop_images\/Brew2_cd557af4-134e-4161-9939-f6e80b5254a2.jpg",
-            "image_4": "shopify:\/\/shop_images\/solar_fan_12V_offgrid_hero_cd1f6e70-b02a-4e55-9f05-82d92613e0ae.jpg"
+            "description_3": "Travel Coffee Maker",
+            "image_4": "shopify:\/\/shop_images\/solar_fan_12V_offgrid_hero_cd1f6e70-b02a-4e55-9f05-82d92613e0ae.jpg",
+            "description_4": "Portable Solar Fan",
+            "description_5": ""
           }
         },
         "image_with_text_CwdJUf": {

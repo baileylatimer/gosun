@@ -476,44 +476,32 @@ sticky-header {
 
 
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
-  // Target all level-2 links within each dropdown
+document.addEventListener('DOMContentLoaded', function() {
   document.querySelectorAll('.mega-menu__link--level-2').forEach(function(link) {
     link.addEventListener('mouseenter', function() {
-      // Navigate up to find the shared .mega-menu-content container
       const megaMenuContent = link.closest('.mega-menu-content');
-      if (!megaMenuContent) {
-        console.error('No .mega-menu-content container found for the link');
-        return;
-      }
+      if (!megaMenuContent) return;
 
-      // Within this container, find the set of images
       const imagesContainer = megaMenuContent.querySelector('.mega-menu__images');
-      if (!imagesContainer) {
-        console.error('No images container found within the .mega-menu-content');
-        return;
-      }
-      
-      // Extract the index from the hovered link
+      if (!imagesContainer) return;
+
       const imageIndex = link.getAttribute('data-image-index');
-      if (!imageIndex) {
-        console.error('No data-image-index attribute found on the link');
-        return;
-      }
+      if (!imageIndex) return;
 
-      // Hide all images first
-      imagesContainer.querySelectorAll('.mega-menu__image').forEach(img => img.style.display = 'none');
+      imagesContainer.querySelectorAll('.mega-menu__image-container').forEach(container => {
+        container.querySelector('.mega-menu__image').style.display = 'none';
+        container.querySelector('.mega-menu__description').style.display = 'none';
+      });
 
-      // Then, show the one that matches the hovered link's data-image-index
-      const activeImage = imagesContainer.querySelector(`.mega-menu__image[data-image-index="${imageIndex}"]`);
-      if (activeImage) {
-        activeImage.style.display = 'block';
-      } else {
-        console.error('No active image found for index', imageIndex);
+      const activeContainer = imagesContainer.querySelector(`.mega-menu__image-container[data-image-index="${imageIndex}"]`);
+      if (activeContainer) {
+        activeContainer.querySelector('.mega-menu__image').style.display = 'block';
+        activeContainer.querySelector('.mega-menu__description').style.display = 'block';
       }
     });
   });
 });
+
 
 
 
@@ -802,9 +790,19 @@ sticky-header {
           "label": "Image 1"
         },
         {
+          "type": "text",
+          "id": "description_1",
+          "label": "Description for Image 1"
+        },
+        {
           "type": "image_picker",
           "id": "image_2",
           "label": "Image 2"
+        },
+        {
+          "type": "text",
+          "id": "description_2",
+          "label": "Description for Image 2"
         },
         {
           "type": "image_picker",
@@ -812,15 +810,37 @@ sticky-header {
           "label": "Image 3"
         },
         {
+          "type": "text",
+          "id": "description_3",
+          "label": "Description for Image 3"
+        },
+
+        {
           "type": "image_picker",
           "id": "image_4",
           "label": "Image 4"
         },
         {
+          "type": "text",
+          "id": "description_4",
+          "label": "Description for Image 4"
+        },
+        {
           "type": "image_picker",
           "id": "image_5",
           "label": "Image 5"
+        },
+        {
+          "type": "text",
+          "id": "description_5",
+          "label": "Description for Image 5"
         }
+
+
+
+
+
+
       ]
     }
 

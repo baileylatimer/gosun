@@ -81,13 +81,19 @@
 
                   {% if block.type == 'images-for-dropdown' %}
                     {% assign parent_link_handle = block.settings.parent_link_handle | handleize %}
-                    {% assign link_handle = link.handle | handleize %}
-                    {% if parent_link_handle == link_handle %}
-                      <div class="mega-menu__images col-span-3 " data-parent-link="{{ parent_link_handle }}">
+                    {% assign link_handle = link.handle | handleize %} <!-- Correctly handleize link.handle here -->
+                    {% if parent_link_handle == link_handle %} <!-- Use the handleized variables for comparison -->
+                      <div class="mega-menu__images col-span-3" data-parent-link="{{ parent_link_handle }}">
                         {% for i in (1..5) %}
                           {% assign image_key = 'image_' | append: i %}
+                          {% assign description_key = 'description_' | append: i %}
                           {% if block.settings[image_key] %}
-                            <img src="{{ block.settings[image_key] | img_url: '800x' }}" alt="" class="mega-menu__image br {% if forloop.first %}is-active{% endif %}" data-image-index="{{ forloop.index }}">
+                            <div class="mega-menu__image-container" data-image-index="{{ forloop.index }}">
+                              <img src="{{ block.settings[image_key] | img_url: '800x' }}" alt="" class="mega-menu__image br {% if forloop.first %}is-active{% endif %}">
+                              <div class="mega-menu__description mt-2" {% unless forloop.first %}style="display: none;"{% endunless %}>
+                                {{ block.settings[description_key] }}
+                              </div>
+                            </div>
                           {% endif %}
                         {% endfor %}
                       </div>
