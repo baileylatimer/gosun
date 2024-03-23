@@ -1,0 +1,193 @@
+{% comment %}
+The Hero Section with video background
+{% endcomment %}
+
+
+<style>
+  .hero-section {
+    height: calc(100vh - var(--header-height) - var(--announcement-bar-height));
+    position: relative;
+  }
+
+  @media screen and (max-width: 990px) {
+    .hero-section {
+      height: calc(100vh - var(--header-height) - var(--announcement-bar-height) - 50px);
+      position: relative;
+    }
+  }
+
+  {% if section.settings.shrink_height %}
+    .hero-section {
+      height: calc(70vh - var(--header-height) - var(--announcement-bar-height));
+      position: relative;
+    }
+
+
+    @media screen and (max-width: 1280px) {
+      .hero-section {
+        height: calc(75vh - var(--header-height) - var(--announcement-bar-height));
+        position: relative;
+      }
+    }
+
+    @media screen and (max-width: 990px) {
+      .hero-section {
+        height: calc(80vh - var(--header-height) - var(--announcement-bar-height) - 50px);
+        position: relative;
+      }
+    }
+  {% endif %}
+
+
+
+  .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%);
+    display: block !important;
+  }
+  @media screen and (max-width: 990px) {
+    .hero-overlay {
+      background: linear-gradient(34.19deg, rgba(0, 0, 0, 0.7) 37.03%, rgba(0, 0, 0, 0) 102.98%);
+    }
+  }
+  .hero-content {
+    position: relative;
+    z-index: 2;
+  }
+
+  .icon-dark svg path {
+    fill: #000 !important;
+  }
+</style>
+
+<div class="relative body-width br h-screen bg-cover bg-center hero-section" {% if page.metafields.custom.background_image_url != blank %}style="background-image: url('{{ page.metafields.custom.background_video_url | img_url: 'master' }}');"{% else %}style="background-image: url('{{ section.settings.background_image | img_url: 'master' }}');"{% endif %}>
+
+  <video
+    class="absolute w-full h-full object-cover"
+    autoplay
+    loop
+    muted
+    playsinline>
+    {% if page.metafields.custom.background_video_url %}
+      <source src="{{ page.metafields.custom.background_video_url }}" type="video/mp4">
+    {% else %}
+      <source src="{{ section.settings.video_url }}" type="video/mp4">
+    {% endif %}
+
+  </video>
+
+  <div class="hero-overlay"></div>
+
+  <div class="h-full content-width hero-content">
+  <div class="relative flex flex-col items-between justify-between h-full py-8 {% if section.settings.shrink_height %} lg:py-8 {% else %}lg:py-24 {% endif %} text-white ml-0 copy-width">
+
+
+
+      <div>
+        {% if section.settings.overline != blank %}
+          <p class="overline">{{ section.settings.overline }}</p>
+        {% endif %}
+
+        <h1 id="hero-text" class="color-bg mb-4 text-white text-animate">{{ section.settings.heading }}</h1>
+
+        <p class="mt-8 mb-6 hero-text">{{ section.settings.paragraph }}</p>
+      </div>
+
+      <div class="flex flex-col ">
+        {% assign btn_class = "btn dark-theme" %}
+        <a href="{{ section.settings.button1_url }}" class="{{ btn_class }} mt-8">
+          {{ section.settings.button1_text }}
+          {% render 'btn-arrow' %}
+        </a>
+        {% if section.settings.button2_text != blank %}
+          <a href="{{ section.settings.button2_url }}" class="btn btn--ghost mt-4 dark-theme">
+            {{ section.settings.button2_text }}
+            {% render 'btn-arrow' %}
+          </a>
+        {% endif %}
+
+      </div>
+
+
+
+
+
+    </div>
+  </div>
+
+</div>
+
+
+{% schema %}
+  {
+    "name": "Hero Section",
+    "settings": [
+      {
+        "id": "shrink_height",
+        "type": "checkbox",
+        "label": "Shrink Height"
+      },
+      {
+        "id": "video_url",
+        "type": "url",
+        "label": "Video URL"
+      },
+      {
+        "id": "background_image",
+        "type": "image_picker",
+        "label": "Background Image"
+      },
+      {
+        "id": "overline",
+        "type": "text",
+        "label": "Overline Text"
+      }, {
+        "id": "heading",
+        "type": "text",
+        "label": "Heading Text",
+        "default": "Welcome to our store!"
+      }, {
+        "id": "paragraph",
+        "type": "text",
+        "label": "Paragraph Text",
+        "default": "This is a sample paragraph."
+      }, {
+        "id": "button1_text",
+        "type": "text",
+        "label": "Button 1 Text",
+        "default": "Shop Now"
+      }, {
+        "id": "button1_url",
+        "type": "url",
+        "label": "Button 1 URL"
+      }, {
+        "id": "play_button_1",
+        "type": "checkbox",
+        "label": "Show Play Button"
+      }, {
+        "id": "button2_text",
+        "type": "text",
+        "label": "Button 2 Text",
+        "default": "Learn More"
+      }, {
+        "id": "button2_url",
+        "type": "url",
+        "label": "Button 2 URL"
+      }, {
+        "id": "play_button_2",
+        "type": "checkbox",
+        "label": "Show Play Button"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Hero Section"
+      }
+    ]
+  }
+{% endschema %}

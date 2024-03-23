@@ -47,6 +47,54 @@
             "image_3": "shopify:\/\/shop_images\/ChillitoCarosel1_be7ec115-92d9-4a51-a122-50f4603e5fd3.png"
           }
         },
+        "images_for_dropdown_YdTpcE": {
+          "type": "images-for-dropdown",
+          "settings": {
+            "parent_link_handle": "Power",
+            "image_1": "shopify:\/\/shop_images\/newshield2_9b83cf52-3c21-4797-8728-ed1ec5b45018.png",
+            "image_2": "shopify:\/\/shop_images\/power-266-portable-266wh-power-bank-gosun-265176.jpg",
+            "image_3": "shopify:\/\/shop_images\/power-1100-1100wh-power-bank-gosun-121088.jpg",
+            "image_4": "shopify:\/\/shop_images\/solartable-120-charge-power-gosun-591323.jpg"
+          }
+        },
+        "images_for_dropdown_c3wYwL": {
+          "type": "images-for-dropdown",
+          "settings": {
+            "parent_link_handle": "Water",
+            "image_1": "shopify:\/\/shop_images\/Brew2.jpg",
+            "image_2": "shopify:\/\/shop_images\/Everyday_Carry-1_ae1811b8-06e2-4437-b973-995ea1b55940.png",
+            "image_3": "shopify:\/\/shop_images\/flow-pro-filter-sink-shower-gosun-929591.jpg"
+          }
+        },
+        "images_for_dropdown_k4phtK": {
+          "type": "images-for-dropdown",
+          "settings": {
+            "parent_link_handle": "Campers",
+            "image_1": "shopify:\/\/shop_images\/camper_trailer_gosun_camp365_closed_1000x1000_700x-jpg-700x700_77b72e04-dd62-4039-81d0-9b5ad00d5958.png",
+            "image_2": "shopify:\/\/shop_images\/Van_MegaMenu_480x_b72b023a-8ffe-4f4d-95c0-82db9f563374.webp",
+            "image_3": "shopify:\/\/shop_images\/gosun-dream-solar-off-grid-tiny-house-gosun-201210.jpg"
+          }
+        },
+        "images_for_dropdown_mtdhjk": {
+          "type": "images-for-dropdown",
+          "settings": {
+            "parent_link_handle": "Boats",
+            "image_1": "shopify:\/\/shop_images\/SplashCover_10608b7e-0550-41ff-baaf-92e8f22140c5.jpg",
+            "image_2": "shopify:\/\/shop_images\/Elcat_480x_2b6223a0-ffb6-4cce-a5d2-6045cd5afb7d.webp",
+            "image_3": "shopify:\/\/shop_images\/Cover_961e9841-f9bb-4339-8f14-6c2138071437.jpg",
+            "image_4": "shopify:\/\/shop_images\/Ferryboat_480x_6ae659ec-c754-40ea-902a-d5f99db15cbc.webp"
+          }
+        },
+        "images_for_dropdown_qxVaRD": {
+          "type": "images-for-dropdown",
+          "settings": {
+            "parent_link_handle": "Accessories",
+            "image_1": "shopify:\/\/shop_images\/flatware-utensils-gosun-285765.jpg",
+            "image_2": "shopify:\/\/shop_images\/6_1.jpg",
+            "image_3": "shopify:\/\/shop_images\/Brew2_cd557af4-134e-4161-9939-f6e80b5254a2.jpg",
+            "image_4": "shopify:\/\/shop_images\/solar_fan_12V_offgrid_hero_cd1f6e70-b02a-4e55-9f05-82d92613e0ae.jpg"
+          }
+        },
         "image_with_text_CwdJUf": {
           "type": "image-with-text",
           "settings": {
@@ -64,16 +112,71 @@
             "text": "Solar Coolers never need ice while food and drinks stay cold, dry, and organized.",
             "url": "shopify:\/\/pages\/solar-coolers"
           }
+        },
+        "image_with_text_NVDQBi": {
+          "type": "image-with-text",
+          "settings": {
+            "parent_menu_item": "Power",
+            "image": "shopify:\/\/shop_images\/249e42ba1cd719710d427e7e225b26fa_1832x_8664943c-b3f2-4ccf-8b88-91ef959d3d97.webp",
+            "text": "Compact yet powerful, keep the adventure charged up with the Sun.",
+            "url": ""
+          }
+        },
+        "image_with_text_VAcAfh": {
+          "type": "image-with-text",
+          "settings": {
+            "parent_menu_item": "Water",
+            "image": "shopify:\/\/shop_images\/outdoor_sink_coffee_gosun_1600x_d46fb70b-61fa-4dda-9dae-3cad984cee59.webp",
+            "text": "Water is life. GoSun helps you meet off-grid water needs.",
+            "url": ""
+          }
+        },
+        "image_with_text_iwT88h": {
+          "type": "image-with-text",
+          "settings": {
+            "parent_menu_item": "Campers",
+            "image": "shopify:\/\/shop_images\/gosun_camper_1280x_dca5d70c-5ad8-4c19-baf3-b6e9a2f60c2f.webp",
+            "text": "Live off-grid with our builds equipped with the GoSun ecosystem",
+            "url": ""
+          }
+        },
+        "image_with_text_hcNpDU": {
+          "type": "image-with-text",
+          "settings": {
+            "parent_menu_item": "Boats",
+            "image": "shopify:\/\/shop_images\/IMG_3388_600x_58cd7ffb-af49-4a77-8f57-a9799585bc94.webp",
+            "text": "Electric boats that are fun, affordable, strong, solar powered and one of the world’s most energy efficient sources - the sun.",
+            "url": ""
+          }
+        },
+        "image_with_text_GhM8f9": {
+          "type": "image-with-text",
+          "settings": {
+            "parent_menu_item": "Accessories",
+            "image": "shopify:\/\/shop_images\/138d469f5dc024299fd42ca5c912b4fe_2000x_c092ca2d-45c2-49ee-a3a6-8d5db6fbdce1.webp",
+            "text": "Accessories, add-ons, and upgrades - find the perfect addition to your solar gear here.",
+            "url": ""
+          }
         }
       },
       "block_order": [
         "images_for_dropdown_PiEC9x",
         "images_for_dropdown_gnziAR",
+        "images_for_dropdown_YdTpcE",
+        "images_for_dropdown_c3wYwL",
+        "images_for_dropdown_k4phtK",
+        "images_for_dropdown_mtdhjk",
+        "images_for_dropdown_qxVaRD",
         "image_with_text_CwdJUf",
-        "image_with_text_TVLXmj"
+        "image_with_text_TVLXmj",
+        "image_with_text_NVDQBi",
+        "image_with_text_VAcAfh",
+        "image_with_text_iwT88h",
+        "image_with_text_hcNpDU",
+        "image_with_text_GhM8f9"
       ],
       "settings": {
-        "logo_position": "middle-left",
+        "logo_position": "middle-center",
         "menu": "main-menu-v2",
         "menu_type_desktop": "mega",
         "sticky_header_type": "on-scroll-up",

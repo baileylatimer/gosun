@@ -1,9 +1,66 @@
 :root {
   --color-primary: #298CCB;
   --color-bg: #F1F1F1;
-  --color-bg-primary-light: #D9E7F2;
+  --color-primary-light: #D9E7F2;
+  --color-contrast-higher: #070F1E;
   --body-width:1600px
 }
+
+
+.tw-grid {
+  display: grid;
+}
+
+.color-bg {
+  color: var(--color-bg)
+}
+
+.bg-primary {
+  background-color: var(--color-primary);
+}
+
+.br {
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  overflow: hidden;
+}
+
+
+.overlay-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 300px; /* Width of the overlay */
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+  /* Use your own color and opacity */
+  display: block !important;
+  z-index: 2;
+}
+
+.body-width  {
+  margin: 0 2rem;
+}
+
+.content-width {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.copy-width {
+  max-width: 430px;
+}
+
+.bg-primary-light {
+  background-color: var(--color-primary-light);
+}
+
+
+/* Typography */
+
 
 @font-face {
   font-family: "Cera Pro Regular";
@@ -26,16 +83,6 @@
     url("39F5E2_5_0.woff") format("woff"),
     url("39F5E2_5_0.ttf") format("truetype");
   font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Inter";
-  src: url("InterM.woff2");
-  src: url("InterM.woff2") format("embedded-opentype"),
-    url("InterM.woff2") format("woff2"),
-  font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
@@ -87,45 +134,61 @@ a, .header__menu-item {
   font-family: 'Cera Pro Medium' !important;
 }
 
-.tw-grid {
-  display: grid;
+h1 {
+font-family: "Cera Pro Medium";
+font-size: 70px;
+font-style: normal;
+line-height: 62px; /* 83.705% */
+letter-spacing: -4.2px;
 }
 
-.color-bg {
-  color: var(--color-bg)
+@media screen and (max-width: 750px) {
+h1 {
+  font-size: 50px;
+  font-style: normal;
+  line-height: 49.9px; /* 99.8% */
+  letter-spacing: -2.5px;
+}
 }
 
-.bg-primary {
-  background-color: var(--color-primary);
+/* BUTTONS */
+
+.btn, .customer button, .button  {
+  background: var(--color-primary);
+  color: var(--color-bg);
+  border-radius: 50px;
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 28px;
+  text-decoration: none !important;
+  width: 100%;
+  text-align: center;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
 }
 
-.br {
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  overflow: hidden;
+
+.dark-theme.btn {
+  background: var(--color-bg);
+  color: var(--color-contrast-higher);
 }
 
 
-.overlay-bottom {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 300px; /* Width of the overlay */
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
-  /* Use your own color and opacity */
-  display: block !important;
-  z-index: 2;
+.dark-theme.btn svg path {
+  stroke: var(--color-contrast-higher);
 }
 
-.body-width  {
-  max-width: var(--body-width);
-  margin: 0 2rem;
+.btn svg {
+  transition: transform 0.3s ease-in-out;
 }
 
-.bg-primary-light {
-  background-color: var(--color-bg-primary-light);
+.btn:hover svg {
+  transition: transform 0.3s ease-in-out;
+  transform: rotate(45deg);
 }
