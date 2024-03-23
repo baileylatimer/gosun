@@ -17,6 +17,71 @@
         "play_button_2": false
       }
     },
+    "logo_marquee_UTWfBi": {
+      "type": "logo-marquee",
+      "blocks": {
+        "logo_TfAHCj": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/forbes_67df095e-cd95-4130-9758-89e324bf682c.png"
+          }
+        },
+        "logo_yxKCGR": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/today.png"
+          }
+        },
+        "logo_PqKF36": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gear-patrol.png"
+          }
+        },
+        "logo_kBxVRP": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/discovery-channel.png"
+          }
+        },
+        "logo_6ULjMF": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/inc_554253f4-f6bc-4266-902f-70eefcb768e0.png"
+          }
+        },
+        "logo_6z4gkH": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/business-insider.png"
+          }
+        },
+        "logo_kiRhKr": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nat-geo.png"
+          }
+        },
+        "logo_Pg6wKR": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/new-york-times.png"
+          }
+        }
+      },
+      "block_order": [
+        "logo_TfAHCj",
+        "logo_yxKCGR",
+        "logo_PqKF36",
+        "logo_kBxVRP",
+        "logo_6ULjMF",
+        "logo_6z4gkH",
+        "logo_kiRhKr",
+        "logo_Pg6wKR"
+      ],
+      "settings": {
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -154,6 +219,7 @@
   },
   "order": [
     "hero_section_gpDrMe",
+    "logo_marquee_UTWfBi",
     "featured_collection",
     "collage",
     "video",
