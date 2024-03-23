@@ -87,6 +87,10 @@ a, .header__menu-item {
   font-family: 'Cera Pro Medium' !important;
 }
 
+.tw-grid {
+  display: grid;
+}
+
 .color-bg {
   color: var(--color-bg)
 }

@@ -112,10 +112,31 @@ sticky-header {
   border-radius: 0 0 20px 20px;
 }
 
+.mega-menu__image {
+  width:220px;
+  filter: brightness(.94);
+}
+
 .header, .mega-menu-content {
   padding-left: 2em;
   padding-right: 2em;
 }
+
+.mega-menu__image-with-text, .mega-menu__image-link, .mega-menu__image-link img {
+  height: 300px;
+  display: block;
+}
+
+.mega-menu__image-with-text img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* This does the magic of covering the area without stretching */
+  transform: translate(-50%, -50%); /* Centers the image */
+}
+
 {%- endstyle -%}
 
 <script src="{{ 'details-disclosure.js' | asset_url }}" defer="defer"></script>
