@@ -86,6 +86,43 @@
                     <div class="footer-block__details-content rte">
                       {{ block.settings.subtext }}
                     </div>
+
+                    {%- when 'contact_info' -%}
+                      <h2 class="footer-block__heading inline-richtext">Contact</h2>
+                      <ul class="footer-block__details-content list-unstyled">
+
+                          <li>
+                            <a
+                              href="tel:+18888686154"
+                              class="link link--text list-menu__item list-menu__item--link{% if link.active %} list-menu__item--active{% endif %}"
+                            >
+                              +1 888.868.6154
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="mailto:support@gosun.co"
+                              class="link link--text list-menu__item list-menu__item--link{% if link.active %} list-menu__item--active{% endif %}"
+                            >
+                            support@gosun.co
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              class="link link--text list-menu__item list-menu__item--link{% if link.active %} list-menu__item--active{% endif %}"
+                            >
+                            Mon-Fri | 9am-5pm ET
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              class="link link--text list-menu__item list-menu__item--link{% if link.active %} list-menu__item--active{% endif %}"
+                            >
+                            5151 Fischer Place, Cincinnati, OH 45217, USA
+                            </a>
+                          </li>
+
+                      </ul>
                   {%- when 'link_list' -%}
                     {%- if block.settings.menu != blank -%}
                       <ul class="footer-block__details-content list-unstyled">
@@ -325,6 +362,19 @@
     {
       "type": "@app"
     },
+    {
+  "type": "contact_info",
+  "name": "Contact Information",
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "contact_html",
+      "label": "Contact Details",
+      "default": "<p>Your contact details here.</p>"
+    }
+  ]
+},
+
     {
       "type": "link_list",
       "name": "t:sections.footer.blocks.link_list.name",

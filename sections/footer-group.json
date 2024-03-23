@@ -8,34 +8,42 @@
         "footer-0": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
-            "menu": "footer"
+            "heading": "Products",
+            "menu": "footer-products"
           }
         },
         "footer-1": {
           "type": "link_list",
           "settings": {
-            "heading": "Info",
-            "menu": "footer"
+            "heading": "About",
+            "menu": "footer-about"
           }
         },
-        "footer-2": {
-          "type": "text",
+        "link_list_rb6dRi": {
+          "type": "link_list",
           "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            "heading": "Get Help",
+            "menu": "footer-get-help"
+          }
+        },
+        "contact_info_QVQ6cK": {
+          "type": "contact_info",
+          "settings": {
+            "contact_html": "<p>Your contact details here.<\/p>"
           }
         }
       },
       "block_order": [
         "footer-0",
         "footer-1",
-        "footer-2"
+        "link_list_rb6dRi",
+        "contact_info_QVQ6cK"
       ],
       "settings": {
         "color_scheme": "scheme-1",
         "newsletter_enable": true,
         "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
         "show_social": true,
         "enable_country_selector": false,
         "enable_language_selector": false,
