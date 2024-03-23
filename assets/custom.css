@@ -140,7 +140,7 @@ body, p, a, li {
   font-family: 'Cera Pro Regular' !important;
   letter-spacing: -0.03em;
 }
-a, .header__menu-item {
+h1, h2, h3, h4, h5, .h0, .h1, .h2, .h3, .h4, .h5, a, .header__menu-item {
   font-family: 'Cera Pro Medium' !important;
 }
 

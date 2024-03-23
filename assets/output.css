@@ -797,6 +797,14 @@ video {
   padding-bottom: 2rem;
 }
 
+.pt-24 {
+  padding-top: 6rem;
+}
+
+.pt-36 {
+  padding-top: 9rem;
+}
+
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
