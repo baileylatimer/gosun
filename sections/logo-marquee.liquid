@@ -1,0 +1,88 @@
+<style>
+.logo-marquee-container {
+  display: flex;
+  flex-wrap: nowrap;
+  animation: scrollLogo 20s linear infinite;
+}
+
+
+.logo-marquee-logo {
+  flex: 0 0 auto; /* Prevent logos from stretching */
+  padding: 0 10px;
+}
+
+.logo-marquee-logo img {
+  display: block; /* Prevents additional space under the image */
+  max-width: 100%;
+  height: auto;
+}
+</style>
+
+<div class=" br bg-contrast-lower body-width">
+<div class="logo-marquee-container">
+  {% for block in section.blocks %}
+    {% if block.settings.image %}
+      <div class="logo-marquee-logo">
+        <img src="{{ block.settings.image | img_url: '200x200' }}" alt="">
+      </div>
+    {% endif %}
+  {% endfor %}
+  <!-- Repeat the loop to duplicate the logos -->
+  {% for block in section.blocks %}
+    {% if block.settings.image %}
+      <div class="logo-marquee-logo">
+        <img src="{{ block.settings.image | img_url: '200x200' }}" alt="">
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const marqueeContainer = document.querySelector('.logo-marquee-container');
+  let currentTranslateX = 0;
+  const speed = 0.5; // Adjust this for speed control
+
+  function updateMarquee() {
+    currentTranslateX -= speed;
+    // Reset translateX to 0 if the offset matches half the container's width, assuming content is duplicated
+    if (Math.abs(currentTranslateX) >= marqueeContainer.offsetWidth / 2) {
+      currentTranslateX = 0;
+    }
+    marqueeContainer.style.transform = `translateX(${currentTranslateX}px)`;
+    requestAnimationFrame(updateMarquee);
+  }
+
+  updateMarquee();
+});
+</script>
+
+
+
+
+{% schema %}
+  {
+    "name": "Logo Marquee",
+    "settings": [],
+    "blocks": [
+      {
+        "type": "logo",
+        "name": "Logo",
+        "settings": [
+          {
+            "id": "image",
+            "type": "image_picker",
+            "label": "Logo Image",
+            "info": "Upload a logo image"
+          }
+        ],
+        "limit": 8
+      }
+    ],
+    "presets": [
+      {
+        "name": "Logo Marquee"
+      }
+    ]
+  }
+  {% endschema %}

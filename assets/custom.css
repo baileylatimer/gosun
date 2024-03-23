@@ -2,6 +2,7 @@
   --color-primary: #298CCB;
   --color-bg: #F1F1F1;
   --color-primary-light: #D9E7F2;
+  --color-contrast-lower: #E5E7EB;
   --color-contrast-higher: #070F1E;
   --body-width:1600px
 }
@@ -54,12 +55,21 @@
   max-width: 430px;
 }
 
+
+
+/* Color
+============== */
 .bg-primary-light {
   background-color: var(--color-primary-light);
 }
 
+.bg-contrast-lower {
+  background-color: var(--color-contrast-lower);
+}
 
-/* Typography */
+
+/* Typography 
+===================*/
 
 
 @font-face {
@@ -151,7 +161,8 @@ h1 {
 }
 }
 
-/* BUTTONS */
+/* BUTTONS 
+===============*/
 
 .btn, .customer button, .button  {
   background: var(--color-primary);
