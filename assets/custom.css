@@ -5,6 +5,87 @@
   --body-width:1600px
 }
 
+@font-face {
+  font-family: "Cera Pro Regular";
+  src: url("{{ 'Cera Pro Regular.ttf' | asset_url }}") format("truetype");
+}
+@font-face {
+  font-family: "Cera Pro Medium";
+  src: url("{{ 'Cera Pro Medium.ttf' | asset_url }}") format("truetype");
+}
+
+
+
+@import url("//hello.myfonts.net/count/39f5e2");
+
+@font-face {
+  font-family: "cp";
+  src: url("39F5E2_5_0.eot");
+  src: url("39F5E2_5_0.eot?#iefix") format("embedded-opentype"),
+    url("39F5E2_5_0.woff2") format("woff2"),
+    url("39F5E2_5_0.woff") format("woff"),
+    url("39F5E2_5_0.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("InterM.woff2");
+  src: url("InterM.woff2") format("embedded-opentype"),
+    url("InterM.woff2") format("woff2"),
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "cp";
+  src: url("39F5E2_5_0.eot");
+  src: url("39F5E2_5_0.eot?#iefix") format("embedded-opentype"),
+    url("39F5E2_5_0.woff2") format("woff2"),
+    url("39F5E2_5_0.woff") format("woff"),
+    url("39F5E2_5_0.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "cp";
+  src: url("39F5E2_6_0.eot");
+  src: url("39F5E2_6_0.eot?#iefix") format("embedded-opentype"),
+    url("39F5E2_6_0.woff2") format("woff2"),
+    url("39F5E2_6_0.woff") format("woff"),
+    url("39F5E2_6_0.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "cp";
+  src: url("39F5E2_9_0.eot");
+  src: url("39F5E2_9_0.eot?#iefix") format("embedded-opentype"),
+    url("39F5E2_9_0.woff2") format("woff2"),
+    url("39F5E2_9_0.woff") format("woff"),
+    url("39F5E2_9_0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+body, p, a, li {
+  font-family: 'Cera Pro Regular' !important;
+  letter-spacing: -0.03em;
+}
+a, .header__menu-item {
+  font-family: 'Cera Pro Medium' !important;
+}
 
 .color-bg {
   color: var(--color-bg)
