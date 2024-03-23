@@ -29,6 +29,24 @@
     "header": {
       "type": "header",
       "blocks": {
+        "images_for_dropdown_PiEC9x": {
+          "type": "images-for-dropdown",
+          "settings": {
+            "parent_link_handle": "Ovens",
+            "image_1": "shopify:\/\/shop_images\/fusion_0c89b649-37a3-410a-b9c0-d0519ee65f06.jpg",
+            "image_2": "shopify:\/\/shop_images\/sport_46fbf846-59e8-4749-8dca-4dd59ba6d631.jpg",
+            "image_3": "shopify:\/\/shop_images\/go_a8285fd8-eaa4-4ad2-8da7-9f4fe1204094.jpg"
+          }
+        },
+        "images_for_dropdown_gnziAR": {
+          "type": "images-for-dropdown",
+          "settings": {
+            "parent_link_handle": "Coolers",
+            "image_1": "shopify:\/\/shop_images\/chillest-electric-coolerfreezer-gosun-805748_d32d3870-c88a-4fb3-8084-73f53037dc33.jpg",
+            "image_2": "shopify:\/\/shop_images\/chill-no-powerbank-electric-cooler-gosun-129202.jpg",
+            "image_3": "shopify:\/\/shop_images\/ChillitoCarosel1_be7ec115-92d9-4a51-a122-50f4603e5fd3.png"
+          }
+        },
         "image_with_text_CwdJUf": {
           "type": "image-with-text",
           "settings": {
@@ -49,6 +67,8 @@
         }
       },
       "block_order": [
+        "images_for_dropdown_PiEC9x",
+        "images_for_dropdown_gnziAR",
         "image_with_text_CwdJUf",
         "image_with_text_TVLXmj"
       ],
