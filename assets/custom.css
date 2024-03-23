@@ -1,10 +1,17 @@
 :root {
-  --color-bg: #F1F1F1
+  --color-primary: #298CCB;
+  --color-bg: #F1F1F1;
+  --color-bg-primary-light: #D9E7F2;
+  --body-width:1600px
 }
 
 
 .color-bg {
   color: var(--color-bg)
+}
+
+.bg-primary {
+  background-color: var(--color-primary);
 }
 
 .br {
@@ -27,4 +34,13 @@
   /* Use your own color and opacity */
   display: block !important;
   z-index: 2;
+}
+
+.body-width  {
+  max-width: var(--body-width);
+  margin: 0 2rem;
+}
+
+.bg-primary-light {
+  background-color: var(--color-bg-primary-light);
 }

@@ -626,6 +626,10 @@ video {
   z-index: 10;
 }
 
+.mt-8 {
+  margin-top: 2rem;
+}
+
 .block {
   display: block;
 }
@@ -668,6 +672,10 @@ video {
 
 .items-end {
   align-items: flex-end;
+}
+
+.items-center {
+  align-items: center;
 }
 
 .justify-between {

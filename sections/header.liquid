@@ -97,13 +97,25 @@
   @media screen and (min-width: 990px) {
     .header {
       padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
+      
     }
   }
 
   .mega-menu__image { display: none; }
 .mega-menu__image.is-active { display: block; }
 
+sticky-header {
+  border-radius: 0 0 20px 20px;
+}
+
+.mega-menu__content {
+  border-radius: 0 0 20px 20px;
+}
+
+.header, .mega-menu-content {
+  padding-left: 2em;
+  padding-right: 2em;
+}
 {%- endstyle -%}
 
 <script src="{{ 'details-disclosure.js' | asset_url }}" defer="defer"></script>
@@ -138,7 +150,7 @@
   endfor
 -%}
 
-<{% if section.settings.sticky_header_type != 'none' %}sticky-header data-sticky-type="{{ section.settings.sticky_header_type }}"{% else %}div{% endif %} class="header-wrapper color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}">
+<{% if section.settings.sticky_header_type != 'none' %}sticky-header data-sticky-type="{{ section.settings.sticky_header_type }}"{% else %}div{% endif %} class="bg-primary-light body-width header-wrapper color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}">
   {%- liquid
     assign social_links = false
     assign localization_forms = false
@@ -151,7 +163,7 @@
       assign localization_forms = true
     endif
   -%}
-  <header class="header header--{{ section.settings.logo_position }} header--mobile-{{ section.settings.mobile_logo_position }} page-width{% if section.settings.menu_type_desktop == 'drawer' %} drawer-menu{% endif %}{% if section.settings.menu != blank %} header--has-menu{% endif %}{% if has_app_block %} header--has-app{% endif %}{% if social_links %} header--has-social{% endif %}{% if shop.customer_accounts_enabled %} header--has-account{% endif %}{% if localization_forms %} header--has-localizations{% endif %}">
+  <header class="header header--{{ section.settings.logo_position }} header--mobile-{{ section.settings.mobile_logo_position }} {% if section.settings.menu_type_desktop == 'drawer' %} drawer-menu{% endif %}{% if section.settings.menu != blank %} header--has-menu{% endif %}{% if has_app_block %} header--has-app{% endif %}{% if social_links %} header--has-social{% endif %}{% if shop.customer_accounts_enabled %} header--has-account{% endif %}{% if localization_forms %} header--has-localizations{% endif %}">
     {%- liquid
       if section.settings.menu != blank
         render 'header-drawer'
@@ -233,7 +245,7 @@
     {%- endif -%}
 
     <div class="header__icons{% if section.settings.enable_country_selector or section.settings.enable_language_selector %} header__icons--localization header-localization{% endif %}">
-      <div class="desktop-localization-wrapper">
+      {% comment %} <div class="desktop-localization-wrapper">
         {%- if section.settings.enable_country_selector and localization.available_countries.size > 1 -%}
           <localization-form class="small-hide medium-hide" data-prevent-hide>
             {%- form 'localization', id: 'HeaderCountryForm', class: 'localization-form' -%}
@@ -255,7 +267,7 @@
             {%- endform -%}
           </localization-form>
         {%- endif -%}
-      </div>
+      </div> {% endcomment %}
       {% render 'header-search', input_id: 'Search-In-Modal' %}
 
       {%- if shop.customer_accounts_enabled -%}
@@ -482,6 +494,40 @@
   });
 });
 
+
+
+</script>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+  const stickyHeader = document.querySelector('sticky-header');
+  const megaMenus = document.querySelectorAll('.mega-menu');
+
+  // Function to adjust sticky header's border-radius based on mega menu's open state
+  function adjustStickyHeaderBorder() {
+    // Delay checking the open attribute to ensure it reflects the new state after a click
+    setTimeout(() => {
+      const isAnyMegaMenuOpen = Array.from(megaMenus).some(menu => menu.open);
+
+      if (isAnyMegaMenuOpen) {
+        // Remove border-radius when any mega menu is open
+        stickyHeader.style.borderRadius = '0px';
+      } else {
+        // Restore border-radius when all mega menus are closed
+        stickyHeader.style.borderRadius = '0 0 20px 20px';
+      }
+    }, 0);
+  }
+
+  // Listen for clicks on each mega menu. Since 'toggle' doesn't directly apply, use a slight delay to assess the open state.
+  megaMenus.forEach(menu => {
+    menu.addEventListener('click', adjustStickyHeaderBorder);
+  });
+
+  // Run once on initial load
+  adjustStickyHeaderBorder();
+});
 
 
 </script>
