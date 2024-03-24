@@ -150,7 +150,7 @@ h1, h2, h3, h4, h5, .h0, .h1, .h2, .h3, .h4, .h5, a, .header__menu-item {
   color: var(--color-contrast-higher)
 }
 
-h1 {
+h1, .h1 {
 font-family: "Cera Pro Medium";
 font-size: 70px;
 font-style: normal;
@@ -159,13 +159,29 @@ letter-spacing: -4.2px;
 }
 
 @media screen and (max-width: 750px) {
-h1 {
+h1, .h1 {
   font-size: 50px;
   font-style: normal;
   line-height: 49.9px; /* 99.8% */
   letter-spacing: -2.5px;
 }
 }
+
+h2, .h2 {
+  font-size: 60px;
+line-height: 56.9px; /* 94.833% */
+letter-spacing: -3px;
+}
+
+@media screen and (max-width: 750px) {
+  h2, .h2 {
+    font-size: 38px;
+
+    line-height: 29.9px; /* 78.684% */
+    letter-spacing: -1.9px;
+  }
+  }
+  
 
 /* BUTTONS 
 ===============*/
@@ -201,11 +217,11 @@ h1 {
   stroke: var(--color-contrast-higher);
 }
 
-.btn svg {
+.btn svg, .custom-arrow {
   transition: transform 0.3s ease-in-out;
 }
 
-.btn:hover svg {
+.btn:hover svg, .custom-arrow:hover  {
   transition: transform 0.3s ease-in-out;
   transform: rotate(45deg);
 }
