@@ -81,10 +81,91 @@
       ],
       "settings": {
       }
+    },
+    "feature_banner_axfT4K": {
+      "type": "feature-banner",
+      "settings": {
+        "heading": "100k+ trees planted"
+      }
+    },
+    "product_row_qgepkc": {
+      "type": "product-row",
+      "blocks": {
+        "product_deXigy": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fusion_0c89b649-37a3-410a-b9c0-d0519ee65f06.jpg",
+            "title": "Solar Ovens",
+            "link": ""
+          }
+        },
+        "product_dQACgj": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/chill-no-powerbank-electric-cooler-gosun-129202.jpg",
+            "title": "Solar Coolers",
+            "link": ""
+          }
+        },
+        "product_VEzR8B": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/newshield2_9b83cf52-3c21-4797-8728-ed1ec5b45018.png",
+            "title": "Solar Chargers",
+            "link": ""
+          }
+        },
+        "product_RiyaD3": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/collection-image_3a838df0-105e-4886-9091-64bcbeb97001_301x_2.jpg",
+            "title": "Water Purification",
+            "link": ""
+          }
+        },
+        "product_rPXLJc": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gosun-dream-solar-off-grid-tiny-house-gosun-201210.jpg",
+            "title": "Campers",
+            "link": ""
+          }
+        },
+        "product_keNQwp": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SplashCover_10608b7e-0550-41ff-baaf-92e8f22140c5.jpg",
+            "title": "Boats",
+            "link": ""
+          }
+        },
+        "product_mJMRaL": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/flatware-utensils-gosun-285765_1.jpg",
+            "title": "Accessories",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_deXigy",
+        "product_dQACgj",
+        "product_VEzR8B",
+        "product_RiyaD3",
+        "product_rPXLJc",
+        "product_keNQwp",
+        "product_mJMRaL"
+      ],
+      "settings": {
+        "section_title": "Shop by category"
+      }
     }
   },
   "order": [
     "hero_section_gpDrMe",
-    "logo_marquee_UTWfBi"
+    "logo_marquee_UTWfBi",
+    "feature_banner_axfT4K",
+    "product_row_qgepkc"
   ]
 }

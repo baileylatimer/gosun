@@ -11,12 +11,13 @@
 .product-row__item {
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   margin: 0 10px;
-  background: #fff;
+  filter: brightness(.94);
 }
 
 .product-row__image {
   width: 100%;
   height: auto;
+
 }
 
 .product-row__item-title {
@@ -35,18 +36,21 @@
     cursor: pointer;
     z-index: 10;
 }
-
-
+.product-row__item-title {
+  position: absolute;
+  top: .5em;
+  left: .5em;
+}
 </style>
 
-<div class="product-row relative">
+<div class="product-row relative pt-24">
   <h2 class="product-row__title">{{ section.settings.section_title }}</h2>
   <div class="product-row__slider">
     {% for block in section.blocks %}
-    <div class="product-row__item">
+    <div class="product-row__item relative br">
       <a href="{{ block.settings.link }}">
         <img class="product-row__image" src="{{ block.settings.image | img_url: '600x600' }}" alt="{{ block.settings.title }}" />
-        <p class="product-row__item-title">{{ block.settings.title }}</p>
+        <h3 class="product-row__item-title">{{ block.settings.title }}</h3>
       </a>
     </div>
     {% endfor %}
@@ -61,22 +65,23 @@
 
 <script>
 jQuery(document).ready(function(){
-    console.log('Attempting to initialize Slick Slider...');
+    console.log('Initializing Slick Slider...');
     jQuery('.product-row__slider').slick({
-        infinite: true,
-        slidesToShow: 5.5,
-        slidesToScroll: 1,
-        arrows: false, // Disable the default arrows
-        responsive: [
-            {
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 2.5
-                }
-            }
-        ]
+      infinite: true,
+      slidesToShow: 4.5, // Adjust this to be half a slide less than before
+      slidesToScroll: 1,
+      arrows: true, // Assuming you want arrows
+      prevArrow: '<button type="button" class="slick-prev">Previous</button>', // Add custom previous arrow
+      nextArrow: '<button type="button" class="slick-next">Next</button>', // Add custom next arrow
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 2.5 // Adjust this to be half a slide less than before on mobile
+          }
+        }
+      ]
     });
-
     // Custom arrow click handler
     jQuery('#customNextArrow').on('click', function() {
         jQuery('.product-row__slider').slick('slickNext');

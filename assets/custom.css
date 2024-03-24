@@ -169,18 +169,36 @@ h1, .h1 {
 
 h2, .h2 {
   font-size: 60px;
-line-height: 56.9px; /* 94.833% */
-letter-spacing: -3px;
+  line-height: 56.9px; /* 94.833% */
+  letter-spacing: -3px;
 }
 
 @media screen and (max-width: 750px) {
   h2, .h2 {
     font-size: 38px;
-
     line-height: 29.9px; /* 78.684% */
     letter-spacing: -1.9px;
   }
   }
+
+  h3, .h3 {
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 37.5px; /* 120.968% */
+    letter-spacing: -1.55px;
+  }
+  
+  @media screen and (max-width: 750px) {
+    h3, .h3 {
+      font-size: 20px;
+      line-height: 25px; /* 125% */
+      letter-spacing: -1px;
+    }
+    }
+
+
+
   
 
 /* BUTTONS 
