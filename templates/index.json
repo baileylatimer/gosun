@@ -82,12 +82,6 @@
       "settings": {
       }
     },
-    "feature_banner_axfT4K": {
-      "type": "feature-banner",
-      "settings": {
-        "heading": "100k+ trees planted"
-      }
-    },
     "product_row_qgepkc": {
       "type": "product-row",
       "blocks": {
@@ -160,12 +154,18 @@
       "settings": {
         "section_title": "Shop by category"
       }
+    },
+    "feature_banner_axfT4K": {
+      "type": "feature-banner",
+      "settings": {
+        "heading": "100k+ trees planted"
+      }
     }
   },
   "order": [
     "hero_section_gpDrMe",
     "logo_marquee_UTWfBi",
-    "feature_banner_axfT4K",
-    "product_row_qgepkc"
+    "product_row_qgepkc",
+    "feature_banner_axfT4K"
   ]
 }
