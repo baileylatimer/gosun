@@ -170,7 +170,7 @@ h1, .h1 {
 h2, .h2 {
   font-size: 60px;
   line-height: 56.9px; /* 94.833% */
-  letter-spacing: -3px;
+  letter-spacing: -2px;
 }
 
 @media screen and (max-width: 750px) {

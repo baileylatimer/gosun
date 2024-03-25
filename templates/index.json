@@ -163,6 +163,41 @@
         "collection": true
       }
     },
+    "mission_section_criUKL": {
+      "type": "mission-section",
+      "blocks": {
+        "text_with_image_3y73xg": {
+          "type": "text_with_image",
+          "settings": {
+            "text": "Your text here.",
+            "row_image": "shopify:\/\/shop_images\/Relume.png"
+          }
+        },
+        "text_with_image_6rmg8w": {
+          "type": "text_with_image",
+          "settings": {
+            "text": "Your text here.",
+            "row_image": "shopify:\/\/shop_images\/Relume.png"
+          }
+        },
+        "text_with_image_dYXQDp": {
+          "type": "text_with_image",
+          "settings": {
+            "text": "Your text here.",
+            "row_image": "shopify:\/\/shop_images\/Relume.png"
+          }
+        }
+      },
+      "block_order": [
+        "text_with_image_3y73xg",
+        "text_with_image_6rmg8w",
+        "text_with_image_dYXQDp"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/mission-img.png",
+        "heading": "Powering the future with the sun, we make sustainable living easy and accessible."
+      }
+    },
     "feature_banner_axfT4K": {
       "type": "feature-banner",
       "settings": {
@@ -255,6 +290,7 @@
     "hero_section_gpDrMe",
     "logo_marquee_UTWfBi",
     "product_row_qgepkc",
+    "mission_section_criUKL",
     "feature_banner_axfT4K",
     "product_row_2_ATJFhU"
   ]
