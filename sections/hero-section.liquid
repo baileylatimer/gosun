@@ -7,7 +7,7 @@ The Hero Section with video background
   .hero-section {
     height: calc(100vh - var(--header-height) - var(--announcement-bar-height));
     position: relative;
-    margin-bottom: 1em;
+    margin-bottom: 3rem;
   }
 
   @media screen and (max-width: 990px) {
@@ -100,11 +100,13 @@ The Hero Section with video background
       </div>
 
       <div class="flex flex-col ">
+        {% if section.settings.button1_text != blank %}
         {% assign btn_class = "btn dark-theme" %}
         <a href="{{ section.settings.button1_url }}" class="{{ btn_class }} mt-8">
           {{ section.settings.button1_text }}
           {% render 'btn-arrow' %}
         </a>
+      {% endif %}
         {% if section.settings.button2_text != blank %}
           <a href="{{ section.settings.button2_url }}" class="btn btn--ghost mt-4 dark-theme">
             {{ section.settings.button2_text }}

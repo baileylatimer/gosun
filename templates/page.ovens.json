@@ -1,0 +1,87 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "hero_section_acdCzL": {
+      "type": "hero-section",
+      "settings": {
+        "shrink_height": false,
+        "video_url": "",
+        "background_image": "shopify:\/\/shop_images\/fusion-hero.jpg",
+        "overline": "",
+        "heading": "Solar Ovens",
+        "paragraph": "No fuel, no flames, no worries. Simply amazing meals made with the World's Most Reliable Solar Ovens.",
+        "button1_text": "",
+        "button1_url": "",
+        "play_button_1": false,
+        "button2_text": "",
+        "button2_url": "",
+        "play_button_2": false
+      }
+    },
+    "feature_image_qi7PHt": {
+      "type": "feature-image",
+      "settings": {
+        "invert_order": true,
+        "shrink_height": true,
+        "top_padding": true,
+        "overline": "For the family",
+        "heading": "Fusion",
+        "text": "Cook anywhere, sun or no sun. Our largest, most versatile solar oven yet, powered by solar or 12V. Unlimited, eco-friendly meals await. Adventure without limits.",
+        "price": "399",
+        "image": "shopify:\/\/shop_images\/Rectangle_4.jpg",
+        "button_url": "",
+        "button_label": "Buy Now",
+        "button_url_2": "shopify:\/\/products\/best-solar-cooker-fusion",
+        "button_label_2": "Learn More"
+      }
+    },
+    "feature_image_B7RwwW": {
+      "type": "feature-image",
+      "settings": {
+        "invert_order": false,
+        "shrink_height": true,
+        "top_padding": true,
+        "overline": "All-arounder",
+        "heading": "Sport-E",
+        "text": "Solar by day, electric by night—this all-rounder solar oven cooks your adventures in 20 minutes flat. Sized right between our Go and Fusion, it’s the eco-smart choice for meals that move with you. Cool outside, hot inside, and ready for anywhere.",
+        "price": "219",
+        "image": "shopify:\/\/shop_images\/Rectangle_5_b5b0dff2-0a9f-4a77-8b1d-0d21bc16fa70.jpg",
+        "button_url": "shopify:\/\/products\/sport-e",
+        "button_label": "Buy Now",
+        "button_url_2": "",
+        "button_label_2": "Learn More"
+      }
+    },
+    "feature_image_nKd8pc": {
+      "type": "feature-image",
+      "settings": {
+        "invert_order": true,
+        "shrink_height": true,
+        "top_padding": true,
+        "overline": "Light & portable",
+        "heading": "Go",
+        "text": "Your pocket-sized kitchen. Fast, affordable, and ultra-portable, it cooks meals or boils water in just 20 minutes. Ideal for camping, backpacking, or any adventure. Go anywhere, eat anything.",
+        "price": "119",
+        "image": "shopify:\/\/shop_images\/Rectangle_6.jpg",
+        "button_url": "shopify:\/\/products\/gosunpro-portable-solar-oven",
+        "button_label": "Buy Now",
+        "button_url_2": "",
+        "button_label_2": "Learn More"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "hero_section_acdCzL",
+    "feature_image_qi7PHt",
+    "feature_image_B7RwwW",
+    "feature_image_nKd8pc"
+  ]
+}

@@ -664,6 +664,11 @@ video {
   margin-bottom: 9rem;
 }
 
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
 .mt-8 {
   margin-top: 2rem;
 }
@@ -714,6 +719,18 @@ video {
 
 .mb-8 {
   margin-bottom: 2rem;
+}
+
+.mt-24 {
+  margin-top: 6rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.mt-16 {
+  margin-top: 4rem;
 }
 
 .block {
@@ -940,6 +957,10 @@ video {
   padding-top: 18rem;
 }
 
+.pt-12 {
+  padding-top: 3rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1048,6 +1069,14 @@ video {
 
   .lg\:ml-8 {
     margin-left: 2rem;
+  }
+
+  .lg\:w-2\/3 {
+    width: 66.666667%;
+  }
+
+  .lg\:w-1\/2 {
+    width: 50%;
   }
 
   .lg\:flex-row {

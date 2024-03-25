@@ -46,9 +46,11 @@
   margin: 0 2rem;
 }
 
+@media screen and (max-width: 750px) {
 .content-width {
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
 }
 
 .copy-width {
@@ -197,7 +199,18 @@ h2, .h2 {
     }
     }
 
-
+    h4, .h4{
+      font-size: 25px;
+      line-height: 30px; /* 120% */
+    }
+    
+    @media screen and (max-width: 750px) {
+      h4, .h4 {
+        font-size: 18px;
+        line-height: 22px; /* 125% */
+      }
+      }
+  
 
   
 
@@ -243,3 +256,16 @@ h2, .h2 {
   transition: transform 0.3s ease-in-out;
   transform: rotate(45deg);
 }
+
+
+.btn--ghost {
+  border: 1px solid var(--color-contrast-higher) !important;
+  background-color: transparent;
+  color: var(--color-contrast-higher);
+  }
+  .btn--ghost.active {
+    background-color: var(--color-primary);
+  }
+  .btn--ghost svg path {
+    stroke: var(--color-contrast-higher) !important;
+  }
