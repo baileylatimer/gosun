@@ -425,6 +425,25 @@
       });
     </script>
     
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        gsap.registerPlugin(ScrollTrigger);
+    
+        // Set initial position
+        gsap.set(".before-placeholder", {y: 200});
+    
+        // Animate based on scroll
+        ScrollTrigger.create({
+          trigger: ".mission-section",
+          start: "top+=100 bottom", // 400px below the viewport's bottom
+          end: "bottom top",
+          onEnter: () => gsap.to(".before-placeholder", {y: 0, duration: 2, ease: "power2.out"}),
+          onEnterBack: () => gsap.to(".before-placeholder", {y: 0, duration: 2, ease: "power2.out"}),
+          onLeave: () => gsap.to(".before-placeholder", {y: 200, duration: 1, ease: "power2.in"}),
+          onLeaveBack: () => gsap.to(".before-placeholder", {y: 200, duration: 1, ease: "power2.in"}),
+        });
+      });
+    </script>
     
     
 
