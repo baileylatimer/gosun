@@ -96,10 +96,10 @@ The Hero Section with video background
 
         <h1 id="hero-text" class="color-bg mb-4 text-white text-animate">{{ section.settings.heading }}</h1>
 
-        <p class="mt-8 mb-6 hero-text text-white">{{ section.settings.paragraph }}</p>
+        <p class="mt-8 hero-text text-white">{{ section.settings.paragraph }}</p>
       </div>
-
-      <div class="flex flex-col ">
+      {% if section.settings.button1_text != blank %}
+      <div class="flex flex-col mt-6">
         {% if section.settings.button1_text != blank %}
         {% assign btn_class = "btn dark-theme" %}
         <a href="{{ section.settings.button1_url }}" class="{{ btn_class }} mt-8">
@@ -115,6 +115,7 @@ The Hero Section with video background
         {% endif %}
 
       </div>
+    {% endif %}
 
 
 
