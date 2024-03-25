@@ -12,10 +12,6 @@
   margin: 0 10px;
 }
 
-.product-row__item {
-  filter: brightness(.94);
-}
-
 
 
 .product-row__image {
@@ -42,38 +38,26 @@
 }
 
 
-.product-row__item-title {
-  position: absolute;
-  top: .2em;
-  left: .2em;
-}
-
-@media only screen and (max-width: 750px) {
-  .custom-arrow {
-    transform: scale(.8)
-  }
-}
-
 {% endstyle %}
 
 <div class="product-row relative pt-24">
   <h2 class="product-row__title">{{ section.settings.section_title }}</h2>
-  <div class="product-row__slider">
+  <div class="product-row__slider-2">
     {% for block in section.blocks %}
-    <div class="product-row__item relative br">
+    <div class="product-row__item relative">
       <a href="{{ block.settings.link }}">
-        <img class="product-row__image" src="{{ block.settings.image | img_url: '600x600' }}" alt="{{ block.settings.title }}" />
+        <img class="product-row__image  br" src="{{ block.settings.image | img_url: '600x600' }}" alt="{{ block.settings.title }}" />
         {% if section.settings.collection %}
         <h3 class="product-row__item-title">{{ block.settings.title }}</h3>
         {% else %}
-        <h4 class="product-row__item-title">{{ block.settings.title }}</h4>
+        <h4 class="mt-4 product-row__item-title-2">{{ block.settings.title }}</h4>
         <p>{{ block.settings.description }}</p>
         {% endif %}
       </a>
     </div>
     {% endfor %}
   </div>
-  {% render 'arrow-button' %}
+  {% render 'arrow-button-2' %}
 
 </div>
 
@@ -83,8 +67,8 @@
 
 <script>
 jQuery(document).ready(function(){
-    console.log('Initializing Slick Slider...');
-    jQuery('.product-row__slider').slick({
+    console.log('Initializing Slick Slider... 2');
+    jQuery('.product-row__slider-2').slick({
       infinite: true,
       slidesToShow: 4.5, // Adjust this to be half a slide less than before
       slidesToScroll: 1,
@@ -101,8 +85,8 @@ jQuery(document).ready(function(){
       ]
     });
     // Custom arrow click handler
-    jQuery('#customNextArrow').on('click', function() {
-        jQuery('.product-row__slider').slick('slickNext');
+    jQuery('#customNextArrow2').on('click', function() {
+        jQuery('.product-row__slider-2').slick('slickNext');
     });
 });
 
@@ -111,7 +95,7 @@ jQuery(document).ready(function(){
   
 {% schema %}
   {
-    "name": "Product Row",
+    "name": "Product Row 2",
     "max_blocks": 8,
     "settings": [
       {
@@ -157,7 +141,7 @@ jQuery(document).ready(function(){
       }
     ],
     "presets": [{
-      "name": "Product Row",
+      "name": "Product Row 2",
       "category": "Product"
     }]
   }

@@ -90,6 +90,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/fusion_0c89b649-37a3-410a-b9c0-d0519ee65f06.jpg",
             "title": "Solar Ovens",
+            "description": "Product Description",
             "link": ""
           }
         },
@@ -98,6 +99,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/chill-no-powerbank-electric-cooler-gosun-129202.jpg",
             "title": "Solar Coolers",
+            "description": "Product Description",
             "link": ""
           }
         },
@@ -106,6 +108,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/newshield2_9b83cf52-3c21-4797-8728-ed1ec5b45018.png",
             "title": "Solar Chargers",
+            "description": "Product Description",
             "link": ""
           }
         },
@@ -114,6 +117,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/collection-image_301x_2_5afe72a5-9b9f-46f4-af4a-c8d2cc52be7c.jpg",
             "title": "Water Purification",
+            "description": "Product Description",
             "link": ""
           }
         },
@@ -122,6 +126,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/gosun-dream-solar-off-grid-tiny-house-gosun-201210.jpg",
             "title": "Campers",
+            "description": "Product Description",
             "link": ""
           }
         },
@@ -130,6 +135,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/SplashCover_10608b7e-0550-41ff-baaf-92e8f22140c5.jpg",
             "title": "Boats",
+            "description": "Product Description",
             "link": ""
           }
         },
@@ -138,6 +144,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/flatware-utensils-gosun-285765_1.jpg",
             "title": "Accessories",
+            "description": "Product Description",
             "link": ""
           }
         }
@@ -152,7 +159,8 @@
         "product_mJMRaL"
       ],
       "settings": {
-        "section_title": "Shop by category"
+        "section_title": "Shop by category",
+        "collection": true
       }
     },
     "feature_banner_axfT4K": {
@@ -160,12 +168,94 @@
       "settings": {
         "heading": "100k+ trees planted"
       }
+    },
+    "product_row_2_ATJFhU": {
+      "type": "product-row-2",
+      "blocks": {
+        "product_4fDDNQ": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fusion_0c89b649-37a3-410a-b9c0-d0519ee65f06.jpg",
+            "title": "Fusion",
+            "description": "Hybrid Solar Oven • 4-5 Meals",
+            "link": ""
+          }
+        },
+        "product_dPMcy9": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/flatware-utensils-gosun-285765.jpg",
+            "title": "Flatware",
+            "description": "Portable Utensil Set",
+            "link": ""
+          }
+        },
+        "product_HdR8UG": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sport_46fbf846-59e8-4749-8dca-4dd59ba6d631.jpg",
+            "title": "Sport-E",
+            "description": "Hybrid Solar Oven • 2-3 meals",
+            "link": ""
+          }
+        },
+        "product_CwrV3q": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/go_a8285fd8-eaa4-4ad2-8da7-9f4fe1204094.jpg",
+            "title": "Go",
+            "description": "Portable Solar Oven • 1-2 Meals",
+            "link": ""
+          }
+        },
+        "product_caJxEe": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Brew2_cd557af4-134e-4161-9939-f6e80b5254a2.jpg",
+            "title": "Brew",
+            "description": "Portable Coffee Maker",
+            "link": ""
+          }
+        },
+        "product_khApUD": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/flow-pro-filter-sink-shower-gosun-929591.jpg",
+            "title": "Flow Pro",
+            "description": "Solar Water Purifier + Sink + Shower",
+            "link": ""
+          }
+        },
+        "product_cYyP7r": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/power-1100-1100wh-power-bank-gosun-121088.jpg",
+            "title": "Power 1100",
+            "description": "1100Wh Power Bank",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_4fDDNQ",
+        "product_dPMcy9",
+        "product_HdR8UG",
+        "product_CwrV3q",
+        "product_caJxEe",
+        "product_khApUD",
+        "product_cYyP7r"
+      ],
+      "settings": {
+        "section_title": "Most popular",
+        "collection": false
+      }
     }
   },
   "order": [
     "hero_section_gpDrMe",
     "logo_marquee_UTWfBi",
     "product_row_qgepkc",
-    "feature_banner_axfT4K"
+    "feature_banner_axfT4K",
+    "product_row_2_ATJFhU"
   ]
 }

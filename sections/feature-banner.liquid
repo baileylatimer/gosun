@@ -1,12 +1,21 @@
 {% comment %}
 Feature Banner Section
 {% endcomment %}
+<style>
+  .feature-banner {
+  transform-origin: top center; /* Adjust as needed */
+  transform: rotateX(90deg);
+  visibility: hidden; /* Initially hide the banner to avoid a flash of content before the animation */
+}
+</style>
+
 <div class="body-width ">
   <div class="feature-banner   py-16 lg:py-8 mt-8 text-center bg-primary-light flex justify-center items-center flex-col lg:flex-row br">
     {% render 'icon-trees' %}
     <h2 class="feature-banner-text mb-0 pb-0 lg:ml-8 lg:mt-0 mt-8 text-shake-1">{{ section.settings.heading }}</h2>
   </div>
 </div>
+
 
 
 {% schema %}
