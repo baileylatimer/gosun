@@ -1,0 +1,80 @@
+<style>
+  @media screen and (min-width: 750px) {
+  .feature-image {
+    height: 600px;
+  }
+}
+</style>
+
+<!-- Image Feature Section -->
+<div class="py-12 md:py-24">
+  <div class="feature-image body-width flex gap-2 lg:gap-12 flex-col {% if section.settings.invert_order %}md:flex-row-reverse{% else %}md:flex-row{% endif %} items-center justify-between space-y-8 md:space-y-0">
+    <!-- Text Content -->
+    <div class="content-width py-12 pt-36 lg:pt-12 w-full h-full md:w-1/2 br bg-contrast-lower flex flex-col justify-end">
+      <h2 class=" mb-3">
+        {{ section.settings.heading }}
+      </h2>
+      <p class="mb-8">
+        {{ section.settings.text }}
+      </p>
+      <a href="{{ section.settings.button_url }}" class="btn px-6 py-2 ">
+        {{ section.settings.button_label }}
+        {% render 'btn-arrow' %}
+      </a>
+    </div>
+    <!-- Image Content -->
+    <div class="w-full md:w-1/2 h-full">
+      <img src="{{ section.settings.image | img_url: '800x' }}" alt="{{ section.settings.heading }}" class="w-full h-full object-cover br">
+    </div>
+  </div>
+</div>
+
+
+<!-- JSON for Theme Customizer -->
+{% schema %}
+{
+  "name": "Image Feature",
+  "settings": [
+    {
+  "type": "checkbox",
+  "id": "invert_order",
+  "label": "Invert column order on desktop",
+  "default": false
+},
+
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Heading"
+    },
+    {
+      "type": "textarea",
+      "id": "text",
+      "label": "Text",
+      "default": "Lorem ipsum dolor sit amet consectetur. Non voluptat ullamcorper fermentum odio in non in nec neque."
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "url",
+      "id": "button_url",
+      "label": "Button URL"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button Label",
+      "default": "Learn More"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image Feature"
+    }
+  ]
+}
+{% endschema %}

@@ -284,6 +284,16 @@
         "section_title": "Most popular",
         "collection": false
       }
+    },
+    "feature_image_LWaCdC": {
+      "type": "feature-image",
+      "settings": {
+        "heading": "Meet Elcat, our newest innovation",
+        "text": "Lorem ipsum dolor sit amet consectetur. Non voluptat ullamcorper fermentum odio in non in nec neque.",
+        "image": "shopify:\/\/shop_images\/elcat_a960b3f3-84fe-461a-b4c1-e9bf69eb6b7e.jpg",
+        "button_url": "",
+        "button_label": "Learn More"
+      }
     }
   },
   "order": [
@@ -292,6 +302,7 @@
     "product_row_qgepkc",
     "mission_section_criUKL",
     "feature_banner_axfT4K",
-    "product_row_2_ATJFhU"
+    "product_row_2_ATJFhU",
+    "feature_image_LWaCdC"
   ]
 }
