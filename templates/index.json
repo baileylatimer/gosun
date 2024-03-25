@@ -288,11 +288,119 @@
     "feature_image_LWaCdC": {
       "type": "feature-image",
       "settings": {
+        "invert_order": false,
         "heading": "Meet Elcat, our newest innovation",
         "text": "Lorem ipsum dolor sit amet consectetur. Non voluptat ullamcorper fermentum odio in non in nec neque.",
         "image": "shopify:\/\/shop_images\/elcat_a960b3f3-84fe-461a-b4c1-e9bf69eb6b7e.jpg",
         "button_url": "",
         "button_label": "Learn More"
+      }
+    },
+    "social_section_7jVYar": {
+      "type": "social-section",
+      "blocks": {
+        "image_7BXtB8": {
+          "type": "image",
+          "settings": {
+            "row": "row_1",
+            "image": "shopify:\/\/shop_images\/Placeholder_Image-1.jpg"
+          }
+        },
+        "image_jUprHX": {
+          "type": "image",
+          "settings": {
+            "row": "row_1",
+            "image": "shopify:\/\/shop_images\/Placeholder_Image-5.jpg"
+          }
+        },
+        "image_CPwmxV": {
+          "type": "image",
+          "settings": {
+            "row": "row_1",
+            "image": "shopify:\/\/shop_images\/Placeholder_Image-6.jpg"
+          }
+        },
+        "image_QPw9Kz": {
+          "type": "image",
+          "settings": {
+            "row": "row_1",
+            "image": "shopify:\/\/shop_images\/Placeholder_Image.jpg"
+          }
+        },
+        "image_z4txNj": {
+          "type": "image",
+          "settings": {
+            "row": "row_1",
+            "image": "shopify:\/\/shop_images\/Placeholder_Image-7.jpg"
+          }
+        },
+        "image_kK8xjE": {
+          "type": "image",
+          "settings": {
+            "row": "row_1",
+            "image": "shopify:\/\/shop_images\/Placeholder_Image-4.jpg"
+          }
+        },
+        "image_bcmNVj": {
+          "type": "image",
+          "settings": {
+            "row": "row_2",
+            "image": "shopify:\/\/shop_images\/Placeholder_Image-1.jpg"
+          }
+        },
+        "image_pUGMaK": {
+          "type": "image",
+          "settings": {
+            "row": "row_2",
+            "image": "shopify:\/\/shop_images\/Placeholder_Image-3.jpg"
+          }
+        },
+        "image_Yk3rR7": {
+          "type": "image",
+          "settings": {
+            "row": "row_2",
+            "image": "shopify:\/\/shop_images\/Placeholder_Image-4.jpg"
+          }
+        },
+        "image_wqebpc": {
+          "type": "image",
+          "settings": {
+            "row": "row_2",
+            "image": "shopify:\/\/shop_images\/Placeholder_Image-7.jpg"
+          }
+        },
+        "image_Jtbafz": {
+          "type": "image",
+          "settings": {
+            "row": "row_2",
+            "image": "shopify:\/\/shop_images\/Placeholder_Image-6.jpg"
+          }
+        },
+        "image_mKXJUY": {
+          "type": "image",
+          "settings": {
+            "row": "row_2",
+            "image": "shopify:\/\/shop_images\/Placeholder_Image-5.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "image_7BXtB8",
+        "image_jUprHX",
+        "image_CPwmxV",
+        "image_QPw9Kz",
+        "image_z4txNj",
+        "image_kK8xjE",
+        "image_bcmNVj",
+        "image_pUGMaK",
+        "image_Yk3rR7",
+        "image_wqebpc",
+        "image_Jtbafz",
+        "image_mKXJUY"
+      ],
+      "settings": {
+        "title": "Join thousands of solar enthusiasts",
+        "description": "Share your adventure with #usemoresun or @gosun"
       }
     }
   },
@@ -303,6 +411,7 @@
     "mission_section_criUKL",
     "feature_banner_axfT4K",
     "product_row_2_ATJFhU",
-    "feature_image_LWaCdC"
+    "feature_image_LWaCdC",
+    "social_section_7jVYar"
   ]
 }

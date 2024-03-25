@@ -1,0 +1,189 @@
+<style>
+.social-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.social-row {
+  display: flex;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+
+.social-block {
+  flex: none;
+  width: 300px; /* Set your desired width */
+  height: auto; /* Set your desired height */
+  position: relative;
+}
+
+
+
+.social-block:nth-child(4n+1) .social-image {
+  -webkit-mask-image: url('https://cdn.shopify.com/s/files/1/0789/1333/files/Placeholder_Image-3.svg?v=1711335639');
+  mask-image: url('https://cdn.shopify.com/s/files/1/0789/1333/files/Placeholder_Image-3.svg?v=1711335639');
+}
+
+.social-block:nth-child(4n+2) .social-image {
+  -webkit-mask-image: url('https://cdn.shopify.com/s/files/1/0789/1333/files/Placeholder_Image.svg?v=1711335639');
+  mask-image: url('https://cdn.shopify.com/s/files/1/0789/1333/files/Placeholder_Image.svg?v=1711335639');
+}
+
+.social-block:nth-child(4n+3) .social-image {
+  -webkit-mask-image: url('https://cdn.shopify.com/s/files/1/0789/1333/files/Placeholder_Image-1.svg?v=1711335639');
+  mask-image: url('https://cdn.shopify.com/s/files/1/0789/1333/files/Placeholder_Image-1.svg?v=1711335639');
+}
+
+.social-block:nth-child(4n) .social-image {
+  -webkit-mask-image: url('https://cdn.shopify.com/s/files/1/0789/1333/files/Placeholder_Image-2.svg?v=1711335639');
+  mask-image: url('https://cdn.shopify.com/s/files/1/0789/1333/files/Placeholder_Image-2.svg?v=1711335639');
+}
+
+/* Ensure the images cover the area and are centered */
+.social-image {
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+
+</style>
+
+<div class="social-section py-12">
+  <div class="text-center mb-8">
+    <h2 class="mb-4">{{ section.settings.title }}</h2>
+    <p>{{ section.settings.description }}</p>
+  </div>
+
+  <div class="social-row scroll-left flex gap-6 mb-6" aria-hidden="true">
+    {% for block in section.blocks %}
+      {% if block.settings.row == 'row_1' %}
+        <div class="social-block">
+          <img src="{{ block.settings.image | img_url: 'x800' }}" alt="" class="social-image">
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+  
+  <div class="social-row scroll-right flex gap-6" aria-hidden="true">
+    {% for block in section.blocks %}
+      {% if block.settings.row == 'row_2' %}
+        <div class="social-block">
+          <img src="{{ block.settings.image | img_url: 'x800' }}" alt="" class="social-image">
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+
+
+<script>
+function cloneImagesForLoop($container) {
+  const $images = $container.children().clone();
+  // Triple the content for a seamless loop
+  $container.append($images).append($images.clone());
+}
+
+function startScrolling($container, speed, isScrollRight = false) {
+  const totalWidth = $container[0].scrollWidth / 3; // One-third because we tripled the content
+
+  function updateScroll() {
+    const currentScroll = $container.scrollLeft();
+    let newScroll;
+
+    if (isScrollRight) {
+      newScroll = currentScroll - speed;
+      if (newScroll <= 0) {
+        // Reset to one-third the scroll width when reaching the start to keep the loop seamless
+        newScroll = totalWidth;
+      }
+    } else {
+      newScroll = currentScroll + speed;
+      if (newScroll >= totalWidth * 2) { // When reaching two-thirds, reset to keep the loop seamless
+        newScroll = totalWidth;
+      }
+    }
+
+    $container.scrollLeft(newScroll);
+    requestAnimationFrame(() => updateScroll());
+  }
+
+  // Start the scrolling animation
+  requestAnimationFrame(() => updateScroll());
+}
+
+$(document).ready(function() {
+  const $scrollLeftRow = $('.scroll-left');
+  const $scrollRightRow = $('.scroll-right');
+
+  cloneImagesForLoop($scrollLeftRow);
+  cloneImagesForLoop($scrollRightRow);
+
+  // Adjust the speed if needed
+  startScrolling($scrollLeftRow, 1);
+  startScrolling($scrollRightRow, 1, true);
+});
+
+
+</script>
+
+{% schema %}
+  {
+    "name": "Social Section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Follow Us on Social Media"
+      },
+      {
+        "type": "textarea",
+        "id": "description",
+        "label": "Description",
+        "default": "Join our community and stay connected"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "name": "Image Block",
+        "settings": [
+          {
+            "type": "select",
+            "id": "row",
+            "label": "Row",
+            "options": [
+              {
+                "value": "row_1",
+                "label": "Row 1 (left to right)"
+              },
+              {
+                "value": "row_2",
+                "label": "Row 2 (right to left)"
+              }
+            ],
+            "default": "row_1"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Social Section"
+      }
+    ]
+  }
+  {% endschema %}
+  
+  
