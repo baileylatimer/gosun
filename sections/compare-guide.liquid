@@ -1,0 +1,91 @@
+<style>
+.compare-row:nth-child(odd) {
+  background-color: transparent;
+}
+
+.compare-row:nth-child(even) {
+  background-color: var(--color-contrast-lower);
+}
+.compare-header img {
+  width: 100%; /* Make the image responsive by setting its width to 100% of its container */
+  height: auto; /* Set height to auto to maintain aspect ratio */
+  filter: brightness(.91);
+  object-fit: cover; /* This will cover the area of the container without stretching the image */
+}
+</style>
+
+<div class="compare-guide  body-width pt-24">
+  <h2 class="text-center">Which one is best for me?</h2>
+  <div class="flex  -mx-4 overflow-auto mt-8 gap-2">
+  {% for block in section.blocks %}
+    {% assign product = all_products[block.settings.product_reference] %}
+    <div class="compare-column w-full">
+      <div class="p-6 compare-header">
+      {% if product %}
+        <img class="br" src="{{ product.featured_image | img_url: '300x300' }}" alt="{{ product.title }}">
+        <h3 class="my-4">{{ product.title }}</h3>
+        <div class="flex gap-6">
+          <a href="{{ product.url }}" class="btn">Buy now {% render 'btn-arrow' %}</a>
+          <a href="/pages/{{ product.handle }}" class="btn btn--ghost">Learn more {% render 'btn-arrow' %}</a>
+        </div>
+      </div>  
+
+      <div class="compare-body w-full">
+        <!-- Metafields-based Content Table -->
+        {% if product.metafields.custom.best_use %}
+          <div class="compare-row p-6 flex justify-between"><span class="color-contrast-medium w-2/3">Best use</span> <span class="w-1/3">{{ product.metafields.custom.best_use }}</span></div>
+        {% endif %}
+        {% if product.metafields.custom.weight %}
+          <div class="compare-row p-6 flex justify-between"><span class="color-contrast-medium w-2/3">Weight</span> <span class="w-1/3">{{ product.metafields.custom.weight.value }}{{ product.metafields.custom.weight.unit }}</span></div>
+        {% endif %}
+        {% if product.metafields.custom.capacity %}
+          <div class="compare-row p-6 flex justify-between"><span class="color-contrast-medium w-2/3">Capacity</span>  <span class="w-1/3">{{ product.metafields.custom.capacity }}</span></div>
+        {% endif %}
+        {% if product.metafields.custom.meal_per_load %}
+          <div class="compare-row p-6 flex justify-between"><span class="color-contrast-medium w-2/3">Meals</span>  <span class="w-1/3">{{ product.metafields.custom.meal_per_load }}</span></div>
+        {% endif %}
+        {% if product.metafields.custom.ideal_for %}
+          <div class="compare-row p-6 flex justify-between"><span class="color-contrast-medium w-2/3">Ideal for</span> <span class="w-1/3">{{ product.metafields.custom.ideal_for }}</span></div>
+        {% endif %}
+        {% if product.metafields.custom.cooks_at_night %}
+          <div class="compare-row p-6 flex justify-between"><span class="color-contrast-medium w-2/3">Cooks at night</span>  <span class="w-1/3">{{ product.metafields.custom.cooks_at_night }}</span></div>
+        {% endif %}
+     
+          <div class="compare-row p-6 flex justify-between"><span class="color-contrast-medium w-2/3">MSRP</span> <span class="w-1/3"> {{ product.price | money_without_trailing_zeros }}</span></div>
+
+      </div>
+        
+        <!-- ... other metafields -->
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "Compare Guide",
+    "max_blocks": 4,
+    "blocks": [
+      {
+        "type": "product_column",
+        "name": "Product Column",
+        "settings": [
+          {
+            "type": "product",
+            "id": "product_reference",
+            "label": "Select a product"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Compare Guide",
+        "category": "Product"
+      }
+    ]
+  }
+  {% endschema %}
+  

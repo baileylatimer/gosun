@@ -75,6 +75,36 @@
         "button_url_2": "",
         "button_label_2": "Learn More"
       }
+    },
+    "compare_guide_mCCJtX": {
+      "type": "compare-guide",
+      "blocks": {
+        "product_column_86MV4G": {
+          "type": "product_column",
+          "settings": {
+            "product_reference": "best-solar-cooker-fusion"
+          }
+        },
+        "product_column_PgLWmc": {
+          "type": "product_column",
+          "settings": {
+            "product_reference": "sport-e"
+          }
+        },
+        "product_column_tMK3Ur": {
+          "type": "product_column",
+          "settings": {
+            "product_reference": "gosunpro-portable-solar-oven"
+          }
+        }
+      },
+      "block_order": [
+        "product_column_86MV4G",
+        "product_column_PgLWmc",
+        "product_column_tMK3Ur"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -82,6 +112,7 @@
     "hero_section_acdCzL",
     "feature_image_qi7PHt",
     "feature_image_B7RwwW",
-    "feature_image_nKd8pc"
+    "feature_image_nKd8pc",
+    "compare_guide_mCCJtX"
   ]
 }
