@@ -186,6 +186,12 @@
         "top_padding": false,
         "image": "shopify:\/\/shop_images\/Rectangle_5_b5b0dff2-0a9f-4a77-8b1d-0d21bc16fa70.jpg"
       }
+    },
+    "need_help_gCLBEz": {
+      "type": "need-help",
+      "settings": {
+        "section_title": "Need help deciding?"
+      }
     }
   },
   "order": [
@@ -196,6 +202,7 @@
     "feature_image_nKd8pc",
     "compare_guide_mCCJtX",
     "featured_collection_Fxzf7q",
-    "faq_3UD6WA"
+    "faq_3UD6WA",
+    "need_help_gCLBEz"
   ]
 }
