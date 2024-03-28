@@ -68,6 +68,12 @@ The Hero Section with video background
   .product-hero {
     min-height: 570px;
   }
+
+  @media screen and (max-width: 990px) {
+    .product-hero {
+    height: calc(100vh - 165px);
+  }
+}
 </style>
 
 <div class="relative body-width br h-screen bg-cover bg-center hero-section product-hero flex items-end" {% if page.metafields.custom.background_image_url != blank %}style="background-image: url('{{ page.metafields.custom.background_video_url | img_url: 'master' }}');"{% else %}style="background-image: url('{{ section.settings.background_image | img_url: 'master' }}');"{% endif %}>
@@ -88,25 +94,25 @@ The Hero Section with video background
 
   <div class="overlay-bottom"></div>
 
-  <div class="h-full content-width hero-content pt-72 pb-12">
-    <div class="relative flex flex-col items-start justify-between h-full text-white ml-0">
+  <div class="h-full content-width mx-auto hero-content pt-72 pb-64 lg:pb-12 flex flex-col lg:flex-row justify-end items-end ">
+    <div class="relative flex flex-col items-start justify-between  text-white ml-0">
 
+        <div class="flex tw-grid grid-cols-2 lg:grid-cols-5">
 
+          <h1 id="hero-text" class="color-bg mb-4 text-white text-animate text-center lg:text-left col-span-2 lg:col-span-1">{{ product.title }}</h1>
 
-        <div class="flex tw-grid grid-cols-5">
-
-          <h1 id="hero-text" class="color-bg mb-4 text-white text-animate">{{ product.title }}</h1>
-
-          <h4 class="text-white pr-8">{{ section.settings.description }}</h4>
+          <h4 class="text-white  col-span-2 lg:col-span-1 text-center lg:text-left">{{ section.settings.description }}</h4>
+          <div class="flex justify-center gap-36 col-span-2 my-8 lg:my-0">
           <div class="flex flex-col lg:pl-16">
-            <p class="h4 text-white">{{ section.settings.feature_1_title }}</p>
-            <p class="mt-4 text-small text-white">{{ section.settings.feature_1_description }}</p>
+            <p class="text-small text-white">{{ section.settings.feature_1_title }}</p>
+            <p class="lg:mt-4 h4 text-white">{{ section.settings.feature_1_description }}</p>
           </div>
           <div class="flex flex-col">
-            <p class="h4 text-white">{{ section.settings.feature_2_title }}</p>
-            <p class="mt-4 text-small text-white">{{ section.settings.feature_2_description }}</p>
+            <p class=" text-white text-small">{{ section.settings.feature_2_title }}</p>
+            <p class="lg:mt-4 h4 text-white">{{ section.settings.feature_2_description }}</p>
           </div>
-          <a href="{{ product.url }}" class="btn">
+          </div>
+          <a href="{{ product.url }}" class="btn col-span-2 lg:col-span-1">
             Buy the {{ product.title }}
             {% render 'btn-arrow' %}
           </a>
