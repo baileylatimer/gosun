@@ -8,6 +8,12 @@
         "padding_bottom": 28
       }
     },
+    "product_nav_A3Ldaj": {
+      "type": "product-nav",
+      "settings": {
+        "product_reference": "best-solar-cooker-fusion"
+      }
+    },
     "hero_product_V8NU4k": {
       "type": "hero-product",
       "settings": {
@@ -27,49 +33,96 @@
         "invert_order": true,
         "shrink_height": true,
         "top_padding": true,
-        "overline": "For the family",
-        "heading": "Fusion",
-        "text": "Cook anywhere, sun or no sun. Our largest, most versatile solar oven yet, powered by solar or 12V. Unlimited, eco-friendly meals await. Adventure without limits.",
-        "price": "399",
-        "image": "shopify:\/\/shop_images\/Rectangle_4.jpg",
+        "overline": "",
+        "heading": "Ready to heat",
+        "text": "If you're out of sunlight, plug the Fusion into a 12V source to power the 150 watt heating element. Use GoSun solar chargers to harness the power of the Sun to cook day and night.",
+        "price": "",
+        "image": "shopify:\/\/shop_images\/solar_oven_night_cooking_700x_c218ace3-c700-44c5-a34b-b2e38a8883b5.webp",
         "button_url": "",
-        "button_label": "Buy Now",
-        "button_url_2": "shopify:\/\/products\/best-solar-cooker-fusion",
-        "button_label_2": "Learn More"
+        "button_label": "",
+        "button_url_2": "",
+        "button_label_2": ""
+      }
+    },
+    "feature_tabs_YWndzJ": {
+      "type": "feature-tabs",
+      "blocks": {
+        "media_q9xfqk": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Feed a family",
+            "tab_description": "With a 101 oz cooking tray you can cook a meal for five within an hour",
+            "image": "shopify:\/\/shop_images\/Placeholder_Image-2.jpg",
+            "video_url": ""
+          }
+        },
+        "media_Hkpygk": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Cook at night",
+            "tab_description": "Cook with the sun during the day and plug it in at night",
+            "image": "shopify:\/\/shop_images\/solar_oven_night_cooking_700x_c218ace3-c700-44c5-a34b-b2e38a8883b5.webp",
+            "video_url": ""
+          }
+        },
+        "media_rdCkmY": {
+          "type": "media",
+          "settings": {
+            "tab_title": "All-weather",
+            "tab_description": "Rain, clouds, & snow. If you can see a shadow, it will cook.",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e9b46de931d6458e97abbbd6a6811ad7.mp4"
+          }
+        },
+        "media_PWLTtA": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Portable",
+            "tab_description": "Deploys in seconds and collapses into a durable package",
+            "image": "shopify:\/\/shop_images\/Rectangle_4.jpg",
+            "video_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "media_q9xfqk",
+        "media_Hkpygk",
+        "media_rdCkmY",
+        "media_PWLTtA"
+      ],
+      "settings": {
       }
     },
     "feature_image_B7RwwW": {
       "type": "feature-image",
       "settings": {
-        "invert_order": false,
-        "shrink_height": true,
+        "invert_order": true,
+        "shrink_height": false,
         "top_padding": true,
-        "overline": "All-arounder",
-        "heading": "Sport-E",
-        "text": "Solar by day, electric by night—this all-rounder solar oven cooks your adventures in 20 minutes flat. Sized right between our Go and Fusion, it’s the eco-smart choice for meals that move with you. Cool outside, hot inside, and ready for anywhere.",
-        "price": "219",
-        "image": "shopify:\/\/shop_images\/Rectangle_5_b5b0dff2-0a9f-4a77-8b1d-0d21bc16fa70.jpg",
-        "button_url": "shopify:\/\/products\/sport-e",
-        "button_label": "Buy Now",
+        "overline": "",
+        "heading": "Patented solar cooking technology",
+        "text": "The Fusion's patented solar evacuated tube creates the most efficient insulation in modern cooking technology. Two parabolic reflectors concentrate the sunlight into the cooking chamber - trapping the energy inside for cooking.",
+        "price": "",
+        "image": "shopify:\/\/shop_images\/image_29_700x_c97952ca-3c19-4f06-ae37-ec22548ac3a6.webp",
+        "button_url": "",
+        "button_label": "",
         "button_url_2": "",
-        "button_label_2": "Learn More"
+        "button_label_2": ""
       }
     },
-    "feature_image_nKd8pc": {
-      "type": "feature-image",
+    "hero_section_48ikpG": {
+      "type": "hero-section",
       "settings": {
-        "invert_order": true,
-        "shrink_height": true,
-        "top_padding": true,
-        "overline": "Light & portable",
-        "heading": "Go",
-        "text": "Your pocket-sized kitchen. Fast, affordable, and ultra-portable, it cooks meals or boils water in just 20 minutes. Ideal for camping, backpacking, or any adventure. Go anywhere, eat anything.",
-        "price": "119",
-        "image": "shopify:\/\/shop_images\/Rectangle_6.jpg",
-        "button_url": "shopify:\/\/products\/gosunpro-portable-solar-oven",
-        "button_label": "Buy Now",
-        "button_url_2": "",
-        "button_label_2": "Learn More"
+        "shrink_height": false,
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e9b46de931d6458e97abbbd6a6811ad7.mp4",
+        "overline": "",
+        "heading": "Built for the future",
+        "paragraph": "The Fusion's patented solar evacuated tube creates the most efficient insulation in modern cooking technology. Two parabolic reflectors concentrate the sunlight into the cooking chamber - trapping the energy inside for cooking.",
+        "button1_text": "",
+        "button1_url": "",
+        "play_button_1": false,
+        "button2_text": "",
+        "button2_url": "",
+        "play_button_2": false
       }
     },
     "compare_guide_mCCJtX": {
@@ -100,34 +153,6 @@
         "product_column_tMK3Ur"
       ],
       "settings": {
-      }
-    },
-    "featured_collection_Fxzf7q": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Accessories",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "solar-ovens-accessories",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "faq_3UD6WA": {
@@ -192,12 +217,13 @@
   },
   "order": [
     "main",
+    "product_nav_A3Ldaj",
     "hero_product_V8NU4k",
     "feature_image_qi7PHt",
+    "feature_tabs_YWndzJ",
     "feature_image_B7RwwW",
-    "feature_image_nKd8pc",
+    "hero_section_48ikpG",
     "compare_guide_mCCJtX",
-    "featured_collection_Fxzf7q",
     "faq_3UD6WA",
     "need_help_gCLBEz"
   ]

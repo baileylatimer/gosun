@@ -35,13 +35,13 @@
           {{ section.settings.text }}
         </p>
         <div class="flex gap-4 mt-16">
-          {% if section.settings.button_label %}
+          {% if section.settings.button_label != blank %}
             <a href="{{ section.settings.button_url }}" class="btn px-6 py-2 ">
               {{ section.settings.button_label }}
               {% render 'btn-arrow' %}
             </a>
           {% endif %}
-          {% if section.settings.button_label_2 %}
+          {% if section.settings.button_label_2 != blank  %}
             <a href="{{ section.settings.button_url_2 }}" class="btn btn--ghost px-6 py-2 ">
               {{ section.settings.button_label_2 }}
               {% render 'btn-arrow' %}
