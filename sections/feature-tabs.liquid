@@ -1,0 +1,152 @@
+{% style %}
+.tab {
+  opacity: 65%;
+  position: relative;
+}
+
+.tab.active {
+  opacity: 100%;
+}
+
+.progress-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  background-color: var(--color-primary);
+  transition: width 3s linear;
+}
+{% endstyle %}
+
+<div class="feature-tabs-section body-width">
+  <!-- Media Display -->
+  <div class="media-display w-full">
+    {% for block in section.blocks %}
+      <div class="media-content {% if forloop.first %}active{% else %}hidden{% endif %}" id="media-{{ forloop.index }}">
+        {% if block.settings.video_url %}
+          <video src="{{ block.settings.video_url }}" autoplay muted loop></video>
+        {% endif %}
+        {% if block.settings.image %}
+          <img src="{{ block.settings.image | img_url: '800x' }}" alt="{{ block.settings.tab_title }}">
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+  
+  <!-- Tabs -->
+  <div class="tabs flex justify-center space-x-4 mt-4">
+    {% for block in section.blocks %}
+      <div class="tab {% if forloop.first %}active{% endif %}" data-tab-index="{{ forloop.index }}">
+        <div class="progress-bar" style="width: 0%;"></div> <!-- Progress Bar -->
+        <h3 class="tab-title">{{ block.settings.tab_title }}</h3>
+        <p class="tab-description">{{ block.settings.tab_description }}</p>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const tabs = document.querySelectorAll('.tab');
+  const mediaContents = document.querySelectorAll('.media-content');
+  let activeTab = 0;
+  const rotationInterval = 3000; // Duration for each tab before switching
+
+  // Function to switch media display based on tab index
+  function updateMediaDisplay(index) {
+    mediaContents.forEach((media, idx) => {
+      media.classList.toggle('hidden', idx !== index);
+      media.classList.toggle('active', idx === index);
+    });
+  }
+
+  function switchTab(index) {
+    activeTab = index % tabs.length;
+
+    // Reset all tabs and media to inactive state
+    tabs.forEach((tab, idx) => {
+      tab.classList.remove('active');
+      const progressBar = tab.querySelector('.progress-bar');
+      progressBar.style.width = '0%';
+      progressBar.style.transition = 'none';
+    });
+
+    // Set active tab and reset progress bar
+    tabs[activeTab].classList.add('active');
+    const activeProgressBar = tabs[activeTab].querySelector('.progress-bar');
+    activeProgressBar.style.width = '100%';
+    activeProgressBar.style.transition = `width ${rotationInterval}ms linear`;
+
+    // Update media display for the selected tab
+    updateMediaDisplay(activeTab);
+  }
+
+  // Manual tab switch event
+  tabs.forEach((tab, index) => {
+    tab.addEventListener('click', () => {
+      switchTab(index);
+    });
+  });
+
+  // Auto-rotate tabs with progress indication
+  let autoRotate = setInterval(() => {
+    let nextTab = (activeTab + 1) % tabs.length;
+    switchTab(nextTab);
+  }, rotationInterval);
+
+  // Initialize with the first tab active
+  switchTab(0);
+});
+
+
+</script>
+
+{% schema %}
+{
+  "name": "Feature Tabs",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Feature Tabs Settings"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "media",
+      "name": "Media Block",
+      "settings": [
+        {
+          "type": "text",
+          "id": "tab_title",
+          "label": "Tab Title",
+          "default": "Tab Title"
+        },
+        {
+          "type": "textarea",
+          "id": "tab_description",
+          "label": "Tab Description",
+          "default": "This is the tab description."
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image",
+          "info": "Used if no video is provided."
+        },
+        {
+          "type": "text",
+          "id": "video_url",
+          "label": "Video URL",
+          "info": "Overrides image if provided."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Feature Tabs"
+    }
+  ]
+}
+{% endschema %}
