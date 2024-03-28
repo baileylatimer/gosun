@@ -954,6 +954,18 @@ video {
   padding-top: 18rem;
 }
 
+.pb-36 {
+  padding-bottom: 9rem;
+}
+
+.pr-8 {
+  padding-right: 2rem;
+}
+
+.pr-16 {
+  padding-right: 4rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1108,6 +1120,10 @@ video {
 
   .lg\:pt-12 {
     padding-top: 3rem;
+  }
+
+  .lg\:pr-16 {
+    padding-right: 4rem;
   }
 
   .lg\:text-left {

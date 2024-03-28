@@ -1,7 +1,8 @@
 {% style %}
 .tab {
-  opacity: 65%;
+  opacity: 50%;
   position: relative;
+  cursor: pointer;
 }
 
 .tab.active {
@@ -10,17 +11,49 @@
 
 .progress-bar {
   position: absolute;
-  bottom: 0;
+  top: 0;
   left: 0;
   height: 2px;
   background-color: var(--color-primary);
   transition: width 3s linear;
 }
+
+
+.media-content {
+  width: 100%; /* Ensure the container takes full width */
+  height: 100%; /* Adjust height as necessary */
+  overflow: hidden; /* Hide overflow */
+}
+
+.media-content img,
+.media-content video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Cover the container, might crop */
+  display: block; /* Remove any default margins */
+}
+
+/* Adjust .media-display to have a specific height or responsive height */
+.media-display {
+  height: 500px; /* Example fixed height, adjust as needed */
+  position: relative; /* Needed for absolute positioning within */
+}
+
+/* Ensure video tags fill the container */
+.media-content video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+}
+
 {% endstyle %}
 
-<div class="feature-tabs-section body-width">
+<div class="feature-tabs-section body-width pb-36">
   <!-- Media Display -->
-  <div class="media-display w-full">
+  <div class="media-display w-full br">
     {% for block in section.blocks %}
       <div class="media-content {% if forloop.first %}active{% else %}hidden{% endif %}" id="media-{{ forloop.index }}">
         {% if block.settings.video_url %}
@@ -38,8 +71,10 @@
     {% for block in section.blocks %}
       <div class="tab {% if forloop.first %}active{% endif %}" data-tab-index="{{ forloop.index }}">
         <div class="progress-bar" style="width: 0%;"></div> <!-- Progress Bar -->
-        <h3 class="tab-title">{{ block.settings.tab_title }}</h3>
-        <p class="tab-description">{{ block.settings.tab_description }}</p>
+        <div class="flex flex-col lg:pr-16">
+          <h3 class="tab-title mt-6">{{ block.settings.tab_title }}</h3>
+          <p class="tab-description">{{ block.settings.tab_description }}</p>
+        </div>
       </div>
     {% endfor %}
   </div>
@@ -51,7 +86,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const tabs = document.querySelectorAll('.tab');
   const mediaContents = document.querySelectorAll('.media-content');
   let activeTab = 0;
-  const rotationInterval = 3000; // Duration for each tab before switching
+  const rotationInterval = 5000; // Duration for each tab before switching
 
   // Function to switch media display based on tab index
   function updateMediaDisplay(index) {
