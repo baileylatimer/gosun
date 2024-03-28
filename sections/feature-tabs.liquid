@@ -1,21 +1,38 @@
 {% style %}
 .tab {
-  opacity: 50%;
+  color: var(--color-contrast-medium) ;
   position: relative;
   cursor: pointer;
 }
 
-.tab.active {
-  opacity: 100%;
+.tab h3, .tab p.tab-description{
+  color: var(--color-contrast-medium) ;
 }
+
+.tab.active h3, .tab.active p.tab-description {
+  color: var(--color-contrast-higher)
+}
+
 
 .progress-bar {
   position: absolute;
   top: 0;
   left: 0;
-  height: 2px;
+  height: 4px;
   background-color: var(--color-primary);
   transition: width 3s linear;
+  z-index: 2
+}
+
+.progress-bar-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4px;
+  background-color: var(--color-contrast-low);
+  transition: width 3s linear;
+  width: 100%;
+  z-index: 1;
 }
 
 
@@ -70,8 +87,9 @@
   <div class="tabs flex justify-center space-x-4 mt-4">
     {% for block in section.blocks %}
       <div class="tab {% if forloop.first %}active{% endif %}" data-tab-index="{{ forloop.index }}">
-        <div class="progress-bar" style="width: 0%;"></div> <!-- Progress Bar -->
-        <div class="flex flex-col lg:pr-16">
+        <div class="progress-bar" style="width: 0%;"></div>
+        <div class="progress-bar-bg"></div>  <!-- Progress Bar -->
+        <div class="tab-text flex flex-col lg:pr-16">
           <h3 class="tab-title mt-6">{{ block.settings.tab_title }}</h3>
           <p class="tab-description">{{ block.settings.tab_description }}</p>
         </div>
