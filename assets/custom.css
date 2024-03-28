@@ -1,3 +1,5 @@
+/* COLOR 
+============== */
 :root {
   --color-primary: #298CCB;
   --color-bg: #f1f1f1;
@@ -8,6 +10,39 @@
   --body-width:1600px
 }
 
+
+
+.bg-transparent {
+  background-color: transparent !important;
+}
+.bg-primary {
+  background-color: var(--color-primary);
+}
+
+.color-bg {
+  color: var(--color-bg)
+}
+
+.bg-primary-light {
+  background-color: var(--color-primary-light);
+}
+
+.bg-contrast-lower {
+  background-color: var(--color-contrast-lower);
+}
+
+.text-white {
+  color: var(--color-bg) !important
+}
+
+.color-contrast-medium {
+  color: var(--color-contrast-medium)
+}
+
+
+
+/* LAYOUT 
+============== */
 body {
   background-color: var(--color-bg) !important;
 }
@@ -15,23 +50,12 @@ body {
   display: grid;
 }
 
-.color-bg {
-  color: var(--color-bg)
-}
-.color-contrast-medium {
-  color: var(--color-contrast-medium)
-}
-
-.bg-primary {
-  background-color: var(--color-primary);
-}
-
 .br {
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
+  border-radius: 20px !important;
+  -webkit-border-radius: 20px !important;
+  -moz-border-radius: 20px !important;
+  -ms-border-radius: 20px !important;
+  -o-border-radius: 20px !important;
   overflow: hidden;
 }
 
@@ -72,17 +96,6 @@ body {
 
 /* Color
 ============== */
-.bg-primary-light {
-  background-color: var(--color-primary-light);
-}
-
-.bg-contrast-lower {
-  background-color: var(--color-contrast-lower);
-}
-
-.text-white {
-  color: var(--color-bg) !important
-}
 
 /* Typography 
 ===================*/

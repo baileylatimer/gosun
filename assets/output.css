@@ -854,6 +854,10 @@ video {
   white-space: nowrap;
 }
 
+.bg-transparent {
+  background-color: transparent;
+}
+
 .bg-cover {
   background-size: cover;
 }
