@@ -1,0 +1,169 @@
+<!-- Add some styling for the FAQ accordion -->
+
+  
+
+{% style %}
+  {% if section.settings.shrink_height == true %}
+    @media screen and (min-width: 750px) {
+    .faq-image {
+      height: 400px;
+    }
+  }
+  {% else %}
+  @media screen and (min-width: 750px) {
+    .faq-image {
+      height: 600px;
+    }
+  }
+  {% endif %}
+
+
+.faq-question {
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-question::after {
+  content: '+';
+  font-size: 24px; /* Adjust size as needed */
+}
+
+.faq-question[aria-expanded="true"]::after {
+  content: '-';
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.faq-item:not(:first-of-type) .faq-question {
+  border-top: 1px solid var(--color-contrast-low);
+}
+
+  {% endstyle %}
+  
+
+
+
+<div class="{% if section.settings.top_padding == false %} pt-12 {% endif %} pb-12 ">
+<div class="faq-image body-width flex gap-2 lg:gap-12 flex-col {% if section.settings.invert_order %}md:flex-row-reverse{% else %}md:flex-row{% endif %} items-center justify-between space-y-8 md:space-y-0">
+<!-- FAQ Section -->
+<div class="content-width pb-12 pt-36 w-full h-full md:w-1/2 br bg-contrast-lower flex flex-col justify-end">
+  <div class="w-full">
+    <h2 class="my-3">FAQ</h2>
+    <div class="faq-accordion">
+      {% for block in section.blocks %}
+        <div class="faq-item flex flex-col items-start">
+          <button class="faq-question py-6 w-full text-left" aria-expanded="false">
+            {{ block.settings.question }}
+          </button>
+          <div class="faq-answer w-full">
+            <p>{{ block.settings.answer }}</p>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+  <!-- Image Content -->
+  <div class="w-full md:w-1/2 h-full">
+    <img src="{{ section.settings.image | img_url: '800x' }}" alt="{{ section.settings.heading }}" class="w-full h-full object-cover br">
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+<!-- Add JavaScript for FAQ accordion behavior -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const faqQuestions = document.querySelectorAll('.faq-question');
+  const faqAnswers = document.querySelectorAll('.faq-answer');
+
+  faqQuestions.forEach(question => {
+    question.addEventListener('click', function () {
+      const currentlyExpanded = document.querySelector('.faq-question[aria-expanded="true"]');
+      if (currentlyExpanded && currentlyExpanded !== this) {
+        currentlyExpanded.setAttribute('aria-expanded', 'false');
+        currentlyExpanded.nextElementSibling.style.maxHeight = null;
+      }
+
+      const answer = this.nextElementSibling;
+      const isExpanded = this.getAttribute('aria-expanded') === 'true';
+      
+      this.setAttribute('aria-expanded', !isExpanded);
+      answer.style.maxHeight = !isExpanded ? answer.scrollHeight + "px" : null;
+    });
+  });
+});
+
+</script>
+
+<!-- Update the schema to include blocks for FAQs -->
+{% schema %}
+{
+  "name": "FAQ",
+  "settings": [
+    {
+        "type": "checkbox",
+        "id": "invert_order",
+        "label": "Invert column order on desktop",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "shrink_height",
+        "label": "Shrink height for compact vertical scroll",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "top_padding",
+        "label": "Remove top padding",
+        "default": false
+      },
+
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      }
+  ],
+  "blocks": [
+    {
+      "type": "faq_item",
+      "name": "FAQ Item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "question",
+          "label": "Question"
+        },
+        {
+          "type": "text",
+          "id": "answer",
+          "label": "Answer"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "FAQ"
+    }
+  ]
+}
+{% endschema %}
