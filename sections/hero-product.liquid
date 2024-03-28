@@ -1,0 +1,172 @@
+{% comment %}
+The Hero Section with video background
+{% endcomment %}
+
+
+<style>
+  .hero-section {
+    height: calc(100vh - var(--header-height) - var(--announcement-bar-height));
+    position: relative;
+    margin-bottom: 3rem;
+  }
+
+  @media screen and (max-width: 990px) {
+    .hero-section {
+      height: calc(100vh - var(--header-height) - var(--announcement-bar-height) - 50px);
+      position: relative;
+    }
+  }
+
+  {% if section.settings.shrink_height %}
+    .hero-section {
+      height: calc(70vh - var(--header-height) - var(--announcement-bar-height));
+      position: relative;
+    }
+
+
+    @media screen and (max-width: 1280px) {
+      .hero-section {
+        height: calc(75vh - var(--header-height) - var(--announcement-bar-height));
+        position: relative;
+      }
+    }
+
+    @media screen and (max-width: 990px) {
+      .hero-section {
+        height: calc(80vh - var(--header-height) - var(--announcement-bar-height) - 50px);
+        position: relative;
+      }
+    }
+  {% endif %}
+
+
+
+  .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%);
+    display: block !important;
+  }
+  @media screen and (max-width: 990px) {
+    .hero-overlay {
+      background: linear-gradient(34.19deg, rgba(0, 0, 0, 0.7) 37.03%, rgba(0, 0, 0, 0) 102.98%);
+    }
+  }
+  .hero-content {
+    position: relative;
+    z-index: 2;
+  }
+
+  .icon-dark svg path {
+    fill: #000 !important;
+  }
+
+  .product-hero {
+    min-height: 570px;
+  }
+</style>
+
+<div class="relative body-width br h-screen bg-cover bg-center hero-section product-hero flex items-end" {% if page.metafields.custom.background_image_url != blank %}style="background-image: url('{{ page.metafields.custom.background_video_url | img_url: 'master' }}');"{% else %}style="background-image: url('{{ section.settings.background_image | img_url: 'master' }}');"{% endif %}>
+  {% assign product = all_products[section.settings.product_reference] %}
+  <video
+    class="absolute w-full h-full object-cover"
+    autoplay
+    loop
+    muted
+    playsinline>
+    {% if page.metafields.custom.background_video_url %}
+      <source src="{{ page.metafields.custom.background_video_url }}" type="video/mp4">
+    {% else %}
+      <source src="{{ section.settings.video_url }}" type="video/mp4">
+    {% endif %}
+
+  </video>
+
+  <div class="overlay-bottom"></div>
+
+  <div class="h-full content-width hero-content pt-72 pb-12">
+    <div class="relative flex flex-col items-start justify-between h-full text-white ml-0">
+
+
+
+        <div class="flex tw-grid grid-cols-5">
+
+          <h1 id="hero-text" class="color-bg mb-4 text-white text-animate">{{ product.title }}</h1>
+
+          <h4 class="text-white pr-8">{{ section.settings.description }}</h4>
+          <div class="flex flex-col lg:pl-16">
+            <p class="h4 text-white">{{ section.settings.feature_1_title }}</p>
+            <p class="mt-4 text-small text-white">{{ section.settings.feature_1_description }}</p>
+          </div>
+          <div class="flex flex-col">
+            <p class="h4 text-white">{{ section.settings.feature_2_title }}</p>
+            <p class="mt-4 text-small text-white">{{ section.settings.feature_2_description }}</p>
+          </div>
+          <a href="{{ product.url }}" class="btn">
+            Buy the {{ product.title }}
+            {% render 'btn-arrow' %}
+          </a>
+        </div>
+
+    </div>
+  </div>
+
+</div>
+
+
+{% schema %}
+  {
+    "name": "Hero Product",
+    "settings": [
+      {
+        "type": "product",
+        "id": "product_reference",
+        "label": "Select a product"
+      },
+      {
+        "id": "video_url",
+        "type": "url",
+        "label": "Video URL"
+      },
+      {
+        "id": "background_image",
+        "type": "image_picker",
+        "label": "Background Image"
+      },
+      {
+        "id": "description",
+        "type": "text",
+        "label": "Description"
+      },
+      {
+        "id": "feature_1_title",
+        "type": "text",
+        "label": "Feature 1 Title"
+      },
+      {
+        "id": "feature_1_description",
+        "type": "text",
+        "label": "Feature 1 Description"
+      },
+      {
+        "id": "feature_2_title",
+        "type": "text",
+        "label": "Feature 2 Title"
+      },
+      {
+        "id": "feature_2_description",
+        "type": "text",
+        "label": "Feature 2 Description"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Hero Product"
+      }
+    ]
+  }
+{% endschema %}

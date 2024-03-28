@@ -67,7 +67,9 @@ body {
   left: 0;
   right: 0;
   height: 300px; /* Width of the overlay */
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 100%);
+
+
   /* Use your own color and opacity */
   display: block !important;
   z-index: 2;
@@ -237,7 +239,22 @@ h2, .h2 {
       }
   
 
+  .text-small {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  @media screen and (max-width: 750px) {
+    .text-small {
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
   
+  }
 
 /* BUTTONS 
 ===============*/
