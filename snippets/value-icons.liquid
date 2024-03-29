@@ -1,0 +1,23 @@
+
+
+<div class="value-icons tw-grid grid-cols-3 px-4 py-4 mt-12">
+  {% if product.metafields.custom.overview_feature_1_text != blank %}
+    <div class="flex gap-3 text-xs items-center justify-start">
+      <img src="{{ product.metafields.custom.overview_feature_1_icon | img_url: '24x24' }}" alt="{{ product.metafields.custom.overview_feature_1_text }}" class="">
+      {{ product.metafields.custom.overview_feature_1_text }}
+    </div>
+  {% endif %}
+  
+  {% if product.metafields.custom.overview_feature_1_text != blank %}
+    <div class="flex gap-3 text-xs items-center justify-center">
+      <img src="{{ product.metafields.custom.overview_feature_2_icon | img_url: '24x24' }}" alt="{{ product.metafields.custom.overview_feature_2_text }}" class="">
+      {{ product.metafields.custom.overview_feature_2_text }}
+    </div>
+  {% endif %}
+  {% if product.metafields.custom.overview_feature_1_text != blank %}
+    <div class="flex gap-3 text-xs items-center justify-end">
+      <img src="{{ product.metafields.custom.overview_feature_3_icon | img_url: '24x24' }}" alt="{{ product.metafields.custom.overview_feature_3_text }}" class="">
+      {{ product.metafields.custom.overview_feature_3_text }}
+    </div>
+  {% endif %}
+</div>

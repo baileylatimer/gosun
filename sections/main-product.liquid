@@ -194,8 +194,8 @@
                   {% render 'value-row' %}
                 {%- if product.description != blank -%}
                     {% render 'product-description' %}
-                
                 {%- endif -%}
+                  {% render 'value-icons' %}
               {%- when 'sku' -%}
                 <p
                   class="product__sku{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.sku.size == 0 %} visibility-hidden{% endif %}"
@@ -214,9 +214,9 @@
                     <summary>
                       <div class="summary__title">
                         {% render 'icon-accordion', icon: block.settings.icon %}
-                        <h2 class="h4 accordion__title inline-richtext">
+                        <p class="p">
                           {{ block.settings.heading | default: block.settings.page.title | escape }}
-                        </h2>
+                        </p>
                       </div>
                       {% render 'icon-caret' %}
                     </summary>
