@@ -109,6 +109,14 @@
         "padding_bottom": 12
       }
     },
+    "faq_product_wzwVAy": {
+      "type": "faq-product",
+      "settings": {
+        "invert_order": false,
+        "shrink_height": false,
+        "top_padding": false
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -126,10 +134,18 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "product_nav_fGC9Wy": {
+      "type": "product-nav",
+      "settings": {
+        "product_reference": "best-solar-cooker-fusion"
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "faq_product_wzwVAy",
+    "related-products",
+    "product_nav_fGC9Wy"
   ]
 }
