@@ -1,0 +1,64 @@
+<!-- product-nav.liquid -->
+
+<style>
+  #product-nav {
+    background-color: var(--color-contrast-higher);
+    border-radius: 20px 20px 0 0;
+  }
+</style>
+
+{% if product %}
+  <div id="product-nav" class="hidden fixed inset-x-0 bottom-0 shadow-md z-50 body-width">
+    <div class="content-width flex justify-between items-center p-4">
+      <div class="product-nav__title">
+        <span class="h3 text-white">{{ product.title }}</span>
+      </div>
+      <div class="product-nav__details flex items-center gap-12">
+        <div class="flex items-center">
+          <p class="product-nav__price mr-4 text-white">From </p>
+          <p class="h3 whitespace-nowrap text-white">{{ product.price | money }}</p>
+        </div>
+
+        <div class="product-form">
+          <div class="product-form__buttons form">
+            <button id="add-to-cart-btn" class="product-form__submit btn bg-primary text-white px-6 py-2">
+              <span>{{ 'products.product.add_to_cart' | t }} - {{ product.price | money_without_trailing_zeros }}</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <form id="add-to-cart-form" method="post" action="/cart/add">
+    <input type="hidden" name="id" value="{{ product.variants.first.id }}">
+    <input type="hidden" name="quantity" value="1">
+  </form>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const productNav = document.getElementById('product-nav');
+      const addToCartButton = document.getElementById('add-to-cart-btn');
+
+      function onScroll() {
+        const heroSection = document.querySelector('.product-hero');
+        const overviewSection = document.querySelector('.product-overview');
+        const heroBottom = heroSection ? heroSection.getBoundingClientRect().bottom : 0;
+        const overviewBottom = overviewSection ? overviewSection.getBoundingClientRect().bottom : 0;
+        const threshold = heroBottom || overviewBottom;
+
+        if (window.scrollY > threshold) {
+          productNav.classList.remove('hidden');
+        } else {
+          productNav.classList.add('hidden');
+        }
+      }
+
+      window.addEventListener('scroll', onScroll);
+
+      addToCartButton.addEventListener('click', function() {
+        document.getElementById('add-to-cart-form').submit();
+      });
+    });
+  </script>
+{% endif %}

@@ -117,6 +117,12 @@
         "top_padding": false
       }
     },
+    "need_help_cV6mQY": {
+      "type": "need-help",
+      "settings": {
+        "section_title": "Need help deciding?"
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -135,17 +141,17 @@
         "padding_bottom": 28
       }
     },
-    "product_nav_fGC9Wy": {
-      "type": "product-nav",
+    "pdp_nav_fqQWcm": {
+      "type": "pdp-nav",
       "settings": {
-        "product_reference": "best-solar-cooker-fusion"
       }
     }
   },
   "order": [
     "main",
     "faq_product_wzwVAy",
+    "need_help_cV6mQY",
     "related-products",
-    "product_nav_fGC9Wy"
+    "pdp_nav_fqQWcm"
   ]
 }
