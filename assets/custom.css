@@ -207,7 +207,7 @@ h1, .h1 {
 h2, .h2 {
   font-size: 60px;
   line-height: 56.9px; /* 94.833% */
-  letter-spacing: -2px;
+  letter-spacing: -2%;
 }
 
 @media screen and (max-width: 750px) {
@@ -336,3 +336,88 @@ h2, .h2 {
   .btn--ghost svg path {
     stroke: var(--color-contrast-higher) !important;
   }
+
+  button, .button {
+    box-shadow: none !important;
+  }
+
+  .icon-remove {
+    color: var(--color-contrast-higher)
+  }
+
+  /* PDP Gallery 
+  ================ */
+
+
+/* section-main-product.css | http://127.0.0.1:9292/assets/section-main-product.css?v=32826506163389487451711753891 */
+
+@media screen and (min-width: 750px) {
+  .product--thumbnail_slider .thumbnail-slider {
+    /* flex-direction: column; */
+  }
+  .thumbnail-slider .thumbnail-list.slider--tablet-up {
+    flex-direction: column;
+  }
+}
+
+.thumbnail.global-media-settings img {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+/* Inline #107 | http://127.0.0.1:9292/products/best-solar-cooker-fusion */
+
+.zz {
+
+  position: absolute;
+  height: auto;
+  width: 380px;
+  top: 1em;
+  z-index: 999;
+  left: 1em;
+}
+
+.product--thumbnail_slider .thumbnail-slider .slider-button {
+  display: none !important;
+}
+
+
+.slider__slide img {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+
+
+.global-media-settings {
+
+  border: var(--media-border-width) solid rgba(var(--color-foreground), var(--media-border-opacity));
+  border-radius: 20px;
+}
+
+
+
+
+/* component-slider.css | http://127.0.0.1:9292/assets/component-slider.css?v=14039311878856620671711137493 */
+
+
+media-gallery {
+  aspect-ratio: 1 / 1;
+}
+
+.product-media-container.bg-transparent.media-type-image.media-fit-contain.global-media-settings.gradient.constrain-height {
+  aspect-ratio: 1 / 1;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.product__media.media.media--transparent.br {
+  width: 100%;
+  height: 100%;
+}
+
+.thumbnail img {
+  filter: brightness(.89);
+  -webkit-filter: brightness(.86);
+}
