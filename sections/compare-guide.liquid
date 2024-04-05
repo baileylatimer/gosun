@@ -39,6 +39,9 @@
         {% if product.metafields.custom.weight %}
           <div class="compare-row p-6 flex justify-between"><span class="color-contrast-medium w-2/3">Weight</span> <span class="w-1/3">{{ product.metafields.custom.weight.value }}{{ product.metafields.custom.weight.unit }}</span></div>
         {% endif %}
+        {% if product.metafields.custom.dimensions %}
+          <div class="compare-row p-6 flex justify-between"><span class="color-contrast-medium w-2/3">Dimensions</span> <span class="w-1/3">{{ product.metafields.custom.dimensions }}</span></div>
+        {% endif %}
         {% if product.metafields.custom.capacity %}
           <div class="compare-row p-6 flex justify-between"><span class="color-contrast-medium w-2/3">Capacity</span>  <span class="w-1/3">{{ product.metafields.custom.capacity }}</span></div>
         {% endif %}
@@ -51,7 +54,27 @@
         {% if product.metafields.custom.cooks_at_night %}
           <div class="compare-row p-6 flex justify-between"><span class="color-contrast-medium w-2/3">Cooks at night</span>  <span class="w-1/3">{{ product.metafields.custom.cooks_at_night }}</span></div>
         {% endif %}
-     
+        {% if product.metafields.custom.wheels %}
+          <div class="compare-row p-6 flex justify-between"><span class="color-contrast-medium w-2/3">Wheels</span> <span class="w-1/3">{{ product.metafields.custom.wheels.value }}</span></div>
+        {% endif %}
+        {% if product.metafields.custom.dual_compartments %}
+          <div class="compare-row p-6 flex justify-between"><span class="color-contrast-medium w-2/3">Dual Compartments</span> <span class="w-1/3">{{ product.metafields.custom.dual_compartments.value }}</span></div>
+        {% endif %}
+        {% if product.metafields.custom.center_console %}
+          <div class="compare-row p-6 flex justify-between"><span class="color-contrast-medium w-2/3">Center Console</span> <span class="w-1/3">{{ product.metafields.custom.center_console }}</span></div>
+        {% endif %}
+        {% if product.metafields.custom.number_of_passengers %}
+          <div class="compare-row p-6 flex justify-between"><span class="color-contrast-medium w-2/3">Number of Passengers</span> <span class="w-1/3">{{ product.metafields.custom.number_of_passengers }}</span></div>
+        {% endif %}
+        {% if product.metafields.custom.water_filter %}
+          <div class="compare-row p-6 flex justify-between"><span class="color-contrast-medium w-2/3">Water Filter</span> <span class="w-1/3">{{ product.metafields.custom.water_filter }}</span></div>
+        {% endif %}
+        {% if product.metafields.custom.faucet %}
+          <div class="compare-row p-6 flex justify-between"><span class="color-contrast-medium w-2/3">Faucet</span> <span class="w-1/3">{{ product.metafields.custom.faucet }}</span></div>
+        {% endif %}
+        {% if product.metafields.custom.flow_rate %}
+          <div class="compare-row p-6 flex justify-between"><span class="color-contrast-medium w-2/3">Flow Rate</span> <span class="w-1/3">{{ product.metafields.custom.flow_rate }}</span></div>
+        {% endif %}
           <div class="compare-row p-6 flex justify-between"><span class="color-contrast-medium w-2/3">MSRP</span> <span class="w-1/3"> {{ product.price | money_without_trailing_zeros }}</span></div>
 
       </div>
