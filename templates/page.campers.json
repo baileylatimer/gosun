@@ -1,0 +1,202 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "hero_section_acdCzL": {
+      "type": "hero-section",
+      "settings": {
+        "shrink_height": false,
+        "video_url": "",
+        "background_image": "shopify:\/\/shop_images\/image_21_828x_39a94b11-9510-478f-82c3-3254926c7f72.webp",
+        "overline": "",
+        "heading": "Campers",
+        "paragraph": "Live off-grid with our all-in-one campers.",
+        "button1_text": "",
+        "button1_url": "",
+        "play_button_1": false,
+        "button2_text": "",
+        "button2_url": "",
+        "play_button_2": false
+      }
+    },
+    "feature_image_qi7PHt": {
+      "type": "feature-image",
+      "settings": {
+        "invert_order": true,
+        "shrink_height": true,
+        "top_padding": true,
+        "overline": "All-in-one trailer",
+        "heading": "Camp365",
+        "text": "Off-Grid Solar Trailer that is ultralight and easy to tow. The ultimate solar powered off-grid camper for adventurers seeking the roads less traveled.",
+        "price": "33950",
+        "image": "shopify:\/\/shop_images\/Placeholder_Image-4.jpg",
+        "button_url": "shopify:\/\/products\/camp365",
+        "button_label": "Buy Now",
+        "button_url_2": "",
+        "button_label_2": ""
+      }
+    },
+    "feature_image_B7RwwW": {
+      "type": "feature-image",
+      "settings": {
+        "invert_order": false,
+        "shrink_height": true,
+        "top_padding": true,
+        "overline": "Tiny home",
+        "heading": "Dream",
+        "text": "A cooler that doesn't need ice. The Chill can keep food cold, frozen, dry, and organized - never buy ice again. The included PowerBank (Power 144) let's you charge devices and power your Chill day and night.",
+        "price": "699",
+        "image": "shopify:\/\/shop_images\/5fb54d397b94e80011de9b94.webp",
+        "button_url": "shopify:\/\/products\/chill-camping-electric-cooler",
+        "button_label": "Buy Now",
+        "button_url_2": "shopify:\/\/pages\/dream-tiny-house",
+        "button_label_2": "Learn More"
+      }
+    },
+    "feature_image_nKd8pc": {
+      "type": "feature-image",
+      "settings": {
+        "invert_order": true,
+        "shrink_height": true,
+        "top_padding": true,
+        "overline": "Light & portable",
+        "heading": "Custom Van Builds",
+        "text": "Planning your dream van build? Looking to upgrade your rig with more solar gear? GoSun has the perfect suite of reliable solar powered appliances for your home away from home.",
+        "price": "",
+        "image": "shopify:\/\/shop_images\/Van_MegaMenu_1280x_f5d7b558-53be-464e-a5a4-744e63532bb9.webp",
+        "button_url": "",
+        "button_label": "",
+        "button_url_2": "shopify:\/\/pages\/van-builds",
+        "button_label_2": "Learn More"
+      }
+    },
+    "compare_guide_mCCJtX": {
+      "type": "compare-guide",
+      "blocks": {
+        "product_column_86MV4G": {
+          "type": "product_column",
+          "settings": {
+            "product_reference": "camp365"
+          }
+        },
+        "product_column_PgLWmc": {
+          "type": "product_column",
+          "settings": {
+            "product_reference": "dream-tiny-house"
+          }
+        }
+      },
+      "block_order": [
+        "product_column_86MV4G",
+        "product_column_PgLWmc"
+      ],
+      "settings": {
+      }
+    },
+    "featured_collection_Fxzf7q": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Accessories",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "solar-coolers-accessories",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "faq_3UD6WA": {
+      "type": "faq",
+      "blocks": {
+        "faq_item_LBciEK": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What makes the GoSun Camp365 Off-Grid Solar Trailer unique?",
+            "answer": "The GoSun Camp365 Off-Grid Solar Trailer is ultralightweight and easy to tow, making it perfect for adventurers seeking off-grid experiences. Equipped with essential solar appliances for cooking, refrigerating, showering, and optional climate control, it's the ultimate solar-powered camper for remote locations or campsites."
+          }
+        },
+        "faq_item_mycfMj": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How soon can I expect delivery of the Custom Edition Production Models of the Camp365 trailer?",
+            "answer": "Custom Edition Production Models are estimated to be available approximately 30 days after full payment is received. Please note that no coupons apply to these models."
+          }
+        },
+        "faq_item_MPdccz": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What additional information can I get after paying the $500 order fee for the Camp365 trailer?",
+            "answer": "After paying the $500 order fee, you can contact sales@gosun.co for questions, delivery updates, information on optional accessories, shipping options, and details about the balance payment schedule."
+          }
+        },
+        "faq_item_xD63w7": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What features does the GoSun Dream tiny house offer for off-grid living?",
+            "answer": "The GoSun Dream tiny house is designed for off-grid living and offers high-performance features suitable for RV resorts, off-grid locations, rental properties (e.g., AirBnB, VRBO), or vacation properties. It includes all appliances needed for comfortable living, allowing you to live anywhere under the sun without relying on external utilities."
+          }
+        },
+        "faq_item_cXDjT3": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How can GoSun's solar-powered appliances enhance my van build or upgrade?",
+            "answer": "Whether you're planning your dream van build or looking to upgrade your existing rig with more solar gear, GoSun offers a suite of reliable solar-powered appliances tailored for your home away from home. From cooking to refrigeration and beyond, our appliances are designed to make your travels more comfortable and sustainable."
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_LBciEK",
+        "faq_item_mycfMj",
+        "faq_item_MPdccz",
+        "faq_item_xD63w7",
+        "faq_item_cXDjT3"
+      ],
+      "settings": {
+        "invert_order": true,
+        "shrink_height": false,
+        "top_padding": false,
+        "image": "shopify:\/\/shop_images\/Placeholder_Image-4.jpg"
+      }
+    },
+    "need_help_gCLBEz": {
+      "type": "need-help",
+      "settings": {
+        "section_title": "Need help deciding?"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "hero_section_acdCzL",
+    "feature_image_qi7PHt",
+    "feature_image_B7RwwW",
+    "feature_image_nKd8pc",
+    "compare_guide_mCCJtX",
+    "featured_collection_Fxzf7q",
+    "faq_3UD6WA",
+    "need_help_gCLBEz"
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "hero_section_acdCzL": {
+      "type": "hero-section",
+      "settings": {
+        "shrink_height": false,
+        "video_url": "",
+        "background_image": "shopify:\/\/shop_images\/solar-charger-gosun.webp",
+        "overline": "",
+        "heading": "Solar Chargers",
+        "paragraph": "Compact yet powerful, keep the adventure charged up with the Sun.",
+        "button1_text": "",
+        "button1_url": "",
+        "play_button_1": false,
+        "button2_text": "",
+        "button2_url": "",
+        "play_button_2": false
+      }
+    },
+    "featured_collection_Fxzf7q": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "best-portable-solar-chargers",
+        "products_to_show": 25,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "faq_3UD6WA": {
+      "type": "faq",
+      "blocks": {
+        "faq_item_DmHqXq": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What devices can I charge with GoSun's Power 144?",
+            "answer": "GoSun's Power 144 portable power bank is versatile and can charge a wide range of devices, including laptops, tablets, cameras, phones, lights, and even GoSun's Chill, Brew, or Fusion solar appliances."
+          }
+        },
+        "faq_item_mycfMj": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How does the Shield solar panel benefit my vehicle?",
+            "answer": "The Shield folding solar panel not only helps keep your car cooler but also generates up to 60 Watts of electricity, allowing you to charge devices or power appliances directly via USB. Additionally, it can charge any GoSun Powerbank or your vehicle's battery with the included Alligator Clips."
+          }
+        },
+        "faq_item_YrXK93": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What essential devices can I power with GoSun's Power 1100 solar generator?",
+            "answer": "The Power 1100 solar generator is compact yet powerful, capable of running essential devices such as cameras, lights, laptops, and CPAP machines. It's also optimized to power GoSun's full line of super-efficient appliances, ensuring you have power where and when needed."
+          }
+        },
+        "faq_item_MPdccz": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Can I charge multiple devices simultaneously with the SolarTable 60?",
+            "answer": "Yes, the SolarTable 60 is designed to charge GoSun's Power 144 or Power 266 simultaneously, making it one of our fastest and most powerful solar chargers. You can use it to charge laptops, tablets, cameras, phones, lights, and even power the Chill and Fusion solar appliances, even at night."
+          }
+        },
+        "faq_item_xD63w7": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Is the SolarTable 60 suitable for outdoor use?",
+            "answer": "Absolutely! The SolarTable 60 is designed for outdoor adventures, featuring a collapsible design and tempered glass table surface. It provides shade to cover the Chill and ensures efficient solar charging, whether you're camping, at the beach, or exploring other outdoor environments."
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_DmHqXq",
+        "faq_item_mycfMj",
+        "faq_item_YrXK93",
+        "faq_item_MPdccz",
+        "faq_item_xD63w7"
+      ],
+      "settings": {
+        "invert_order": true,
+        "shrink_height": false,
+        "top_padding": false,
+        "image": "shopify:\/\/shop_images\/Placeholder_Image-7.jpg"
+      }
+    },
+    "need_help_gCLBEz": {
+      "type": "need-help",
+      "settings": {
+        "section_title": "Need help deciding?"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "hero_section_acdCzL",
+    "featured_collection_Fxzf7q",
+    "faq_3UD6WA",
+    "need_help_gCLBEz"
+  ]
+}

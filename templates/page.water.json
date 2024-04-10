@@ -1,0 +1,201 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "hero_section_acdCzL": {
+      "type": "hero-section",
+      "settings": {
+        "shrink_height": false,
+        "video_url": "",
+        "background_image": "shopify:\/\/shop_images\/GoSun_Flow_how_to_page_cover_image_3000x_2e771d26-ff4c-4a5b-a0f1-0006cc43ef15.webp",
+        "overline": "",
+        "heading": "Solar Water Purification Systems",
+        "paragraph": "Water is life. GoSun helps you meet off-grid water needs.",
+        "button1_text": "",
+        "button1_url": "",
+        "play_button_1": false,
+        "button2_text": "",
+        "button2_url": "",
+        "play_button_2": false
+      }
+    },
+    "feature_image_qi7PHt": {
+      "type": "feature-image",
+      "settings": {
+        "invert_order": true,
+        "shrink_height": true,
+        "top_padding": true,
+        "overline": "All-in-one",
+        "heading": "Flow Pro",
+        "text": "A water purifier device small enough to fit into a backpack, Flow uses solar energy to pump water at 15 PSI, and can function as a portable handwashing station, source of clean drinking water, and much more.",
+        "price": "299",
+        "image": "shopify:\/\/shop_images\/outdoor_sink_coffee_gosun_1800x_8d2a5fb0-a365-4cc0-b87b-d339d4204157.webp",
+        "button_url": "shopify:\/\/products\/flow-pro-portable-handwashing-station",
+        "button_label": "Buy Now",
+        "button_url_2": "",
+        "button_label_2": ""
+      }
+    },
+    "feature_image_B7RwwW": {
+      "type": "feature-image",
+      "settings": {
+        "invert_order": false,
+        "shrink_height": true,
+        "top_padding": true,
+        "overline": "Portable Water Pump + Shower",
+        "heading": "Spray",
+        "text": "Water at the push of a button. Nylon case contains everything needed for a faucet on the go: 18wh Powerbank, USB powered pump, 8 foot in \/ outlet silicone hoses, clamping faucet, and switch. Can function as a portable handwashing station, drinking fountain, shower, and much more.",
+        "price": "149",
+        "image": "shopify:\/\/shop_images\/Spray_Use_700x_ff7270fb-baad-42a3-a95b-9b2a21de7ae1.webp",
+        "button_url": "shopify:\/\/products\/portable-handwashing-water-pump-shower",
+        "button_label": "Buy Now",
+        "button_url_2": "shopify:\/\/pages\/chill",
+        "button_label_2": ""
+      }
+    },
+    "feature_image_nKd8pc": {
+      "type": "feature-image",
+      "settings": {
+        "invert_order": true,
+        "shrink_height": true,
+        "top_padding": true,
+        "overline": "Travel Coffee Maker",
+        "heading": "Brew",
+        "text": "Makes fresh coffee or tea anywhere in just 10 minutes. Stainless Steel Travel Mug, French Press & Heater All-In-One. 14oz vessel with 12volt, 120watt heating element in base allows hot drinks to be made from scratch.",
+        "price": "499",
+        "image": "shopify:\/\/shop_images\/138d469f5dc024299fd42ca5c912b4fe_2000x_c092ca2d-45c2-49ee-a3a6-8d5db6fbdce1.webp",
+        "button_url": "shopify:\/\/products\/best-travel-coffee-maker",
+        "button_label": "Buy Now",
+        "button_url_2": "shopify:\/\/pages\/chillito-electric-cooler",
+        "button_label_2": ""
+      }
+    },
+    "compare_guide_mCCJtX": {
+      "type": "compare-guide",
+      "blocks": {
+        "product_column_86MV4G": {
+          "type": "product_column",
+          "settings": {
+            "product_reference": "flow-pro-portable-handwashing-station"
+          }
+        },
+        "product_column_PgLWmc": {
+          "type": "product_column",
+          "settings": {
+            "product_reference": "flow-solar-water-purifier-camping"
+          }
+        }
+      },
+      "block_order": [
+        "product_column_86MV4G",
+        "product_column_PgLWmc"
+      ],
+      "settings": {
+      }
+    },
+    "featured_collection_Fxzf7q": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Accessories",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "water-accessories",
+        "products_to_show": 22,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "faq_3UD6WA": {
+      "type": "faq",
+      "blocks": {
+        "faq_item_DmHqXq": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What makes GoSun's solar coolers different from traditional coolers?",
+            "answer": "Our solar coolers, including Chill, Chillest, and Chillito, operate without the need for ice. They keep your food and drinks cool, dry, and organized using advanced cooling technology powered by solar energy or other power sources."
+          }
+        },
+        "faq_item_mycfMj": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How do I power my GoSun solar cooler?",
+            "answer": "GoSun solar coolers can be powered by various sources, including our PowerBank, AC Adapter, 12 Volt Cord (car port charger), Solar Table, or Flexible Solar Panels. This flexibility ensures you have access to power wherever your adventure takes you."
+          }
+        },
+        "faq_item_MPdccz": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Can I use GoSun solar coolers for camping trips or outdoor events?",
+            "answer": "Absolutely! Whether it's camping, BBQs, fishing, or simply enjoying the outdoors, our solar coolers are designed to enhance your outdoor experience by keeping your food and drinks fresh and cold without the hassle of ice."
+          }
+        },
+        "faq_item_xD63w7": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Are GoSun solar coolers easy to transport?",
+            "answer": "Yes, our solar coolers are designed with portability in mind. They feature built-in handles, all-terrain wheels, and lightweight construction, making them easy to transport for all your outdoor adventures."
+          }
+        },
+        "faq_item_cXDjT3": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Do GoSun solar coolers come with any warranties?",
+            "answer": "Yes, all GoSun solar coolers come with a warranty to ensure your satisfaction. Please refer to the specific product documentation for warranty details and terms of service."
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_DmHqXq",
+        "faq_item_mycfMj",
+        "faq_item_MPdccz",
+        "faq_item_xD63w7",
+        "faq_item_cXDjT3"
+      ],
+      "settings": {
+        "invert_order": true,
+        "shrink_height": false,
+        "top_padding": false,
+        "image": "shopify:\/\/shop_images\/Chillito_Shield_Carosel_3.png"
+      }
+    },
+    "need_help_gCLBEz": {
+      "type": "need-help",
+      "settings": {
+        "section_title": "Need help deciding?"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "hero_section_acdCzL",
+    "feature_image_qi7PHt",
+    "feature_image_B7RwwW",
+    "feature_image_nKd8pc",
+    "compare_guide_mCCJtX",
+    "featured_collection_Fxzf7q",
+    "faq_3UD6WA",
+    "need_help_gCLBEz"
+  ]
+}
