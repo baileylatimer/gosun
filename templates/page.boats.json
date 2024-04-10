@@ -13,9 +13,9 @@
       "settings": {
         "shrink_height": false,
         "video_url": "",
-        "background_image": "shopify:\/\/shop_images\/0d4d85ee51f7470f11124700ee308370_1390x_94e09751-f005-4ec9-967c-442837bb3107.jpg",
+        "background_image": "shopify:\/\/shop_images\/Ferryboat3_700x_1b118255-1a16-475c-ae53-c9449ac524fb.webp",
         "overline": "",
-        "heading": "Solar Coolers",
+        "heading": "Boats",
         "paragraph": "Solar Coolers never need ice while food and drinks stay cold, dry, and organized. ",
         "button1_text": "",
         "button1_url": "",
@@ -31,15 +31,15 @@
         "invert_order": true,
         "shrink_height": true,
         "top_padding": true,
-        "overline": "Freezer + Fridge",
-        "heading": "Chillest",
-        "text": "A cooler that never needs ice. Ultimate portable fridge, the Chillest cools food and drinks with electricity from 12V, AC or Solar. The Dual Zone 45 Liter cooler prepares you for any outdoor adventure. Control temps in either zone right with a range from -4°F to 68°F (-20°C to 20°C).",
-        "price": "899",
-        "image": "shopify:\/\/shop_images\/image_14_700x_772b7d02-99f8-432b-8267-c63c6933bd96.webp",
-        "button_url": "shopify:\/\/products\/chillest-portable-electric-cooler",
+        "overline": "Electric Boat",
+        "heading": "Elcat",
+        "text": "An Electric Boat that's fun, affordable, strong, solar powered and one of the world’s most energy efficient boats. Lightweight, yet durable DWF dropstitch construction allows it to glide on the water efficiently.",
+        "price": "10995",
+        "image": "shopify:\/\/shop_images\/gosunimg3_585x_13c15478-6058-42f9-bf9d-732aebc97c69.webp",
+        "button_url": "shopify:\/\/products\/gosun-electric-boat-solar",
         "button_label": "Buy Now",
         "button_url_2": "shopify:\/\/pages\/chillest-portable-electric-cooler",
-        "button_label_2": "Learn More"
+        "button_label_2": ""
       }
     },
     "feature_image_B7RwwW": {
@@ -48,14 +48,14 @@
         "invert_order": false,
         "shrink_height": true,
         "top_padding": true,
-        "overline": "All-arounder",
-        "heading": "Chill",
-        "text": "A cooler that doesn't need ice. The Chill can keep food cold, frozen, dry, and organized - never buy ice again. The included PowerBank (Power 144) let's you charge devices and power your Chill day and night.",
-        "price": "699",
-        "image": "shopify:\/\/shop_images\/chilldisplay_03-720x720.webp",
+        "overline": "Electric Boat",
+        "heading": "Elcat Splash",
+        "text": "ELCAT Splash is a bigger and easier-to-steer version of the all-electric Elcat boat. Complete with a NEW design 2024 Steering Console for easy navigation, speed, and battery management. Extra headroom beneath the sundeck is increased by 16 inches compared to the Elcat.",
+        "price": "15900",
+        "image": "shopify:\/\/shop_images\/image_7.jpg",
         "button_url": "shopify:\/\/products\/chill-camping-electric-cooler",
         "button_label": "Buy Now",
-        "button_url_2": "shopify:\/\/pages\/chill",
+        "button_url_2": "shopify:\/\/products\/gosun-elcat-splash",
         "button_label_2": "Learn More"
       }
     },
@@ -65,49 +65,74 @@
         "invert_order": true,
         "shrink_height": true,
         "top_padding": true,
-        "overline": "Light & portable",
-        "heading": "Chillito",
-        "text": "Portable car fridge for traveling, trucks, vans, boating, and camping. This lightweight electric cooler keeps your food and drinks cool, dry, and organized without the need for ice and can be used for charging devices. Great for tailgating, picnics, and watching the game.",
-        "price": "499",
-        "image": "shopify:\/\/shop_images\/Chillito_Shield_Carosel_2_500x_1675f4d4-47af-4653-b8d2-24b68cdc0631.webp",
+        "overline": "Inflatable Boat",
+        "heading": "Jet Boat",
+        "text": "Meet the Inflatable Jet Boat, a JetSki Attachment: Experience the water like never before with this easy and exhilarating watercraft accessory. The Jet Boat is a cutting-edge inflatable boat that seamlessly attaches to the front of a jetski, allowing up to six passengers to ride along in style and comfort.",
+        "price": "3499",
+        "image": "shopify:\/\/shop_images\/Carosel4_700x_61ddfa5f-49a4-4228-8230-ee6fb74c04b3.webp",
         "button_url": "shopify:\/\/products\/gosunpro-portable-solar-oven",
         "button_label": "Buy Now",
         "button_url_2": "shopify:\/\/pages\/chillito-electric-cooler",
+        "button_label_2": ""
+      }
+    },
+    "feature_image_aTedmP": {
+      "type": "feature-image",
+      "settings": {
+        "invert_order": false,
+        "shrink_height": false,
+        "top_padding": false,
+        "overline": "For large groups",
+        "heading": "Ferry Boat",
+        "text": "Can carry vehicles, heavy equipment, or people up to 10,000 pounds! Inflatable Ferryboat measures 26 feet long and 450 lbs. Ferryboat is designed for low to mid speed transportation up to speeds 20 knots \/ 23 mph.",
+        "price": "23000",
+        "image": "shopify:\/\/shop_images\/Ferryboat1_700x_2215e0cc-2ec0-490c-80d7-5bc6b2511873.webp",
+        "button_url": "",
+        "button_label": "Learn More",
+        "button_url_2": "",
         "button_label_2": "Learn More"
       }
     },
     "compare_guide_mCCJtX": {
       "type": "compare-guide",
       "blocks": {
-        "product_column_86MV4G": {
-          "type": "product_column",
-          "settings": {
-            "product_reference": "chillest-portable-electric-cooler"
-          }
-        },
         "product_column_PgLWmc": {
           "type": "product_column",
           "settings": {
-            "product_reference": "chill-camping-electric-cooler"
+            "product_reference": "gosun-electric-boat-solar"
+          }
+        },
+        "product_column_86MV4G": {
+          "type": "product_column",
+          "settings": {
+            "product_reference": "gosun-elcat-splash"
           }
         },
         "product_column_tMK3Ur": {
           "type": "product_column",
           "settings": {
-            "product_reference": "chillito-electric-cooler"
+            "product_reference": "jet-boat"
+          }
+        },
+        "product_column_LzQnTp": {
+          "type": "product_column",
+          "settings": {
+            "product_reference": "ferry-boat"
           }
         }
       },
       "block_order": [
-        "product_column_86MV4G",
         "product_column_PgLWmc",
-        "product_column_tMK3Ur"
+        "product_column_86MV4G",
+        "product_column_tMK3Ur",
+        "product_column_LzQnTp"
       ],
       "settings": {
       }
     },
     "featured_collection_Fxzf7q": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Accessories",
         "heading_size": "h1",
@@ -184,7 +209,7 @@
         "invert_order": true,
         "shrink_height": false,
         "top_padding": false,
-        "image": "shopify:\/\/shop_images\/Chillito_Shield_Carosel_3.png"
+        "image": "shopify:\/\/shop_images\/image_7.jpg"
       }
     },
     "need_help_gCLBEz": {
@@ -200,6 +225,7 @@
     "feature_image_qi7PHt",
     "feature_image_B7RwwW",
     "feature_image_nKd8pc",
+    "feature_image_aTedmP",
     "compare_guide_mCCJtX",
     "featured_collection_Fxzf7q",
     "faq_3UD6WA",
