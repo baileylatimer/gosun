@@ -1,0 +1,41 @@
+{% comment %}
+Title Section
+{% endcomment %}
+
+
+<div class=" py-16 border-btm border-top relative">
+
+
+  <div class="page-width">
+    <div class="container mx-auto flex justify-center items-center content-width-lg">
+
+      <h1 class="text-center">{{ section.settings.title }}</h1>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Title Section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Default Heading"
+      },
+
+      {
+        "id": "image",
+        "type": "image_picker",
+        "label": "Image"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Title Section",
+        "category": "Custom"
+      }
+    ]
+  }
+{% endschema %}

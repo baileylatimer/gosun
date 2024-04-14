@@ -3,6 +3,15 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "stamped_product_reviews_ugc_star_rating_badge_hNJJ4T": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/star-rating-badge\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "use_metafields": false,
+            "sku_tagtype": "sku",
+            "is_featured_product": false,
+            "featured_product_handle": ""
+          }
+        },
         "vendor": {
           "type": "text",
           "settings": {
@@ -81,6 +90,7 @@
         }
       },
       "block_order": [
+        "stamped_product_reviews_ugc_star_rating_badge_hNJJ4T",
         "vendor",
         "title",
         "caption",
@@ -107,6 +117,35 @@
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 12
+      }
+    },
+    "title_section_wJHw3h": {
+      "type": "title-section",
+      "settings": {
+        "title": "Reviews"
+      }
+    },
+    "1713136015e25a897a": {
+      "type": "apps",
+      "blocks": {
+        "stamped_product_reviews_ugc_main_widget_VhqhcM": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": false,
+            "sku_tagtype": "sku"
+          }
+        }
+      },
+      "block_order": [
+        "stamped_product_reviews_ugc_main_widget_VhqhcM"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "faq_product_wzwVAy": {
@@ -149,6 +188,8 @@
   },
   "order": [
     "main",
+    "title_section_wJHw3h",
+    "1713136015e25a897a",
     "faq_product_wzwVAy",
     "need_help_cV6mQY",
     "related-products",
