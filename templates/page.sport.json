@@ -1,0 +1,242 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "product_nav_A3Ldaj": {
+      "type": "product-nav",
+      "settings": {
+        "product_reference": "best-solar-cooker-fusion"
+      }
+    },
+    "hero_product_V8NU4k": {
+      "type": "hero-product",
+      "settings": {
+        "product_reference": "sport-e",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/b5349e6dc36f470aac9935942d3e78ce.mp4",
+        "background_image": "shopify:\/\/shop_images\/GoSun_Sport_how_to_page_cover_image.jpg",
+        "description": "Cook large meals anywhere, day or night.",
+        "feature_1_title": "Max Temperature",
+        "feature_1_description": "450ºF",
+        "feature_2_title": "Cooks for",
+        "feature_2_description": "5-6 people"
+      }
+    },
+    "feature_image_qi7PHt": {
+      "type": "feature-image",
+      "settings": {
+        "invert_order": true,
+        "shrink_height": true,
+        "top_padding": true,
+        "overline": "",
+        "heading": "Cook anywhere, anytime.",
+        "text": "Sport-E takes 20 minutes to cook a meal at 350°F, rain or shine",
+        "price": "",
+        "image": "shopify:\/\/shop_images\/sport-open-box-fastest-solar-oven-2-3-meals-gosun-935765.jpg",
+        "button_url": "",
+        "button_label": "",
+        "button_url_2": "",
+        "button_label_2": ""
+      }
+    },
+    "feature_tabs_YWndzJ": {
+      "type": "feature-tabs",
+      "blocks": {
+        "media_q9xfqk": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Easy to Use",
+            "tab_description": "Unfold, load with food, point towards sun or plug into 12V",
+            "image": "shopify:\/\/shop_images\/Placeholder_Image-2.jpg",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e580a2a16e9f43db9c831e01872ead84.mp4"
+          }
+        },
+        "media_Hkpygk": {
+          "type": "media",
+          "settings": {
+            "tab_title": "20 Mins to Meal",
+            "tab_description": "Reliably cooks a meal for two in just 20 minutes",
+            "image": "shopify:\/\/shop_images\/sport_open_tray_wings_1.png",
+            "video_url": ""
+          }
+        },
+        "media_rdCkmY": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Compact + Portable",
+            "tab_description": "Legs and reflectors fold up to protect and carry",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/5681042879aa489792e573bb8462bed7.mp4"
+          }
+        },
+        "media_PWLTtA": {
+          "type": "media",
+          "settings": {
+            "tab_title": "12V + Solar Oven",
+            "tab_description": "Cook directly with the sun or with car, boat, RV, battery",
+            "image": "shopify:\/\/shop_images\/sport-silicone-baking-pans-silicone-baking-pans-for-sport-gosun-329776.jpg",
+            "video_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "media_q9xfqk",
+        "media_Hkpygk",
+        "media_rdCkmY",
+        "media_PWLTtA"
+      ],
+      "settings": {
+      }
+    },
+    "feature_image_B7RwwW": {
+      "type": "feature-image",
+      "settings": {
+        "invert_order": true,
+        "shrink_height": false,
+        "top_padding": true,
+        "overline": "",
+        "heading": "Patented solar cooking technology",
+        "text": "The Fusion's patented solar evacuated tube creates the most efficient insulation in modern cooking technology. Two parabolic reflectors concentrate the sunlight into the cooking chamber - trapping the energy inside for cooking.",
+        "price": "",
+        "image": "shopify:\/\/shop_images\/image_29_700x_c97952ca-3c19-4f06-ae37-ec22548ac3a6.webp",
+        "button_url": "",
+        "button_label": "",
+        "button_url_2": "",
+        "button_label_2": ""
+      }
+    },
+    "hero_section_48ikpG": {
+      "type": "hero-section",
+      "settings": {
+        "shrink_height": false,
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0ff5128e4da14a2f995adeaa1af21f2a.mp4",
+        "overline": "",
+        "heading": "Built for the future",
+        "paragraph": "The Fusion's patented solar evacuated tube creates the most efficient insulation in modern cooking technology. Two parabolic reflectors concentrate the sunlight into the cooking chamber - trapping the energy inside for cooking.",
+        "button1_text": "",
+        "button1_url": "",
+        "play_button_1": false,
+        "button2_text": "",
+        "button2_url": "",
+        "play_button_2": false
+      }
+    },
+    "compare_guide_mCCJtX": {
+      "type": "compare-guide",
+      "blocks": {
+        "product_column_86MV4G": {
+          "type": "product_column",
+          "settings": {
+            "product_reference": "best-solar-cooker-fusion"
+          }
+        },
+        "product_column_PgLWmc": {
+          "type": "product_column",
+          "settings": {
+            "product_reference": "sport-e"
+          }
+        },
+        "product_column_tMK3Ur": {
+          "type": "product_column",
+          "settings": {
+            "product_reference": "gosunpro-portable-solar-oven"
+          }
+        }
+      },
+      "block_order": [
+        "product_column_86MV4G",
+        "product_column_PgLWmc",
+        "product_column_tMK3Ur"
+      ],
+      "settings": {
+      }
+    },
+    "product_page_faq_A6YJyW": {
+      "type": "product-page-faq",
+      "settings": {
+        "product_reference": "sport-e",
+        "invert_order": false,
+        "shrink_height": false,
+        "top_padding": false,
+        "image": "shopify:\/\/shop_images\/gosun_sport_solar_oven_grill_mobile.jpg"
+      }
+    },
+    "faq_3UD6WA": {
+      "type": "faq",
+      "blocks": {
+        "faq_item_DmHqXq": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What can I do with this product?",
+            "answer": "Awesome stuff. Lots of it."
+          }
+        },
+        "faq_item_mycfMj": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What can I do with this product?",
+            "answer": "Awesome stuff. Lots of it."
+          }
+        },
+        "faq_item_MPdccz": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What can I do with this product?",
+            "answer": "Awesome stuff. Lots of it."
+          }
+        },
+        "faq_item_xD63w7": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What can I do with this product?",
+            "answer": "Awesome stuff. Lots of it."
+          }
+        },
+        "faq_item_cXDjT3": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What can I do with this product?",
+            "answer": "Awesome stuff. Lots of it."
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_DmHqXq",
+        "faq_item_mycfMj",
+        "faq_item_MPdccz",
+        "faq_item_xD63w7",
+        "faq_item_cXDjT3"
+      ],
+      "disabled": true,
+      "settings": {
+        "invert_order": true,
+        "shrink_height": false,
+        "top_padding": false,
+        "image": "shopify:\/\/shop_images\/Rectangle_5_b5b0dff2-0a9f-4a77-8b1d-0d21bc16fa70.jpg"
+      }
+    },
+    "need_help_gCLBEz": {
+      "type": "need-help",
+      "settings": {
+        "section_title": "Need help deciding?"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product_nav_A3Ldaj",
+    "hero_product_V8NU4k",
+    "feature_image_qi7PHt",
+    "feature_tabs_YWndzJ",
+    "feature_image_B7RwwW",
+    "hero_section_48ikpG",
+    "compare_guide_mCCJtX",
+    "product_page_faq_A6YJyW",
+    "faq_3UD6WA",
+    "need_help_gCLBEz"
+  ]
+}
