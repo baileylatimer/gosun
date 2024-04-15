@@ -17,14 +17,14 @@
     "hero_product_V8NU4k": {
       "type": "hero-product",
       "settings": {
-        "product_reference": "best-solar-cooker-fusion",
-        "video_url": "",
+        "product_reference": "gosunpro-portable-solar-oven",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e7e8610fbff4483e8b434b322a7053b5.mp4",
         "background_image": "shopify:\/\/shop_images\/Rectangle_4.jpg",
-        "description": "Cook large meals anywhere, day or night.",
+        "description": "Cook meals and boil water anywhere.",
         "feature_1_title": "Max Temperature",
-        "feature_1_description": "450ºF",
+        "feature_1_description": "550ºF",
         "feature_2_title": "Cooks for",
-        "feature_2_description": "5-6 people"
+        "feature_2_description": "1 person"
       }
     },
     "feature_image_qi7PHt": {
@@ -34,10 +34,10 @@
         "shrink_height": true,
         "top_padding": true,
         "overline": "",
-        "heading": "Ready to heat",
-        "text": "If you're out of sunlight, plug the Fusion into a 12V source to power the 150 watt heating element. Use GoSun solar chargers to harness the power of the Sun to cook day and night.",
+        "heading": "Portability redefined.",
+        "text": "At just 2lbs, the Go is perfect for camping, backpacking, events, and survival.",
         "price": "",
-        "image": "shopify:\/\/shop_images\/solar_oven_night_cooking_700x_c218ace3-c700-44c5-a34b-b2e38a8883b5.webp",
+        "image": "shopify:\/\/shop_images\/Go-E_LifeStyle1.png",
         "button_url": "",
         "button_label": "",
         "button_url_2": "",
@@ -47,22 +47,21 @@
     "feature_tabs_YWndzJ": {
       "type": "feature-tabs",
       "blocks": {
-        "media_q9xfqk": {
-          "type": "media",
-          "settings": {
-            "tab_title": "Feed a family",
-            "tab_description": "With a 101 oz cooking tray you can cook a meal for five within an hour",
-            "image": "shopify:\/\/shop_images\/Placeholder_Image-2.jpg",
-            "video_url": ""
-          }
-        },
         "media_Hkpygk": {
           "type": "media",
           "settings": {
-            "tab_title": "Cook at night",
-            "tab_description": "Cook with the sun during the day and plug it in at night",
-            "image": "shopify:\/\/shop_images\/solar_oven_night_cooking_700x_c218ace3-c700-44c5-a34b-b2e38a8883b5.webp",
-            "video_url": ""
+            "tab_title": "Fits in your bag",
+            "tab_description": "Go anywhere with our smallest oven ever (2 lbs)",
+            "image": "shopify:\/\/shop_images\/GoSun_Go_how_to_page_cover_image_d83b55c4-4333-4424-8570-522530b6f4c8.jpg",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/7b43650dee1648cda5959a82f19fb8c0.mp4"
+          }
+        },
+        "media_q9xfqk": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Boil liquids",
+            "tab_description": "Perfect for tea, coffee, dehydrated foods and sterilizing water",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/40d78696cf6540dba1d3ebe2402c772f.mp4"
           }
         },
         "media_rdCkmY": {
@@ -70,22 +69,23 @@
           "settings": {
             "tab_title": "All-weather",
             "tab_description": "Rain, clouds, & snow. If you can see a shadow, it will cook.",
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e9b46de931d6458e97abbbd6a6811ad7.mp4"
+            "image": "shopify:\/\/shop_images\/Go_E_Portable.jpg",
+            "video_url": ""
           }
         },
         "media_PWLTtA": {
           "type": "media",
           "settings": {
-            "tab_title": "Portable",
-            "tab_description": "Deploys in seconds and collapses into a durable package",
-            "image": "shopify:\/\/shop_images\/Rectangle_4.jpg",
+            "tab_title": "Fuel-free",
+            "tab_description": "Cooks most meals in 20-30 minutes under the sun",
+            "image": "shopify:\/\/shop_images\/GoSun_Go_how_to_page_cover_image_e3dca38e-c214-48ba-b338-850f54170a48.jpg",
             "video_url": ""
           }
         }
       },
       "block_order": [
-        "media_q9xfqk",
         "media_Hkpygk",
+        "media_q9xfqk",
         "media_rdCkmY",
         "media_PWLTtA"
       ],
@@ -99,10 +99,10 @@
         "shrink_height": false,
         "top_padding": true,
         "overline": "",
-        "heading": "Patented solar cooking technology",
-        "text": "The Fusion's patented solar evacuated tube creates the most efficient insulation in modern cooking technology. Two parabolic reflectors concentrate the sunlight into the cooking chamber - trapping the energy inside for cooking.",
+        "heading": "Boil water anywhere.",
+        "text": "Perfect for tea & coffee. Feeling hungry?\nAdd hot water to dry foods for a warm meal. Once heated, liquids stay hot and ready for hours.",
         "price": "",
-        "image": "shopify:\/\/shop_images\/image_29_700x_c97952ca-3c19-4f06-ae37-ec22548ac3a6.webp",
+        "image": "shopify:\/\/shop_images\/image_32_600x_bf4a54e2-e031-41f2-b474-efcdfe9add18.webp",
         "button_url": "",
         "button_label": "",
         "button_url_2": "",
@@ -111,6 +111,7 @@
     },
     "hero_section_48ikpG": {
       "type": "hero-section",
+      "disabled": true,
       "settings": {
         "shrink_height": false,
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e9b46de931d6458e97abbbd6a6811ad7.mp4",
@@ -155,57 +156,14 @@
       "settings": {
       }
     },
-    "faq_3UD6WA": {
-      "type": "faq",
-      "blocks": {
-        "faq_item_DmHqXq": {
-          "type": "faq_item",
-          "settings": {
-            "question": "What can I do with this product?",
-            "answer": "Awesome stuff. Lots of it."
-          }
-        },
-        "faq_item_mycfMj": {
-          "type": "faq_item",
-          "settings": {
-            "question": "What can I do with this product?",
-            "answer": "Awesome stuff. Lots of it."
-          }
-        },
-        "faq_item_MPdccz": {
-          "type": "faq_item",
-          "settings": {
-            "question": "What can I do with this product?",
-            "answer": "Awesome stuff. Lots of it."
-          }
-        },
-        "faq_item_xD63w7": {
-          "type": "faq_item",
-          "settings": {
-            "question": "What can I do with this product?",
-            "answer": "Awesome stuff. Lots of it."
-          }
-        },
-        "faq_item_cXDjT3": {
-          "type": "faq_item",
-          "settings": {
-            "question": "What can I do with this product?",
-            "answer": "Awesome stuff. Lots of it."
-          }
-        }
-      },
-      "block_order": [
-        "faq_item_DmHqXq",
-        "faq_item_mycfMj",
-        "faq_item_MPdccz",
-        "faq_item_xD63w7",
-        "faq_item_cXDjT3"
-      ],
+    "product_page_faq_LDayyV": {
+      "type": "product-page-faq",
       "settings": {
-        "invert_order": true,
+        "product_reference": "gosunpro-portable-solar-oven",
+        "invert_order": false,
         "shrink_height": false,
         "top_padding": false,
-        "image": "shopify:\/\/shop_images\/Rectangle_5_b5b0dff2-0a9f-4a77-8b1d-0d21bc16fa70.jpg"
+        "image": "shopify:\/\/shop_images\/Go-E_LifeStyle4.png"
       }
     },
     "need_help_gCLBEz": {
@@ -224,7 +182,7 @@
     "feature_image_B7RwwW",
     "hero_section_48ikpG",
     "compare_guide_mCCJtX",
-    "faq_3UD6WA",
+    "product_page_faq_LDayyV",
     "need_help_gCLBEz"
   ]
 }
