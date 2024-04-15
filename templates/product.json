@@ -31,6 +31,15 @@
             "text_style": "subtitle"
           }
         },
+        "rebuy_personalization_engine_rebuy_widget_r6TXnr": {
+          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "settings": {
+            "enabled": true,
+            "id": "143967",
+            "product_id_enabled": true,
+            "collection_id_enabled": false
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -94,6 +103,7 @@
         "vendor",
         "title",
         "caption",
+        "rebuy_personalization_engine_rebuy_widget_r6TXnr",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
