@@ -17,14 +17,14 @@
     "hero_product_V8NU4k": {
       "type": "hero-product",
       "settings": {
-        "product_reference": "best-solar-cooker-fusion",
-        "video_url": "",
+        "product_reference": "chillest-portable-electric-cooler",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/184dc84962b34cdc8882420c34c01e2b.mp4",
         "background_image": "shopify:\/\/shop_images\/Rectangle_4.jpg",
-        "description": "Cook large meals anywhere, day or night.",
-        "feature_1_title": "Max Temperature",
-        "feature_1_description": "450ºF",
-        "feature_2_title": "Cooks for",
-        "feature_2_description": "5-6 people"
+        "description": "A cooler and freezer that never needs ice.",
+        "feature_1_title": "Temp Control",
+        "feature_1_description": "-4°F to 68°F",
+        "feature_2_title": "Capacity",
+        "feature_2_description": "45 L"
       }
     },
     "feature_image_qi7PHt": {
@@ -34,10 +34,11 @@
         "shrink_height": true,
         "top_padding": true,
         "overline": "",
-        "heading": "Ready to heat",
-        "text": "If you're out of sunlight, plug the Fusion into a 12V source to power the 150 watt heating element. Use GoSun solar chargers to harness the power of the Sun to cook day and night.",
+        "heading": "Extreme portability for any adventure",
+        "text": "Take this solar cooler with you on all of your adventures. Power with any 12V source like a boat, car, truck or RV to extend the run time. The built in telescoping handle is designed for on-the-go movement, with large all-terrain wheels to handle uneven ground.",
         "price": "",
-        "image": "shopify:\/\/shop_images\/solar_oven_night_cooking_700x_c218ace3-c700-44c5-a34b-b2e38a8883b5.webp",
+        "image": "shopify:\/\/shop_images\/solar_cooler_chillest_boat.jpg",
+        "img-fit": false,
         "button_url": "",
         "button_label": "",
         "button_url_2": "",
@@ -50,35 +51,34 @@
         "media_q9xfqk": {
           "type": "media",
           "settings": {
-            "tab_title": "Feed a family",
-            "tab_description": "With a 101 oz cooking tray you can cook a meal for five within an hour",
-            "image": "shopify:\/\/shop_images\/Placeholder_Image-2.jpg",
-            "video_url": ""
+            "tab_title": "Cooling & freezing versatility",
+            "tab_description": "Two separate cooling zones allow you to set either zone as a freezer or fridge.",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/469fb42acad84987b15e2beddc639aaf.mp4"
           }
         },
         "media_Hkpygk": {
           "type": "media",
           "settings": {
-            "tab_title": "Cook at night",
-            "tab_description": "Cook with the sun during the day and plug it in at night",
-            "image": "shopify:\/\/shop_images\/solar_oven_night_cooking_700x_c218ace3-c700-44c5-a34b-b2e38a8883b5.webp",
-            "video_url": ""
+            "tab_title": "Make ice",
+            "tab_description": "Instead of melting ice, you can make it, or store ice cream",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c55f55b0f7484569a7636eb532527b69.mp4"
           }
         },
         "media_rdCkmY": {
           "type": "media",
           "settings": {
-            "tab_title": "All-weather",
-            "tab_description": "Rain, clouds, & snow. If you can see a shadow, it will cook.",
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e9b46de931d6458e97abbbd6a6811ad7.mp4"
+            "tab_title": "Charge Devices",
+            "tab_description": "Run off of 12 or 24 V DC, AC power, solar, or battery",
+            "image": "shopify:\/\/shop_images\/chillest-ultimate-gosun-933432.jpg",
+            "video_url": ""
           }
         },
         "media_PWLTtA": {
           "type": "media",
           "settings": {
-            "tab_title": "Portable",
-            "tab_description": "Deploys in seconds and collapses into a durable package",
-            "image": "shopify:\/\/shop_images\/Rectangle_4.jpg",
+            "tab_title": "Low Noise",
+            "tab_description": "Brushless compressor runs quieter than your local library",
+            "image": "shopify:\/\/shop_images\/chillest_handle.gif",
             "video_url": ""
           }
         }
@@ -99,10 +99,11 @@
         "shrink_height": false,
         "top_padding": true,
         "overline": "",
-        "heading": "Patented solar cooking technology",
-        "text": "The Fusion's patented solar evacuated tube creates the most efficient insulation in modern cooking technology. Two parabolic reflectors concentrate the sunlight into the cooking chamber - trapping the energy inside for cooking.",
+        "heading": "How it works",
+        "text": "The Chillest can run off of it's built in 87Wh battery, external Power Banks like GoSun's Power 144 or 266, DC car outlet, wall adapter, or additional power from GoSun's Solar Panels like the 30 W Solar Panel, 60 W Solar Table, etc.",
         "price": "",
-        "image": "shopify:\/\/shop_images\/image_29_700x_c97952ca-3c19-4f06-ae37-ec22548ac3a6.webp",
+        "image": "shopify:\/\/shop_images\/image_16_700x_b402180e-87e8-42da-8496-1ebbf8bd486d.webp",
+        "img-fit": true,
         "button_url": "",
         "button_label": "",
         "button_url_2": "",
@@ -131,19 +132,19 @@
         "product_column_86MV4G": {
           "type": "product_column",
           "settings": {
-            "product_reference": "best-solar-cooker-fusion"
+            "product_reference": "chillest-portable-electric-cooler"
           }
         },
         "product_column_PgLWmc": {
           "type": "product_column",
           "settings": {
-            "product_reference": "sport-e"
+            "product_reference": "chill-camping-electric-cooler"
           }
         },
         "product_column_tMK3Ur": {
           "type": "product_column",
           "settings": {
-            "product_reference": "gosunpro-portable-solar-oven"
+            "product_reference": "chillito-electric-cooler"
           }
         }
       },
