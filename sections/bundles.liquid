@@ -1,0 +1,45 @@
+<style>
+  .bundle-widget .rebuy-product-checkbox {
+    display: none
+  }
+  .rebuy-button {
+    border-radius: 50px !important
+  }
+
+  .rebuy-widget.widget-type-dynamic-bundle .rebuy-bundle__images {
+    margin: 0
+  }
+</style>
+
+
+<div class="flex flex-col gap-12 lg:flex-row body-width">
+
+  {% comment %} Solar Kitchen Pro {% endcomment %}
+  <div class="br bg-contrast-lower px-12">
+    <div class="bundle-widget" data-rebuy-id="144766" data-rebuy-shopify-product-ids="{{ product.id }}"></div>
+  </div>
+  {% comment %} Grid {% endcomment %}
+  <div class="br bg-contrast-lower px-12">
+    <div class="bundle-widget" data-rebuy-id="143973" data-rebuy-shopify-product-ids="{{ product.id }}"></div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Bundles Section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Default Heading"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Bundles Section",
+        "category": "Custom"
+      }
+    ]
+  }
+{% endschema %}
