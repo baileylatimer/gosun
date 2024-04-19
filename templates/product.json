@@ -129,6 +129,12 @@
         "padding_bottom": 12
       }
     },
+    "bundles_ReVT9y": {
+      "type": "bundles",
+      "settings": {
+        "title": "Default Heading"
+      }
+    },
     "title_section_wJHw3h": {
       "type": "title-section",
       "settings": {
@@ -198,6 +204,7 @@
   },
   "order": [
     "main",
+    "bundles_ReVT9y",
     "title_section_wJHw3h",
     "1713136015e25a897a",
     "faq_product_wzwVAy",
