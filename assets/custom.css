@@ -491,3 +491,15 @@ cart-drawer {
 .rebuy-bundle__actions-price {
   text-align: left;
 }
+
+.primary-title {
+  font-size: 16px;
+  color: var(--color-contrast-higher) !important;
+  margin-bottom: 0 !important;
+}
+
+@media screen and (max-width: 750px) {
+  .primary-title {
+    font-size: 13px;
+  }
+}
