@@ -112,6 +112,7 @@
     },
     "hero_section_48ikpG": {
       "type": "hero-section",
+      "disabled": true,
       "settings": {
         "shrink_height": false,
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e9b46de931d6458e97abbbd6a6811ad7.mp4",
@@ -156,57 +157,13 @@
       "settings": {
       }
     },
-    "faq_3UD6WA": {
-      "type": "faq",
-      "blocks": {
-        "faq_item_DmHqXq": {
-          "type": "faq_item",
-          "settings": {
-            "question": "What can I do with this product?",
-            "answer": "Awesome stuff. Lots of it."
-          }
-        },
-        "faq_item_mycfMj": {
-          "type": "faq_item",
-          "settings": {
-            "question": "What can I do with this product?",
-            "answer": "Awesome stuff. Lots of it."
-          }
-        },
-        "faq_item_MPdccz": {
-          "type": "faq_item",
-          "settings": {
-            "question": "What can I do with this product?",
-            "answer": "Awesome stuff. Lots of it."
-          }
-        },
-        "faq_item_xD63w7": {
-          "type": "faq_item",
-          "settings": {
-            "question": "What can I do with this product?",
-            "answer": "Awesome stuff. Lots of it."
-          }
-        },
-        "faq_item_cXDjT3": {
-          "type": "faq_item",
-          "settings": {
-            "question": "What can I do with this product?",
-            "answer": "Awesome stuff. Lots of it."
-          }
-        }
-      },
-      "block_order": [
-        "faq_item_DmHqXq",
-        "faq_item_mycfMj",
-        "faq_item_MPdccz",
-        "faq_item_xD63w7",
-        "faq_item_cXDjT3"
-      ],
+    "product_page_faq_EDKyqz": {
+      "type": "product-page-faq",
       "settings": {
-        "invert_order": true,
+        "product_reference": "chillest-portable-electric-cooler",
+        "invert_order": false,
         "shrink_height": false,
-        "top_padding": false,
-        "image": "shopify:\/\/shop_images\/Rectangle_5_b5b0dff2-0a9f-4a77-8b1d-0d21bc16fa70.jpg"
+        "top_padding": false
       }
     },
     "need_help_gCLBEz": {
@@ -225,7 +182,7 @@
     "feature_image_B7RwwW",
     "hero_section_48ikpG",
     "compare_guide_mCCJtX",
-    "faq_3UD6WA",
+    "product_page_faq_EDKyqz",
     "need_help_gCLBEz"
   ]
 }
