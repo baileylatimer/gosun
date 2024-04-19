@@ -853,6 +853,10 @@ video {
   gap: 1.5rem;
 }
 
+.gap-24 {
+  gap: 6rem;
+}
+
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -999,6 +1003,10 @@ video {
 
 .pt-72 {
   padding-top: 18rem;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
 }
 
 .text-left {

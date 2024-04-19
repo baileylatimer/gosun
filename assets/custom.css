@@ -281,6 +281,24 @@ h2, .h2 {
 
 /* BUTTONS 
 ===============*/
+.product-badge {
+  background-color: var(--color-contrast-higher);
+  color: var(--color-bg);
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  padding: 0 1em;
+  border-radius: 20px;
+}
+
+.product-badge--ghost {
+  background-color: transparent;
+  border: 1px solid var(--color-contrast-higher);
+  color: var(--color-contrast-higher);
+}
+
 
 .btn, .customer button, .button  {
   background: var(--color-primary);
@@ -365,10 +383,8 @@ h2, .h2 {
   overflow: hidden;
 }
 
-/* Inline #107 | http://127.0.0.1:9292/products/best-solar-cooker-fusion */
 
 .zz {
-
   position: absolute;
   height: auto;
   width: 380px;
@@ -464,4 +480,14 @@ cart-drawer {
 .rebuy-money.sale {
   color: var(--color-contrast-higher) !important;
   font-weight: 600;
+}
+
+
+.rebuy-widget.widget-type-dynamic-bundle .rebuy-bundle__image-item img {
+  filter: brightness(.95);
+  border-radius: 20px;
+}
+
+.rebuy-bundle__actions-price {
+  text-align: left;
 }
