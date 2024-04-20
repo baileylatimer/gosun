@@ -56,8 +56,13 @@
     </div>
     <!-- Image Content -->
     <div class="w-full md:w-1/2 h-full">
-      <img src="{{ section.settings.image | img_url: '800x' }}" alt="{{ section.settings.heading }}" class="w-full h-full object-cover br" {% if section.settings.img-fit == true %} style="object-fit: contain;"   {% endif %}>
-    </div>
+    {% if section.settings.video_url != blank %}
+      <video src="{{ section.settings.video_url }}" autoplay muted loop class="w-full h-full object-cover br" {% if section.settings.img-fit == true %} style="object-fit: cover;" {% endif %}></video>
+    {% else %}
+      <img src="{{ section.settings.image | img_url: '800x' }}" alt="{{ section.settings.heading }}" class="w-full h-full object-cover br" {% if section.settings.img-fit == true %} style="object-fit: contain;" {% endif %}>
+    {% endif %}
+  </div>
+  
   </div>
 </div>
 
@@ -107,6 +112,12 @@
       "id": "price",
       "label": "Price"
     },
+    {
+  "type": "url",
+  "id": "video_url",
+  "label": "Video URL"
+},
+
     {
       "type": "image_picker",
       "id": "image",
