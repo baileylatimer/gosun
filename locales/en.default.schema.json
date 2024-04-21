@@ -1955,6 +1955,15 @@
         "price": {
           "name": "Price"
         },
+        "bundle": {
+          "name": "Bundle",
+          "settings": {
+            "text": {
+              "label": "Bundle ID"
+            }
+          }
+
+        },
         "inventory": {
           "name": "Inventory status",
           "settings": {

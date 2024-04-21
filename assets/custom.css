@@ -246,6 +246,12 @@ h2, .h2 {
       }
       }
   
+      .p {
+        font-size: 1.6rem;
+        font-weight: normal;
+        font-family: 'Cera Pro Regular' !important;
+        line-height: 2rem !important;
+      }
 
   .text-small {
     font-size: 16px;
@@ -502,4 +508,9 @@ cart-drawer {
   .primary-title {
     font-size: 13px;
   }
+}
+
+/* Bundle */
+.rebuy-bundle__items .rebuy-product-checkbox {
+  display: none;
 }

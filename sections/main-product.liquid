@@ -127,9 +127,9 @@
                   </div>
                
                 </div>
-                <div class="mt-2">
-                <p >{{ product.type }}</p>
-                </div>
+             
+                <h2 class="p">{{ product.type }}</h2>
+           
               {%- when 'price' -%}
 
                 {%- if product.quantity_price_breaks_configured? -%}
@@ -483,6 +483,8 @@
                   section_id: section.id,
                   show_pickup_availability: true
                 -%}
+              {%- when 'bundle' -%}
+                <div data-rebuy-id="{{ block.settings.bundle_id }}" data-rebuy-shopify-product-ids="{{ product.id }}"></div>
               {%- when 'rating' -%}
                 {%- if product.metafields.reviews.rating.value != blank -%}
                   <div class="rating-wrapper">
@@ -774,6 +776,19 @@
     {
       "type": "@app"
     },
+
+    {
+      "type": "bundle",
+      "name": "Bundle",
+      "settings": [
+        {
+          "type": "text",
+          "id": "bundle_id",
+          "label": "Bundle ID"
+        }
+      ]
+    },
+
     {
       "type": "text",
       "name": "t:sections.main-product.blocks.text.name",
@@ -935,6 +950,9 @@
         }
       ]
     },
+
+
+    
     {
       "type": "buy_buttons",
       "name": "t:sections.main-product.blocks.buy_buttons.name",

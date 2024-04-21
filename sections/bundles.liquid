@@ -1,46 +1,88 @@
 <style>
   .bundle-widget .rebuy-product-checkbox {
-    display: none
+    display: none;
   }
+  
   .rebuy-button {
-    border-radius: 50px !important
+    border-radius: 50px !important;
   }
 
-  .rebuy-widget.widget-type-dynamic-bundle .rebuy-bundle__images {
-    margin: 0
+  /* .bundle-item {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 100%; 
+    overflow: hidden;
+  } */
+
+  .bundle-item img {
+  object-fit: cover;
+  aspect-ratio: 1/1;
+  height: 300px;
+  margin: 0 auto;
   }
 
+  .bundle-widget .rebuy-bundle__images {
+    display: none !important;
+  }
+
+  .rebuy-widget.widget-type-dynamic-bundle .rebuy-bundle__items {
+border-top: 1px solid var(--color-contrast-medium);
+margin-top: 1em;
+}
 </style>
+<div class="flex flex-col gap-12 lg:flex-row body-width pt-6 justify-end">
 
 
-<div class="flex flex-col gap-12 lg:flex-row body-width">
 
   {% comment %} Original Solar Kitchen {% endcomment %}
-  <div class="br bg-contrast-lower px-12 pt-12">
-    <div class="flex gap-6 items-center">
-      <h3>Original Solar Kitchen</h3> <div class="product-badge">Bundle</div>
+  {% if product.tags contains 'original-solar-kitchen' %}
+    <div class="br bg-contrast-lower px-12 pt-12 w-full">
+      <a class="block" href="/products/camping-stove-solar-kitchen">
+      <div class="flex gap-6 items-center">
+        <h3 class="whitespace-nowrap">Original Solar Kitchen</h3> <div class="product-badge">Bundle</div>
+      </div>
+      <div class="bundle-item">
+        <img src="https://cdn.shopify.com/s/files/1/0789/1333/files/original-solar-kitchen-cook-cool-charge-gosun-502525_2047375c-339a-4996-85e5-e5744dee3426.png?v=1713650675"/>
+      </div>
+      </a>
+      <div class="bundle-widget" data-rebuy-id="144854" data-rebuy-shopify-product-ids="{{ product.id }}"></div>
     </div>
-    <div class="bundle-widget" data-rebuy-id="144854" data-rebuy-shopify-product-ids="{{ product.id }}"></div>
-  </div>
+  {% endif %}
 
-    {% comment %} Solar Kitchen Pro  {% endcomment %}
-    <div class="br bg-contrast-lower px-12 pt-12">
+  {% comment %} Solar Kitchen Pro  {% endcomment %}
+  {% if product.tags contains 'solar-kitchen-pro' %}
+    <div class="br bg-contrast-lower px-12 pt-12 w-full">
+      <a class="block" href="/products/portable-solar-kitchen-2022-pro">
       <div class="flex gap-6 items-center">
         <h3>Solar Kitchen Pro </h3> <div class="product-badge">Bundle</div>
       </div>
+      <div class="bundle-item"> 
+        <img src="https://cdn.shopify.com/s/files/1/0789/1333/files/solar-kitchen-pro-boil-cook-cool-charge-water-gosun-737974_1_1a68e306-fe1e-4f1a-907f-59379e44ed0c.png?v=1713650675"/>
+      </div>
+      </a>
       <div class="bundle-widget" data-rebuy-id="144766" data-rebuy-shopify-product-ids="{{ product.id }}"></div>
     </div>
+  {% endif %}
 
-
-    {% comment %} Grid  {% endcomment %}
-    <div class="br bg-contrast-lower px-12 pt-12">
+  {% comment %} Grid  {% endcomment %}
+  {% if product.tags contains 'grid' %}
+    <div class="br bg-contrast-lower px-12 pt-12 w-full">
+      <a class="block" href="/products/grid">
       <div class="flex gap-6 items-center">
         <h3>Grid  </h3> <div class="product-badge">Bundle</div> <div class="product-badge product-badge--ghost">Best Value</div>
       </div>
+      <div class="bundle-item">
+        <img src="https://cdn.shopify.com/s/files/1/0789/1333/files/grid_hero_whitebg_9c9f24fa-f930-4b4c-9927-1416c3a500c7.png?v=1713650673"/>
+      </div>
+      </a>
       <div class="bundle-widget" data-rebuy-id="143973" data-rebuy-shopify-product-ids="{{ product.id }}"></div>
     </div>
+  {% endif %}
 
 </div>
+
+
 
 {% schema %}
   {
