@@ -531,41 +531,27 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-<script>
-  let items = document.querySelectorAll(".mega-menu");
-
-items.forEach(item => {
-  const content = item.querySelector('.mega-menu__content');
-  let timer;
-  
-  // Open the mega menu when mouse enters the parent link
-  item.addEventListener("mouseenter", () => {
-    clearTimeout(timer);
-    item.setAttribute("open", true);
-  });
-  
-  // Keep the mega menu open when mouse is over the content
-  content.addEventListener("mouseenter", () => {
-    clearTimeout(timer);
-    item.setAttribute("open", true);
-  });
-
-  // Close the mega menu when mouse leaves either the parent link or the content
-  item.addEventListener("mouseleave", () => {
-    timer = setTimeout(() => {
+  <script>
+  let items = document.querySelector(".header__inline-menu").querySelectorAll(".mega-menu");
+  console.log(items)
+  items.forEach(item => {
+    item.addEventListener("mouseover", () => {
+      item.setAttribute("open", true);
+      item.querySelector("ul").addEventListener("mouseleave", () => {
+        item.removeAttribute("open");
+      });
+    item.addEventListener("mouseleave", () => {
       item.removeAttribute("open");
-    }, 500); // Adjust the delay as needed
+    });
   });
   
-  content.addEventListener("mouseleave", () => {
-    timer = setTimeout(() => {
-      item.removeAttribute("open");
-    }, 500); // Adjust the delay as needed
   });
-});
-
-
 </script>
+
+
+
+
+
 
 
 {%- if request.page_type == 'index' -%}

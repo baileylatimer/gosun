@@ -52,6 +52,9 @@
           {% endif %}
         </div>
       {% endif %}
+      {% if section.settings.image_below != blank %}
+        <img src="{{ section.settings.image_below | img_url: '200x' }}" class="mt-8" style="object-fit: contain;" >
+      {% endif %}
       </div>
     </div>
     <!-- Image Content -->
@@ -150,6 +153,11 @@
       "id": "button_label_2",
       "label": "Button Label",
       "default": "Learn More"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_below",
+      "label": "Image Below Text"
     }
   ],
   "presets": [
