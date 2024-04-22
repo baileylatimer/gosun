@@ -30,7 +30,7 @@
             {{ section.settings.heading }}
           </h2>
           {% if section.settings.product_reference != blank %}
-            <h4>${{ product.price }}</h4>
+            <h4>${{ product.price | divided_by: 100 | money_without_cents  }}</h4>
           {% endif %}
         </div>
         <p {% if section.settings.button_label != blank %} class="mb-8" {% endif %}>
