@@ -28,6 +28,7 @@
     "feature_image_qi7PHt": {
       "type": "feature-image",
       "settings": {
+        "product_reference": "",
         "invert_order": true,
         "shrink_height": true,
         "top_padding": true,
@@ -35,7 +36,9 @@
         "heading": "Chillest",
         "text": "A cooler that never needs ice. Ultimate portable fridge, the Chillest cools food and drinks with electricity from 12V, AC or Solar. The Dual Zone 45 Liter cooler prepares you for any outdoor adventure. Control temps in either zone right with a range from -4°F to 68°F (-20°C to 20°C).",
         "price": "899",
+        "video_url": "",
         "image": "shopify:\/\/shop_images\/image_14_700x_772b7d02-99f8-432b-8267-c63c6933bd96.webp",
+        "img-fit": false,
         "button_url": "shopify:\/\/products\/chillest-portable-electric-cooler",
         "button_label": "Buy Now",
         "button_url_2": "shopify:\/\/pages\/chillest-portable-electric-cooler",
@@ -45,6 +48,7 @@
     "feature_image_B7RwwW": {
       "type": "feature-image",
       "settings": {
+        "product_reference": "",
         "invert_order": false,
         "shrink_height": true,
         "top_padding": true,
@@ -52,7 +56,9 @@
         "heading": "Chill",
         "text": "A cooler that doesn't need ice. The Chill can keep food cold, frozen, dry, and organized - never buy ice again. The included PowerBank (Power 144) let's you charge devices and power your Chill day and night.",
         "price": "699",
+        "video_url": "",
         "image": "shopify:\/\/shop_images\/chilldisplay_03-720x720.webp",
+        "img-fit": false,
         "button_url": "shopify:\/\/products\/chill-camping-electric-cooler",
         "button_label": "Buy Now",
         "button_url_2": "shopify:\/\/pages\/chill",
@@ -62,6 +68,7 @@
     "feature_image_nKd8pc": {
       "type": "feature-image",
       "settings": {
+        "product_reference": "chillito-electric-cooler",
         "invert_order": true,
         "shrink_height": true,
         "top_padding": true,
@@ -69,7 +76,9 @@
         "heading": "Chillito",
         "text": "Portable car fridge for traveling, trucks, vans, boating, and camping. This lightweight electric cooler keeps your food and drinks cool, dry, and organized without the need for ice and can be used for charging devices. Great for tailgating, picnics, and watching the game.",
         "price": "499",
+        "video_url": "",
         "image": "shopify:\/\/shop_images\/Chillito_Shield_Carosel_2_500x_1675f4d4-47af-4653-b8d2-24b68cdc0631.webp",
+        "img-fit": false,
         "button_url": "shopify:\/\/products\/gosunpro-portable-solar-oven",
         "button_label": "Buy Now",
         "button_url_2": "shopify:\/\/pages\/chillito-electric-cooler",

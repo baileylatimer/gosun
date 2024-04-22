@@ -28,6 +28,7 @@
     "feature_image_qi7PHt": {
       "type": "feature-image",
       "settings": {
+        "product_reference": "flow-pro-portable-handwashing-station",
         "invert_order": true,
         "shrink_height": true,
         "top_padding": true,
@@ -35,7 +36,9 @@
         "heading": "Flow Pro",
         "text": "A water purifier device small enough to fit into a backpack, Flow uses solar energy to pump water at 15 PSI, and can function as a portable handwashing station, source of clean drinking water, and much more.",
         "price": "299",
+        "video_url": "",
         "image": "shopify:\/\/shop_images\/outdoor_sink_coffee_gosun_1800x_8d2a5fb0-a365-4cc0-b87b-d339d4204157.webp",
+        "img-fit": false,
         "button_url": "shopify:\/\/products\/flow-pro-portable-handwashing-station",
         "button_label": "Buy Now",
         "button_url_2": "",
@@ -45,6 +48,7 @@
     "feature_image_B7RwwW": {
       "type": "feature-image",
       "settings": {
+        "product_reference": "portable-handwashing-water-pump-shower",
         "invert_order": false,
         "shrink_height": true,
         "top_padding": true,
@@ -52,7 +56,9 @@
         "heading": "Spray",
         "text": "Water at the push of a button. Nylon case contains everything needed for a faucet on the go: 18wh Powerbank, USB powered pump, 8 foot in \/ outlet silicone hoses, clamping faucet, and switch. Can function as a portable handwashing station, drinking fountain, shower, and much more.",
         "price": "149",
+        "video_url": "",
         "image": "shopify:\/\/shop_images\/Spray_Use_700x_ff7270fb-baad-42a3-a95b-9b2a21de7ae1.webp",
+        "img-fit": false,
         "button_url": "shopify:\/\/products\/portable-handwashing-water-pump-shower",
         "button_label": "Buy Now",
         "button_url_2": "shopify:\/\/pages\/chill",
@@ -62,6 +68,7 @@
     "feature_image_nKd8pc": {
       "type": "feature-image",
       "settings": {
+        "product_reference": "best-travel-coffee-maker",
         "invert_order": true,
         "shrink_height": true,
         "top_padding": true,
@@ -69,7 +76,9 @@
         "heading": "Brew",
         "text": "Makes fresh coffee or tea anywhere in just 10 minutes. Stainless Steel Travel Mug, French Press & Heater All-In-One. 14oz vessel with 12volt, 120watt heating element in base allows hot drinks to be made from scratch.",
         "price": "499",
+        "video_url": "",
         "image": "shopify:\/\/shop_images\/138d469f5dc024299fd42ca5c912b4fe_2000x_c092ca2d-45c2-49ee-a3a6-8d5db6fbdce1.webp",
+        "img-fit": false,
         "button_url": "shopify:\/\/products\/best-travel-coffee-maker",
         "button_label": "Buy Now",
         "button_url_2": "shopify:\/\/pages\/chillito-electric-cooler",
@@ -90,11 +99,18 @@
           "settings": {
             "product_reference": "flow-solar-water-purifier-camping"
           }
+        },
+        "product_column_8fmYke": {
+          "type": "product_column",
+          "settings": {
+            "product_reference": "portable-handwashing-water-pump-shower"
+          }
         }
       },
       "block_order": [
         "product_column_86MV4G",
-        "product_column_PgLWmc"
+        "product_column_PgLWmc",
+        "product_column_8fmYke"
       ],
       "settings": {
       }
