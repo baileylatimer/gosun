@@ -1,14 +1,85 @@
+
 {
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "mission_section_DFkMcm": {
+      "type": "mission-section",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about-shapes.png",
+        "heading": "GoSun is a team of designers, engineers, and change-makers, intent on serving the world with unparalleled clean energy solutions."
+      }
+    },
+    "feature_image_ppFGce": {
+      "type": "feature-image",
+      "settings": {
+        "invert_order": false,
+        "shrink_height": true,
+        "top_padding": false,
+        "overline": "",
+        "heading": "A solar future",
+        "text": "GoSun has provided funding to support the efforts of the California Fire  Foundation, The Houston Food Bank, Global Giving, and Operation BBQ  Relief. We have made donations to The American Red Cross and World  Central Kitchen to assist in Hurricane Florence relief efforts and to  the California Community Wildfire Relief Fund.",
+        "price": "",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/gosun-provides-red-cross-1500-solar-cookers-386451_1a72df25-8143-428d-a47e-34c888195051.webp",
+        "img-fit": false,
+        "button_url": "",
+        "button_label": "",
+        "button_url_2": "",
+        "button_label_2": ""
+      }
+    },
+    "feature_image_98jgCX": {
+      "type": "feature-image",
+      "settings": {
+        "invert_order": true,
+        "shrink_height": true,
+        "top_padding": false,
+        "overline": "",
+        "heading": "Meet the founder",
+        "text": "GoSun creates innovative products that encourage fun, resilience and  independence. We are passionate about our products and how they power  our customers’ lives. Founded in a small suburban garage in Cincinnati,  Ohio, we grew quickly thanks to our community of committed customers and  shareholders, who not only believe in our products, but also use them  to bring people together.",
+        "price": "",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/patrick_in_shop_stare.jpg",
+        "img-fit": false,
+        "button_url": "",
+        "button_label": "",
+        "button_url_2": "",
+        "button_label_2": "",
+        "image_below": "shopify:\/\/shop_images\/Patrick_Sherwin.png"
+      }
+    },
+    "feature_image_CQzRBb": {
+      "type": "feature-image",
+      "settings": {
+        "invert_order": false,
+        "shrink_height": false,
+        "top_padding": false,
+        "overline": "",
+        "heading": "Empowering others",
+        "text": "While volunteering with non-profits in Haiti and Latin America, Patrick  experienced first-hand the vulnerability of energy poverty. Touched by  the resilience and happiness of those living on just $2 a day, he spent  years facilitating technology, energy and social innovations in the  developing world. These efforts, including many failures to introduce  typical solar ovens, led to the realization that his solar hot dog  cooker invention could be something more, serving a great need in  emerging markets.",
+        "price": "",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/patrick_haiti_solar.jpg",
+        "img-fit": false,
+        "button_url": "",
+        "button_label": "",
+        "button_url_2": "",
+        "button_label_2": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "mission_section_DFkMcm",
+    "feature_image_ppFGce",
+    "feature_image_98jgCX",
+    "feature_image_CQzRBb"
   ]
 }
