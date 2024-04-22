@@ -524,3 +524,8 @@ product-info .rebuy-bundle__actions-buttons {
 }
 
 
+/* Cards
+=========== */
+.card__inner  {
+  filter: brightness(0.91)
+}
