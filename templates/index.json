@@ -169,22 +169,22 @@
         "text_with_image_3y73xg": {
           "type": "text_with_image",
           "settings": {
-            "text": "Your text here.",
-            "row_image": "shopify:\/\/shop_images\/Relume.png"
+            "text": "",
+            "row_image": "shopify:\/\/shop_images\/bbb-business_49aa12ac-2d70-4a5a-88f1-be40b20243f3.png"
           }
         },
         "text_with_image_6rmg8w": {
           "type": "text_with_image",
           "settings": {
-            "text": "Your text here.",
-            "row_image": "shopify:\/\/shop_images\/Relume.png"
+            "text": "",
+            "row_image": "shopify:\/\/shop_images\/climate-partner_af19b90f-efe5-471e-b0ae-12a95c3c0c25.png"
           }
         },
         "text_with_image_dYXQDp": {
           "type": "text_with_image",
           "settings": {
-            "text": "Your text here.",
-            "row_image": "shopify:\/\/shop_images\/Relume.png"
+            "text": "",
+            "row_image": "shopify:\/\/shop_images\/trees-for-the-future_e04f7aa6-cf31-4569-bac9-291f6b664637.png"
           }
         }
       },
@@ -289,11 +289,19 @@
       "type": "feature-image",
       "settings": {
         "invert_order": false,
+        "shrink_height": false,
+        "top_padding": false,
+        "overline": "",
         "heading": "Meet Elcat, our newest innovation",
         "text": "Lorem ipsum dolor sit amet consectetur. Non voluptat ullamcorper fermentum odio in non in nec neque.",
+        "price": "",
+        "video_url": "",
         "image": "shopify:\/\/shop_images\/elcat_a960b3f3-84fe-461a-b4c1-e9bf69eb6b7e.jpg",
+        "img-fit": false,
         "button_url": "",
-        "button_label": "Learn More"
+        "button_label": "Learn More",
+        "button_url_2": "",
+        "button_label_2": "Learn More"
       }
     },
     "social_section_7jVYar": {
@@ -303,42 +311,42 @@
           "type": "image",
           "settings": {
             "row": "row_1",
-            "image": "shopify:\/\/shop_images\/Placeholder_Image-1.jpg"
+            "image": "shopify:\/\/shop_images\/fusion_fall_hero_mobile.jpg"
           }
         },
         "image_jUprHX": {
           "type": "image",
           "settings": {
             "row": "row_1",
-            "image": "shopify:\/\/shop_images\/Placeholder_Image-5.jpg"
+            "image": "shopify:\/\/shop_images\/chillest-reward-reward-gosun-199933.jpg"
           }
         },
         "image_CPwmxV": {
           "type": "image",
           "settings": {
             "row": "row_1",
-            "image": "shopify:\/\/shop_images\/Placeholder_Image-6.jpg"
+            "image": "shopify:\/\/shop_images\/water_filter_gosun_flow.jpg"
           }
         },
         "image_QPw9Kz": {
           "type": "image",
           "settings": {
             "row": "row_1",
-            "image": "shopify:\/\/shop_images\/Placeholder_Image.jpg"
+            "image": "shopify:\/\/shop_images\/Chill_Game.jpg"
           }
         },
         "image_z4txNj": {
           "type": "image",
           "settings": {
             "row": "row_1",
-            "image": "shopify:\/\/shop_images\/Placeholder_Image-7.jpg"
+            "image": "shopify:\/\/shop_images\/ecoflow-ecoflow-delta-pro-portable-power-station-29805706117193_720x_d44b8e27-39c5-4528-8c63-75247870c63c.webp"
           }
         },
         "image_kK8xjE": {
           "type": "image",
           "settings": {
             "row": "row_1",
-            "image": "shopify:\/\/shop_images\/Placeholder_Image-4.jpg"
+            "image": "shopify:\/\/shop_images\/Boat_Pic_2_1024x1024_4d695916-1627-4ebc-8ab2-cc17a053f0a0.webp"
           }
         },
         "image_bcmNVj": {
