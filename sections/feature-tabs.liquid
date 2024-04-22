@@ -65,10 +65,19 @@
   display: block; /* Remove any default margins */
 }
 
+
 /* Adjust .media-display to have a specific height or responsive height */
 .media-display {
-  height: 500px; /* Example fixed height, adjust as needed */
+  height: 750px; /* Example fixed height, adjust as needed */
   position: relative; /* Needed for absolute positioning within */
+}
+
+@media screen and (max-width: 990px) {
+/* Adjust .media-display to have a specific height or responsive height */
+.media-display {
+  height: 400px; /* Example fixed height, adjust as needed */
+  position: relative; /* Needed for absolute positioning within */
+}
 }
 
 /* Ensure video tags fill the container */
