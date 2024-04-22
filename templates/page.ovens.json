@@ -28,14 +28,17 @@
     "feature_image_qi7PHt": {
       "type": "feature-image",
       "settings": {
+        "product_reference": "best-solar-cooker-fusion",
         "invert_order": true,
         "shrink_height": true,
         "top_padding": true,
         "overline": "For the family",
         "heading": "Fusion",
         "text": "Cook anywhere, sun or no sun. Our largest, most versatile solar oven yet, powered by solar or 12V. Unlimited, eco-friendly meals await. Adventure without limits.",
-        "price": "399",
+        "price": "",
+        "video_url": "",
         "image": "shopify:\/\/shop_images\/Rectangle_4.jpg",
+        "img-fit": false,
         "button_url": "shopify:\/\/products\/best-solar-cooker-fusion",
         "button_label": "Buy Now",
         "button_url_2": "shopify:\/\/pages\/fusion-1",
@@ -45,6 +48,7 @@
     "feature_image_B7RwwW": {
       "type": "feature-image",
       "settings": {
+        "product_reference": "sport-e",
         "invert_order": false,
         "shrink_height": true,
         "top_padding": true,
@@ -52,16 +56,19 @@
         "heading": "Sport-E",
         "text": "Solar by day, electric by night—this all-rounder solar oven cooks your adventures in 20 minutes flat. Sized right between our Go and Fusion, it’s the eco-smart choice for meals that move with you. Cool outside, hot inside, and ready for anywhere.",
         "price": "219",
+        "video_url": "",
         "image": "shopify:\/\/shop_images\/Rectangle_5_b5b0dff2-0a9f-4a77-8b1d-0d21bc16fa70.jpg",
+        "img-fit": false,
         "button_url": "shopify:\/\/products\/sport-e",
         "button_label": "Buy Now",
-        "button_url_2": "",
+        "button_url_2": "shopify:\/\/pages\/sport-e",
         "button_label_2": "Learn More"
       }
     },
     "feature_image_nKd8pc": {
       "type": "feature-image",
       "settings": {
+        "product_reference": "gosunpro-portable-solar-oven",
         "invert_order": true,
         "shrink_height": true,
         "top_padding": true,
@@ -69,10 +76,12 @@
         "heading": "Go",
         "text": "Your pocket-sized kitchen. Fast, affordable, and ultra-portable, it cooks meals or boils water in just 20 minutes. Ideal for camping, backpacking, or any adventure. Go anywhere, eat anything.",
         "price": "119",
+        "video_url": "",
         "image": "shopify:\/\/shop_images\/Rectangle_6.jpg",
+        "img-fit": false,
         "button_url": "shopify:\/\/products\/gosunpro-portable-solar-oven",
         "button_label": "Buy Now",
-        "button_url_2": "",
+        "button_url_2": "shopify:\/\/pages\/go",
         "button_label_2": "Learn More"
       }
     },
@@ -140,36 +149,36 @@
         "faq_item_DmHqXq": {
           "type": "faq_item",
           "settings": {
-            "question": "What can I do with this product?",
-            "answer": "Awesome stuff. Lots of it."
+            "question": "What makes the Fusion solar oven stand out from other models?",
+            "answer": "The Fusion solar oven is our largest and most versatile model, allowing you to cook anywhere, whether there's sun or not. Powered by solar energy or 12V, it offers unlimited eco-friendly meal possibilities for adventurers seeking boundless culinary experiences."
           }
         },
         "faq_item_mycfMj": {
           "type": "faq_item",
           "settings": {
-            "question": "What can I do with this product?",
-            "answer": "Awesome stuff. Lots of it."
+            "question": "What are the key features of the Sport-E solar oven?",
+            "answer": "The Sport-E solar oven is designed for versatility, with solar cooking during the day and electric cooking at night. It cooks your meals in just 20 minutes, making it the perfect all-rounder for adventurers on the move. Sized between our Go and Fusion models, it's the eco-smart choice for meals that adapt to your journey."
           }
         },
         "faq_item_MPdccz": {
           "type": "faq_item",
           "settings": {
-            "question": "What can I do with this product?",
-            "answer": "Awesome stuff. Lots of it."
+            "question": "Can the Fusion solar oven be used solely with solar power, or does it require additional power sources?",
+            "answer": "The Fusion solar oven is designed to be highly versatile, capable of being powered by solar energy or 12V. This flexibility ensures that you can cook your meals even in situations where direct sunlight may not be available."
           }
         },
         "faq_item_xD63w7": {
           "type": "faq_item",
           "settings": {
-            "question": "What can I do with this product?",
-            "answer": "Awesome stuff. Lots of it."
+            "question": "What type of cooking experience can I expect with the Sport-E solar oven?",
+            "answer": "The Sport-E solar oven offers a unique cooking experience, with solar cooking during the day and electric cooking at night. Its compact size and rapid cooking time of 20 minutes make it an ideal choice for outdoor adventures where convenience and efficiency are paramount."
           }
         },
         "faq_item_cXDjT3": {
           "type": "faq_item",
           "settings": {
-            "question": "What can I do with this product?",
-            "answer": "Awesome stuff. Lots of it."
+            "question": "How does the Go solar oven differ from other portable cooking options?",
+            "answer": "The Go solar oven is your pocket-sized kitchen, offering fast, affordable, and ultra-portable cooking solutions. It can cook meals or boil water in just 20 minutes, making it ideal for camping, backpacking, or any adventure where space and time are limited. With Go, you can go anywhere and eat anything."
           }
         }
       },

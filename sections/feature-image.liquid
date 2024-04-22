@@ -15,7 +15,7 @@
 
 
 {% endstyle %}
-
+{% assign product = all_products[section.settings.product_reference] %}
 <!-- Image Feature Section -->
 <div class="{% if section.settings.top_padding == false %} pt-12 {% endif %} pb-12 ">
   <div class="feature-image body-width flex gap-2 lg:gap-12 flex-col {% if section.settings.invert_order %}md:flex-row-reverse{% else %}md:flex-row{% endif %} items-center justify-between space-y-8 md:space-y-0">
@@ -29,8 +29,8 @@
           <h2 class="">
             {{ section.settings.heading }}
           </h2>
-          {% if section.settings.price != blank %}
-            <h4>${{ section.settings.price }}</h4>
+          {% if section.settings.product_reference != blank %}
+            <h4>${{ product.price }}</h4>
           {% endif %}
         </div>
         <p {% if section.settings.button_label != blank %} class="mb-8" {% endif %}>
@@ -75,6 +75,12 @@
 {
   "name": "Image Feature",
   "settings": [
+
+  {
+        "type": "product",
+        "id": "product_reference",
+        "label": "Select a product"
+      },
     {
       "type": "checkbox",
       "id": "invert_order",
