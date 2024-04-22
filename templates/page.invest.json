@@ -1,0 +1,53 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "feature_image_B8Mhcw": {
+      "type": "feature-image",
+      "settings": {
+        "product_reference": "",
+        "invert_order": false,
+        "shrink_height": false,
+        "top_padding": false,
+        "overline": "",
+        "heading": "Thank you for your interest in Gosun.",
+        "text": "Gosun has over 3,000 shareholders. Join the fuel-free frontier.",
+        "price": "",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/Invest_In_GoSun_edit-670-380-2_600x_e608c361-bc9b-479b-8b2d-5060433fa644.webp",
+        "img-fit": false,
+        "button_url": "",
+        "button_label": "View financials",
+        "button_url_2": "",
+        "button_label_2": ""
+      }
+    },
+    "title_section_9pXrQq": {
+      "type": "title-section",
+      "settings": {
+        "title": "If you would like more information on GOSUN, please fill out the from below."
+      }
+    },
+    "custom_liquid_HpyLTq": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<!-- www.123formbuilder.com script begins here -->\n<div class=\"mb40\">\n<script type=\"text\/javascript\" defer src=\"\/\/www.123formbuilder.com\/embed\/2661348.js\" data-role=\"form\" data-default-width=\"650px\"><\/script>\n<\/div>\n<!-- www.123formbuilder.com script ends here --> <meta charset=\"utf-8\">\n<div class=\"mb100\"><\/div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "feature_image_B8Mhcw",
+    "title_section_9pXrQq",
+    "custom_liquid_HpyLTq"
+  ]
+}
