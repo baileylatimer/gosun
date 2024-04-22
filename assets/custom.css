@@ -527,5 +527,12 @@ product-info .rebuy-bundle__actions-buttons {
 /* Cards
 =========== */
 .card__inner  {
-  filter: brightness(0.91)
+  filter: brightness(0.91);
+  -webkit-filter: brightness(0.91);
+  border-radius: 20px !important;
+  -webkit-border-radius: 20px !important;
+  -moz-border-radius: 20px !important;
+  -ms-border-radius: 20px !important;
+  -o-border-radius: 20px !important;
+  overflow: hidden;
 }
