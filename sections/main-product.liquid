@@ -484,6 +484,11 @@
                   show_pickup_availability: true
                 -%}
               {%- when 'bundle' -%}
+                <style>
+                  .price__container {
+                    display: none !important;
+                  }
+                </style>
                 <div data-rebuy-id="{{ block.settings.bundle_id }}" data-rebuy-shopify-product-ids="{{ product.id }}"></div>
               {%- when 'rating' -%}
                 {%- if product.metafields.reviews.rating.value != blank -%}

@@ -31,25 +31,6 @@
             "text_style": "subtitle"
           }
         },
-        "rebuy_personalization_engine_rebuy_widget_M8jETV": {
-          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
-          "disabled": true,
-          "settings": {
-            "enabled": true,
-            "id": "143973",
-            "product_id_enabled": true,
-            "collection_id_enabled": false
-          }
-        },
-        "rebuy_personalization_engine_rebuy_widget_r6TXnr": {
-          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
-          "settings": {
-            "enabled": true,
-            "id": "143967",
-            "product_id_enabled": true,
-            "collection_id_enabled": false
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -63,8 +44,15 @@
           "settings": {
           }
         },
+        "bundle_BMWxhg": {
+          "type": "bundle",
+          "settings": {
+            "bundle_id": "144766"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
+          "disabled": true,
           "settings": {
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
@@ -72,6 +60,7 @@
         },
         "price": {
           "type": "price",
+          "disabled": true,
           "settings": {
           }
         },
@@ -113,10 +102,9 @@
         "vendor",
         "title",
         "caption",
-        "rebuy_personalization_engine_rebuy_widget_M8jETV",
-        "rebuy_personalization_engine_rebuy_widget_r6TXnr",
         "variant_picker",
         "quantity_selector",
+        "bundle_BMWxhg",
         "buy_buttons",
         "price",
         "description",

@@ -31,30 +31,17 @@
             "text_style": "subtitle"
           }
         },
-        "rebuy_personalization_engine_rebuy_widget_M8jETV": {
-          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
-          "disabled": true,
-          "settings": {
-            "enabled": true,
-            "id": "143973",
-            "product_id_enabled": true,
-            "collection_id_enabled": false
-          }
-        },
-        "rebuy_personalization_engine_rebuy_widget_r6TXnr": {
-          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
-          "settings": {
-            "enabled": true,
-            "id": "143967",
-            "product_id_enabled": true,
-            "collection_id_enabled": false
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
             "picker_type": "button",
             "swatch_shape": "circle"
+          }
+        },
+        "bundle_zLPRKp": {
+          "type": "bundle",
+          "settings": {
+            "bundle_id": "143973"
           }
         },
         "quantity_selector": {
@@ -65,6 +52,7 @@
         },
         "buy_buttons": {
           "type": "buy_buttons",
+          "disabled": true,
           "settings": {
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
@@ -113,9 +101,8 @@
         "vendor",
         "title",
         "caption",
-        "rebuy_personalization_engine_rebuy_widget_M8jETV",
-        "rebuy_personalization_engine_rebuy_widget_r6TXnr",
         "variant_picker",
+        "bundle_zLPRKp",
         "quantity_selector",
         "buy_buttons",
         "price",
@@ -138,12 +125,6 @@
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 12
-      }
-    },
-    "bundles_ReVT9y": {
-      "type": "bundles",
-      "settings": {
-        "title": "Default Heading"
       }
     },
     "title_section_wJHw3h": {
@@ -215,7 +196,6 @@
   },
   "order": [
     "main",
-    "bundles_ReVT9y",
     "title_section_wJHw3h",
     "1713136015e25a897a",
     "faq_product_wzwVAy",

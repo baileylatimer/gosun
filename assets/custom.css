@@ -514,3 +514,11 @@ cart-drawer {
 .rebuy-bundle__items .rebuy-product-checkbox {
   display: none;
 }
+
+.rebuy-bundle__images {
+  display: none !important;
+}
+
+product-info .rebuy-bundle__actions-buttons {
+  width: 100% !important;
+}
