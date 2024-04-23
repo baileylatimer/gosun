@@ -288,20 +288,21 @@
     "feature_image_LWaCdC": {
       "type": "feature-image",
       "settings": {
+        "product_reference": "",
         "invert_order": false,
         "shrink_height": false,
         "top_padding": false,
         "overline": "",
-        "heading": "Meet Elcat, our newest innovation",
-        "text": "Lorem ipsum dolor sit amet consectetur. Non voluptat ullamcorper fermentum odio in non in nec neque.",
+        "heading": "Meet Elcat Splash, our newest innovation",
+        "text": "",
         "price": "",
         "video_url": "",
-        "image": "shopify:\/\/shop_images\/elcat_a960b3f3-84fe-461a-b4c1-e9bf69eb6b7e.jpg",
+        "image": "shopify:\/\/shop_images\/Splash_POV_700x_c23dc0d4-d02b-411f-be37-21a1049a9a72.webp",
         "img-fit": false,
-        "button_url": "",
+        "button_url": "shopify:\/\/pages\/elcat-splash",
         "button_label": "Learn More",
         "button_url_2": "",
-        "button_label_2": "Learn More"
+        "button_label_2": ""
       }
     },
     "social_section_7jVYar": {

@@ -25,6 +25,26 @@
         "play_button_2": false
       }
     },
+    "feature_image_B7RwwW": {
+      "type": "feature-image",
+      "settings": {
+        "product_reference": "gosun-elcat-splash",
+        "invert_order": false,
+        "shrink_height": true,
+        "top_padding": true,
+        "overline": "Electric Boat",
+        "heading": "Elcat Splash",
+        "text": "ELCAT Splash is a bigger and easier-to-steer version of the all-electric Elcat boat. Complete with a NEW design 2024 Steering Console for easy navigation, speed, and battery management. Extra headroom beneath the sundeck is increased by 16 inches compared to the Elcat.",
+        "price": "15900",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/image_7.jpg",
+        "img-fit": false,
+        "button_url": "shopify:\/\/products\/gosun-elcat-splash",
+        "button_label": "Buy Now",
+        "button_url_2": "shopify:\/\/pages\/elcat-splash",
+        "button_label_2": "Learn More"
+      }
+    },
     "feature_image_qi7PHt": {
       "type": "feature-image",
       "settings": {
@@ -45,31 +65,11 @@
         "button_label_2": ""
       }
     },
-    "feature_image_B7RwwW": {
-      "type": "feature-image",
-      "settings": {
-        "product_reference": "gosun-elcat-splash",
-        "invert_order": false,
-        "shrink_height": true,
-        "top_padding": true,
-        "overline": "Electric Boat",
-        "heading": "Elcat Splash",
-        "text": "ELCAT Splash is a bigger and easier-to-steer version of the all-electric Elcat boat. Complete with a NEW design 2024 Steering Console for easy navigation, speed, and battery management. Extra headroom beneath the sundeck is increased by 16 inches compared to the Elcat.",
-        "price": "15900",
-        "video_url": "",
-        "image": "shopify:\/\/shop_images\/image_7.jpg",
-        "img-fit": false,
-        "button_url": "shopify:\/\/products\/gosun-elcat-splash",
-        "button_label": "Buy Now",
-        "button_url_2": "",
-        "button_label_2": ""
-      }
-    },
     "feature_image_nKd8pc": {
       "type": "feature-image",
       "settings": {
         "product_reference": "jet-boat",
-        "invert_order": true,
+        "invert_order": false,
         "shrink_height": true,
         "top_padding": true,
         "overline": "Inflatable Boat",
@@ -89,7 +89,7 @@
       "type": "feature-image",
       "settings": {
         "product_reference": "ferry-boat",
-        "invert_order": false,
+        "invert_order": true,
         "shrink_height": false,
         "top_padding": false,
         "overline": "For large groups",
@@ -234,8 +234,8 @@
   "order": [
     "main",
     "hero_section_acdCzL",
-    "feature_image_qi7PHt",
     "feature_image_B7RwwW",
+    "feature_image_qi7PHt",
     "feature_image_nKd8pc",
     "feature_image_aTedmP",
     "compare_guide_mCCJtX",
