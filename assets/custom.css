@@ -433,6 +433,10 @@ media-gallery {
   height: 100%;
 }
 
+.product-media {
+  aspect-ratio: 1/1;
+}
+
 .product__media.media.media--transparent.br {
   width: 100%;
   height: 100%;
