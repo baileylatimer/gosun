@@ -85,39 +85,6 @@
         "button_label_2": "Learn More"
       }
     },
-    "compare_guide_mCCJtX": {
-      "type": "compare-guide",
-      "blocks": {
-        "product_column_86MV4G": {
-          "type": "product_column",
-          "settings": {
-            "product_reference": "best-solar-cooker-fusion",
-            "button_url": "shopify:\/\/pages\/fusion-1"
-          }
-        },
-        "product_column_PgLWmc": {
-          "type": "product_column",
-          "settings": {
-            "product_reference": "sport-e",
-            "button_url": "shopify:\/\/pages\/sport-e"
-          }
-        },
-        "product_column_tMK3Ur": {
-          "type": "product_column",
-          "settings": {
-            "product_reference": "gosunpro-portable-solar-oven",
-            "button_url": "shopify:\/\/pages\/go"
-          }
-        }
-      },
-      "block_order": [
-        "product_column_86MV4G",
-        "product_column_PgLWmc",
-        "product_column_tMK3Ur"
-      ],
-      "settings": {
-      }
-    },
     "featured_collection_Fxzf7q": {
       "type": "featured-collection",
       "settings": {
@@ -144,6 +111,39 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "compare_guide_rkUnF7": {
+      "type": "compare-guide",
+      "blocks": {
+        "product_column_PNUiRY": {
+          "type": "product_column",
+          "settings": {
+            "product_reference": "best-solar-cooker-fusion",
+            "button_url": "shopify:\/\/pages\/fusion-1"
+          }
+        },
+        "product_column_pPAFpy": {
+          "type": "product_column",
+          "settings": {
+            "product_reference": "sport-e",
+            "button_url": "shopify:\/\/pages\/sport-e"
+          }
+        },
+        "product_column_abPENP": {
+          "type": "product_column",
+          "settings": {
+            "product_reference": "gosunpro-portable-solar-oven",
+            "button_url": "shopify:\/\/pages\/go"
+          }
+        }
+      },
+      "block_order": [
+        "product_column_PNUiRY",
+        "product_column_pPAFpy",
+        "product_column_abPENP"
+      ],
+      "settings": {
       }
     },
     "faq_3UD6WA": {
@@ -212,8 +212,8 @@
     "feature_image_qi7PHt",
     "feature_image_B7RwwW",
     "feature_image_nKd8pc",
-    "compare_guide_mCCJtX",
     "featured_collection_Fxzf7q",
+    "compare_guide_rkUnF7",
     "faq_3UD6WA",
     "need_help_gCLBEz"
   ]

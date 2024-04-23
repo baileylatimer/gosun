@@ -30,6 +30,7 @@
     "feature_image_qi7PHt": {
       "type": "feature-image",
       "settings": {
+        "product_reference": "",
         "invert_order": true,
         "shrink_height": true,
         "top_padding": true,
@@ -37,7 +38,9 @@
         "heading": "Portability redefined.",
         "text": "At just 2lbs, the Go is perfect for camping, backpacking, events, and survival.",
         "price": "",
+        "video_url": "",
         "image": "shopify:\/\/shop_images\/Go-E_LifeStyle1.png",
+        "img-fit": false,
         "button_url": "",
         "button_label": "",
         "button_url_2": "",
@@ -95,6 +98,7 @@
     "feature_image_B7RwwW": {
       "type": "feature-image",
       "settings": {
+        "product_reference": "",
         "invert_order": true,
         "shrink_height": false,
         "top_padding": true,
@@ -102,7 +106,9 @@
         "heading": "Boil water anywhere.",
         "text": "Perfect for tea & coffee. Feeling hungry?\nAdd hot water to dry foods for a warm meal. Once heated, liquids stay hot and ready for hours.",
         "price": "",
+        "video_url": "",
         "image": "shopify:\/\/shop_images\/image_32_600x_bf4a54e2-e031-41f2-b474-efcdfe9add18.webp",
+        "img-fit": false,
         "button_url": "",
         "button_label": "",
         "button_url_2": "",
@@ -132,19 +138,22 @@
         "product_column_86MV4G": {
           "type": "product_column",
           "settings": {
-            "product_reference": "best-solar-cooker-fusion"
+            "product_reference": "best-solar-cooker-fusion",
+            "button_url": "shopify:\/\/pages\/fusion-1"
           }
         },
         "product_column_PgLWmc": {
           "type": "product_column",
           "settings": {
-            "product_reference": "sport-e"
+            "product_reference": "sport-e",
+            "button_url": "shopify:\/\/pages\/sport-e"
           }
         },
         "product_column_tMK3Ur": {
           "type": "product_column",
           "settings": {
-            "product_reference": "gosunpro-portable-solar-oven"
+            "product_reference": "gosunpro-portable-solar-oven",
+            "button_url": "shopify:\/\/pages\/go"
           }
         }
       },

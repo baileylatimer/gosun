@@ -33,7 +33,7 @@
         <div class="flex gap-6">
           <a href="{{ product.url }}" class="btn">Buy now {% render 'btn-arrow' %}</a>
           {% if block.settings.button_url != blank %}
-          <a href="/pages/{{ product.handle }}" class="btn btn--ghost">Learn more {% render 'btn-arrow' %}</a>
+          <a href="{{ block.settings.button_url }}" class="btn btn--ghost">Learn more {% render 'btn-arrow' %}</a>
          {% endif %}
         </div>
       </div>  

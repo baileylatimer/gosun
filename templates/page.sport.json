@@ -30,6 +30,7 @@
     "feature_image_qi7PHt": {
       "type": "feature-image",
       "settings": {
+        "product_reference": "",
         "invert_order": true,
         "shrink_height": true,
         "top_padding": true,
@@ -37,7 +38,9 @@
         "heading": "Cook anywhere, anytime.",
         "text": "Sport-E takes 20 minutes to cook a meal at 350°F, rain or shine",
         "price": "",
+        "video_url": "",
         "image": "shopify:\/\/shop_images\/sport-open-box-fastest-solar-oven-2-3-meals-gosun-935765.jpg",
+        "img-fit": false,
         "button_url": "",
         "button_label": "",
         "button_url_2": "",
@@ -95,6 +98,7 @@
     "feature_image_B7RwwW": {
       "type": "feature-image",
       "settings": {
+        "product_reference": "",
         "invert_order": true,
         "shrink_height": false,
         "top_padding": true,
@@ -102,7 +106,9 @@
         "heading": "Patented solar cooking technology",
         "text": "The Fusion's patented solar evacuated tube creates the most efficient insulation in modern cooking technology. Two parabolic reflectors concentrate the sunlight into the cooking chamber - trapping the energy inside for cooking.",
         "price": "",
+        "video_url": "",
         "image": "shopify:\/\/shop_images\/image_29_700x_c97952ca-3c19-4f06-ae37-ec22548ac3a6.webp",
+        "img-fit": false,
         "button_url": "",
         "button_label": "",
         "button_url_2": "",
@@ -131,19 +137,22 @@
         "product_column_86MV4G": {
           "type": "product_column",
           "settings": {
-            "product_reference": "best-solar-cooker-fusion"
+            "product_reference": "best-solar-cooker-fusion",
+            "button_url": "shopify:\/\/pages\/fusion-1"
           }
         },
         "product_column_PgLWmc": {
           "type": "product_column",
           "settings": {
-            "product_reference": "sport-e"
+            "product_reference": "sport-e",
+            "button_url": "shopify:\/\/pages\/sport-e"
           }
         },
         "product_column_tMK3Ur": {
           "type": "product_column",
           "settings": {
-            "product_reference": "gosunpro-portable-solar-oven"
+            "product_reference": "gosunpro-portable-solar-oven",
+            "button_url": "shopify:\/\/pages\/go"
           }
         }
       },
