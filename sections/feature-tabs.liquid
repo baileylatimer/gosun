@@ -98,7 +98,7 @@
     {% for block in section.blocks %}
       <div class="media-content {% if forloop.first %}active{% else %}hidden{% endif %}" id="media-{{ forloop.index }}">
         {% if block.settings.video_url %}
-          <video src="{{ block.settings.video_url }}" autoplay muted loop></video>
+          <video class="lozad" data-src="{{ block.settings.video_url }}" autoplay muted loop></video>
         {% endif %}
         {% if block.settings.image %}
           <img src="{{ block.settings.image | img_url: '800x' }}" alt="{{ block.settings.tab_title }}">
@@ -122,7 +122,7 @@
   </div>
 </div>
 
-
+<script src="path/to/lozad.min.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const tabs = document.querySelectorAll('.tab');
@@ -174,10 +174,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Initialize with the first tab active
   switchTab(0);
+
+  // Initialize Lozad
+  const observer = lozad('.lozad', {
+    loaded: function(el) {
+      // Video is loaded, autoplay it
+      el.play();
+    }
+  });
+  observer.observe();
 });
-
-
 </script>
+
 
 {% schema %}
 {
