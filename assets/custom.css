@@ -553,3 +553,10 @@ article h2 {
     line-height: 22px; /* 125% */
   }
   }
+
+
+  /* Cart 
+  ========== */
+  .rebuy-cart__flyout-subtotal {
+    margin-bottom: 4em;
+  }
