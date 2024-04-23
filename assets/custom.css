@@ -558,5 +558,98 @@ article h2 {
   /* Cart 
   ========== */
   .rebuy-cart__flyout-subtotal {
-    margin-bottom: 4em;
+    margin-bottom: 4em !important;
   }
+
+
+
+  /* Snize
+  ============= */
+  /* form.search .snize-input-style {
+display: none
+  }
+ */
+
+
+/* 
+
+div.snize * {
+  background: rgba(0,0,0,0) none repeat scroll 0% 0%;
+}
+
+#snize-search-results-grid-mode li.snize-product {
+
+  border: none !important;
+}
+
+#snize-search-results-grid-mode span.snize-thumbnail img {
+  position: relative !important;
+  filter: brightness(.91) !important;
+  border-radius: 20px 20px 0 0 !important;
+  -webkit-border-radius: 20px 20px 0 0 !important;
+  -moz-border-radius: 20px 20px 0 0 !important;
+  -ms-border-radius: 20px 20px 0 0 !important;
+  -o-border-radius: 20px 20px 0 0 !important;
+  -webkit-filter: brightness(.91) !important;
+}
+
+#snize-search-results-grid-mode span.snize-thumbnail {
+  border: none !important;
+  height: 220px !important;
+}
+
+#snize-search-results-grid-mode li.snize-product span.snize-title {
+  text-align: left !important;
+}
+
+#snize-search-results-grid-mode span.snize-description {
+  text-align: left !important;
+}
+
+#snize-search-results-grid-mode .snize-price-list {
+  text-align: left !important;
+}
+
+#snize-search-results-grid-mode span.snize-overhidden {
+
+  background: transparent !important;
+  padding: 15px 10px 5px 0px !important;
+} */
+
+
+
+
+
+.search__input.field__input {
+
+  background: var(--color-contrast-lower);
+  border-radius: 20px;
+  border: none;
+  box-shadow: none;
+}
+.field {
+  border: none;
+}
+
+
+  .search-modal__form {
+    border: none;
+  }
+
+
+.search-modal__form {
+  margin-top: .5em;
+}
+
+.field::after, .select::after, .customer .field::after, .customer select::after, .localization-form__select::after,
+.field:hover.field::after, .select:hover.select::after, .select__select:hover.select__select::after, .customer .field:hover.field::after, .customer select:hover.select::after, .localization-form__select:hover.localization-form__select::after {
+
+  border: none;
+  box-shadow: none;
+}
+
+
+.search-modal__content.search-modal__content-bottom {
+
+  background: var(--color-bg);
+}
