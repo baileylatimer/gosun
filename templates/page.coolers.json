@@ -28,7 +28,7 @@
     "feature_image_qi7PHt": {
       "type": "feature-image",
       "settings": {
-        "product_reference": "",
+        "product_reference": "chillest-portable-electric-cooler",
         "invert_order": true,
         "shrink_height": true,
         "top_padding": true,
@@ -48,7 +48,7 @@
     "feature_image_B7RwwW": {
       "type": "feature-image",
       "settings": {
-        "product_reference": "",
+        "product_reference": "chill-camping-electric-cooler",
         "invert_order": false,
         "shrink_height": true,
         "top_padding": true,
