@@ -60,13 +60,12 @@
       {% if section.settings.video_url != blank %}
       <video data-src="{{ section.settings.video_url }}" autoplay muted loop class="w-full h-full object-cover br lozad" {% if section.settings.img-fit == true %} style="object-fit: cover;" {% endif %}></video>
       {% else %}
-      <img data-src="{{ section.settings.image | img_url: '800x' }}" alt="{{ section.settings.heading }}" class="w-full h-full object-cover br lozad" {% if section.settings.img-fit == true %} style="object-fit: contain;" {% endif %}>
+      <img loading="lazy" src="{{ section.settings.image | img_url: '800x' }}" alt="{{ section.settings.heading }}" class="w-full h-full object-cover br lozad" {% if section.settings.img-fit == true %} style="object-fit: contain;" {% endif %}>
       {% endif %}
     </div>
   </div>
 </div>
 
-<script src="path/to/lozad.min.js"></script>
 <script>
 // Initialize Lozad
 const observer = lozad('.lozad', {

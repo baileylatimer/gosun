@@ -653,3 +653,21 @@ div.snize * {
 
   background: var(--color-bg);
 }
+
+.menu-drawer__localization {
+  display: none;
+}
+
+
+
+@media screen and (max-width: 750px) {
+.slick-slide img {
+  height: 210px;
+  object-fit: contain;
+}
+
+
+.product-row__item {
+  background: #fff;
+}
+}
