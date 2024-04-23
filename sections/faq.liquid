@@ -75,18 +75,10 @@
   </div>
   <!-- Image Content -->
   <div class="w-full md:w-1/2 h-full">
-    <img data-src="{{ section.settings.image | img_url: '800x' }}" alt="{{ section.settings.heading }}" class="w-full h-full object-cover br lozad">
+    <img src="{{ section.settings.image | img_url: '800x' }}" alt="{{ section.settings.heading }}" class="w-full h-full object-cover br lozad">
   </div>
 </div>
 </div>
-
-<script>
-// Lazy loading initialization
-const observer = lozad(); // lazy loads elements with default selector as '.lozad'
-observer.observe();
-</script>
-
-
 
 
 
