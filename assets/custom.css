@@ -670,3 +670,7 @@ div.snize * {
   background: #fff;
 }
 }
+
+.js details[open].menu-opening > .menu-drawer, details[open].menu-opening > .menu-drawer__submenu {
+  background: var(--color-bg);
+  }
