@@ -213,7 +213,7 @@ h2, .h2 {
 @media screen and (max-width: 750px) {
   h2, .h2 {
     font-size: 38px;
-    line-height: 29.9px; /* 78.684% */
+    line-height: 34px; /* 78.684% */
     letter-spacing: -1.9px;
   }
   }
