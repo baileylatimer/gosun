@@ -390,12 +390,12 @@ h2, .h2 {
 
 
 .zz {
-  position: absolute;
+  /* position: absolute; */
   height: auto;
   width: 380px;
-  top: 1em;
+  /* top: 1em;
   z-index: 999;
-  left: 1em;
+  left: 1em; */
 }
 
 .product--thumbnail_slider .thumbnail-slider .slider-button {
