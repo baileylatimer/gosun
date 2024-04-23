@@ -32,7 +32,9 @@
         <h3 class="my-4">{{ product.title }}</h3>
         <div class="flex gap-6">
           <a href="{{ product.url }}" class="btn">Buy now {% render 'btn-arrow' %}</a>
+          {% if block.settings.button_url != blank %}
           <a href="/pages/{{ product.handle }}" class="btn btn--ghost">Learn more {% render 'btn-arrow' %}</a>
+         {% endif %}
         </div>
       </div>  
 
@@ -105,6 +107,11 @@
             "type": "product",
             "id": "product_reference",
             "label": "Select a product"
+          },
+          {
+            "type": "url",
+            "id": "button_url",
+            "label": "Learn More URL"
           }
         ]
       }
