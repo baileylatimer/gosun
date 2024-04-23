@@ -78,19 +78,8 @@ The Hero Section with video background
 
 <div class="relative body-width br h-screen bg-cover bg-center hero-section product-hero flex items-end" {% if page.metafields.custom.background_image_url != blank %}style="background-image: url('{{ page.metafields.custom.background_video_url | img_url: 'master' }}');"{% else %}style="background-image: url('{{ section.settings.background_image | img_url: 'master' }}');"{% endif %}>
   {% assign product = all_products[section.settings.product_reference] %}
-  <video
-    class="absolute w-full h-full object-cover"
-    autoplay
-    loop
-    muted
-    playsinline>
-    {% if page.metafields.custom.background_video_url %}
-      <source src="{{ page.metafields.custom.background_video_url }}" type="video/mp4">
-    {% else %}
-      <source src="{{ section.settings.video_url }}" type="video/mp4">
-    {% endif %}
-
-  </video>
+  <!-- Lazy-loaded video -->
+  <video data-src="{% if page.metafields.custom.background_video_url %}{{ page.metafields.custom.background_video_url }}{% else %}{{ section.settings.video_url }}{% endif %}" class="absolute w-full h-full object-cover lozad" autoplay loop muted playsinline></video>
 
   <div class="overlay-bottom"></div>
 
@@ -122,6 +111,12 @@ The Hero Section with video background
   </div>
 
 </div>
+
+<script>
+  // Lazy loading initialization for videos and images
+  const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+  observer.observe();
+</script>
 
 
 {% schema %}
