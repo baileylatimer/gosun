@@ -93,6 +93,7 @@
     "feature_image_qi7PHt": {
       "type": "feature-image",
       "settings": {
+        "product_reference": "",
         "invert_order": false,
         "shrink_height": true,
         "top_padding": true,
@@ -100,6 +101,7 @@
         "heading": "Solar cooler gives you more room to chill.",
         "text": "Whether it’s camping, bbq, fishing, or just relaxing in the Sun, we love the outdoors.  Nothing kills the trip like rotten food, soggy bread, or warm beer. To keep the adventure going, the Chill minimizes space needed for ice and fuel and maximizes space for fresh food, cold drinks, and fun times. It's like having a fridge on wheels.",
         "price": "",
+        "video_url": "",
         "image": "shopify:\/\/shop_images\/solar_cooler_compare_695x_af12ce44-8394-479d-939b-ccc09c3b5efe.webp",
         "img-fit": true,
         "button_url": "",
@@ -110,7 +112,9 @@
     },
     "feature_image_B7RwwW": {
       "type": "feature-image",
+      "disabled": true,
       "settings": {
+        "product_reference": "",
         "invert_order": true,
         "shrink_height": false,
         "top_padding": true,
@@ -118,6 +122,7 @@
         "heading": "How it works",
         "text": "The Chillest can run off of it's built in 87Wh battery, external Power Banks like GoSun's Power 144 or 266, DC car outlet, wall adapter, or additional power from GoSun's Solar Panels like the 30 W Solar Panel, 60 W Solar Table, etc.",
         "price": "",
+        "video_url": "",
         "image": "shopify:\/\/shop_images\/image_16_700x_b402180e-87e8-42da-8496-1ebbf8bd486d.webp",
         "img-fit": true,
         "button_url": "",
@@ -129,13 +134,15 @@
     "feature_image_yAb8Cw": {
       "type": "feature-image",
       "settings": {
-        "invert_order": false,
+        "product_reference": "",
+        "invert_order": true,
         "shrink_height": false,
         "top_padding": false,
         "overline": "",
         "heading": "Multi-modal power, means you've got options.",
         "text": "GoSun Chill can be powered by multiple power sources, including: Powerbank, AC Adapter, 12 Volt Cord (car port charger), Solar Table, or Flexible Solar Panels. This way, you can access the most convenient power sources when you need it. To charge the Powerbank, plug in the included AC Adapter into any wall socket (100-250VAC) or use one of our two solar charging options - the Solar Table or Flexible Solar Panel.",
         "price": "",
+        "video_url": "",
         "image": "shopify:\/\/shop_images\/download-_2_700x_79fd0e44-8a37-4cb9-bde5-e61eac24993b.webp",
         "img-fit": true,
         "button_url": "",
@@ -167,19 +174,22 @@
         "product_column_86MV4G": {
           "type": "product_column",
           "settings": {
-            "product_reference": "chillest-portable-electric-cooler"
+            "product_reference": "chillest-portable-electric-cooler",
+            "button_url": "shopify:\/\/pages\/chillest-portable-electric-cooler"
           }
         },
         "product_column_PgLWmc": {
           "type": "product_column",
           "settings": {
-            "product_reference": "chill-camping-electric-cooler"
+            "product_reference": "chill-camping-electric-cooler",
+            "button_url": "shopify:\/\/pages\/chill"
           }
         },
         "product_column_tMK3Ur": {
           "type": "product_column",
           "settings": {
-            "product_reference": "chillito-electric-cooler"
+            "product_reference": "chillito-electric-cooler",
+            "button_url": "shopify:\/\/pages\/chillito-electric-cooler"
           }
         }
       },

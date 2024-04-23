@@ -91,6 +91,7 @@
     "feature_image_qi7PHt": {
       "type": "feature-image",
       "settings": {
+        "product_reference": "",
         "invert_order": false,
         "shrink_height": true,
         "top_padding": true,
@@ -99,7 +100,7 @@
         "text": "Keep food and drinks cool, dry, and organized — without the need for ice. Simply pack your goods, set the temperature, and go.",
         "price": "",
         "video_url": "",
-        "image": "shopify:\/\/shop_images\/solar_cooler_compare_695x_af12ce44-8394-479d-939b-ccc09c3b5efe.webp",
+        "image": "shopify:\/\/shop_images\/Chillito_Shield_Carosel_3.png",
         "img-fit": true,
         "button_url": "",
         "button_label": "",
@@ -110,6 +111,7 @@
     "feature_image_B7RwwW": {
       "type": "feature-image",
       "settings": {
+        "product_reference": "",
         "invert_order": true,
         "shrink_height": false,
         "top_padding": true,
@@ -118,7 +120,7 @@
         "text": "The Power 144 external battery, included with every order, is the gateway to ultimate power flexibility. Charge the power bank with your car, grid power, or solar, and use it to power Chillito, USB devices, and other appliances.",
         "price": "",
         "video_url": "",
-        "image": "shopify:\/\/shop_images\/download-_2_700x_79fd0e44-8a37-4cb9-bde5-e61eac24993b.webp",
+        "image": "shopify:\/\/shop_images\/ChillitoPower.webp",
         "img-fit": true,
         "button_url": "",
         "button_label": "",
@@ -130,6 +132,7 @@
       "type": "feature-image",
       "disabled": true,
       "settings": {
+        "product_reference": "",
         "invert_order": false,
         "shrink_height": false,
         "top_padding": false,
@@ -169,19 +172,22 @@
         "product_column_86MV4G": {
           "type": "product_column",
           "settings": {
-            "product_reference": "chillest-portable-electric-cooler"
+            "product_reference": "chillest-portable-electric-cooler",
+            "button_url": "shopify:\/\/pages\/chillest-portable-electric-cooler"
           }
         },
         "product_column_PgLWmc": {
           "type": "product_column",
           "settings": {
-            "product_reference": "chill-camping-electric-cooler"
+            "product_reference": "chill-camping-electric-cooler",
+            "button_url": "shopify:\/\/pages\/chill"
           }
         },
         "product_column_tMK3Ur": {
           "type": "product_column",
           "settings": {
-            "product_reference": "chillito-electric-cooler"
+            "product_reference": "chillito-electric-cooler",
+            "button_url": "shopify:\/\/pages\/chillito-electric-cooler"
           }
         }
       },
