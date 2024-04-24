@@ -8,23 +8,178 @@
         "padding_bottom": 28
       }
     },
+    "hero_section_fBBVEg": {
+      "type": "hero-section",
+      "settings": {
+        "shrink_height": false,
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/b8ddc4bd98794a4983f25b589364d9cf.mp4",
+        "overline": "",
+        "heading": "All New Electric Boat",
+        "paragraph": "Inflatable fun that's affordable for your Rental Fleet",
+        "button1_text": "Enquire now",
+        "button1_url": "#formsec",
+        "play_button_1": false,
+        "button2_text": "Calculate your ROI",
+        "button2_url": "#roi",
+        "play_button_2": false
+      }
+    },
+    "feature_image_yAb8Cw": {
+      "type": "feature-image",
+      "settings": {
+        "product_reference": "",
+        "invert_order": true,
+        "shrink_height": false,
+        "top_padding": false,
+        "overline": "",
+        "heading": "Meet the Elcat Splash",
+        "text": "Launched at Fort Lauderdale International Boat Show 2023. The European-made all-electric ELCAT Splash is the latest money-making watercraft that will delight your customers and have your competitors scrambling to play catch-up. This boat offers a silent and smooth-riding SIX passenger inflatable craft with low cost of operational ownership and high rate of return. ELCAT Splash is extremely durable and comes with the assurance of a commercial warranty and technical support.",
+        "price": "",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/elcat-splash-2.webp",
+        "img-fit": false,
+        "button_url": "",
+        "button_label": "",
+        "button_url_2": "",
+        "button_label_2": ""
+      }
+    },
+    "feature_image_qi7PHt": {
+      "type": "feature-image",
+      "settings": {
+        "product_reference": "",
+        "invert_order": false,
+        "shrink_height": true,
+        "top_padding": true,
+        "overline": "",
+        "heading": "Experience",
+        "text": "A simple helm\/center steering console , ample seating, and a roof deck mezzanine ensures ultimate leisure and comfort while cruising calm, inland waters.",
+        "price": "",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/drinkingwine_700x_383b6fcb-5aa1-4053-939f-13454e392790.webp",
+        "img-fit": false,
+        "button_url": "",
+        "button_label": "",
+        "button_url_2": "",
+        "button_label_2": ""
+      }
+    },
+    "feature_image_DJKemm": {
+      "type": "feature-image",
+      "settings": {
+        "product_reference": "",
+        "invert_order": true,
+        "shrink_height": false,
+        "top_padding": false,
+        "overline": "",
+        "heading": "Blue Horizon, Green Profits",
+        "text": "Priced under $16k, your rental operation could pay back your initial investment in as little as 6 weeks, one happy crew after another.",
+        "price": "",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/Splash_POV_700x_c23dc0d4-d02b-411f-be37-21a1049a9a72.webp",
+        "img-fit": false,
+        "button_url": "#roi",
+        "button_label": "Calculate your ROI",
+        "button_url_2": "",
+        "button_label_2": ""
+      }
+    },
     "product_nav_A3Ldaj": {
       "type": "product-nav",
+      "disabled": true,
       "settings": {
         "product_reference": "chill-camping-electric-cooler"
       }
     },
-    "hero_product_V8NU4k": {
-      "type": "hero-product",
+    "mission_section_VbyeNh": {
+      "type": "mission-section",
       "settings": {
-        "product_reference": "chill-camping-electric-cooler",
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/184dc84962b34cdc8882420c34c01e2b.mp4",
-        "background_image": "shopify:\/\/shop_images\/Rectangle_4.jpg",
-        "description": "A cooler that doesn't need ice.",
-        "feature_1_title": "Temp Control",
-        "feature_1_description": "-4°F to 68°F",
-        "feature_2_title": "Capacity",
-        "feature_2_description": "40 L"
+        "image": "shopify:\/\/shop_images\/boat-shapes.png",
+        "heading": "Light as air, agile as water."
+      }
+    },
+    "title_section_xkqKeV": {
+      "type": "title-section",
+      "settings": {
+        "title": "Calculate your ROI"
+      }
+    },
+    "boat_calculator_UMEjYT": {
+      "type": "boat-calculator",
+      "settings": {
+        "show_elcat_landing_calculator_section": true
+      }
+    },
+    "feature_image_Hz3A3V": {
+      "type": "feature-image",
+      "settings": {
+        "product_reference": "",
+        "invert_order": false,
+        "shrink_height": false,
+        "top_padding": false,
+        "overline": "",
+        "heading": "Boat",
+        "text": "<ul>\n  <li>Capacity: 6 Passengers \/ 1,322 lbs<\/li>\n      <li>Roof capacity: 353 lbs<\/li>\n      <li>Length: 14'9\"<\/li>\n      <li>Width\/Beam: 8'2\"<\/li>\n      <li>Maximum Draft: 2'3\"<\/li>\n    <li>  Interior width: 6'5\"<\/li>\n      <li>Headroom: 4'8\"<\/li>\n      <li>Max PSI: 7 PSI<\/li>\n      <li>Roof Dimensions:5'8\"x6'5\"<\/li>\n     <li> Stowed dimensions: 4'x2'x2'<\/li>\n<\/ul>",
+        "price": "",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/Splash_Size_Chart_020724_1_1.webp",
+        "img-fit": true,
+        "button_url": "",
+        "button_label": "",
+        "button_url_2": "",
+        "button_label_2": ""
+      }
+    },
+    "feature_image_B7RwwW": {
+      "type": "feature-image",
+      "settings": {
+        "product_reference": "",
+        "invert_order": true,
+        "shrink_height": false,
+        "top_padding": true,
+        "overline": "",
+        "heading": "Motor & Battery",
+        "text": "<ul>\n\n <li>   Motor: ePropulsion Spirit 1.0<\/li>\n  <li>   Power: 1kw (3hp equivalent)<\/li>\n  <li>   Motor Weight: 24.2 lbs<\/li>\n   <li>  Efficient Cruise Speed: 3 MPH<\/li>\n  <li>   Top Speed: 6 MPH<\/li>\n   <li>  Battery: Spirit 1.0 Plus (1276wh)<\/li>\n   <li>  Battery Weight: 18.6 lbs<\/li>\n    <li> Standard Charging Time: 8.5 hrs<\/li>\n   <li>  Upgrade to Fast Charging: 3.5 hrs<\/li>\n   <li>  NO Maintenence!<\/li>\n    <li> Add extra Batteries to range<\/li>\n    <li> Tool-less Battery swap time: 15 seconds<\/li>\n\n<\/ul>",
+        "price": "",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/redbull_wrap_1.webp",
+        "img-fit": true,
+        "button_url": "",
+        "button_label": "",
+        "button_url_2": "",
+        "button_label_2": ""
+      }
+    },
+    "boat_numbers_XawEne": {
+      "type": "boat-numbers",
+      "settings": {
+        "show_elcat_landing_page_numbers_section": true
+      }
+    },
+    "feature_image_VLBegJ": {
+      "type": "feature-image",
+      "settings": {
+        "product_reference": "",
+        "invert_order": false,
+        "shrink_height": false,
+        "top_padding": false,
+        "overline": "1 Year Commercial Use Warranty",
+        "heading": "Ownership Benefits",
+        "text": "<ul>\n\n   <li> Rapid turnaround between rentals<\/li>\n     <li>  Low maintenance<\/li>\n     <li>  Family fun - anyone can be Captain<\/li>\n      <li> Quiet, smooth ride - chat, chill, or catch some tunes<\/li>\n      <li> Extra Batteries - click in\/out in seconds<\/li>\n      <li> Strong inflatable hull - reduces dock collision damage<\/li>\n      <li> Quick and easy to clean & protect<\/li>\n     <li>  Warranty: Hull - 1 Year | Motor + Battery - 2 Years<\/li>\n     <li>  3 year Protection Plan UPGRADE AVAILABLE!<\/li>\n\n<\/ul>",
+        "price": "",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/fun_elcat.jpg",
+        "img-fit": false,
+        "button_url": "",
+        "button_label": "",
+        "button_url_2": "",
+        "button_label_2": ""
+      }
+    },
+    "boat_form_y3khgk": {
+      "type": "boat-form",
+      "settings": {
+        "show_elcat_landing_form_section": true
       }
     },
     "feature_tabs_YWndzJ": {
@@ -71,138 +226,13 @@
         "media_Hkpygk",
         "media_rdCkmY"
       ],
-      "settings": {
-      }
-    },
-    "hero_section_fBBVEg": {
-      "type": "hero-section",
-      "settings": {
-        "shrink_height": false,
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/edc107f487b14cffacd3b99f1c53e6d1.mp4",
-        "overline": "",
-        "heading": "14+ hour runtime",
-        "paragraph": "Power 144 will keep Chill cool for 14 hours on an 80°F day",
-        "button1_text": "",
-        "button1_url": "",
-        "play_button_1": false,
-        "button2_text": "",
-        "button2_url": "",
-        "play_button_2": false
-      }
-    },
-    "feature_image_qi7PHt": {
-      "type": "feature-image",
-      "settings": {
-        "product_reference": "",
-        "invert_order": false,
-        "shrink_height": true,
-        "top_padding": true,
-        "overline": "",
-        "heading": "Solar cooler gives you more room to chill.",
-        "text": "Whether it’s camping, bbq, fishing, or just relaxing in the Sun, we love the outdoors.  Nothing kills the trip like rotten food, soggy bread, or warm beer. To keep the adventure going, the Chill minimizes space needed for ice and fuel and maximizes space for fresh food, cold drinks, and fun times. It's like having a fridge on wheels.",
-        "price": "",
-        "video_url": "",
-        "image": "shopify:\/\/shop_images\/solar_cooler_compare_695x_af12ce44-8394-479d-939b-ccc09c3b5efe.webp",
-        "img-fit": true,
-        "button_url": "",
-        "button_label": "",
-        "button_url_2": "",
-        "button_label_2": ""
-      }
-    },
-    "feature_image_B7RwwW": {
-      "type": "feature-image",
       "disabled": true,
-      "settings": {
-        "product_reference": "",
-        "invert_order": true,
-        "shrink_height": false,
-        "top_padding": true,
-        "overline": "",
-        "heading": "How it works",
-        "text": "The Chillest can run off of it's built in 87Wh battery, external Power Banks like GoSun's Power 144 or 266, DC car outlet, wall adapter, or additional power from GoSun's Solar Panels like the 30 W Solar Panel, 60 W Solar Table, etc.",
-        "price": "",
-        "video_url": "",
-        "image": "shopify:\/\/shop_images\/image_16_700x_b402180e-87e8-42da-8496-1ebbf8bd486d.webp",
-        "img-fit": true,
-        "button_url": "",
-        "button_label": "",
-        "button_url_2": "",
-        "button_label_2": ""
-      }
-    },
-    "feature_image_yAb8Cw": {
-      "type": "feature-image",
-      "settings": {
-        "product_reference": "",
-        "invert_order": true,
-        "shrink_height": false,
-        "top_padding": false,
-        "overline": "",
-        "heading": "Multi-modal power, means you've got options.",
-        "text": "GoSun Chill can be powered by multiple power sources, including: Powerbank, AC Adapter, 12 Volt Cord (car port charger), Solar Table, or Flexible Solar Panels. This way, you can access the most convenient power sources when you need it. To charge the Powerbank, plug in the included AC Adapter into any wall socket (100-250VAC) or use one of our two solar charging options - the Solar Table or Flexible Solar Panel.",
-        "price": "",
-        "video_url": "",
-        "image": "shopify:\/\/shop_images\/download-_2_700x_79fd0e44-8a37-4cb9-bde5-e61eac24993b.webp",
-        "img-fit": true,
-        "button_url": "",
-        "button_label": "",
-        "button_url_2": "",
-        "button_label_2": ""
-      }
-    },
-    "hero_section_48ikpG": {
-      "type": "hero-section",
-      "disabled": true,
-      "settings": {
-        "shrink_height": false,
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e9b46de931d6458e97abbbd6a6811ad7.mp4",
-        "overline": "",
-        "heading": "Built for the future",
-        "paragraph": "The Fusion's patented solar evacuated tube creates the most efficient insulation in modern cooking technology. Two parabolic reflectors concentrate the sunlight into the cooking chamber - trapping the energy inside for cooking.",
-        "button1_text": "",
-        "button1_url": "",
-        "play_button_1": false,
-        "button2_text": "",
-        "button2_url": "",
-        "play_button_2": false
-      }
-    },
-    "compare_guide_mCCJtX": {
-      "type": "compare-guide",
-      "blocks": {
-        "product_column_86MV4G": {
-          "type": "product_column",
-          "settings": {
-            "product_reference": "chillest-portable-electric-cooler",
-            "button_url": "shopify:\/\/pages\/chillest-portable-electric-cooler"
-          }
-        },
-        "product_column_PgLWmc": {
-          "type": "product_column",
-          "settings": {
-            "product_reference": "chill-camping-electric-cooler",
-            "button_url": "shopify:\/\/pages\/chill"
-          }
-        },
-        "product_column_tMK3Ur": {
-          "type": "product_column",
-          "settings": {
-            "product_reference": "chillito-electric-cooler",
-            "button_url": "shopify:\/\/pages\/chillito-electric-cooler"
-          }
-        }
-      },
-      "block_order": [
-        "product_column_86MV4G",
-        "product_column_PgLWmc",
-        "product_column_tMK3Ur"
-      ],
       "settings": {
       }
     },
     "product_page_faq_EDKyqz": {
       "type": "product-page-faq",
+      "disabled": true,
       "settings": {
         "product_reference": "chill-camping-electric-cooler",
         "invert_order": false,
@@ -219,15 +249,20 @@
   },
   "order": [
     "main",
-    "product_nav_A3Ldaj",
-    "hero_product_V8NU4k",
-    "feature_tabs_YWndzJ",
     "hero_section_fBBVEg",
-    "feature_image_qi7PHt",
-    "feature_image_B7RwwW",
     "feature_image_yAb8Cw",
-    "hero_section_48ikpG",
-    "compare_guide_mCCJtX",
+    "feature_image_qi7PHt",
+    "feature_image_DJKemm",
+    "product_nav_A3Ldaj",
+    "mission_section_VbyeNh",
+    "title_section_xkqKeV",
+    "boat_calculator_UMEjYT",
+    "feature_image_Hz3A3V",
+    "feature_image_B7RwwW",
+    "boat_numbers_XawEne",
+    "feature_image_VLBegJ",
+    "boat_form_y3khgk",
+    "feature_tabs_YWndzJ",
     "product_page_faq_EDKyqz",
     "need_help_gCLBEz"
   ]

@@ -2,7 +2,7 @@
 
   <section class="calculator_sec" id="roi">
   
-    <div class="container">
+    <div class="body-width">
       <div class="row">
         <div class="col-md-12">
           <div class="calculator_div">
@@ -36,7 +36,7 @@
   
   {% schema %}
   {
-    "name": "elcat landing calculator ",
+    "name": "Boat Calculator",
     "settings": [
       {
         "type": "checkbox",
@@ -44,7 +44,12 @@
         "label": "Show Elcat ROI Calculator",
         "default": false
       }
-    ]
+    ],
+    "presets": [
+    {
+      "name": "Boat Calculator"
+    }
+  ]
   }
   {% endschema %}
   

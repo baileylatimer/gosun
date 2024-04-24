@@ -1,0 +1,44 @@
+{% if section.settings.show_elcat_landing_form_section == true %}
+
+  <section class="form_sec" id="formsec">
+  
+    <div class="body-width">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="form_div">
+            
+             
+  <iframe src="https://forms.monday.com/forms/embed/e08fe5175904ddafc13f75e9a194b53c?r=use1" width="100%" height="1200px" style="border: 0; box-shadow: 5px 5px 56px 0px rgba(0,0,0,0.25);"></iframe>
+  
+  
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    
+  </section>
+  
+  
+  {% endif %}
+  
+  {% schema %}
+  {
+    "name": "Boat Form calculator ",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "show_elcat_landing_form_section",
+        "label": "Show Form Section",
+        "default": false
+      }
+    ],
+    "presets": [
+    {
+      "name": "Boat Form"
+    }
+  ]
+  }
+  {% endschema %}
+  
