@@ -139,21 +139,20 @@
     "feature_tabs_4yKUxY": {
       "type": "feature-tabs",
       "blocks": {
+        "media_97wX9t": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Quick & Easy Setup",
+            "tab_description": "One person can pop-up or down in less than 10 minutes",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/15209e6765c14c2e906fe8dfefa2feb5.mp4"
+          }
+        },
         "media_Btt8qm": {
           "type": "media",
           "settings": {
             "tab_title": "Off Grid Ready",
             "tab_description": "Complete solar setup brings comfort and reliability anywhere",
             "image": "shopify:\/\/shop_images\/gosun_camp365_off_grid_trailer_compact_ceaabf3f-2179-4e8b-b9ee-6a8f05bdaf2a.jpg",
-            "video_url": ""
-          }
-        },
-        "media_97wX9t": {
-          "type": "media",
-          "settings": {
-            "tab_title": "Quick & Easy Setup",
-            "tab_description": "One person can pop-up or down in less than 10 minutes",
-            "image": "shopify:\/\/shop_images\/off-grid_solar_trailer_gosun_camp365_durable.jpg",
             "video_url": ""
           }
         },
@@ -177,8 +176,8 @@
         }
       },
       "block_order": [
-        "media_Btt8qm",
         "media_97wX9t",
+        "media_Btt8qm",
         "media_bzPcYy",
         "media_DFEWCt"
       ],
@@ -213,7 +212,7 @@
         "shrink_height": false,
         "top_padding": false,
         "overline": "",
-        "heading": "Compact, Lightweight, and Easy toTow",
+        "heading": "Compact, Lightweight, and Easy to Tow",
         "text": "The all aluminum frame provides durability while weighing less than 1,800 lbs. Superb aerodynamics mean less drag and much better gas mileage.",
         "price": "",
         "video_url": "",
