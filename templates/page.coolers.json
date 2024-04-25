@@ -120,6 +120,7 @@
     },
     "featured_collection_Fxzf7q": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Accessories",
         "heading_size": "h1",
