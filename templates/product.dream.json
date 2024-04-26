@@ -1,0 +1,421 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "stamped_product_reviews_ugc_star_rating_badge_hNJJ4T": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/star-rating-badge\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "use_metafields": false,
+            "sku_tagtype": "sku",
+            "is_featured_product": false,
+            "featured_product_handle": ""
+          }
+        },
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "hide_sale_price": false
+          }
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "rebuy_personalization_engine_rebuy_widget_Y4dBrA": {
+          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "settings": {
+            "enabled": true,
+            "id": "143967",
+            "product_id_enabled": true,
+            "collection_id_enabled": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "buy_button_text": "Buy Architectural Plan",
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "hide_sale_price": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "collapsible_tab_wcr9wy": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Weight & Dimensions",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.my_fields._weight_and_dimensions | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_peG8ey": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Tech Specs",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.my_fields.features | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_kAefXq": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "What's included",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.my_fields.in_the_box | metafield_tag }}<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "stamped_product_reviews_ugc_star_rating_badge_hNJJ4T",
+        "vendor",
+        "title",
+        "caption",
+        "rebuy_personalization_engine_rebuy_widget_Y4dBrA",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "price",
+        "description",
+        "collapsible_tab_wcr9wy",
+        "collapsible_tab_peG8ey",
+        "collapsible_tab_kAefXq"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "",
+        "media_size": "large",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "bundles_ht8HAi": {
+      "type": "bundles",
+      "settings": {
+        "title": "Default Heading"
+      }
+    },
+    "feature_tabs_4yKUxY": {
+      "type": "feature-tabs",
+      "blocks": {
+        "media_97wX9t": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Quick & Easy Setup",
+            "tab_description": "One person can pop-up or down in less than 10 minutes",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/15209e6765c14c2e906fe8dfefa2feb5.mp4"
+          }
+        },
+        "media_Btt8qm": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Off Grid Ready",
+            "tab_description": "Complete solar setup brings comfort and reliability anywhere",
+            "image": "shopify:\/\/shop_images\/gosun_camp365_off_grid_trailer_compact_ceaabf3f-2179-4e8b-b9ee-6a8f05bdaf2a.jpg",
+            "video_url": ""
+          }
+        },
+        "media_bzPcYy": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Aerodynamic & Lightweight",
+            "tab_description": "Sleek, sealed outer shell allows for easy towing and stowing",
+            "image": "shopify:\/\/shop_images\/camper_trailer_gosun_camp365_towing_5de8a2e1-77eb-488e-81f1-e5585f7b6f5d.jpg",
+            "video_url": ""
+          }
+        },
+        "media_DFEWCt": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Built to Last",
+            "tab_description": "Made without wood, or canvas, so there is no rust, mold, or rot",
+            "image": "shopify:\/\/shop_images\/gosun_camper_64d44684-9b85-4620-b8ec-caa313b21d60.jpg",
+            "video_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "media_97wX9t",
+        "media_Btt8qm",
+        "media_bzPcYy",
+        "media_DFEWCt"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "feature_image_4cRTCj": {
+      "type": "feature-image",
+      "disabled": true,
+      "settings": {
+        "product_reference": "",
+        "invert_order": false,
+        "shrink_height": true,
+        "top_padding": false,
+        "overline": "",
+        "heading": "Wake up with nature",
+        "text": "A one of a kind off-grid cabin on wheels, completely integrated with GoSun's breakthrough solar products. Innovative design and super efficient appliances allow you to go much further than traditional campers and RV’s.",
+        "price": "",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/camper_trailer_gosun_camp365_inside_layout_d1bbb385-5b2f-47d9-bf58-402e13fb66fe.jpg",
+        "img-fit": false,
+        "button_url": "",
+        "button_label": "",
+        "button_url_2": "",
+        "button_label_2": ""
+      }
+    },
+    "feature_image_TkcHRk": {
+      "type": "feature-image",
+      "disabled": true,
+      "settings": {
+        "product_reference": "",
+        "invert_order": true,
+        "shrink_height": false,
+        "top_padding": false,
+        "overline": "",
+        "heading": "Compact, Lightweight, and Easy to Tow",
+        "text": "The all aluminum frame provides durability while weighing less than 1,800 lbs. Superb aerodynamics mean less drag and much better gas mileage.",
+        "price": "",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/camp365_1.jpg",
+        "img-fit": false,
+        "button_url": "",
+        "button_label": "",
+        "button_url_2": "",
+        "button_label_2": ""
+      }
+    },
+    "hero_section_PGj3x3": {
+      "type": "hero-section",
+      "disabled": true,
+      "settings": {
+        "shrink_height": false,
+        "video_url": "",
+        "background_image": "shopify:\/\/shop_images\/trailer_camper_gosun_camp365_outdoor_solar_8e53f582-6384-466d-9ecf-97951ff1e467.jpg",
+        "overline": "",
+        "heading": "Camp off-grid. Anywhere. Everywhere.",
+        "paragraph": "Complete with all the appliances you need to adventure further and more often. It’s time to consider traveling lighter, easier, and with more freedom - all powered by the Sun.",
+        "button1_text": "",
+        "button1_url": "",
+        "play_button_1": false,
+        "button2_text": "",
+        "button2_url": "",
+        "play_button_2": false
+      }
+    },
+    "feature_image_FnmW3X": {
+      "type": "feature-image",
+      "disabled": true,
+      "settings": {
+        "product_reference": "",
+        "invert_order": false,
+        "shrink_height": false,
+        "top_padding": false,
+        "overline": "",
+        "heading": "Built to Last, and Last",
+        "text": "Lifetime cost of ownership is much lower when you are saving costs on maintenance, fuel, storage, and campground fees. High tech materials remove decay from the equation while the closed camper is sealed from the elements.",
+        "price": "",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/camp_365.png",
+        "img-fit": false,
+        "button_url": "",
+        "button_label": "",
+        "button_url_2": "",
+        "button_label_2": ""
+      }
+    },
+    "feature_image_V6A6zC": {
+      "type": "feature-image",
+      "disabled": true,
+      "settings": {
+        "product_reference": "",
+        "invert_order": true,
+        "shrink_height": false,
+        "top_padding": false,
+        "overline": "How we compare",
+        "heading": "There's only one GoSun",
+        "text": "GoSun designs for maximun fun and resilience. Camp365 helps elevate your camp experience and provides the freedom of going off-grid. With the best portability possible in an RV, it's a great fit for your daily driver.",
+        "price": "",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/trailer_comparison_chart_camp365_vs_trailer_700x_dcd63196-58cd-4940-a194-38627f559b36.webp",
+        "img-fit": true,
+        "button_url": "",
+        "button_label": "",
+        "button_url_2": "",
+        "button_label_2": ""
+      }
+    },
+    "feature_image_LzDkQT": {
+      "type": "feature-image",
+      "disabled": true,
+      "settings": {
+        "product_reference": "",
+        "invert_order": false,
+        "shrink_height": false,
+        "top_padding": false,
+        "overline": "",
+        "heading": "Top Down View",
+        "text": "",
+        "price": "",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/camp365-Top_View_Horizontal_062822_1000x800_crop_center_5bddec49-b8f1-4f14-86ca-29dd7288c976.webp",
+        "img-fit": true,
+        "button_url": "",
+        "button_label": "",
+        "button_url_2": "",
+        "button_label_2": ""
+      }
+    },
+    "feature_image_AammD7": {
+      "type": "feature-image",
+      "disabled": true,
+      "settings": {
+        "product_reference": "",
+        "invert_order": true,
+        "shrink_height": false,
+        "top_padding": false,
+        "overline": "",
+        "heading": "Side View",
+        "text": "",
+        "price": "",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/GoSun-Camp365-SideView_4db01cae-09b1-46d5-96db-196aa65e5d6d.jpg",
+        "img-fit": true,
+        "button_url": "",
+        "button_label": "",
+        "button_url_2": "",
+        "button_label_2": ""
+      }
+    },
+    "title_section_wJHw3h": {
+      "type": "title-section",
+      "settings": {
+        "title": "Reviews"
+      }
+    },
+    "1713136015e25a897a": {
+      "type": "apps",
+      "blocks": {
+        "stamped_product_reviews_ugc_main_widget_VhqhcM": {
+          "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/main-widget\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": false,
+            "sku_tagtype": "sku"
+          }
+        }
+      },
+      "block_order": [
+        "stamped_product_reviews_ugc_main_widget_VhqhcM"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "faq_product_wzwVAy": {
+      "type": "faq-product",
+      "settings": {
+        "invert_order": false,
+        "shrink_height": false,
+        "top_padding": false
+      }
+    },
+    "need_help_cV6mQY": {
+      "type": "need-help",
+      "settings": {
+        "section_title": "Need help deciding?"
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "Other customers loved",
+        "heading_size": "h2",
+        "products_to_show": 5,
+        "columns_desktop": 5,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "pdp_nav_fqQWcm": {
+      "type": "pdp-nav",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "bundles_ht8HAi",
+    "feature_tabs_4yKUxY",
+    "feature_image_4cRTCj",
+    "feature_image_TkcHRk",
+    "hero_section_PGj3x3",
+    "feature_image_FnmW3X",
+    "feature_image_V6A6zC",
+    "feature_image_LzDkQT",
+    "feature_image_AammD7",
+    "title_section_wJHw3h",
+    "1713136015e25a897a",
+    "faq_product_wzwVAy",
+    "need_help_cV6mQY",
+    "related-products",
+    "pdp_nav_fqQWcm"
+  ]
+}
