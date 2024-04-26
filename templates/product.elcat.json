@@ -22,7 +22,7 @@
         "title": {
           "type": "title",
           "settings": {
-            "hide_sale_price": false
+            "hide_sale_price": true
           }
         },
         "caption": {
@@ -353,6 +353,23 @@
         "title": "Reviews"
       }
     },
+    "custom_liquid_fzMMUU": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"body-width\">\n<script charset=\"utf-8\" type=\"text\/javascript\" src=\"\/\/js.hsforms.net\/forms\/embed\/v2.js\"><\/script>\n<script>\n  hbspt.forms.create({\n    region: \"na1\",\n    portalId: \"45520561\",\n    formId: \"6bc0a2f4-d2fd-49d8-bc8b-63ed9067e358\"\n  });\n<\/script>\n<\/div>",
+        "color_scheme": "scheme-2",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "faq_product_wzwVAy": {
+      "type": "faq-product",
+      "settings": {
+        "invert_order": false,
+        "shrink_height": false,
+        "top_padding": false
+      }
+    },
     "1713136015e25a897a": {
       "type": "apps",
       "blocks": {
@@ -374,14 +391,6 @@
       ],
       "settings": {
         "include_margins": true
-      }
-    },
-    "faq_product_wzwVAy": {
-      "type": "faq-product",
-      "settings": {
-        "invert_order": false,
-        "shrink_height": false,
-        "top_padding": false
       }
     },
     "need_help_cV6mQY": {
@@ -429,8 +438,9 @@
     "feature_image_LzDkQT",
     "feature_image_AammD7",
     "title_section_wJHw3h",
-    "1713136015e25a897a",
+    "custom_liquid_fzMMUU",
     "faq_product_wzwVAy",
+    "1713136015e25a897a",
     "need_help_cV6mQY",
     "related-products",
     "pdp_nav_fqQWcm"
