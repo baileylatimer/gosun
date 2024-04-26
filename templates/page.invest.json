@@ -22,8 +22,8 @@
         "video_url": "",
         "image": "shopify:\/\/shop_images\/Invest_In_GoSun_edit-670-380-2_600x_e608c361-bc9b-479b-8b2d-5060433fa644.webp",
         "img-fit": false,
-        "button_url": "",
-        "button_label": "View financials",
+        "button_url": "https:\/\/www.sec.gov\/cgi-bin\/browse-edgar?action=getcompany&CIK=0001706024&owner=include&count=40",
+        "button_label": "View SEC financials",
         "button_url_2": "",
         "button_label_2": ""
       }
