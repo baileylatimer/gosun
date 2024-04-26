@@ -117,14 +117,18 @@
               {%- when 'title' -%}
                 <div class="product__title flex justify-between mb-0" {{ block.shopify_attributes }}>
                   <h1 class="h3">{{ product.title | escape }}</h1>
-                  <div id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
-                    {%- render 'price',
-                      product: product,
-                      use_variant: true,
-                      show_badges: true,
-                      price_class: 'price--large'
-                    -%}
-                  </div>
+                  {% if block.settings.hide_sale_price == true %}
+                    {{ product.compare_at_price | money_with_currency }}
+                  {% else %}
+                    <div id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
+                      {%- render 'price',
+                        product: product,
+                        use_variant: true,
+                        show_badges: true,
+                        price_class: 'price--large'
+                      -%}
+                    </div>
+                  {% endif %}
                
                 </div>
              
@@ -829,12 +833,30 @@
     {
       "type": "title",
       "name": "t:sections.main-product.blocks.title.name",
-      "limit": 1
+      "limit": 1,
+      "settings": [
+        {
+          "type": "checkbox",
+          "default": false,
+          "label": "Hide sale price",
+          "id": "hide_sale_price",
+          "info": "Check yes if product requires deposit"
+        }
+      ]
     },
     {
       "type": "price",
       "name": "t:sections.main-product.blocks.price.name",
-      "limit": 1
+      "limit": 1,
+      "settings": [
+        {
+          "type": "checkbox",
+          "default": false,
+          "label": "Hide sale price",
+          "id": "hide_sale_price",
+          "info": "Check yes if product requires deposit"
+        }
+      ]
     },
     {
       "type": "sku",
@@ -963,6 +985,12 @@
       "name": "t:sections.main-product.blocks.buy_buttons.name",
       "limit": 1,
       "settings": [
+        {
+          "type": "text",
+          "id": "buy_button_text",
+          "default": "Add to cart",
+          "label": "Buy Button Text"
+        },
         {
           "type": "checkbox",
           "id": "show_dynamic_checkout",

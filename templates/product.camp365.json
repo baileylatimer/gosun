@@ -22,6 +22,7 @@
         "title": {
           "type": "title",
           "settings": {
+            "hide_sale_price": true
           }
         },
         "caption": {
@@ -57,6 +58,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
+            "buy_button_text": "Deposit",
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
           }
@@ -64,6 +66,7 @@
         "price": {
           "type": "price",
           "settings": {
+            "hide_sale_price": true
           }
         },
         "description": {
