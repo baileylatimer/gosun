@@ -1,40 +1,47 @@
 <style>
-  .product__description-wrapper {
-    max-height: 135px; /* Initial max-height */
-    overflow: hidden;
-    position: relative;
-    padding-bottom: 20px; /* Space for the 'Read more' button */
-  }
+.product__description-wrapper {
+  max-height: 135px; /* Initial max-height */
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 20px; /* Space for the 'Read more' button */
+}
 
-  .product__description {
-    margin-bottom: 20px; /* Adjust as needed */
-  }
+.product__description {
+  margin-bottom: 20px; /* Adjust as needed */
+}
 
-  .product__description::after {
-    content: '';
-    position: absolute;
-    bottom: 0px; /* Height of the 'Read more' button */
-    left: 0;
-    width: 100%;
-    height: 130px; /* Height of the gradient effect */
-    background: linear-gradient(180deg, transparent, var(--color-bg) 100%);
-    pointer-events: none; /* Let clicks pass through to the button */
-  }
+.product__description-wrapper::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 130px; /* Height of the gradient effect */
+  background: linear-gradient(180deg, transparent, var(--color-bg) 100%);
+  pointer-events: none; /* Let clicks pass through to the button */
+  z-index: 1; /* Ensure it's behind the button */
+}
 
-  .product__description-readmore {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    text-align: left; /* Align the text to the left */
-    cursor: pointer;
-    background: none;
-    border: none;
-    outline: none;
-    text-decoration: underline;
-    font-size: 16px; /* Adjust font size as necessary */
-    z-index: 2; /* Ensure it's above the gradient */
-  }
+.product__description-wrapper.show-after::after {
+  display: none; /* Hide the ::after element when show-after class is present */
+}
+
+.product__description-readmore {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: left; /* Align the text to the left */
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+  text-decoration: underline;
+  font-size: 16px; /* Adjust font size as necessary */
+  z-index: 2; /* Ensure it's above the gradient */
+}
+
+
 </style>
 
 <div class="product__description-wrapper">
@@ -47,18 +54,20 @@
 </div>
 
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const descriptionWrapper = document.querySelector('.product__description-wrapper');
-    const readMoreButton = descriptionWrapper.querySelector('.product__description-readmore');
+document.addEventListener('DOMContentLoaded', function() {
+  const descriptionWrapper = document.querySelector('.product__description-wrapper');
+  const readMoreButton = descriptionWrapper.querySelector('.product__description-readmore');
 
-    readMoreButton.addEventListener('click', function() {
-      if (this.innerText.toLowerCase() === 'read more') {
-        descriptionWrapper.style.maxHeight = 'none';
-        this.innerText = 'Read less';
-      } else {
-        descriptionWrapper.style.maxHeight = '135px';
-        this.innerText = 'Read more';
-      }
-    });
+  readMoreButton.addEventListener('click', function() {
+    descriptionWrapper.classList.toggle('show-after'); // Toggle the show-after class
+    if (this.innerText.toLowerCase() === 'read more') {
+      descriptionWrapper.style.maxHeight = 'none';
+      this.innerText = 'Read less';
+    } else {
+      descriptionWrapper.style.maxHeight = '135px';
+      this.innerText = 'Read more';
+    }
   });
+});
+
 </script>
