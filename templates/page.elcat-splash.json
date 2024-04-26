@@ -237,25 +237,29 @@
         "product_column_86MV4G": {
           "type": "product_column",
           "settings": {
-            "product_reference": "gosun-elcat-splash"
+            "product_reference": "gosun-elcat-splash",
+            "button_url": ""
           }
         },
         "product_column_PgLWmc": {
           "type": "product_column",
           "settings": {
-            "product_reference": "gosun-electric-boat-solar"
+            "product_reference": "gosun-electric-boat-solar",
+            "button_url": ""
           }
         },
         "product_column_tMK3Ur": {
           "type": "product_column",
           "settings": {
-            "product_reference": "jet-boat"
+            "product_reference": "jet-boat",
+            "button_url": ""
           }
         },
         "product_column_MmmV33": {
           "type": "product_column",
           "settings": {
-            "product_reference": "ferry-boat"
+            "product_reference": "ferry-boat",
+            "button_url": ""
           }
         }
       },
@@ -332,6 +336,15 @@
         "image": "shopify:\/\/shop_images\/Rectangle_5_b5b0dff2-0a9f-4a77-8b1d-0d21bc16fa70.jpg"
       }
     },
+    "custom_liquid_c4C4bL": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script charset=\"utf-8\" type=\"text\/javascript\" src=\"\/\/js.hsforms.net\/forms\/embed\/v2.js\"><\/script>\n<script>\n  hbspt.forms.create({\n    region: \"na1\",\n    portalId: \"45520561\",\n    formId: \"bd776de0-e06c-4c62-81b7-b36f60496c41\"\n  });\n<\/script>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "need_help_gCLBEz": {
       "type": "need-help",
       "settings": {
@@ -355,6 +368,7 @@
     "compare_guide_mCCJtX",
     "product_page_faq_A6YJyW",
     "faq_3UD6WA",
+    "custom_liquid_c4C4bL",
     "need_help_gCLBEz"
   ]
 }

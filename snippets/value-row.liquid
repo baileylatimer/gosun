@@ -1,12 +1,23 @@
 <div class="tw-grid grid-cols-3 px-4 py-4 mt-8 bg-primary-light br">
-  <div class="flex gap-3 text-xs items-center justify-center">
-    {% render 'icon-shipping' %}
-    Free shipping
-  </div>
-  <div class="flex gap-3 text-xs items-center justify-center">
-    {% render 'icon-shield-2' %}
-    Money-back Guarantee
-  </div>
+  {% if block.settings.deposit == true %}
+    <div class="flex gap-3 text-xs items-center justify-center">
+      {% render 'icon-support' %}
+      US Based Support
+    </div>
+    <div class="flex gap-3 text-xs items-center justify-center">
+      {% render 'icon-settings' %}
+      Custom Options Available
+    </div>
+  {% else %}
+    <div class="flex gap-3 text-xs items-center justify-center">
+      {% render 'icon-shipping' %}
+      Free shipping
+    </div>
+    <div class="flex gap-3 text-xs items-center justify-center">
+      {% render 'icon-shield-2' %}
+      Money-back Guarantee {{ block.settings.deposit }}
+    </div>
+  {% endif %}
   <div class="flex gap-3 text-xs items-center justify-center">
     {% render 'icon-lock' %}
     Secure checkout

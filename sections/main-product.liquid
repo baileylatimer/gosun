@@ -211,8 +211,34 @@
                     {%- endif -%}
                   {%- endif -%}
                 </p>
+
+              {% when 'value_row' %}
+                <div class="tw-grid grid-cols-3 px-4 py-4 mt-8 bg-primary-light br">
+                  {% if block.settings.deposit == true %}
+                    <div class="flex gap-3 text-xs items-center justify-center">
+                      {% render 'icon-support' %}
+                      US Based Support
+                    </div>
+                    <div class="flex gap-3 text-xs items-center justify-center">
+                      {% render 'icon-settings' %}
+                      Custom Options
+                    </div>
+                  {% else %}
+                    <div class="flex gap-3 text-xs items-center justify-center">
+                      {% render 'icon-shipping' %}
+                      Free shipping
+                    </div>
+                    <div class="flex gap-3 text-xs items-center justify-center">
+                      {% render 'icon-shield-2' %}
+                      Money-back Guarantee {{ block.settings.deposit }}
+                    </div>
+                  {% endif %}
+                  <div class="flex gap-3 text-xs items-center justify-center">
+                    {% render 'icon-lock' %}
+                    Secure checkout
+                  </div>
+                </div>
               {%- when 'description' -%}
-                  {% render 'value-row' %}
                 {%- if product.description != blank -%}
                     {% render 'product-description' %}
                 {%- endif -%}
@@ -1007,6 +1033,20 @@
         }
       ]
     },
+    {      
+    "type": "value_row",
+    "name": "Value Row",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "deposit",
+        "label": "Requires deposit",
+        "default": false,
+        "info": "Changes icons by removing free shipping etc."
+      }
+    ]
+},
+
     {
       "type": "description",
       "name": "t:sections.main-product.blocks.description.name",
