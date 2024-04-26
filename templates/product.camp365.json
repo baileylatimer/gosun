@@ -214,6 +214,21 @@
         "button_label_2": ""
       }
     },
+    "video_R4hfyA": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=3m23QvNp2QQ",
+        "cover_image": "shopify:\/\/shop_images\/camper_trailer_gosun_camp365_outdoor_space_0e72aed8-35da-4241-9c09-4e1a32b2d457.jpg",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "scheme-2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "feature_image_TkcHRk": {
       "type": "feature-image",
       "settings": {
@@ -227,6 +242,26 @@
         "price": "",
         "video_url": "",
         "image": "shopify:\/\/shop_images\/camp365_1.jpg",
+        "img-fit": false,
+        "button_url": "",
+        "button_label": "",
+        "button_url_2": "",
+        "button_label_2": ""
+      }
+    },
+    "feature_image_FnmW3X": {
+      "type": "feature-image",
+      "settings": {
+        "product_reference": "",
+        "invert_order": false,
+        "shrink_height": false,
+        "top_padding": false,
+        "overline": "",
+        "heading": "Built to Last, and Last",
+        "text": "Lifetime cost of ownership is much lower when you are saving costs on maintenance, fuel, storage, and campground fees. High tech materials remove decay from the equation while the closed camper is sealed from the elements.",
+        "price": "",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/camp_365.png",
         "img-fit": false,
         "button_url": "",
         "button_label": "",
@@ -249,26 +284,6 @@
         "button2_text": "",
         "button2_url": "",
         "play_button_2": false
-      }
-    },
-    "feature_image_FnmW3X": {
-      "type": "feature-image",
-      "settings": {
-        "product_reference": "",
-        "invert_order": false,
-        "shrink_height": false,
-        "top_padding": false,
-        "overline": "",
-        "heading": "Built to Last, and Last",
-        "text": "Lifetime cost of ownership is much lower when you are saving costs on maintenance, fuel, storage, and campground fees. High tech materials remove decay from the equation while the closed camper is sealed from the elements.",
-        "price": "",
-        "video_url": "",
-        "image": "shopify:\/\/shop_images\/camp_365.png",
-        "img-fit": false,
-        "button_url": "",
-        "button_label": "",
-        "button_url_2": "",
-        "button_label_2": ""
       }
     },
     "feature_image_V6A6zC": {
@@ -404,9 +419,10 @@
     "bundles_ht8HAi",
     "feature_tabs_4yKUxY",
     "feature_image_4cRTCj",
+    "video_R4hfyA",
     "feature_image_TkcHRk",
-    "hero_section_PGj3x3",
     "feature_image_FnmW3X",
+    "hero_section_PGj3x3",
     "feature_image_V6A6zC",
     "feature_image_LzDkQT",
     "feature_image_AammD7",
