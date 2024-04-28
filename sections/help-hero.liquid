@@ -1,0 +1,51 @@
+<section class="help-hero body-width bg-primary-light br py-12">
+  <div class="container mx-auto px-4">
+    <h1 class=" font-bold text-center mb-12">{{ section.settings.title }}</h1>
+    <p class="text-center mt-4 mb-8">{{ section.settings.description }}</p>
+    {% if section.settings.menu_links != blank %}
+      <nav class="overflow-x-auto whitespace-nowrap scroll-smooth scrollbar-hide">
+        <ul class="flex justify-center gap-4">
+          {% for link in linklists[section.settings.menu_links].links %}
+            <li class="inline">
+              <a href="{{ link.url }}" class="link">{{ link.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    {% endif %}
+  </div>
+</section>
+
+
+  {% schema %}
+    {
+      "name": "Help Hero",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Need Help?"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Description",
+          "default": "Here’s how you can get the help you need."
+        },
+        {
+          "type": "link_list",
+          "id": "menu_links",
+          "label": "Menu Links",
+          "info": "Select a navigation menu to display in this section."
+        }
+      ],
+      "presets": [
+        {
+          "name": "Help Hero",
+          "category": "Custom"
+        }
+      ]
+    }
+    {% endschema %}
+    

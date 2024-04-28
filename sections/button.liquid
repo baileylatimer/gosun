@@ -1,0 +1,34 @@
+{% if section.settings.button_label != blank %}
+<div class="body-width flex justify-center items-center">
+      <a href="{{ section.settings.button_url }}" class="btn px-6 py-2" style="max-width: 375px">
+        {{ section.settings.button_label }}
+        {% render 'btn-arrow' %}
+      </a>
+</div>
+{% endif %}
+
+{% schema %}
+  {
+    "name": "Button",
+    "settings": [
+      {
+  "type": "url",
+  "id": "button_url",
+  "label": "Button URL"
+},
+{
+  "type": "text",
+  "id": "button_label",
+  "label": "Button Label",
+  "default": "Learn More"
+}
+
+    ],
+    "presets": [
+      {
+        "name": "Button",
+        "category": "Custom"
+      }
+    ]
+  }
+  {% endschema %}

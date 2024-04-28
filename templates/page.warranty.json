@@ -1,0 +1,130 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "help_hero_NmJVyj": {
+      "type": "help-hero",
+      "settings": {
+        "title": "Help Center",
+        "description": "",
+        "menu_links": "support"
+      }
+    },
+    "video_7D9dDy": {
+      "type": "video",
+      "settings": {
+        "heading": "Warranty Policy",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?list=TLGGvtG1zKKoHAoyODA0MjAyNA&v=OBeVS_sV-8c&embeds_referring_euri=https%3A%2F%2Fgosun.co%2F&embeds_referring_origin=https%3A%2F%2Fgosun.co&source_ve_path=MjM4NTE&feature=emb_title",
+        "cover_image": "shopify:\/\/shop_images\/gosun-provides-red-cross-1500-solar-cookers-386451_1a72df25-8143-428d-a47e-34c888195051.webp",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "scheme-2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "button_CemXfm": {
+      "type": "button",
+      "settings": {
+        "button_url": "mailto:support@gosun.co",
+        "button_label": "File a claim"
+      }
+    },
+    "collapsible_content_JfV4Ke": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_Nz4qaG": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Overview",
+            "icon": "none",
+            "row_content": "<p>GoSun Inc. extends this Warranty to the <br\/>original end-use purchaser of GoSun products* (including GoSun Go, GoSun<br\/> Sport, each a “Product”) or the person receiving a Product as a gift, <br\/>provided that the GoSun Product was purchased from an Authorized Dealer <br\/>as defined below. The Warranty does not extend to any other person or <br\/>transferee. Statutory or common law may provide additional rights or <br\/>remedies that vary from state to state, and country to country, which <br\/>are not affected by this Warranty.<\/p><p>The Warranty is voided if product is purchased from any unauthorized reseller or non-licensed GoSun dealer.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_XJAAPK": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Definitions",
+            "icon": "none",
+            "row_content": "<p>“Authorized Dealer” means any distributor, <br\/>reseller or retailer that was duly authorized by GoSun at the time of <br\/>the sale to sell authentic GoSun products in the jurisdiction where it <br\/>sold the Product, and that sold the Product in new, unused condition in <br\/>its original packaging.<\/p><p>“Fraud or Misrepresentation” means <br\/>misrepresenting any fact related to a warranty claim to GoSun, including<br\/> the nature of the defect, whether the Product was purchased from an <br\/>Authorized Dealer, and the authenticity of the Product. “Intended Use” <br\/>means use of the Product (a) for food preparation, (b) for private (as <br\/>opposed to commercial) purposes, (c) in conformity with all applicable <br\/>local, state or federal law, code or regulations, (d) in accordance with<br\/> GoSun recommendations and\/or instructions in the materials and <br\/>documentation that accompany the Product.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_CjYBQP": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Scope of 1-Year Warranty",
+            "icon": "none",
+            "row_content": "<p>Product failures claimed, submitted, reviewed and approved by GoSun, <br\/>within one year of original purchase, will convert into a One-Time <br\/>Credit to the purchaser. The One-Time Credit is then applied to a <br\/>replacement part to be sent directly to the purchaser’s address of <br\/>choice. This Credit for may not be used toward any other GoSun products <br\/>such as GoSun Apparel and accessories. Note that GoSun regularly changes<br\/> the models, and styles of its Products and cannot guarantee the <br\/>availability of an exact replacement for any Product. The Purchaser may <br\/>be responsible for the cost of shipping and handling fees to receive <br\/>their replacement tube. The exact cost for shipping and handling will be<br\/> covered during the warranty claim process.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_8teKfh": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Terms & Conditions",
+            "icon": "none",
+            "row_content": "<p>By submitting this warranty request, you agree to the following Terms and Conditions:<br\/>• In the case of Fraud or Misrepresentation, GoSun reserves the right to deny all warranty coverage or claims.<br\/>•<br\/> Risk of Loss- GoSun is not responsible for any Product that is lost in <br\/>shipping and not actually received by GoSun. To avoid unnecessary delays<br\/> and minimize the possibility of a lost Product, we strongly suggest <br\/>that you use the return label provided to you by GoSun’s online warranty<br\/> system to send your Product to GoSun. No warranty will be provided for <br\/>any Product not actually received by GoSun.<br\/>• GoSun reserves the <br\/>right to determine, at its sole discretion, whether a defect is a <br\/>manufacturing defect and what type of credit or replacement shall be <br\/>issued, if any.<br\/>• All warranty Products sent to GoSun will not be <br\/>returned to you for any reason. Defective Products may be subject to <br\/>engineering analysis and recycling, as part of our continued commitment <br\/>to improving the quality of our products and the environment.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_9rHUGw": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Choice of Law\/Jurisdiciton",
+            "icon": "none",
+            "row_content": "<p>This Warranty and any disputes arising out of or in connection with this<br\/> Warranty (“Disputes”) shall be governed by the laws of the State of <br\/>Ohio, USA, excluding conflicts of law principles and excluding the <br\/>Convention for the International Sale of Goods. The courts located in <br\/>the State of Ohio, USA shall have exclusive jurisdiction over any <br\/>Disputes.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_pfW6Jt": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Other Rights",
+            "icon": "none",
+            "row_content": "<p>This Warranty gives you specific legal rights, and you may also have <br\/>other rights, which vary from state to state and jurisdiction to <br\/>jurisdiction, and which shall not be affected by this limited warranty. <br\/>this warranty extends only to you and cannot be transferred or assigned.<br\/> If any provision of this Warranty is unlawful, void or unenforceable, <br\/>that provision shall be deemed severable and shall not affect any <br\/>remaining provisions. In case of any inconsistency between the English <br\/>and other versions of this Warranty, the English version shall prevail.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_Nz4qaG",
+        "collapsible_row_XJAAPK",
+        "collapsible_row_CjYBQP",
+        "collapsible_row_8teKfh",
+        "collapsible_row_9rHUGw",
+        "collapsible_row_pfW6Jt"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-2",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "help_hero_NmJVyj",
+    "video_7D9dDy",
+    "button_CemXfm",
+    "collapsible_content_JfV4Ke"
+  ]
+}
