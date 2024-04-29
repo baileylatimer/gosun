@@ -13,6 +13,10 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  .rte .btn {
+    color: white !important;
+  }
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient">
@@ -29,11 +33,11 @@
             </p>
           {% endif %}
           {%- if section.settings.heading != blank -%}
-            <h2 class="collapsible-content__heading inline-richtext {{ section.settings.heading_size }}">
+            <h2 class="h3 text-left collapsible-content__heading inline-richtext {{ section.settings.heading_size }}">
               {{ section.settings.heading }}
             </h2>
           {%- else -%}
-            <h2 class="visually-hidden">{{ 'accessibility.collapsible_content_title' | t }}</h2>
+            <h2 class="h3 visually-hidden">{{ 'accessibility.collapsible_content_title' | t }}</h2>
           {% endif %}
         </div>
         <div class="grid grid--1-col grid--2-col-tablet collapsible-content__grid{% if section.settings.desktop_layout == 'image_second' %} collapsible-content__grid--reverse{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
@@ -95,6 +99,14 @@
                   >
                     {{ block.settings.row_content }}
                     {{ block.settings.page.content }}
+                    {% if block.settings.button_label != blank %}
+                      <div class="flex justify-start items-center mt-12">
+                            <a target="_blank" href="{{ block.settings.button_url }}" class="btn px-6 py-2" style="max-width: 375px">
+                              {{ block.settings.button_label }}
+                              {% render 'btn-arrow' %}
+                            </a>
+                      </div>
+                      {% endif %}
                   </div>
                 </details>
               </div>
@@ -484,7 +496,18 @@
           "type": "page",
           "id": "page",
           "label": "t:sections.collapsible_content.blocks.collapsible_row.settings.page.label"
-        }
+        },
+        {
+  "type": "url",
+  "id": "button_url",
+  "label": "Button URL"
+},
+{
+  "type": "text",
+  "id": "button_label",
+  "label": "Button Label",
+  "default": "Learn More"
+}
       ]
     }
   ],
