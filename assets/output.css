@@ -752,6 +752,10 @@ video {
   margin-top: 2rem;
 }
 
+.mt-36 {
+  margin-top: 9rem;
+}
+
 .block {
   display: block;
 }
@@ -1065,6 +1069,10 @@ video {
 
 .pt-72 {
   padding-top: 18rem;
+}
+
+.pt-16 {
+  padding-top: 4rem;
 }
 
 .text-left {
