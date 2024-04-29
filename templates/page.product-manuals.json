@@ -322,6 +322,120 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "collapsible_content_HUenRq": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_6a3GaE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Flow",
+            "icon": "none",
+            "row_content": "<p>To watch how Flow works click<a href=\"https:\/\/www.youtube.com\/watch?v=p-a2wQwkDBk\" target=\"_blank\" title=\"https:\/\/www.youtube.com\/watch?v=p-a2wQwkDBk\"> <strong>here.<br\/><br\/><\/strong><\/a>To check our <strong>BCS Lab Test Report<\/strong> click <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0789\/1333\/files\/BCS_Lab_test_report.jpg?v=1643304318\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0789\/1333\/files\/BCS_Lab_test_report.jpg?v=1643304318\"><strong>here.<\/strong><\/a><\/p>",
+            "page": "",
+            "button_url": "https:\/\/drive.google.com\/file\/d\/18szB-ESE4MoPETCUgDVUiqxdV-Nd5toy\/view",
+            "button_label": "Download Manual (English)"
+          }
+        },
+        "collapsible_row_d8gUKQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Brew",
+            "icon": "none",
+            "row_content": "<p>To watch how Brew works click<a href=\"https:\/\/www.youtube.com\/watch?v=J8mVIWYTVHc\" target=\"_blank\" title=\"https:\/\/www.youtube.com\/watch?v=J8mVIWYTVHc\"> <strong>here.<\/strong><\/a><\/p>",
+            "page": "",
+            "button_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0789\/1333\/files\/Brew_User_Manual_11-16-2021.pdf?v=1640534918",
+            "button_label": "Download Manual (English)"
+          }
+        },
+        "collapsible_row_3Did98": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Elcat",
+            "icon": "none",
+            "row_content": "<p>To watch how Elcat works click<a href=\"https:\/\/youtu.be\/Xmngy0rOP5k\" target=\"_blank\" title=\"https:\/\/youtu.be\/Xmngy0rOP5k\"> <strong>here.<\/strong><\/a><\/p>",
+            "page": "",
+            "button_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0789\/1333\/files\/Elcat_User_Manual_062723.pdf?v=1688591046",
+            "button_label": "Download Manual (English)"
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_6a3GaE",
+        "collapsible_row_d8gUKQ",
+        "collapsible_row_3Did98"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Water",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-2",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_tye7rG": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_qYfB6n": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Thermo",
+            "icon": "none",
+            "row_content": "<p>To watch how Thermo works click<a href=\"https:\/\/www.youtube.com\/watch?v=wo292wL6BnU\" target=\"_blank\" title=\"https:\/\/www.youtube.com\/watch?v=wo292wL6BnU\"> <strong>here.<\/strong><\/a><\/p>",
+            "page": "",
+            "button_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0789\/1333\/files\/User_Manual_Thermometer_V3_b27428b9-4165-4b90-b85c-9831f5b62183.pdf?v=1629388705",
+            "button_label": "Download Manual (English)"
+          }
+        },
+        "collapsible_row_eCXGA6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Heated Blanket",
+            "icon": "none",
+            "row_content": "<p>To watch how Heated Blanket works click<a href=\"https:\/\/www.youtube.com\/watch?v=zo7TvKzly9Q\" target=\"_blank\" title=\"https:\/\/www.youtube.com\/watch?v=zo7TvKzly9Q\"> <strong>here.<\/strong><\/a><\/p>",
+            "page": "",
+            "button_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0789\/1333\/files\/GoSun_Blanket_Label_11-09-2021.pdf?v=1643910021",
+            "button_label": "Download Manual (English)"
+          }
+        },
+        "collapsible_row_GJ4FdN": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Breeze",
+            "icon": "none",
+            "row_content": "",
+            "page": "",
+            "button_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0789\/1333\/files\/GoSun_Breeze_User_Manual_051922.pdf?v=1662582426",
+            "button_label": "Download Manual (English)"
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_qYfB6n",
+        "collapsible_row_eCXGA6",
+        "collapsible_row_GJ4FdN"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Accessories",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-2",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -330,6 +444,8 @@
     "video_7D9dDy",
     "collapsible_content_JfV4Ke",
     "collapsible_content_VQCaQR",
-    "collapsible_content_VGtEHE"
+    "collapsible_content_VGtEHE",
+    "collapsible_content_HUenRq",
+    "collapsible_content_tye7rG"
   ]
 }
