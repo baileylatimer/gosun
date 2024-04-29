@@ -4,7 +4,7 @@
     <h1 class=" font-bold text-center mb-12">{{ page.title }}</h1>
     <p class="text-center mt-4 mb-8">{{ section.settings.description }}</p>
     {% if section.settings.menu_links != blank %}
-      <nav class="overflow-x-auto whitespace-nowrap scroll-smooth scrollbar-hide py-8 bg-contrast-lower">
+      <nav class="overflow-x-auto whitespace-nowrap scroll-smooth scrollbar-hide py-8 bg-contrast-lower w-full">
         <ul class="flex justify-center gap-8">
           {% for link in linklists[section.settings.menu_links].links %}
             <li class="inline">

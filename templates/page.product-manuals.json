@@ -136,12 +136,58 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "collapsible_content_VQCaQR": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_D3kJYN": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Chill",
+            "icon": "none",
+            "row_content": "<p>To watch how Chill works click<a href=\"https:\/\/www.youtube.com\/watch?v=46PsHz0_5kI\" target=\"_blank\" title=\"https:\/\/www.youtube.com\/watch?v=46PsHz0_5kI\"> <strong>here.<\/strong><\/a><\/p><p>To downloand our manual, select a language below:<br\/><a href=\"https:\/\/www.dropbox.com\/s\/c3nt7crypbuglwo\/GoSun%20Chill-Manual_SPANISH_for%20web.pdf?dl=0\" target=\"_blank\"><strong>Español,<\/strong><\/a><strong> <\/strong><a href=\"https:\/\/www.dropbox.com\/s\/o24i42sfmg7pswa\/GoSun%20Chill-Manual_FRENCH_for%20web.pdf?dl=0\" target=\"_blank\" title=\"GoSun Chill User's Manual French - Francais Solar Cooler\"><strong>Francais<\/strong><\/a><strong>, <\/strong><a href=\"https:\/\/www.dropbox.com\/s\/l2zdp1hyun9aeqc\/GoSun%20Chill-Manual_GERMAN_for%20web.pdf?dl=0\" target=\"_blank\" title=\"GoSun Chill User's Manual | German Solar Cooler\"><strong>German<\/strong><\/a><strong>, <\/strong><a href=\"https:\/\/www.dropbox.com\/s\/v5kdq9qsq8ixpu6\/GoSun%20Chill-Manual_Mandarin_for%20web.pdf?dl=0\" target=\"_blank\" title=\"GoSun Chill Product Manual | Chinese Solar Cooler\"><strong>Chinese<\/strong><\/a><strong>, <\/strong><a href=\"https:\/\/www.dropbox.com\/s\/sxn2xyy6m9yuqgj\/GoSun%20Chill-Manual_JAPANESE_for%20web.pdf?dl=0\" target=\"_blank\" title=\"GoSun Chill Product Manual | Japanese Solar Cooler\"><strong>Japanese<\/strong><\/a><\/p>",
+            "page": "",
+            "button_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0789\/1333\/files\/GoSun_Chill-Manual_V4_ENG_flattened_2.pdf?v=1605019157",
+            "button_label": "Download Manual (English)"
+          }
+        },
+        "collapsible_row_AjgyAW": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Chillest",
+            "icon": "none",
+            "row_content": "<p>To watch how Chillest works click<a href=\"https:\/\/www.youtube.com\/watch?v=iTYPMR6V7oo\" target=\"_blank\" title=\"https:\/\/www.youtube.com\/watch?v=iTYPMR6V7oo\"> <strong>here.<\/strong><\/a><\/p><p>To downloand our manual, select a language below:<a href=\"https:\/\/www.dropbox.com\/s\/c3nt7crypbuglwo\/GoSun%20Chill-Manual_SPANISH_for%20web.pdf?dl=0\" target=\"_blank\"><br\/><strong>Español,<\/strong><\/a><strong> <\/strong><a href=\"https:\/\/www.dropbox.com\/s\/o24i42sfmg7pswa\/GoSun%20Chill-Manual_FRENCH_for%20web.pdf?dl=0\" target=\"_blank\" title=\"GoSun Chill User's Manual French - Francais Solar Cooler\"><strong>Francais<\/strong><\/a><strong>, <\/strong><a href=\"https:\/\/www.dropbox.com\/s\/l2zdp1hyun9aeqc\/GoSun%20Chill-Manual_GERMAN_for%20web.pdf?dl=0\" target=\"_blank\" title=\"GoSun Chill User's Manual | German Solar Cooler\"><strong>German<\/strong><\/a><strong>, <\/strong><a href=\"https:\/\/www.dropbox.com\/s\/v5kdq9qsq8ixpu6\/GoSun%20Chill-Manual_Mandarin_for%20web.pdf?dl=0\" target=\"_blank\" title=\"GoSun Chill Product Manual | Chinese Solar Cooler\"><strong>Chinese<\/strong><\/a><strong>, <\/strong><a href=\"https:\/\/www.dropbox.com\/s\/sxn2xyy6m9yuqgj\/GoSun%20Chill-Manual_JAPANESE_for%20web.pdf?dl=0\" target=\"_blank\" title=\"GoSun Chill Product Manual | Japanese Solar Cooler\"><strong>Japanese<\/strong><\/a><\/p>",
+            "page": "",
+            "button_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0789\/1333\/files\/Chillest_User_Manual_11-24-2021.pdf?v=1645732726",
+            "button_label": "Download Manual (English)"
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_D3kJYN",
+        "collapsible_row_AjgyAW"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Solar Coolers",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-2",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "help_hero_NmJVyj",
     "video_7D9dDy",
-    "collapsible_content_JfV4Ke"
+    "collapsible_content_JfV4Ke",
+    "collapsible_content_VQCaQR"
   ]
 }
