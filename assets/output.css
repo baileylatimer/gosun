@@ -832,6 +832,10 @@ video {
   flex-direction: column;
 }
 
+.flex-col-reverse {
+  flex-direction: column-reverse;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -1073,6 +1077,10 @@ video {
 
 .pt-16 {
   padding-top: 4rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
 }
 
 .text-left {

@@ -21,7 +21,7 @@
         <div class="menu-drawer__navigation-container">
           <nav class="menu-drawer__navigation">
             <ul class="menu-drawer__menu has-submenu list-menu" role="list">
-              {%- for link in section.settings.menu.links -%}
+              {% for link in section.settings.menu.links -%}
                 <li>
                   {%- if link.links != blank -%}
                     <details id="Details-menu-drawer-menu-item-{{ forloop.index }}">
@@ -38,12 +38,29 @@
                         class="menu-drawer__submenu has-submenu gradient motion-reduce"
                         tabindex="-1"
                       >
-                        <div class="menu-drawer__inner-submenu">
-                          <button class="menu-drawer__close-button link link--text focus-inset" aria-expanded="true">
-                            {% render 'icon-arrow' %}
-                            {{ link.title | escape }}
-                          </button>
-                          <ul class="menu-drawer__menu list-menu" role="list" tabindex="-1">
+                        <div class="menu-drawer__inner-submenu flex flex-col-reverse justify-end pt-8">
+                          <!-- Insert the image-with-text block here -->
+                          {% for block in section.blocks %}
+                            {% if block.type == 'image-with-text' %}
+                              {% assign parent_handle = block.settings.parent_menu_item | handleize %}
+                              {% assign link_handle = link.handle | handleize %}
+              
+                              {% if parent_handle == link_handle %}
+                                <div class="mega-menu__image-with-text relative br">
+                                  <a href="{{ block.settings.url }}" class="mega-menu__image-link">
+                                    <img src="{{ block.settings.image | img_url: '800x' }}" alt="{{ block.settings.text }}">
+                                    <div class="absolute bottom-0 left-0 w-full px-8 pb-8 flex justify-between items-end">
+                                      <p class="color-bg z-10 w-2/3">{{ block.settings.text }}</p>
+                                      <p class="color-bg z-10 underline" href="{{ block.settings.url }}">Shop {{ parent_handle }}</p>
+                                      <div class="overlay-bottom"></div>
+                                    </div>
+                                  </a>
+                                </div>
+                              {% endif %}
+                            {% endif %}
+                          {% endfor %}
+                          <!-- Render the existing submenu items -->
+                          <ul class="menu-drawer__menu list-menu pb-8" style="padding-bottom: 1.5em;" role="list" tabindex="-1">
                             {%- for childlink in link.links -%}
                               <li>
                                 {%- if childlink.links == blank -%}
@@ -58,48 +75,7 @@
                                     {{ childlink.title | escape }}
                                   </a>
                                 {%- else -%}
-                                  <details id="Details-menu-drawer-{{ link.handle }}-{{ childlink.handle }}">
-                                    <summary
-                                      id="HeaderDrawer-{{ link.handle }}-{{ childlink.handle }}"
-                                      class="menu-drawer__menu-item link link--text list-menu__item focus-inset"
-                                    >
-                                      {{ childlink.title | escape }}
-                                      {% render 'icon-arrow' %}
-                                      {% render 'icon-caret' %}
-                                    </summary>
-                                    <div
-                                      id="childlink-{{ childlink.handle | escape }}"
-                                      class="menu-drawer__submenu has-submenu gradient motion-reduce"
-                                    >
-                                      <button
-                                        class="menu-drawer__close-button link link--text focus-inset"
-                                        aria-expanded="true"
-                                      >
-                                        {% render 'icon-arrow' %}
-                                        {{ childlink.title | escape }}
-                                      </button>
-                                      <ul
-                                        class="menu-drawer__menu list-menu"
-                                        role="list"
-                                        tabindex="-1"
-                                      >
-                                        {%- for grandchildlink in childlink.links -%}
-                                          <li>
-                                            <a
-                                              id="HeaderDrawer-{{ link.handle }}-{{ childlink.handle }}-{{ grandchildlink.handle }}"
-                                              href="{{ grandchildlink.url }}"
-                                              class="menu-drawer__menu-item link link--text list-menu__item focus-inset{% if grandchildlink.current %} menu-drawer__menu-item--active{% endif %}"
-                                              {% if grandchildlink.current %}
-                                                aria-current="page"
-                                              {% endif %}
-                                            >
-                                              {{ grandchildlink.title | escape }}
-                                            </a>
-                                          </li>
-                                        {%- endfor -%}
-                                      </ul>
-                                    </div>
-                                  </details>
+                                  <!-- Further nested menus if applicable -->
                                 {%- endif -%}
                               </li>
                             {%- endfor -%}
@@ -108,6 +84,7 @@
                       </div>
                     </details>
                   {%- else -%}
+                    <!-- Handle non-dropdown links -->
                     <a
                       id="HeaderDrawer-{{ link.handle }}"
                       href="{{ link.url }}"
@@ -121,6 +98,7 @@
                   {%- endif -%}
                 </li>
               {%- endfor -%}
+              
             </ul>
           </nav>
           <div class="menu-drawer__utility-links">
