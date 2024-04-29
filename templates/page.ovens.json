@@ -85,6 +85,46 @@
         "button_label_2": "Learn More"
       }
     },
+    "feature_image_yw8PVc": {
+      "type": "feature-image",
+      "settings": {
+        "product_reference": "parabolic-solar-cooker-commercial",
+        "invert_order": false,
+        "shrink_height": false,
+        "top_padding": false,
+        "overline": "Commercial Scale Solar Oven",
+        "heading": "Station",
+        "text": "Designed and built in America by the GoSun Team, the Station incorporates durability, performance and ease of use like all GoSun Stove products. The dual-axis base adjusts to the sun for cooking any time of the day. Evacuated tube insulation enables cooking in all weather, retaining heat for hours; serving meals hot, even at night.",
+        "price": "",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/station-commercial-scale-solar-oven-dealer-gosun-850846.jpg",
+        "img-fit": false,
+        "button_url": "shopify:\/\/products\/parabolic-solar-cooker-commercial",
+        "button_label": "Buy Now",
+        "button_url_2": "shopify:\/\/pages\/station",
+        "button_label_2": "Learn More"
+      }
+    },
+    "feature_image_AjHyqM": {
+      "type": "feature-image",
+      "settings": {
+        "product_reference": "solar-oven-kit",
+        "invert_order": true,
+        "shrink_height": false,
+        "top_padding": false,
+        "overline": "",
+        "heading": "Solar Oven Kit",
+        "text": "Experience the power of solar cooking with a reliable, vacuum insulated oven. Cook meals in 20 minutes and in all weather using light from the Sun.  Great for camping, travel, experiments, beach, boating, survival, and more. No fuel needed.",
+        "price": "",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/03_700x_af68f294-3859-4673-8647-e1ad85d92695.webp",
+        "img-fit": false,
+        "button_url": "shopify:\/\/products\/solar-oven-kit",
+        "button_label": "Buy Now",
+        "button_url_2": "shopify:\/\/pages\/solar-oven-kit",
+        "button_label_2": "Learn More"
+      }
+    },
     "featured_collection_Fxzf7q": {
       "type": "featured-collection",
       "settings": {
@@ -212,6 +252,8 @@
     "feature_image_qi7PHt",
     "feature_image_B7RwwW",
     "feature_image_nKd8pc",
+    "feature_image_yw8PVc",
+    "feature_image_AjHyqM",
     "featured_collection_Fxzf7q",
     "compare_guide_rkUnF7",
     "faq_3UD6WA",

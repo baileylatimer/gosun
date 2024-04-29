@@ -1,0 +1,194 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "product_nav_A3Ldaj": {
+      "type": "product-nav",
+      "settings": {
+        "product_reference": "best-solar-cooker-fusion"
+      }
+    },
+    "hero_product_V8NU4k": {
+      "type": "hero-product",
+      "settings": {
+        "product_reference": "best-solar-cooker-fusion",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a95eee98d7034b94a2b8e2d1c7e46e5f.mp4",
+        "background_image": "shopify:\/\/shop_images\/Rectangle_4.jpg",
+        "description": "Cook large meals anywhere, day or night.",
+        "feature_1_title": "Max Temperature",
+        "feature_1_description": "450ºF",
+        "feature_2_title": "Cooks for",
+        "feature_2_description": "5-6 people"
+      }
+    },
+    "feature_image_qi7PHt": {
+      "type": "feature-image",
+      "settings": {
+        "product_reference": "",
+        "invert_order": true,
+        "shrink_height": true,
+        "top_padding": true,
+        "overline": "",
+        "heading": "Cook day or night",
+        "text": "If you're out of sunlight, plug the Fusion into a 12V source to power the 150 watt heating element. Use GoSun solar chargers to harness the power of the Sun to cook day and night.",
+        "price": "",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/solar_oven_night_cooking_700x_c218ace3-c700-44c5-a34b-b2e38a8883b5.webp",
+        "img-fit": false,
+        "button_url": "",
+        "button_label": "",
+        "button_url_2": "",
+        "button_label_2": ""
+      }
+    },
+    "feature_tabs_YWndzJ": {
+      "type": "feature-tabs",
+      "blocks": {
+        "media_q9xfqk": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Feed a family",
+            "tab_description": "With a 101 oz cooking tray you can cook a meal for five within an hour",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/5e908f38450046129d6911258182fc8b.mp4"
+          }
+        },
+        "media_PWLTtA": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Portable",
+            "tab_description": "Deploys in seconds and collapses into a durable package",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a44c3a5e7878449aa2fc07dc9a5e753a.mp4"
+          }
+        },
+        "media_Hkpygk": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Cook at night",
+            "tab_description": "Cook with the sun during the day and plug it in at night",
+            "image": "shopify:\/\/shop_images\/solar_oven_night_cooking_700x_c218ace3-c700-44c5-a34b-b2e38a8883b5.webp",
+            "video_url": ""
+          }
+        },
+        "media_rdCkmY": {
+          "type": "media",
+          "settings": {
+            "tab_title": "All-weather",
+            "tab_description": "Rain, clouds, & snow. If you can see a shadow, it will cook.",
+            "image": "shopify:\/\/shop_images\/solar_oven_gosun_fusion.jpg",
+            "video_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "media_q9xfqk",
+        "media_PWLTtA",
+        "media_Hkpygk",
+        "media_rdCkmY"
+      ],
+      "settings": {
+      }
+    },
+    "feature_image_B7RwwW": {
+      "type": "feature-image",
+      "settings": {
+        "product_reference": "",
+        "invert_order": true,
+        "shrink_height": false,
+        "top_padding": true,
+        "overline": "",
+        "heading": "Patented solar cooking technology",
+        "text": "The Fusion's patented solar evacuated tube creates the most efficient insulation in modern cooking technology. Two parabolic reflectors concentrate the sunlight into the cooking chamber - trapping the energy inside for cooking.",
+        "price": "",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/image_29_700x_c97952ca-3c19-4f06-ae37-ec22548ac3a6.webp",
+        "img-fit": false,
+        "button_url": "",
+        "button_label": "",
+        "button_url_2": "",
+        "button_label_2": ""
+      }
+    },
+    "hero_section_48ikpG": {
+      "type": "hero-section",
+      "settings": {
+        "shrink_height": false,
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c06677ed2b3547b78ab0fe1bd6f0d2bd.mp4",
+        "overline": "",
+        "heading": "Built for the future",
+        "paragraph": "The Fusion's patented solar evacuated tube creates the most efficient insulation in modern cooking technology. Two parabolic reflectors concentrate the sunlight into the cooking chamber - trapping the energy inside for cooking.",
+        "button1_text": "",
+        "button1_url": "",
+        "play_button_1": false,
+        "button2_text": "",
+        "button2_url": "",
+        "play_button_2": false
+      }
+    },
+    "compare_guide_mCCJtX": {
+      "type": "compare-guide",
+      "blocks": {
+        "product_column_86MV4G": {
+          "type": "product_column",
+          "settings": {
+            "product_reference": "best-solar-cooker-fusion",
+            "button_url": "shopify:\/\/pages\/fusion-1"
+          }
+        },
+        "product_column_PgLWmc": {
+          "type": "product_column",
+          "settings": {
+            "product_reference": "sport-e",
+            "button_url": "shopify:\/\/pages\/sport-e"
+          }
+        },
+        "product_column_tMK3Ur": {
+          "type": "product_column",
+          "settings": {
+            "product_reference": "gosunpro-portable-solar-oven",
+            "button_url": "shopify:\/\/pages\/go"
+          }
+        }
+      },
+      "block_order": [
+        "product_column_86MV4G",
+        "product_column_PgLWmc",
+        "product_column_tMK3Ur"
+      ],
+      "settings": {
+      }
+    },
+    "need_help_gCLBEz": {
+      "type": "need-help",
+      "settings": {
+        "section_title": "Need help deciding?"
+      }
+    },
+    "product_page_faq_BtecEH": {
+      "type": "product-page-faq",
+      "settings": {
+        "product_reference": "best-solar-cooker-fusion",
+        "invert_order": false,
+        "shrink_height": false,
+        "top_padding": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product_nav_A3Ldaj",
+    "hero_product_V8NU4k",
+    "feature_image_qi7PHt",
+    "feature_tabs_YWndzJ",
+    "feature_image_B7RwwW",
+    "hero_section_48ikpG",
+    "compare_guide_mCCJtX",
+    "need_help_gCLBEz",
+    "product_page_faq_BtecEH"
+  ]
+}
