@@ -181,6 +181,147 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "collapsible_content_VGtEHE": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_hVcw7F": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "SolarTable 60",
+            "icon": "none",
+            "row_content": "<p>To watch how SolarTable 60 works click<a href=\"https:\/\/www.youtube.com\/watch?v=xJZtHUObf_o\" target=\"_blank\" title=\"https:\/\/www.youtube.com\/watch?v=xJZtHUObf_o\"> <strong>here.<\/strong><\/a><\/p>",
+            "page": "",
+            "button_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0789\/1333\/files\/Users_Guide_flattened_102620.pdf?v=1605019314",
+            "button_label": "Download Manual (English)"
+          }
+        },
+        "collapsible_row_c9htUM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "SolarTable 120",
+            "icon": "none",
+            "row_content": "<p>To watch how SolarTable 120 works click<a href=\"https:\/\/www.youtube.com\/watch?v=xJZtHUObf_o\" target=\"_blank\" title=\"https:\/\/www.youtube.com\/watch?v=xJZtHUObf_o\"> <strong>here.<\/strong><\/a><\/p>",
+            "page": "",
+            "button_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0789\/1333\/files\/Table_120_Users_Manual_031721.pdf?v=1631294313",
+            "button_label": "Download Manual (English)"
+          }
+        },
+        "collapsible_row_F6GUch": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "SolarPanel 10",
+            "icon": "none",
+            "row_content": "",
+            "page": "",
+            "button_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0789\/1333\/files\/SolarPanel_10_user_manual.pdf?v=1690394252",
+            "button_label": "Download Manual (English)"
+          }
+        },
+        "collapsible_row_VWwXCE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "SolarPanel 30",
+            "icon": "none",
+            "row_content": "<p>To watch how SolarPanel 30 works click<a href=\"https:\/\/www.youtube.com\/watch?v=PZ1fof4VDG4\" target=\"_blank\" title=\"https:\/\/www.youtube.com\/watch?v=PZ1fof4VDG4\"> <strong>here.<\/strong><\/a><\/p>",
+            "page": "",
+            "button_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0789\/1333\/files\/SolarPanel_30_user_manual.pdf?v=1690394302",
+            "button_label": "Download Manual (English)"
+          }
+        },
+        "collapsible_row_r848PL": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "SolarPanel 100",
+            "icon": "none",
+            "row_content": "<p>To watch how SolarPanel 100 works click<a href=\"https:\/\/www.youtube.com\/watch?v=c1LqFxrDCiM\" target=\"_blank\" title=\"https:\/\/www.youtube.com\/watch?v=c1LqFxrDCiM\"> <strong>here.<\/strong><\/a><\/p>",
+            "page": "",
+            "button_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0789\/1333\/files\/Solar100_User_Manual_061521.pdf?v=1641134286",
+            "button_label": "Download Manual (English)"
+          }
+        },
+        "collapsible_row_N6fJhg": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Shield",
+            "icon": "none",
+            "row_content": "",
+            "page": "",
+            "button_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0789\/1333\/files\/Shield_How_To.pdf?v=1709913341",
+            "button_label": "Download Manual (English)"
+          }
+        },
+        "collapsible_row_jNzdEP": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Solar Cornhole",
+            "icon": "none",
+            "row_content": "",
+            "page": "",
+            "button_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0789\/1333\/files\/Solar_Cornhole_User_Manual.pdf?v=1693940619",
+            "button_label": "Download Manual (English)"
+          }
+        },
+        "collapsible_row_GTLJXX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Powerbank 144",
+            "icon": "none",
+            "row_content": "<p>To watch how Powerbank 144 works click<a href=\"https:\/\/www.youtube.com\/watch?v=zcScBMcn6cA\" target=\"_blank\" title=\"https:\/\/www.youtube.com\/watch?v=zcScBMcn6cA\"> <strong>here.<\/strong><\/a><\/p>",
+            "page": "",
+            "button_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0789\/1333\/files\/Power_144_User_Manual_12-29-2021.pdf?v=1643913566",
+            "button_label": "Download Manual (English)"
+          }
+        },
+        "collapsible_row_fTzjHE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Powerbank 266",
+            "icon": "none",
+            "row_content": "<p>To watch how Powerbank 266 works click<a href=\"https:\/\/www.youtube.com\/watch?v=rHOIKZZFr1k\" target=\"_blank\" title=\"https:\/\/www.youtube.com\/watch?v=rHOIKZZFr1k\"> <strong>here.<\/strong><\/a><\/p>",
+            "page": "",
+            "button_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0789\/1333\/files\/Power_266_Manual_11_24_2020_1.pdf?v=1629388705",
+            "button_label": "Download Manual (English)"
+          }
+        },
+        "collapsible_row_6phy7D": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Powerbank 500\/1100",
+            "icon": "none",
+            "row_content": "<p>To watch how Powerbank 500\/1100 works click<a href=\"https:\/\/www.youtube.com\/watch?v=c1LqFxrDCiM\" target=\"_blank\" title=\"https:\/\/www.youtube.com\/watch?v=c1LqFxrDCiM\"> <strong>here.<\/strong><\/a><\/p>",
+            "page": "",
+            "button_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0789\/1333\/files\/Power550_1100_User_Manual_060821_1.pdf?v=1643388686",
+            "button_label": "Download Manual (English)"
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_hVcw7F",
+        "collapsible_row_c9htUM",
+        "collapsible_row_F6GUch",
+        "collapsible_row_VWwXCE",
+        "collapsible_row_r848PL",
+        "collapsible_row_N6fJhg",
+        "collapsible_row_jNzdEP",
+        "collapsible_row_GTLJXX",
+        "collapsible_row_fTzjHE",
+        "collapsible_row_6phy7D"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Solar Power",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-2",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -188,6 +329,7 @@
     "help_hero_NmJVyj",
     "video_7D9dDy",
     "collapsible_content_JfV4Ke",
-    "collapsible_content_VQCaQR"
+    "collapsible_content_VQCaQR",
+    "collapsible_content_VGtEHE"
   ]
 }
