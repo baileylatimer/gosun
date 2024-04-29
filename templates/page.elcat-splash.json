@@ -339,8 +339,8 @@
     "custom_liquid_c4C4bL": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<script charset=\"utf-8\" type=\"text\/javascript\" src=\"\/\/js.hsforms.net\/forms\/embed\/v2.js\"><\/script>\n<script>\n  hbspt.forms.create({\n    region: \"na1\",\n    portalId: \"45520561\",\n    formId: \"bd776de0-e06c-4c62-81b7-b36f60496c41\"\n  });\n<\/script>",
-        "color_scheme": "",
+        "custom_liquid": "<div class=\"body-width\"><script charset=\"utf-8\" type=\"text\/javascript\" src=\"\/\/js.hsforms.net\/forms\/embed\/v2.js\"><\/script>\n<script>\n  hbspt.forms.create({\n    region: \"na1\",\n    portalId: \"45520561\",\n    formId: \"bd776de0-e06c-4c62-81b7-b36f60496c41\"\n  });\n<\/script><\/div>",
+        "color_scheme": "scheme-2",
         "padding_top": 40,
         "padding_bottom": 52
       }
