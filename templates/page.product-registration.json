@@ -1,0 +1,74 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "help_hero_NmJVyj": {
+      "type": "help-hero",
+      "settings": {
+        "title": "Help Center",
+        "description": "",
+        "menu_links": "support"
+      }
+    },
+    "video_7D9dDy": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "Warranty Policy",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?list=TLGGvtG1zKKoHAoyODA0MjAyNA&v=OBeVS_sV-8c&embeds_referring_euri=https%3A%2F%2Fgosun.co%2F&embeds_referring_origin=https%3A%2F%2Fgosun.co&source_ve_path=MjM4NTE&feature=emb_title",
+        "cover_image": "shopify:\/\/shop_images\/gosun-provides-red-cross-1500-solar-cookers-386451_1a72df25-8143-428d-a47e-34c888195051.webp",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "scheme-2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_jpjdAF": {
+      "type": "rich-text",
+      "blocks": {
+        "text_mJkQ34": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Thanks for your recent GoSun purchase! If you haven't yet done so, we'd <br\/>like to invite you to join our GoSun Community Kitchen group on <br\/>Facebook. As a part of the GoSun community, you'll have the chance to <br\/>learn from fellow GoSun solar chefs, share favorite recipes and photos, <br\/>and ask your questions to the group! Glad to have another friend <br\/>involved in the Fuel Free Cooking Revolution. <br\/><br\/>Please complete <br\/>the form below, to register your product. Once submitted, you'll receive<br\/> an automated email, which confirms that we have received your <br\/>registration. Thanks again! Time to get cookin' with the sun.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_mJkQ34"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_twkU7H": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"body-width typeform-widget\" data-url=\"https:\/\/form.typeform.com\/to\/kZaiWm7r?typeform-medium=embed-snippet\" data-transparency=\"100\" data-hide-headers=\"true\" style=\"width: 100%; height: 500px;\"><\/div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id=\"typef_orm\", b=\"https:\/\/embed.typeform.com\/\"; if(!gi.call(d,id)) { js=ce.call(d,\"script\"); js.id=id; js.src=b+\"embed.js\"; q=gt.call(d,\"script\")[0]; q.parentNode.insertBefore(js,q) } })() <\/script>",
+        "color_scheme": "scheme-2",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "help_hero_NmJVyj",
+    "video_7D9dDy",
+    "rich_text_jpjdAF",
+    "custom_liquid_twkU7H"
+  ]
+}
