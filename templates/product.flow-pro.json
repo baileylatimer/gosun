@@ -58,7 +58,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "buy_button_text": "Deposit",
+            "buy_button_text": "Buy Now",
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
           }
