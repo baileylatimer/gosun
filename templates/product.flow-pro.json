@@ -197,6 +197,7 @@
     },
     "feature_image_4cRTCj": {
       "type": "feature-image",
+      "disabled": true,
       "settings": {
         "product_reference": "",
         "invert_order": false,
@@ -217,6 +218,7 @@
     },
     "video_R4hfyA": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -232,6 +234,7 @@
     },
     "feature_image_TkcHRk": {
       "type": "feature-image",
+      "disabled": true,
       "settings": {
         "product_reference": "",
         "invert_order": true,
@@ -252,6 +255,7 @@
     },
     "feature_image_FnmW3X": {
       "type": "feature-image",
+      "disabled": true,
       "settings": {
         "product_reference": "",
         "invert_order": false,
@@ -272,6 +276,7 @@
     },
     "hero_section_PGj3x3": {
       "type": "hero-section",
+      "disabled": true,
       "settings": {
         "shrink_height": false,
         "video_url": "",
@@ -289,6 +294,7 @@
     },
     "feature_image_V6A6zC": {
       "type": "feature-image",
+      "disabled": true,
       "settings": {
         "product_reference": "",
         "invert_order": true,
@@ -309,6 +315,7 @@
     },
     "feature_image_LzDkQT": {
       "type": "feature-image",
+      "disabled": true,
       "settings": {
         "product_reference": "",
         "invert_order": false,
@@ -329,6 +336,7 @@
     },
     "feature_image_AammD7": {
       "type": "feature-image",
+      "disabled": true,
       "settings": {
         "product_reference": "",
         "invert_order": true,
