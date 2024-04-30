@@ -347,6 +347,7 @@
     },
     "need_help_gCLBEz": {
       "type": "need-help",
+      "disabled": true,
       "settings": {
         "section_title": "Need help deciding?"
       }
