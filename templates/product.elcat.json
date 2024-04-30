@@ -374,12 +374,19 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
+        },
+        "text_9gixGm": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Dealers wanted for resale! Email <a href=\"mailto:boat@gosun.co\" target=\"_blank\" title=\"mailto:boat@gosun.co\">boat@gosun.co<\/a> to join the crew!<\/h4>"
+          }
         }
       },
       "block_order": [
         "heading_Mynjjc",
         "text_eEp8MT",
-        "button_VQYPmr"
+        "button_VQYPmr",
+        "text_9gixGm"
       ],
       "settings": {
         "desktop_content_position": "center",
