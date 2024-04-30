@@ -363,7 +363,7 @@
         "heading_HFAnac": {
           "type": "heading",
           "settings": {
-            "heading": "Rental Operator?",
+            "heading": "Rental Operators",
             "heading_size": "h2"
           }
         },
