@@ -80,12 +80,12 @@
           "settings": {
           }
         },
-        "collapsible_tab_wcr9wy": {
+        "collapsible_tab_kAefXq": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Weight & Dimensions",
+            "heading": "What's included",
             "icon": "none",
-            "content": "<p>{{ product.metafields.my_fields._weight_and_dimensions | metafield_tag }}<\/p>",
+            "content": "<p>{{ product.metafields.my_fields.in_the_box | metafield_tag }}<\/p>",
             "page": ""
           }
         },
@@ -98,12 +98,12 @@
             "page": ""
           }
         },
-        "collapsible_tab_kAefXq": {
+        "collapsible_tab_wcr9wy": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "What's included",
+            "heading": "Weight & Dimensions",
             "icon": "none",
-            "content": "<p>{{ product.metafields.my_fields.in_the_box | metafield_tag }}<\/p>",
+            "content": "<p>{{ product.metafields.my_fields._weight_and_dimensions | metafield_tag }}<\/p>",
             "page": ""
           }
         }
@@ -120,9 +120,9 @@
         "price",
         "value_row_jWdCD9",
         "description",
-        "collapsible_tab_wcr9wy",
+        "collapsible_tab_kAefXq",
         "collapsible_tab_peG8ey",
-        "collapsible_tab_kAefXq"
+        "collapsible_tab_wcr9wy"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -383,12 +383,19 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
+        },
+        "text_krbd4j": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Dealers wanted for resale! Email boat@gosun.co to join the crew!<\/h4>"
+          }
         }
       },
       "block_order": [
         "heading_HFAnac",
         "text_C8x3FN",
-        "button_RLqbKF"
+        "button_RLqbKF",
+        "text_krbd4j"
       ],
       "settings": {
         "desktop_content_position": "center",
