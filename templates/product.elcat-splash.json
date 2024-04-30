@@ -151,6 +151,7 @@
     },
     "bundles_ht8HAi": {
       "type": "bundles",
+      "disabled": true,
       "settings": {
         "title": "Default Heading"
       }
@@ -348,6 +349,48 @@
         "button_label_2": ""
       }
     },
+    "rich_text_Xc7xdt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_HFAnac": {
+          "type": "heading",
+          "settings": {
+            "heading": "Rental Operator?",
+            "heading_size": "h2"
+          }
+        },
+        "text_C8x3FN": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Interested in adding to an existing rental fleet or building your own and seeing an ROI in as little as six weeks? Find more information by clicking the link below!<\/h4>"
+          }
+        },
+        "button_RLqbKF": {
+          "type": "button",
+          "settings": {
+            "button_label": "Rental Operators",
+            "button_link": "shopify:\/\/pages\/boatrentaloperators",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_HFAnac",
+        "text_C8x3FN",
+        "button_RLqbKF"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "faq_product_wzwVAy": {
       "type": "faq-product",
       "settings": {
@@ -429,6 +472,7 @@
     "feature_image_V6A6zC",
     "feature_image_LzDkQT",
     "feature_image_AammD7",
+    "rich_text_Xc7xdt",
     "faq_product_wzwVAy",
     "title_section_wJHw3h",
     "1713136015e25a897a",
