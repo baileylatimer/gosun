@@ -348,18 +348,19 @@
         "button_label_2": ""
       }
     },
-    "title_section_wJHw3h": {
-      "type": "title-section",
-      "settings": {
-        "title": "Reviews"
-      }
-    },
     "faq_product_wzwVAy": {
       "type": "faq-product",
       "settings": {
         "invert_order": false,
         "shrink_height": false,
-        "top_padding": false
+        "top_padding": false,
+        "image": "shopify:\/\/shop_images\/Home_Page_Header_Elcat_804d03fa-7a6a-4367-b391-02b7c76bed0b.jpg"
+      }
+    },
+    "title_section_wJHw3h": {
+      "type": "title-section",
+      "settings": {
+        "title": "Reviews"
       }
     },
     "1713136015e25a897a": {
@@ -429,8 +430,8 @@
     "feature_image_V6A6zC",
     "feature_image_LzDkQT",
     "feature_image_AammD7",
-    "title_section_wJHw3h",
     "faq_product_wzwVAy",
+    "title_section_wJHw3h",
     "1713136015e25a897a",
     "need_help_cV6mQY",
     "related-products",
