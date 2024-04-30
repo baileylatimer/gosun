@@ -33,7 +33,7 @@
         "top_padding": false,
         "overline": "",
         "heading": "Meet the Elcat Splash",
-        "text": "Launched at Fort Lauderdale International Boat Show 2023. The European-made all-electric ELCAT Splash is the latest money-making watercraft that will delight your customers and have your competitors scrambling to play catch-up. This boat offers a silent and smooth-riding SIX passenger inflatable craft with low cost of operational ownership and high rate of return. ELCAT Splash is extremely durable and comes with the assurance of a commercial warranty and technical support.",
+        "text": "Unveiled at the prestigious Fort Lauderdale International Boat Show 2023, the ELCAT Splash sets a new standard in watercraft innovation. Crafted in Europe, this all-electric marvel promises a silent, smooth ride for up to six passengers. With its low operational costs and impressive ROI, the ELCAT Splash is a game-changer that will delight your customers and leave competitors scrambling. Built to last and backed by a commercial warranty and robust technical support, it's the ultimate choice for discerning operators seeking durability and performance.",
         "price": "",
         "video_url": "",
         "image": "shopify:\/\/shop_images\/elcat-splash-2.webp",
@@ -52,8 +52,8 @@
         "shrink_height": true,
         "top_padding": true,
         "overline": "",
-        "heading": "Experience",
-        "text": "A simple helm\/center steering console , ample seating, and a roof deck mezzanine ensures ultimate leisure and comfort while cruising calm, inland waters.",
+        "heading": "Experience Comfort",
+        "text": "Experience unparalleled comfort and relaxation on calm inland waters with our boat featuring a straightforward helm\/center steering console, generous seating, and a rooftop deck mezzanine. Enjoy leisurely cruising with ease and luxury.",
         "price": "",
         "video_url": "",
         "image": "shopify:\/\/shop_images\/drinkingwine_700x_383b6fcb-5aa1-4053-939f-13454e392790.webp",
@@ -73,7 +73,7 @@
         "top_padding": false,
         "overline": "",
         "heading": "Blue Horizon, Green Profits",
-        "text": "Priced under $16k, your rental operation could pay back your initial investment in as little as 6 weeks, one happy crew after another.",
+        "text": "Maximize your rental business's profitability with our value-packed offerings priced under $16,000. Experience rapid ROI in just six weeks, backed by unparalleled support and customer satisfaction. Elevate your sales potential and ensure operational success with our reliable equipment and dedicated service.",
         "price": "",
         "video_url": "",
         "image": "shopify:\/\/shop_images\/Splash_POV_700x_c23dc0d4-d02b-411f-be37-21a1049a9a72.webp",
@@ -96,18 +96,6 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/boat-shapes.png",
         "heading": "Light as air, agile as water."
-      }
-    },
-    "title_section_xkqKeV": {
-      "type": "title-section",
-      "settings": {
-        "title": "Calculate your ROI"
-      }
-    },
-    "boat_calculator_UMEjYT": {
-      "type": "boat-calculator",
-      "settings": {
-        "show_elcat_landing_calculator_section": true
       }
     },
     "feature_image_Hz3A3V": {
@@ -148,6 +136,18 @@
         "button_label": "",
         "button_url_2": "",
         "button_label_2": ""
+      }
+    },
+    "title_section_xkqKeV": {
+      "type": "title-section",
+      "settings": {
+        "title": "Calculate your ROI"
+      }
+    },
+    "boat_calculator_UMEjYT": {
+      "type": "boat-calculator",
+      "settings": {
+        "show_elcat_landing_calculator_section": true
       }
     },
     "boat_numbers_XawEne": {
@@ -256,10 +256,10 @@
     "feature_image_DJKemm",
     "product_nav_A3Ldaj",
     "mission_section_VbyeNh",
-    "title_section_xkqKeV",
-    "boat_calculator_UMEjYT",
     "feature_image_Hz3A3V",
     "feature_image_B7RwwW",
+    "title_section_xkqKeV",
+    "boat_calculator_UMEjYT",
     "boat_numbers_XawEne",
     "feature_image_VLBegJ",
     "boat_form_y3khgk",
