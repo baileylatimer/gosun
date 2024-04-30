@@ -22,7 +22,7 @@
         "title": {
           "type": "title",
           "settings": {
-            "hide_sale_price": true
+            "hide_sale_price": false
           }
         },
         "caption": {
