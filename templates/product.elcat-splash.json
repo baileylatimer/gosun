@@ -370,7 +370,7 @@
           "settings": {
             "button_label": "Rental Operators",
             "button_link": "shopify:\/\/pages\/boatrentaloperators",
-            "button_style_secondary": true,
+            "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
