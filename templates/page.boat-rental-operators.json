@@ -139,7 +139,7 @@
         "top_padding": true,
         "overline": "",
         "heading": "Motor & Battery",
-        "text": "<ul>\n\n <li>   Motor: ePropulsion Spirit 1.0<\/li>\n  <li>   Power: 1kw (3hp equivalent)<\/li>\n  <li>   Motor Weight: 24.2 lbs<\/li>\n   <li>  Efficient Cruise Speed: 3 MPH<\/li>\n  <li>   Top Speed: 6 MPH<\/li>\n   <li>  Battery: Spirit 1.0 Plus (1276wh)<\/li>\n   <li>  Battery Weight: 18.6 lbs<\/li>\n    <li> Standard Charging Time: 8.5 hrs<\/li>\n   <li>  Upgrade to Fast Charging: 3.5 hrs<\/li>\n   <li>  NO Maintenence!<\/li>\n    <li> Add extra Batteries to range<\/li>\n    <li> Tool-less Battery swap time: 15 seconds<\/li>\n\n<\/ul>",
+        "text": "<ul>\n\n <li>   Motor: ePropulsion Spirit 1.0<\/li>\n  <li>   Power: 1kw (3hp equivalent)<\/li>\n  <li>   Motor Weight: 24.2 lbs<\/li>\n   <li>  Efficient Cruise Speed: 3 MPH<\/li>\n  <li>   Top Speed: 6 MPH<\/li>\n   <li>  Battery: Spirit 1.0 Plus (1276wh)<\/li>\n   <li>  Battery Weight: 18.6 lbs<\/li>\n    <li> Standard Charging Time: 8.5 hrs<\/li>\n   <li>  [Upgrade to] Fast Charging: 3.5 hrs<\/li>\n   <li>  NO Maintenance!<\/li>\n    <li> Add extra batteries to increase range<\/li>\n    <li> Tool-less Battery swap time: 15 seconds<\/li>\n\n<\/ul>",
         "price": "",
         "video_url": "",
         "image": "shopify:\/\/shop_images\/redbull_wrap_1.webp",
@@ -163,9 +163,9 @@
         "invert_order": false,
         "shrink_height": false,
         "top_padding": false,
-        "overline": "1 Year Commercial Use Warranty",
+        "overline": "",
         "heading": "Ownership Benefits",
-        "text": "<ul>\n\n   <li> Rapid turnaround between rentals<\/li>\n     <li>  Low maintenance<\/li>\n     <li>  Family fun - anyone can be Captain<\/li>\n      <li> Quiet, smooth ride - chat, chill, or catch some tunes<\/li>\n      <li> Extra Batteries - click in\/out in seconds<\/li>\n      <li> Strong inflatable hull - reduces dock collision damage<\/li>\n      <li> Quick and easy to clean & protect<\/li>\n     <li>  Warranty: Hull - 1 Year | Motor + Battery - 2 Years<\/li>\n     <li>  3 year Protection Plan UPGRADE AVAILABLE!<\/li>\n\n<\/ul>",
+        "text": "<li> 1 Year Commercial Use Warranty<\/li>\n<li> Rapid turnaround between rentals<\/li>\n     <li>  Low maintenance<\/li>\n     <li>  Family fun - anyone can be Captain<\/li>\n      <li> Quiet, smooth ride - chat, chill, or catch some tunes<\/li>\n      <li> Extra Batteries - click in\/out in seconds<\/li>\n      <li> Strong inflatable hull - reduces dock collision damage<\/li>\n      <li> Quick and easy to clean & protect<\/li>\n     <li>  Warranty: Hull - 1 Year | Motor + Battery - 2 Years<\/li>\n     <li>  3 year Protection Plan UPGRADE AVAILABLE!<\/li>",
         "price": "",
         "video_url": "",
         "image": "shopify:\/\/shop_images\/fun_elcat.jpg",
@@ -242,6 +242,7 @@
     },
     "need_help_gCLBEz": {
       "type": "need-help",
+      "disabled": true,
       "settings": {
         "section_title": "Need help deciding?"
       }
