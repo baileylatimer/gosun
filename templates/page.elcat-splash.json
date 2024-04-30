@@ -95,43 +95,7 @@
       "settings": {
       }
     },
-    "feature_image_B7RwwW": {
-      "type": "feature-image",
-      "settings": {
-        "product_reference": "",
-        "invert_order": true,
-        "shrink_height": false,
-        "top_padding": true,
-        "overline": "",
-        "heading": "Rugged Durability",
-        "text": "Made with drop-stitched, double-walled, structurally laminated PVC, this boat is built to last. Think of a whitewater raft or a Navy tender boat, made of the same materials, always ready for action.",
-        "price": "",
-        "video_url": "",
-        "image": "shopify:\/\/shop_images\/Layers_Callout_700x_a18449f6-8c0d-471b-a9d2-8636fde63dfd.webp",
-        "img-fit": true,
-        "button_url": "",
-        "button_label": "",
-        "button_url_2": "",
-        "button_label_2": ""
-      }
-    },
-    "hero_section_48ikpG": {
-      "type": "hero-section",
-      "settings": {
-        "shrink_height": false,
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2dfc5f889c0d4ff0bba69f088deeef10.mp4",
-        "overline": "",
-        "heading": "One Year Warranty",
-        "paragraph": "GoSun has you covered with award winning customer service",
-        "button1_text": "",
-        "button1_url": "",
-        "play_button_1": false,
-        "button2_text": "",
-        "button2_url": "",
-        "play_button_2": false
-      }
-    },
-    "feature_image_enbHmg": {
+    "feature_image_Vn3MR4": {
       "type": "feature-image",
       "settings": {
         "product_reference": "",
@@ -139,12 +103,12 @@
         "shrink_height": false,
         "top_padding": false,
         "overline": "",
-        "heading": "Charge via Grid or Solar",
-        "text": "The Elcat battery monitor provides three accurate data streams to help you determine how long you can motor along. With charging available from grid or solar power you can stay out longer.",
+        "heading": "Party of Six, All Aboard",
+        "text": "Seating all over, including the upper deck, Elcat Splash carries up to six adults, over 1,300 pounds, and measures 14’8\" Long by 8' Wide and 6‘6” Tall. Splash has Headroom of 58\" (4' 8\").",
         "price": "",
         "video_url": "",
-        "image": "shopify:\/\/shop_images\/Charging_Chart_700x_a1ba2866-0d70-463a-91b8-bf3ded0ca7ce.webp",
-        "img-fit": true,
+        "image": "shopify:\/\/shop_images\/Splash_Schematic_Sideview_700x_7be3d188-de8d-420d-b1dd-c766dc8f67a1.webp",
+        "img-fit": false,
         "button_url": "",
         "button_label": "",
         "button_url_2": "",
@@ -171,7 +135,7 @@
         "button_label_2": ""
       }
     },
-    "feature_image_Vn3MR4": {
+    "feature_image_enbHmg": {
       "type": "feature-image",
       "settings": {
         "product_reference": "",
@@ -179,16 +143,32 @@
         "shrink_height": false,
         "top_padding": false,
         "overline": "",
-        "heading": "Party of Six, All Aboard",
-        "text": "Seating all over, including the upper deck, Elcat Splash carries up to six adults, over 1,300 pounds, and measures 14’8\" Long by 8' Wide and 6‘6” Tall. Splash has Headroom of 58\" (4' 8\").",
+        "heading": "Charge via Grid or Solar",
+        "text": "The Elcat battery monitor provides three accurate data streams to help you determine how long you can motor along. With charging available from grid or solar power you can stay out longer.",
         "price": "",
         "video_url": "",
-        "image": "shopify:\/\/shop_images\/Splash_Schematic_Sideview_700x_7be3d188-de8d-420d-b1dd-c766dc8f67a1.webp",
-        "img-fit": false,
+        "image": "shopify:\/\/shop_images\/Charging_Chart_700x_a1ba2866-0d70-463a-91b8-bf3ded0ca7ce.webp",
+        "img-fit": true,
         "button_url": "",
         "button_label": "",
         "button_url_2": "",
         "button_label_2": ""
+      }
+    },
+    "hero_section_48ikpG": {
+      "type": "hero-section",
+      "settings": {
+        "shrink_height": false,
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2dfc5f889c0d4ff0bba69f088deeef10.mp4",
+        "overline": "",
+        "heading": "One Year Warranty",
+        "paragraph": "GoSun has you covered with award winning customer service",
+        "button1_text": "",
+        "button1_url": "",
+        "play_button_1": false,
+        "button2_text": "",
+        "button2_url": "",
+        "play_button_2": false
       }
     },
     "feature_image_6WQHYp": {
@@ -224,6 +204,26 @@
         "price": "",
         "video_url": "",
         "image": "shopify:\/\/shop_images\/In_The_Box_Left_2_600x_aad4c450-3564-4e53-9d90-007fe71a19d0.webp",
+        "img-fit": true,
+        "button_url": "",
+        "button_label": "",
+        "button_url_2": "",
+        "button_label_2": ""
+      }
+    },
+    "feature_image_B7RwwW": {
+      "type": "feature-image",
+      "settings": {
+        "product_reference": "",
+        "invert_order": true,
+        "shrink_height": false,
+        "top_padding": true,
+        "overline": "",
+        "heading": "Rugged Durability",
+        "text": "Made with drop-stitched, double-walled, structurally laminated PVC, this boat is built to last. Think of a whitewater raft or a Navy tender boat, made of the same materials, always ready for action.",
+        "price": "",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/Layers_Callout_700x_a18449f6-8c0d-471b-a9d2-8636fde63dfd.webp",
         "img-fit": true,
         "button_url": "",
         "button_label": "",
@@ -270,16 +270,6 @@
         "product_column_MmmV33"
       ],
       "settings": {
-      }
-    },
-    "product_page_faq_A6YJyW": {
-      "type": "product-page-faq",
-      "settings": {
-        "product_reference": "gosun-elcat-splash",
-        "invert_order": false,
-        "shrink_height": false,
-        "top_padding": false,
-        "image": "shopify:\/\/shop_images\/gosun_sport_solar_oven_grill_mobile.jpg"
       }
     },
     "faq_3UD6WA": {
@@ -345,6 +335,16 @@
         "padding_bottom": 52
       }
     },
+    "product_page_faq_A6YJyW": {
+      "type": "product-page-faq",
+      "settings": {
+        "product_reference": "gosun-elcat-splash",
+        "invert_order": false,
+        "shrink_height": false,
+        "top_padding": false,
+        "image": "shopify:\/\/shop_images\/gosun_sport_solar_oven_grill_mobile.jpg"
+      }
+    },
     "need_help_gCLBEz": {
       "type": "need-help",
       "settings": {
@@ -358,17 +358,17 @@
     "hero_product_V8NU4k",
     "feature_image_qi7PHt",
     "feature_tabs_YWndzJ",
-    "feature_image_B7RwwW",
-    "hero_section_48ikpG",
-    "feature_image_enbHmg",
-    "feature_image_EVKFWz",
     "feature_image_Vn3MR4",
+    "feature_image_EVKFWz",
+    "feature_image_enbHmg",
+    "hero_section_48ikpG",
     "feature_image_6WQHYp",
     "feature_image_BftMhX",
+    "feature_image_B7RwwW",
     "compare_guide_mCCJtX",
-    "product_page_faq_A6YJyW",
     "faq_3UD6WA",
     "custom_liquid_c4C4bL",
+    "product_page_faq_A6YJyW",
     "need_help_gCLBEz"
   ]
 }
