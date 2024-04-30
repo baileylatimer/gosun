@@ -15,7 +15,7 @@
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/b8ddc4bd98794a4983f25b589364d9cf.mp4",
         "overline": "",
         "heading": "Boats",
-        "paragraph": "Solar Coolers never need ice while food and drinks stay cold, dry, and organized. ",
+        "paragraph": "Solar Electric Boats are smooth, silent and safe",
         "button1_text": "",
         "button1_url": "",
         "play_button_1": false,
@@ -110,25 +110,29 @@
         "product_column_PgLWmc": {
           "type": "product_column",
           "settings": {
-            "product_reference": "gosun-electric-boat-solar"
+            "product_reference": "gosun-electric-boat-solar",
+            "button_url": ""
           }
         },
         "product_column_86MV4G": {
           "type": "product_column",
           "settings": {
-            "product_reference": "gosun-elcat-splash"
+            "product_reference": "gosun-elcat-splash",
+            "button_url": ""
           }
         },
         "product_column_tMK3Ur": {
           "type": "product_column",
           "settings": {
-            "product_reference": "jet-boat"
+            "product_reference": "jet-boat",
+            "button_url": ""
           }
         },
         "product_column_LzQnTp": {
           "type": "product_column",
           "settings": {
-            "product_reference": "ferry-boat"
+            "product_reference": "ferry-boat",
+            "button_url": ""
           }
         }
       },
