@@ -387,7 +387,7 @@
         "text_krbd4j": {
           "type": "text",
           "settings": {
-            "text": "<h4>Dealers wanted for resale! Email boat@gosun.co to join the crew!<\/h4>"
+            "text": "<h4>Dealers wanted for resale! Email <a href=\"mailto:boat@gosun.co\" target=\"_blank\" title=\"mailto:boat@gosun.co\">boat@gosun.co<\/a> to join the crew!<\/h4>"
           }
         }
       },
