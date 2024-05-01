@@ -1,10 +1,56 @@
 {
   "sections": {
     "main": {
-      "type": "main-404"
+      "type": "main-404",
+      "settings": {
+      }
+    },
+    "rich_text_L6wNNp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_tiTX4d": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our apologies",
+            "heading_size": "h2"
+          }
+        },
+        "text_MVwnUh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The GoSun Website is currently under construction and you found an error. Please click Continue shopping above.<\/p>"
+          }
+        },
+        "button_NmXah8": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_tiTX4d",
+        "text_MVwnUh",
+        "button_NmXah8"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_L6wNNp"
   ]
 }
