@@ -160,7 +160,7 @@
         "media_Btt8qm": {
           "type": "media",
           "settings": {
-            "tab_title": "Feed A Community",
+            "tab_title": "Feed the Community",
             "tab_description": "Prepare as many as 30 meals an hour and four dishes at once",
             "image": "shopify:\/\/shop_images\/station_feeding.jpg",
             "video_url": ""
@@ -169,8 +169,8 @@
         "media_bzPcYy": {
           "type": "media",
           "settings": {
-            "tab_title": "Wheels To Go",
-            "tab_description": "Rolls where you roll, compact and well protected package can be moved with ease",
+            "tab_title": "Wheels to roll",
+            "tab_description": "Rolls anywhere you roll, compact and well protected package is moved with ease",
             "image": "shopify:\/\/shop_images\/GoSun_Station_Lifestyle_Transport.jpg",
             "video_url": ""
           }
@@ -196,7 +196,6 @@
     },
     "feature_image_4cRTCj": {
       "type": "feature-image",
-      "disabled": true,
       "settings": {
         "product_reference": "",
         "invert_order": false,
