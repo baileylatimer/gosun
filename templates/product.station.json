@@ -386,7 +386,8 @@
       "settings": {
         "invert_order": false,
         "shrink_height": false,
-        "top_padding": false
+        "top_padding": false,
+        "image": "shopify:\/\/shop_images\/GoSun_Station_Lifestyle_Cook.jpg"
       }
     },
     "need_help_cV6mQY": {
