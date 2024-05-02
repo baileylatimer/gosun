@@ -4,6 +4,7 @@
   "sections": {
     "feature_banner_TtmL88": {
       "type": "feature-banner",
+      "disabled": true,
       "settings": {
         "heading": "Outdoor Kitchen Reinvented"
       }
