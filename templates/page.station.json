@@ -11,7 +11,7 @@
     "product_nav_A3Ldaj": {
       "type": "product-nav",
       "settings": {
-        "product_reference": "best-solar-cooker-fusion"
+        "product_reference": "parabolic-solar-cooker-commercial"
       }
     },
     "hero_product_V8NU4k": {
@@ -172,7 +172,7 @@
     "product_page_faq_BtecEH": {
       "type": "product-page-faq",
       "settings": {
-        "product_reference": "best-solar-cooker-fusion",
+        "product_reference": "parabolic-solar-cooker-commercial",
         "invert_order": false,
         "shrink_height": false,
         "top_padding": false
