@@ -58,6 +58,15 @@
             "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/469fb42acad84987b15e2beddc639aaf.mp4"
           }
         },
+        "media_rdCkmY": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Self Powered",
+            "tab_description": "Run on included battery, Solar, 12V or AC power",
+            "image": "shopify:\/\/shop_images\/chillest-two-pack-reward-reward-gosun-441890.jpg",
+            "video_url": ""
+          }
+        },
         "media_Hkpygk": {
           "type": "media",
           "settings": {
@@ -66,29 +75,20 @@
             "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c55f55b0f7484569a7636eb532527b69.mp4"
           }
         },
-        "media_rdCkmY": {
-          "type": "media",
-          "settings": {
-            "tab_title": "Self Powered",
-            "tab_description": "Run on included battery, Solar, 12V or AC power",
-            "image": "shopify:\/\/shop_images\/chillest-electric-coolerfreezer-gosun-773684_11522ef6-d329-4e60-88c1-5d071bf35c18.jpg",
-            "video_url": ""
-          }
-        },
         "media_PWLTtA": {
           "type": "media",
           "settings": {
             "tab_title": "Quiet Operation",
             "tab_description": "Brushless compressor runs quieter than your local library",
-            "image": "shopify:\/\/shop_images\/chillest-cover.jpg",
+            "image": "shopify:\/\/shop_images\/chillest-cover_e1d05066-9c5b-4adb-bd77-135506a3deee.jpg",
             "video_url": ""
           }
         }
       },
       "block_order": [
         "media_q9xfqk",
-        "media_Hkpygk",
         "media_rdCkmY",
+        "media_Hkpygk",
         "media_PWLTtA"
       ],
       "settings": {
