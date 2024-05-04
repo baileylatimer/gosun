@@ -78,9 +78,9 @@
         "media_PWLTtA": {
           "type": "media",
           "settings": {
-            "tab_title": "Low Noise",
+            "tab_title": "Quiet Operation",
             "tab_description": "Brushless compressor runs quieter than your local library",
-            "image": "shopify:\/\/shop_images\/chillest_handle.gif",
+            "image": "shopify:\/\/shop_images\/chillest-cover.jpg",
             "video_url": ""
           }
         }
