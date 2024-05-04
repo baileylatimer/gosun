@@ -50,20 +50,12 @@
     "feature_tabs_YWndzJ": {
       "type": "feature-tabs",
       "blocks": {
-        "media_q9xfqk": {
-          "type": "media",
-          "settings": {
-            "tab_title": "Feed an army",
-            "tab_description": "Capable of solar cooking 30 meals every hour",
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2cf55121929b4e299f7792e053ee89db.mp4"
-          }
-        },
         "media_PWLTtA": {
           "type": "media",
           "settings": {
             "tab_title": "Portable",
             "tab_description": "Deploys in seconds and collapses into a durable package",
-            "image": "shopify:\/\/shop_images\/GoSun_Station_Lifestyle_Transport.jpg",
+            "image": "shopify:\/\/shop_images\/GoSun_Station_Lifestyle_Fold.jpg",
             "video_url": ""
           }
         },
@@ -76,20 +68,29 @@
             "video_url": ""
           }
         },
+        "media_q9xfqk": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Feed an army",
+            "tab_description": "Capable of solar cooking 30 meals every hour",
+            "image": "shopify:\/\/shop_images\/ezgif-4-da27f4cb81.gif",
+            "video_url": ""
+          }
+        },
         "media_rdCkmY": {
           "type": "media",
           "settings": {
             "tab_title": "Durable",
             "tab_description": "Rugged frame with protection for any weather or terrain",
-            "image": "shopify:\/\/shop_images\/GoSun_Station_White_Folded.jpg",
+            "image": "shopify:\/\/shop_images\/GoSun_Station_Lifestyle_Transport.jpg",
             "video_url": ""
           }
         }
       },
       "block_order": [
-        "media_q9xfqk",
         "media_PWLTtA",
         "media_Hkpygk",
+        "media_q9xfqk",
         "media_rdCkmY"
       ],
       "settings": {
@@ -104,7 +105,7 @@
         "top_padding": true,
         "overline": "",
         "heading": "Patented solar cooking technology",
-        "text": "The Fusion's patented solar evacuated tube creates the most efficient insulation in modern cooking technology. Two parabolic reflectors concentrate the sunlight into the cooking chamber - trapping the energy inside for cooking.",
+        "text": "The Station's patented evacuated tube creates the most efficient insulation in modern cooking technology. Adjustable parabolic reflectors concentrate the sunlight into the cooking chamber - trapping the energy inside for cooking.",
         "price": "",
         "video_url": "",
         "image": "shopify:\/\/shop_images\/image_29_700x_c97952ca-3c19-4f06-ae37-ec22548ac3a6.webp",
@@ -119,10 +120,10 @@
       "type": "hero-section",
       "settings": {
         "shrink_height": false,
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c06677ed2b3547b78ab0fe1bd6f0d2bd.mp4",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2cf55121929b4e299f7792e053ee89db.mp4",
         "overline": "",
-        "heading": "Built for the future",
-        "paragraph": "The Fusion's patented solar evacuated tube creates the most efficient insulation in modern cooking technology. Two parabolic reflectors concentrate the sunlight into the cooking chamber - trapping the energy inside for cooking.",
+        "heading": "Built to feed a community",
+        "paragraph": " Whether you're feeding a crowd, responding to emergencies, or hosting an outdoor feast, the GoSun Station is your ultimate cooking companion.",
         "button1_text": "",
         "button1_url": "",
         "play_button_1": false,
