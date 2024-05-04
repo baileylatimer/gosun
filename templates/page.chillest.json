@@ -54,24 +54,24 @@
           "type": "media",
           "settings": {
             "tab_title": "Fridge & Freezer",
-            "tab_description": "Two separate cooling zones allow you to set either zone as a freezer or fridge",
+            "tab_description": "Each of two zones can be set either as a freezer or fridge",
             "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/469fb42acad84987b15e2beddc639aaf.mp4"
           }
         },
         "media_Hkpygk": {
           "type": "media",
           "settings": {
-            "tab_title": "Make ice",
-            "tab_description": "Instead of melting ice, you can make it, or store ice cream",
+            "tab_title": "Super Spacious",
+            "tab_description": "Without ice you have more room for what matters",
             "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c55f55b0f7484569a7636eb532527b69.mp4"
           }
         },
         "media_rdCkmY": {
           "type": "media",
           "settings": {
-            "tab_title": "Charge Devices",
-            "tab_description": "Run off of 12 or 24 V DC, AC power, solar, or battery",
-            "image": "shopify:\/\/shop_images\/chillest-ultimate-gosun-933432.jpg",
+            "tab_title": "Self Powered",
+            "tab_description": "Run on included battery, Solar, 12V or AC power",
+            "image": "shopify:\/\/shop_images\/chillest-electric-coolerfreezer-gosun-773684_11522ef6-d329-4e60-88c1-5d071bf35c18.jpg",
             "video_url": ""
           }
         },
