@@ -54,7 +54,7 @@
           "type": "media",
           "settings": {
             "tab_title": "Feed an army",
-            "tab_description": "With four x 101 oz cooking trays you can cook a meal for 30 people every hour",
+            "tab_description": "Capable of solar cooking 30 meals every hour",
             "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2cf55121929b4e299f7792e053ee89db.mp4"
           }
         },
@@ -71,7 +71,7 @@
           "type": "media",
           "settings": {
             "tab_title": "Cook at night",
-            "tab_description": "Cook with the sun during the day and plug it in at night",
+            "tab_description": "Hybrid solar + 12V electric heat so the cooking does not stop",
             "image": "shopify:\/\/shop_images\/solar_oven_night_cooking_700x_c218ace3-c700-44c5-a34b-b2e38a8883b5.webp",
             "video_url": ""
           }
@@ -79,9 +79,9 @@
         "media_rdCkmY": {
           "type": "media",
           "settings": {
-            "tab_title": "All-weather",
-            "tab_description": "Rain, clouds, & snow. If you can see a shadow, it will cook.",
-            "image": "shopify:\/\/shop_images\/solar_oven_gosun_fusion.jpg",
+            "tab_title": "Durable",
+            "tab_description": "Rugged frame with protection for any weather or terrain",
+            "image": "shopify:\/\/shop_images\/GoSun_Station_White_Folded.jpg",
             "video_url": ""
           }
         }
