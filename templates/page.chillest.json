@@ -19,8 +19,8 @@
       "settings": {
         "product_reference": "chillest-portable-electric-cooler",
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/184dc84962b34cdc8882420c34c01e2b.mp4",
-        "background_image": "shopify:\/\/shop_images\/Rectangle_4.jpg",
-        "description": "A cooler and freezer that never needs ice.",
+        "background_image": "shopify:\/\/shop_images\/chillest-ultimate-reward-reward-gosun-616012.jpg",
+        "description": "Fridge and freezer that never needs ice",
         "feature_1_title": "Temp Control",
         "feature_1_description": "-4°F to 68°F",
         "feature_2_title": "Capacity",
@@ -30,13 +30,15 @@
     "feature_image_qi7PHt": {
       "type": "feature-image",
       "settings": {
+        "product_reference": "",
         "invert_order": true,
         "shrink_height": true,
         "top_padding": true,
         "overline": "",
-        "heading": "Extreme portability for any adventure",
+        "heading": "Rolls on any adventure",
         "text": "Take this solar cooler with you on all of your adventures. Power with any 12V source like a boat, car, truck or RV to extend the run time. The built in telescoping handle is designed for on-the-go movement, with large all-terrain wheels to handle uneven ground.",
         "price": "",
+        "video_url": "",
         "image": "shopify:\/\/shop_images\/solar_cooler_chillest_boat.jpg",
         "img-fit": false,
         "button_url": "",
@@ -51,8 +53,8 @@
         "media_q9xfqk": {
           "type": "media",
           "settings": {
-            "tab_title": "Cooling & freezing versatility",
-            "tab_description": "Two separate cooling zones allow you to set either zone as a freezer or fridge.",
+            "tab_title": "Fridge & Freezer",
+            "tab_description": "Two separate cooling zones allow you to set either zone as a freezer or fridge",
             "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/469fb42acad84987b15e2beddc639aaf.mp4"
           }
         },
@@ -95,6 +97,7 @@
     "feature_image_B7RwwW": {
       "type": "feature-image",
       "settings": {
+        "product_reference": "",
         "invert_order": true,
         "shrink_height": false,
         "top_padding": true,
@@ -102,6 +105,7 @@
         "heading": "How it works",
         "text": "The Chillest can run off of it's built in 87Wh battery, external Power Banks like GoSun's Power 144 or 266, DC car outlet, wall adapter, or additional power from GoSun's Solar Panels like the 30 W Solar Panel, 60 W Solar Table, etc.",
         "price": "",
+        "video_url": "",
         "image": "shopify:\/\/shop_images\/image_16_700x_b402180e-87e8-42da-8496-1ebbf8bd486d.webp",
         "img-fit": true,
         "button_url": "",
@@ -133,19 +137,22 @@
         "product_column_86MV4G": {
           "type": "product_column",
           "settings": {
-            "product_reference": "chillest-portable-electric-cooler"
+            "product_reference": "chillest-portable-electric-cooler",
+            "button_url": ""
           }
         },
         "product_column_PgLWmc": {
           "type": "product_column",
           "settings": {
-            "product_reference": "chill-camping-electric-cooler"
+            "product_reference": "chill-camping-electric-cooler",
+            "button_url": ""
           }
         },
         "product_column_tMK3Ur": {
           "type": "product_column",
           "settings": {
-            "product_reference": "chillito-electric-cooler"
+            "product_reference": "chillito-electric-cooler",
+            "button_url": ""
           }
         }
       },
