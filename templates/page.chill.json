@@ -19,7 +19,7 @@
       "settings": {
         "product_reference": "chill-camping-electric-cooler",
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/913e8099534f4ea5b4977503e716b717.mp4",
-        "description": "A cooler that doesn't need ice.",
+        "description": "A cooler that doesn't need ice",
         "feature_1_title": "Temp Control",
         "feature_1_description": "-4°F to 68°F",
         "feature_2_title": "Capacity",
@@ -40,8 +40,8 @@
         "media_q9xfqk": {
           "type": "media",
           "settings": {
-            "tab_title": "Easy to use.",
-            "tab_description": "Plug into the included PowerBank 144 or any DC outlet and you're good to go.",
+            "tab_title": "Easy to use",
+            "tab_description": "Power from Included Battery or any 12V DC, or AC outlet",
             "image": "shopify:\/\/shop_images\/ezgif-2-326c59b5b0_600x_6ac9669e-c6d8-42dd-8ceb-969d88de51d2.webp",
             "video_url": ""
           }
@@ -59,7 +59,7 @@
           "type": "media",
           "settings": {
             "tab_title": "Charge Devices",
-            "tab_description": "Run off of 12 or 24 V DC, AC power, solar, or battery",
+            "tab_description": "Included Power 144 battery can also charge your devices",
             "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8e8407b9d8ff4446af05c9ab936148bd.mp4"
           }
         }
