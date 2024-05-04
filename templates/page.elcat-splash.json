@@ -108,7 +108,7 @@
         "price": "",
         "video_url": "",
         "image": "shopify:\/\/shop_images\/Splash_Schematic_Sideview_700x_7be3d188-de8d-420d-b1dd-c766dc8f67a1.webp",
-        "img-fit": false,
+        "img-fit": true,
         "button_url": "",
         "button_label": "",
         "button_url_2": "",
