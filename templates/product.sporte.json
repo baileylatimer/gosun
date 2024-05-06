@@ -146,6 +146,26 @@
         "title": "Default Heading"
       }
     },
+    "feature_image_4cRTCj": {
+      "type": "feature-image",
+      "settings": {
+        "product_reference": "",
+        "invert_order": false,
+        "shrink_height": true,
+        "top_padding": false,
+        "overline": "",
+        "heading": "Best Selling Solar Oven",
+        "text": "The GoSun Sport was our first invention and gave the company its mojo. Now, after selling thousands, we've listened and made the Sport even better. The Sport-E includes crowd favorite accessories (carrying case, silicone cups, etc) and the 12V electric heater is optimally tuned to 350°F.",
+        "price": "",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/GoSun_Go_how_to_page_cover_image_sport_e.jpg",
+        "img-fit": false,
+        "button_url": "",
+        "button_label": "",
+        "button_url_2": "",
+        "button_label_2": ""
+      }
+    },
     "feature_tabs_4yKUxY": {
       "type": "feature-tabs",
       "blocks": {
@@ -192,26 +212,6 @@
         "media_DFEWCt"
       ],
       "settings": {
-      }
-    },
-    "feature_image_4cRTCj": {
-      "type": "feature-image",
-      "settings": {
-        "product_reference": "",
-        "invert_order": false,
-        "shrink_height": true,
-        "top_padding": false,
-        "overline": "",
-        "heading": "Best Selling Solar Oven",
-        "text": "The GoSun Sport was our first invention and gave the company its mojo. Now, after selling thousands, we've listened and made the Sport even better. The Sport-E includes crowd favorite accessories (carrying case, silicone cups, etc) and the 12V electric heater is optimally tuned to 350°F.",
-        "price": "",
-        "video_url": "",
-        "image": "shopify:\/\/shop_images\/GoSun_Go_how_to_page_cover_image_sport_e.jpg",
-        "img-fit": false,
-        "button_url": "",
-        "button_label": "",
-        "button_url_2": "",
-        "button_label_2": ""
       }
     },
     "video_R4hfyA": {
@@ -424,8 +424,8 @@
   "order": [
     "main",
     "bundles_ht8HAi",
-    "feature_tabs_4yKUxY",
     "feature_image_4cRTCj",
+    "feature_tabs_4yKUxY",
     "video_R4hfyA",
     "feature_image_TkcHRk",
     "feature_image_FnmW3X",
