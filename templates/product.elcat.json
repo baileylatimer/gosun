@@ -465,6 +465,15 @@
       "type": "pdp-nav",
       "settings": {
       }
+    },
+    "custom_liquid_4HXfKC": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script type=\"text\/javascript\">\nvar _learnq = _learnq || [];\n\tdocument.getElementById(\"ProductSubmitButton-template--15009795801182__main\").addEventListener('click',function (){\n \t\t_learnq.push(['track', 'Added to Cart', item]);\n\t});<\/script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -485,6 +494,7 @@
     "1713136015e25a897a",
     "need_help_cV6mQY",
     "related-products",
-    "pdp_nav_fqQWcm"
+    "pdp_nav_fqQWcm",
+    "custom_liquid_4HXfKC"
   ]
 }
