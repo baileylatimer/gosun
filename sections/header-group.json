@@ -7,14 +7,23 @@
       "blocks": {
         "announcement-bar-0": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Free Shipping + Money Back Warranty",
             "link": ""
           }
+        },
+        "announcement_BL3gLg": {
+          "type": "announcement",
+          "settings": {
+            "text": "FLASH SALE on Sport-E",
+            "link": "shopify:\/\/products\/sport-e"
+          }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "announcement_BL3gLg"
       ],
       "settings": {
         "color_scheme": "",
