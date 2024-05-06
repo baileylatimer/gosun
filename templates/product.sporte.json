@@ -160,27 +160,27 @@
         "media_Btt8qm": {
           "type": "media",
           "settings": {
-            "tab_title": "Off Grid Ready",
-            "tab_description": "Complete solar setup brings comfort and reliability anywhere",
-            "image": "shopify:\/\/shop_images\/gosun_camp365_off_grid_trailer_compact_ceaabf3f-2179-4e8b-b9ee-6a8f05bdaf2a.jpg",
+            "tab_title": "Meals in minutes",
+            "tab_description": "Reliably cooks a meal for two in just 20 minutes",
+            "image": "shopify:\/\/shop_images\/sport_open_tray_wings_1.png",
             "video_url": ""
           }
         },
         "media_bzPcYy": {
           "type": "media",
           "settings": {
-            "tab_title": "Aerodynamic & Lightweight",
-            "tab_description": "Sleek, sealed outer shell allows for easy towing and stowing",
-            "image": "shopify:\/\/shop_images\/camper_trailer_gosun_camp365_towing_5de8a2e1-77eb-488e-81f1-e5585f7b6f5d.jpg",
-            "video_url": ""
+            "tab_title": "Compact & Portable",
+            "tab_description": "Legs and reflectors fold up to protect and carry",
+            "image": "shopify:\/\/shop_images\/solar_oven_sport_hybrid_cookstove_hero_2000x_jpg.webp",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e580a2a16e9f43db9c831e01872ead84.mp4"
           }
         },
         "media_DFEWCt": {
           "type": "media",
           "settings": {
-            "tab_title": "Built to Last",
-            "tab_description": "Made without wood, or canvas, so there is no rust, mold, or rot",
-            "image": "shopify:\/\/shop_images\/gosun_camper_64d44684-9b85-4620-b8ec-caa313b21d60.jpg",
+            "tab_title": "Hybrid Solar + 12V",
+            "tab_description": "Cook directly with the Sun or with electric from car, boat, RV, or battery",
+            "image": "shopify:\/\/shop_images\/gosun_sporte_electric_oven_solar_1200x_jpg.webp",
             "video_url": ""
           }
         }
