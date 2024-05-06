@@ -140,6 +140,15 @@
         "padding_bottom": 12
       }
     },
+    "custom_liquid_3Ch4Hg": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script type=\"text\/javascript\">\nvar _learnq = _learnq || [];\n\tdocument.getElementById(\"ProductSubmitButton-template--15009795801182__main\").addEventListener('click',function (){\n \t\t_learnq.push(['track', 'Added to Cart', item]);\n\t});<\/script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "bundles_ht8HAi": {
       "type": "bundles",
       "settings": {
@@ -215,6 +224,7 @@
   },
   "order": [
     "main",
+    "custom_liquid_3Ch4Hg",
     "bundles_ht8HAi",
     "title_section_wJHw3h",
     "1713136015e25a897a",
