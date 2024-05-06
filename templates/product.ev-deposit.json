@@ -5,6 +5,7 @@
       "blocks": {
         "stamped_product_reviews_ugc_star_rating_badge_hNJJ4T": {
           "type": "shopify:\/\/apps\/stamped-product-reviews-ugc\/blocks\/star-rating-badge\/a103faaf-2125-4b0e-89fa-de5149736723",
+          "disabled": true,
           "settings": {
             "use_metafields": false,
             "sku_tagtype": "sku",
@@ -82,6 +83,7 @@
         },
         "collapsible_tab_wcr9wy": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Weight & Dimensions",
             "icon": "none",
@@ -91,6 +93,7 @@
         },
         "collapsible_tab_peG8ey": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Tech Specs",
             "icon": "none",
@@ -100,6 +103,7 @@
         },
         "collapsible_tab_kAefXq": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "What's included",
             "icon": "none",
@@ -157,6 +161,7 @@
     },
     "title_section_wJHw3h": {
       "type": "title-section",
+      "disabled": true,
       "settings": {
         "title": "Reviews"
       }
@@ -180,6 +185,7 @@
       "block_order": [
         "stamped_product_reviews_ugc_main_widget_VhqhcM"
       ],
+      "disabled": true,
       "settings": {
         "include_margins": true
       }
@@ -194,6 +200,7 @@
     },
     "need_help_cV6mQY": {
       "type": "need-help",
+      "disabled": true,
       "settings": {
         "section_title": "Need help deciding?"
       }
