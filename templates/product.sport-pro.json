@@ -175,11 +175,21 @@
             "image": "shopify:\/\/shop_images\/Sport_Touch.jpg",
             "video_url": ""
           }
+        },
+        "media_MmBkHN": {
+          "type": "media",
+          "settings": {
+            "tab_title": "All-weather performance",
+            "tab_description": "Rain, clouds, snow? No problem. If you can see a shadow, the Sport will give you a warm, sizzling meal.",
+            "image": "shopify:\/\/shop_images\/sport_in_snow_670_x_380.png",
+            "video_url": ""
+          }
         }
       },
       "block_order": [
         "media_b6Qrj6",
-        "media_tj3kJC"
+        "media_tj3kJC",
+        "media_MmBkHN"
       ],
       "settings": {
       }
