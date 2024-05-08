@@ -155,6 +155,45 @@
         "title": "Default Heading"
       }
     },
+    "feature_tabs_QwE4f8": {
+      "type": "feature-tabs",
+      "blocks": {
+        "media_yVe8GA": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Easy to use",
+            "tab_description": "Plug into the included PowerBank 144 or any DC outlet and you're good to go.",
+            "image": "shopify:\/\/shop_images\/Chill_how_to_video_cover_2.jpg",
+            "video_url": ""
+          }
+        },
+        "media_pQkjd4": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Multi-modal power, means you've got options",
+            "tab_description": "GoSun Chill can be powered by multiple power sources, including: Powerbank, AC Adapter, 12 Volt Cord (car port charger), Solar Table, or Flexible Solar Panels",
+            "image": "shopify:\/\/shop_images\/chilldisplay_03-720x720.webp",
+            "video_url": ""
+          }
+        },
+        "media_gBz7BL": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Solar cooler gives you more room to chill",
+            "tab_description": "Nothing kills the trip like rotten food, soggy bread, or warm beer. To keep the adventure going, the Chill minimizes space needed for ice and fuel",
+            "image": "shopify:\/\/shop_images\/Chill_Boat_927478e1-6e9e-4181-9272-8e4befdd4111.jpg",
+            "video_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "media_yVe8GA",
+        "media_pQkjd4",
+        "media_gBz7BL"
+      ],
+      "settings": {
+      }
+    },
     "title_section_wJHw3h": {
       "type": "title-section",
       "settings": {
@@ -226,6 +265,7 @@
     "main",
     "custom_liquid_3Ch4Hg",
     "bundles_ht8HAi",
+    "feature_tabs_QwE4f8",
     "title_section_wJHw3h",
     "1713136015e25a897a",
     "faq_product_wzwVAy",

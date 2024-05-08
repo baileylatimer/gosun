@@ -155,6 +155,24 @@
         "title": "Default Heading"
       }
     },
+    "feature_tabs_nnnjFJ": {
+      "type": "feature-tabs",
+      "blocks": {
+        "media_7erPzm": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Tab Title",
+            "tab_description": "This is the tab description.",
+            "video_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "media_7erPzm"
+      ],
+      "settings": {
+      }
+    },
     "title_section_wJHw3h": {
       "type": "title-section",
       "settings": {
@@ -226,6 +244,7 @@
     "main",
     "custom_liquid_3Ch4Hg",
     "bundles_ht8HAi",
+    "feature_tabs_nnnjFJ",
     "title_section_wJHw3h",
     "1713136015e25a897a",
     "faq_product_wzwVAy",
