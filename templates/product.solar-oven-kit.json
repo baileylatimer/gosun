@@ -155,6 +155,45 @@
         "title": "Default Heading"
       }
     },
+    "feature_tabs_XQydDM": {
+      "type": "feature-tabs",
+      "blocks": {
+        "media_Mx3eGm": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Safe to touch",
+            "tab_description": "Other methods of cooking get dangerously hot on the outside, but the Solar Oven Kit traps all of its heat inside the vacuum cooking tube. Enjoy solar cooked food without the danger of burns.",
+            "image": "shopify:\/\/shop_images\/Gosun_solar_oven_kit_cool_to_the_touch.jpg",
+            "video_url": ""
+          }
+        },
+        "media_tRkhp8": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Bake, boil, or fry anywhere",
+            "tab_description": "Compact enough to take on the go. You can cook anywhere the sun shines. Plus every package includes a carrying bag with drawstrings to become a backpack.",
+            "image": "shopify:\/\/shop_images\/GoSun_solar_oven_kit_hero_image.jpg",
+            "video_url": ""
+          }
+        },
+        "media_LRwNQF": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Set up in seconds",
+            "tab_description": "How To In Five Steps, 1) attach the brackets to the tube, 2) slide the reflectors in-between the brackets, 3) load the tray with food, 4) point at Sun, 5) enjoy a hot meal after 15 minutes",
+            "image": "shopify:\/\/shop_images\/Gosun_solar_oven_kit_for_website_top_banner_f60eb2a0-4ac9-4460-bdc7-361c72f23479.jpg",
+            "video_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "media_Mx3eGm",
+        "media_tRkhp8",
+        "media_LRwNQF"
+      ],
+      "settings": {
+      }
+    },
     "title_section_wJHw3h": {
       "type": "title-section",
       "settings": {
@@ -226,6 +265,7 @@
     "main",
     "custom_liquid_3Ch4Hg",
     "bundles_ht8HAi",
+    "feature_tabs_XQydDM",
     "title_section_wJHw3h",
     "1713136015e25a897a",
     "faq_product_wzwVAy",
