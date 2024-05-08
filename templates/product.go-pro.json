@@ -155,6 +155,45 @@
         "title": "Default Heading"
       }
     },
+    "feature_tabs_x7rcnD": {
+      "type": "feature-tabs",
+      "blocks": {
+        "media_8py9kk": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Boil water anywhere",
+            "tab_description": "Perfect for tea & coffee",
+            "image": "shopify:\/\/shop_images\/go-portable-solar-oven-1-2-meals-gosun-323854_bec4e2a8-e058-414f-b8a1-46690b25142d.jpg",
+            "video_url": ""
+          }
+        },
+        "media_pRWzRX": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Ultra Portable",
+            "tab_description": "Built in case makes it easy to grab & go",
+            "image": "shopify:\/\/shop_images\/GoSun_Go_how_to_page_cover_image_d4c3ebcf-9ca4-460c-a697-df5c8db0648f.jpg",
+            "video_url": ""
+          }
+        },
+        "media_ayHVYR": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Hot meals wherever",
+            "tab_description": "Add hot water to dry foods for a warm meal. Once heated, liquids stay hot and ready for hours.",
+            "image": "shopify:\/\/shop_images\/go-pro-pack-dealer-portable-solar-oven-1-2-meals-gosun-743988.jpg",
+            "video_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "media_8py9kk",
+        "media_pRWzRX",
+        "media_ayHVYR"
+      ],
+      "settings": {
+      }
+    },
     "title_section_wJHw3h": {
       "type": "title-section",
       "settings": {
@@ -226,6 +265,7 @@
     "main",
     "custom_liquid_3Ch4Hg",
     "bundles_ht8HAi",
+    "feature_tabs_x7rcnD",
     "title_section_wJHw3h",
     "1713136015e25a897a",
     "faq_product_wzwVAy",
