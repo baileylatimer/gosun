@@ -38,7 +38,7 @@
         "text_mJkQ34": {
           "type": "text",
           "settings": {
-            "text": "<p>*If you are not entirely satisfied with your purchase, GoSun backs our products with a One Year Guarantee*.<\/p><p><\/p><p>You can send your item back within one year. Please Send your item back to : GoSun Inc. 5151 Fisher Place, Cincinnati, OH 45217.<\/p><p>Include your name, email, and order number.  Returns will be processed within 72 hours of receipt.<\/p>"
+            "text": "<p>*If you are not entirely satisfied with your purchase, GoSun backs our products with a 30 day Guarantee*.<\/p><p><\/p><p>You can send your item back within 30 days. Please Send your item back to : GoSun Inc. 5151 Fisher Place, Cincinnati, OH 45217.<\/p><p>Include your name, email, and order number.  Returns will be processed within 72 hours of receipt.<\/p>"
           }
         }
       },
@@ -70,7 +70,9 @@
             "heading": "What can be returned?",
             "icon": "none",
             "row_content": "<p><strong>*Moneyback Return does not apply to Boats and Campers <br\/><br\/><\/strong>Returns are available only to customers that purchased directly from gosun.co <\/p><p>If<br\/> you are not happy with your purchase, whether it’s quality or <br\/>performance or you dropped it off a cliff, we will replace it for free <br\/>or give your money back.<\/p><p>To be eligible for a full refund, the <br\/>item must be lightly used or the same condition that you received it. <br\/>The item must be in the original packaging and include receipt or proof <br\/>of purchase.<\/p>",
-            "page": ""
+            "page": "",
+            "button_url": "",
+            "button_label": "Download Manual (English)"
           }
         },
         "collapsible_row_XJAAPK": {
@@ -79,7 +81,9 @@
             "heading": "When will I be refunded?",
             "icon": "none",
             "row_content": "<p>Once we receive your returned item, we will notify you within three days<br\/> on the status of your refund after inspecting the item. Once approved, <br\/>we will initiate a refund to your credit card (or original method of <br\/>payment) which is generally seen on a statement after a few days.<\/p>",
-            "page": ""
+            "page": "",
+            "button_url": "",
+            "button_label": "Download Manual (English)"
           }
         },
         "collapsible_row_CjYBQP": {
@@ -88,7 +92,9 @@
             "heading": "Do I need to pay for return shipping?",
             "icon": "none",
             "row_content": "<p>You will be responsible for shipping costs when returning your item. <br\/>Shipping costs are non-­refundable. If you would like GoSun to email a <br\/>pre-paid return label, the cost of return shipping, plus a $10 handling <br\/>fee will be deducted from your refund.<\/p>",
-            "page": ""
+            "page": "",
+            "button_url": "",
+            "button_label": "Download Manual (English)"
           }
         }
       },
