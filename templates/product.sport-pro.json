@@ -155,6 +155,35 @@
         "title": "Default Heading"
       }
     },
+    "feature_tabs_bfJyeK": {
+      "type": "feature-tabs",
+      "blocks": {
+        "media_b6Qrj6": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Cooks anything, never burns",
+            "tab_description": "Meals stay hot and juicy for hours thanks to vacuum insulation and high-temp. silicone seals.",
+            "image": "shopify:\/\/shop_images\/sport-open-box-fastest-solar-oven-2-3-meals-gosun-935765.jpg",
+            "video_url": ""
+          }
+        },
+        "media_tj3kJC": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Steam. Bake. Roast. Fry.",
+            "tab_description": "Cook just about anything - from simple to gourmet. No fuel, no flames, just the juiciest and tastiest food you'll ever make, using the sun.",
+            "image": "shopify:\/\/shop_images\/Sport_Touch.jpg",
+            "video_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "media_b6Qrj6",
+        "media_tj3kJC"
+      ],
+      "settings": {
+      }
+    },
     "title_section_wJHw3h": {
       "type": "title-section",
       "settings": {
@@ -226,6 +255,7 @@
     "main",
     "custom_liquid_3Ch4Hg",
     "bundles_ht8HAi",
+    "feature_tabs_bfJyeK",
     "title_section_wJHw3h",
     "1713136015e25a897a",
     "faq_product_wzwVAy",
