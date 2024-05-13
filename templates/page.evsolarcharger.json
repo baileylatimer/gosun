@@ -17,6 +17,7 @@
     },
     "hero_product_V8NU4k": {
       "type": "hero-product",
+      "disabled": true,
       "settings": {
         "product_reference": "chill-camping-electric-cooler",
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/184dc84962b34cdc8882420c34c01e2b.mp4",
@@ -72,11 +73,13 @@
         "media_Hkpygk",
         "media_rdCkmY"
       ],
+      "disabled": true,
       "settings": {
       }
     },
     "hero_section_fBBVEg": {
       "type": "hero-section",
+      "disabled": true,
       "settings": {
         "shrink_height": false,
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/edc107f487b14cffacd3b99f1c53e6d1.mp4",
@@ -93,6 +96,7 @@
     },
     "feature_image_qi7PHt": {
       "type": "feature-image",
+      "disabled": true,
       "settings": {
         "product_reference": "",
         "invert_order": false,
@@ -134,6 +138,7 @@
     },
     "feature_image_yAb8Cw": {
       "type": "feature-image",
+      "disabled": true,
       "settings": {
         "product_reference": "",
         "invert_order": true,
@@ -199,13 +204,14 @@
         "product_column_PgLWmc",
         "product_column_tMK3Ur"
       ],
+      "disabled": true,
       "settings": {
       }
     },
     "product_page_faq_EDKyqz": {
       "type": "product-page-faq",
       "settings": {
-        "product_reference": "chill-camping-electric-cooler",
+        "product_reference": "ev-solar-charger-deposit",
         "invert_order": false,
         "shrink_height": false,
         "top_padding": false
@@ -213,6 +219,7 @@
     },
     "need_help_gCLBEz": {
       "type": "need-help",
+      "disabled": true,
       "settings": {
         "section_title": "Need help deciding?"
       }
