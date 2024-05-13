@@ -7,6 +7,7 @@
       "blocks": {
         "announcement-bar-0": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Free Shipping + Money Back Warranty",
             "link": "https:\/\/gosun.co\/policies\/shipping-policy"
@@ -19,11 +20,19 @@
             "text": "Mother's Day FLASH SALE on Sport-E",
             "link": "shopify:\/\/products\/sport-e"
           }
+        },
+        "announcement_pidxap": {
+          "type": "announcement",
+          "settings": {
+            "text": "Drive On Sunshine",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "announcement-bar-0",
-        "announcement_BL3gLg"
+        "announcement_BL3gLg",
+        "announcement_pidxap"
       ],
       "settings": {
         "color_scheme": "",
@@ -225,6 +234,7 @@
         "image_with_text_hcNpDU",
         "image_with_text_GhM8f9"
       ],
+      "disabled": true,
       "settings": {
         "logo_position": "middle-center",
         "menu": "main-menu-v2",

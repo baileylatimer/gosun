@@ -10,6 +10,7 @@
     },
     "product_nav_A3Ldaj": {
       "type": "product-nav",
+      "disabled": true,
       "settings": {
         "product_reference": "chill-camping-electric-cooler"
       }
