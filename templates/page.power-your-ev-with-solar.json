@@ -1,5 +1,14 @@
 {
   "sections": {
+    "custom_liquid_eFMTKh": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"welcome\">\nWelcome\n<\/div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -951,6 +960,7 @@
     }
   },
   "order": [
+    "custom_liquid_eFMTKh",
     "main",
     "image_with_text_aUGJF4",
     "multicolumn_q7tDM6",
