@@ -49,6 +49,7 @@
       "blocks": {
         "images_for_dropdown_PiEC9x": {
           "type": "images-for-dropdown",
+          "disabled": true,
           "settings": {
             "parent_link_handle": "Ovens",
             "image_1": "shopify:\/\/shop_images\/fusion_0c89b649-37a3-410a-b9c0-d0519ee65f06.jpg",
@@ -65,6 +66,7 @@
         },
         "images_for_dropdown_gnziAR": {
           "type": "images-for-dropdown",
+          "disabled": true,
           "settings": {
             "parent_link_handle": "Coolers",
             "image_1": "shopify:\/\/shop_images\/chillest-electric-coolerfreezer-gosun-805748_d32d3870-c88a-4fb3-8084-73f53037dc33.jpg",
@@ -79,6 +81,7 @@
         },
         "images_for_dropdown_YdTpcE": {
           "type": "images-for-dropdown",
+          "disabled": true,
           "settings": {
             "parent_link_handle": "Power",
             "image_1": "shopify:\/\/shop_images\/newshield2_9b83cf52-3c21-4797-8728-ed1ec5b45018.png",
@@ -95,6 +98,7 @@
         },
         "images_for_dropdown_c3wYwL": {
           "type": "images-for-dropdown",
+          "disabled": true,
           "settings": {
             "parent_link_handle": "Water",
             "image_1": "shopify:\/\/shop_images\/Brew2.jpg",
@@ -110,6 +114,7 @@
         },
         "images_for_dropdown_k4phtK": {
           "type": "images-for-dropdown",
+          "disabled": true,
           "settings": {
             "parent_link_handle": "Campers",
             "image_1": "shopify:\/\/shop_images\/camper_trailer_gosun_camp365_closed_1000x1000_700x-jpg-700x700_77b72e04-dd62-4039-81d0-9b5ad00d5958.png",
@@ -124,6 +129,7 @@
         },
         "images_for_dropdown_mtdhjk": {
           "type": "images-for-dropdown",
+          "disabled": true,
           "settings": {
             "parent_link_handle": "Boats",
             "image_1": "shopify:\/\/shop_images\/SplashCover_10608b7e-0550-41ff-baaf-92e8f22140c5.jpg",
@@ -140,6 +146,7 @@
         },
         "images_for_dropdown_qxVaRD": {
           "type": "images-for-dropdown",
+          "disabled": true,
           "settings": {
             "parent_link_handle": "Accessories",
             "image_1": "shopify:\/\/shop_images\/flatware-utensils-gosun-285765.jpg",
@@ -156,6 +163,7 @@
         },
         "image_with_text_CwdJUf": {
           "type": "image-with-text",
+          "disabled": true,
           "settings": {
             "parent_menu_item": "Ovens",
             "image": "shopify:\/\/shop_images\/fusion-hero.jpg",
@@ -165,6 +173,7 @@
         },
         "image_with_text_TVLXmj": {
           "type": "image-with-text",
+          "disabled": true,
           "settings": {
             "parent_menu_item": "Coolers",
             "image": "shopify:\/\/shop_images\/04_1_a8be786d-defc-4bea-93f8-c2b0cbf35386.png",
@@ -174,6 +183,7 @@
         },
         "image_with_text_NVDQBi": {
           "type": "image-with-text",
+          "disabled": true,
           "settings": {
             "parent_menu_item": "Power",
             "image": "shopify:\/\/shop_images\/249e42ba1cd719710d427e7e225b26fa_1832x_8664943c-b3f2-4ccf-8b88-91ef959d3d97.webp",
@@ -183,6 +193,7 @@
         },
         "image_with_text_VAcAfh": {
           "type": "image-with-text",
+          "disabled": true,
           "settings": {
             "parent_menu_item": "Water",
             "image": "shopify:\/\/shop_images\/outdoor_sink_coffee_gosun_1600x_d46fb70b-61fa-4dda-9dae-3cad984cee59.webp",
@@ -192,6 +203,7 @@
         },
         "image_with_text_iwT88h": {
           "type": "image-with-text",
+          "disabled": true,
           "settings": {
             "parent_menu_item": "Campers",
             "image": "shopify:\/\/shop_images\/gosun_camper_1280x_dca5d70c-5ad8-4c19-baf3-b6e9a2f60c2f.webp",
@@ -201,6 +213,7 @@
         },
         "image_with_text_hcNpDU": {
           "type": "image-with-text",
+          "disabled": true,
           "settings": {
             "parent_menu_item": "Boats",
             "image": "shopify:\/\/shop_images\/IMG_3388_600x_58cd7ffb-af49-4a77-8f57-a9799585bc94.webp",
@@ -210,6 +223,7 @@
         },
         "image_with_text_GhM8f9": {
           "type": "image-with-text",
+          "disabled": true,
           "settings": {
             "parent_menu_item": "Accessories",
             "image": "shopify:\/\/shop_images\/138d469f5dc024299fd42ca5c912b4fe_2000x_c092ca2d-45c2-49ee-a3a6-8d5db6fbdce1.webp",
@@ -236,7 +250,7 @@
       ],
       "settings": {
         "logo_position": "middle-center",
-        "menu": "main-menu-v2",
+        "menu": "pre-order-now-lp",
         "menu_type_desktop": "mega",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
