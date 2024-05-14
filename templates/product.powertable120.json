@@ -155,6 +155,35 @@
         "title": "Default Heading"
       }
     },
+    "feature_tabs_qTCcXt": {
+      "type": "feature-tabs",
+      "blocks": {
+        "media_4irFkB": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Charge your devices with the Sun",
+            "tab_description": "Designed to recharge the optional Power 266 powerbank, the SolarTable 120's lightweight aluminum frame folds into a portable package that is easy to carry and store.",
+            "image": "shopify:\/\/shop_images\/266_table_laptop_garden.jpg",
+            "video_url": ""
+          }
+        },
+        "media_GnB4dz": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Cook and Charge",
+            "tab_description": "The Solar Table 120 provides a prep surface, while charging devices at the same time.",
+            "image": "shopify:\/\/shop_images\/chill-solartable-120-electric-cooler-120w-solar-charger-gosun-855096.jpg",
+            "video_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "media_4irFkB",
+        "media_GnB4dz"
+      ],
+      "settings": {
+      }
+    },
     "title_section_wJHw3h": {
       "type": "title-section",
       "settings": {
@@ -226,6 +255,7 @@
     "main",
     "custom_liquid_3Ch4Hg",
     "bundles_ht8HAi",
+    "feature_tabs_qTCcXt",
     "title_section_wJHw3h",
     "1713136015e25a897a",
     "faq_product_wzwVAy",
