@@ -161,15 +161,25 @@
         "media_ffYcH6": {
           "type": "media",
           "settings": {
-            "tab_title": "Unfold, plug-in, and charge.",
+            "tab_title": "Unfold, plug-in, and charge",
             "tab_description": "Charge all your devices (including the Chill) with sunshine. It's easy - just unfold, plug in, and aim at the sun.",
             "image": "shopify:\/\/shop_images\/Chill_Beach.jpg",
+            "video_url": ""
+          }
+        },
+        "media_kp9pnf": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Portable power",
+            "tab_description": "Power cell phones and other devices on the go",
+            "image": "shopify:\/\/shop_images\/solarpanel-30-dealer-foldable-30w-solar-charger-gosun-667094.jpg",
             "video_url": ""
           }
         }
       },
       "block_order": [
-        "media_ffYcH6"
+        "media_ffYcH6",
+        "media_kp9pnf"
       ],
       "settings": {
       }
