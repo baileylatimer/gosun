@@ -142,6 +142,22 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "7885500093077574326": {
+        "type": "shopify:\/\/apps\/videowise-video-platform-ugc\/blocks\/script_embed\/b48d6c0c-3e3f-4791-a9ab-a5ab7ec82f4d",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "14277903845590310244": {
+        "type": "shopify:\/\/apps\/extend-product-protection\/blocks\/extend-sdk-init\/f3744d3b-bb7a-4029-9541-5ac3d5517b54",
+        "disabled": false,
+        "settings": {
+          "extend_store_id": "",
+          "environment": "production",
+          "region": "",
+          "locale": ""
+        }
       }
     },
     "color_schemes": {
