@@ -155,6 +155,45 @@
         "title": "Default Heading"
       }
     },
+    "feature_tabs_G6GnDL": {
+      "type": "feature-tabs",
+      "blocks": {
+        "media_CbWrfC": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Charge your phone 10x times",
+            "tab_description": "",
+            "image": "shopify:\/\/shop_images\/power-144-dealer-portable-144wh-power-bank-gosun-300812.jpg",
+            "video_url": ""
+          }
+        },
+        "media_p6FH8y": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Built to move",
+            "tab_description": "",
+            "image": "shopify:\/\/shop_images\/power-144-dealer-portable-144wh-power-bank-gosun-149203.jpg",
+            "video_url": ""
+          }
+        },
+        "media_F6W8Dc": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Power the Chill for hours",
+            "tab_description": "",
+            "image": "shopify:\/\/shop_images\/power-144-dealer-portable-144wh-power-bank-gosun-680996.jpg",
+            "video_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "media_CbWrfC",
+        "media_p6FH8y",
+        "media_F6W8Dc"
+      ],
+      "settings": {
+      }
+    },
     "title_section_wJHw3h": {
       "type": "title-section",
       "settings": {
@@ -226,6 +265,7 @@
     "main",
     "custom_liquid_3Ch4Hg",
     "bundles_ht8HAi",
+    "feature_tabs_G6GnDL",
     "title_section_wJHw3h",
     "1713136015e25a897a",
     "faq_product_wzwVAy",
