@@ -155,6 +155,55 @@
         "title": "Default Heading"
       }
     },
+    "feature_tabs_BQQVn9": {
+      "type": "feature-tabs",
+      "blocks": {
+        "media_A7WBEB": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Charge While You Play",
+            "tab_description": "Designed to recharge your devices or GoSun Powerbank, Solar Cornhole has USB-A, USB-C, and 12V outputs.",
+            "image": "shopify:\/\/shop_images\/IMG_1076_2_1.png",
+            "video_url": ""
+          }
+        },
+        "media_JjBGEQ": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Portable & Compact",
+            "tab_description": "When folded in half, handles make it easy to carry to the backyard, the campsite kitchen, or to the tailgate....",
+            "image": "shopify:\/\/shop_images\/Carry.png",
+            "video_url": ""
+          }
+        },
+        "media_6z8Ne8": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Keep the Party Going",
+            "tab_description": "An adjustable LED light ring illuminates the board's hole so you can keep playing well after the sun goes down.",
+            "image": "shopify:\/\/shop_images\/Dark_Mode_f85c79f1-faed-4387-b8f1-95f041528a59.jpg",
+            "video_url": ""
+          }
+        },
+        "media_qB39Eb": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Convert From Table to Cornhole",
+            "tab_description": "A durable yet lightweight aluminum frame takes just seconds to setup as a table workspace with multiple heights or get your game on.",
+            "image": "shopify:\/\/shop_images\/Frame_137.png",
+            "video_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "media_A7WBEB",
+        "media_JjBGEQ",
+        "media_6z8Ne8",
+        "media_qB39Eb"
+      ],
+      "settings": {
+      }
+    },
     "title_section_wJHw3h": {
       "type": "title-section",
       "settings": {
@@ -226,6 +275,7 @@
     "main",
     "custom_liquid_3Ch4Hg",
     "bundles_ht8HAi",
+    "feature_tabs_BQQVn9",
     "title_section_wJHw3h",
     "1713136015e25a897a",
     "faq_product_wzwVAy",
