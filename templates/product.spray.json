@@ -155,6 +155,45 @@
         "title": "Default Heading"
       }
     },
+    "feature_tabs_AjkdHH": {
+      "type": "feature-tabs",
+      "blocks": {
+        "media_BHUF3X": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Wash Up Wherever You Are",
+            "tab_description": "With Spray's super efficient one liter per minute flow rate, you can clean up wherever you are. Whether it's brushing your teeth at the campsite or washing off some sand on the beach.",
+            "image": "shopify:\/\/shop_images\/Spray_Use.png",
+            "video_url": ""
+          }
+        },
+        "media_zPA9Wh": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Ultimate Flexibility",
+            "tab_description": "The Spray is your portable water companion. Set it up wherever you need a water supply, and use any basin of your choice. Perfect for camping, worksites, or offgrid living.",
+            "image": "shopify:\/\/shop_images\/WaterGif_2_d64597a9-3d0f-47f9-88a9-c06e1b8e3cc6.gif",
+            "video_url": ""
+          }
+        },
+        "media_zFNcz4": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Super Efficient USB Powered Pump",
+            "tab_description": "The pump is powered by an included 18Wh powerbank and can pump 100 gallons of water on a single charge. When you’re done, easily recharge it with any of GoSun's solar panels.",
+            "image": "shopify:\/\/shop_images\/Gallons--A.jpg",
+            "video_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "media_BHUF3X",
+        "media_zPA9Wh",
+        "media_zFNcz4"
+      ],
+      "settings": {
+      }
+    },
     "title_section_wJHw3h": {
       "type": "title-section",
       "settings": {
@@ -226,6 +265,7 @@
     "main",
     "custom_liquid_3Ch4Hg",
     "bundles_ht8HAi",
+    "feature_tabs_AjkdHH",
     "title_section_wJHw3h",
     "1713136015e25a897a",
     "faq_product_wzwVAy",
