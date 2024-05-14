@@ -155,6 +155,35 @@
         "title": "Default Heading"
       }
     },
+    "feature_tabs_j46BYF": {
+      "type": "feature-tabs",
+      "blocks": {
+        "media_EnUE4Q": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Go Anywhere and Stay Warm",
+            "tab_description": "Providing push button heat and comfort while on the go, the Blanket can be the difference between an enjoyable or a miserable experience. The compact Power 74 wh battery lets you use the blanket anywhere from the car to the campsite.",
+            "image": "shopify:\/\/shop_images\/BlanketCar_b934c656-b33c-4c5b-8c83-a7044ff48bdd.png",
+            "video_url": ""
+          }
+        },
+        "media_iKXVpC": {
+          "type": "media",
+          "settings": {
+            "tab_title": "All-Weather Performance",
+            "tab_description": "Take it to the game, camping, or just hanging out in your back yard. Low, Medium and High settings let you choose your level of warmth. Polyester fabric is water resistant and easy to clean.",
+            "image": "shopify:\/\/shop_images\/BlanketCampsite3Web.png",
+            "video_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "media_EnUE4Q",
+        "media_iKXVpC"
+      ],
+      "settings": {
+      }
+    },
     "title_section_wJHw3h": {
       "type": "title-section",
       "settings": {
@@ -226,6 +255,7 @@
     "main",
     "custom_liquid_3Ch4Hg",
     "bundles_ht8HAi",
+    "feature_tabs_j46BYF",
     "title_section_wJHw3h",
     "1713136015e25a897a",
     "faq_product_wzwVAy",
