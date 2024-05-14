@@ -3446,6 +3446,7 @@ a#HeaderMenu-reserve-now {
     align-items: center;
     padding: 10px 3rem !important;
 }
+
 .page-power-your-ev-with-solar sticky-header.bg-primary-light.body-width.header-wrapper.color-scheme-1.gradient.header-wrapper--border-bottom {
     display: none;
 }
@@ -4064,5 +4065,8 @@ section#shopify-section-template--15144452391006__multicolumn_wePedV h2.title.in
     font-size: 33px;
     line-height: 1.2em;
 }  
+.page-power-your-ev-with-solar .section-template--15144452391006__custom_liquid_eFMTKh-padding {
+    padding: 0 10px;
+}
 }
 /* end of Power LP template */
