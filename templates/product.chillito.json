@@ -155,6 +155,42 @@
         "title": "Default Heading"
       }
     },
+    "feature_tabs_rmMBz8": {
+      "type": "feature-tabs",
+      "blocks": {
+        "media_KWdQUg": {
+          "type": "media",
+          "settings": {
+            "tab_title": "No Ice Required",
+            "tab_description": "Keep food and drinks cool, dry, and organized — without the need for ice. Simply pack your goods, set the temperature, and go.",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/vp\/418a244a19d84f3e952ce7cd718740c9\/418a244a19d84f3e952ce7cd718740c9.SD-480p-1.5Mbps-16096249.mp4"
+          }
+        },
+        "media_H63yfr": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Compact For Any Adventure",
+            "tab_description": "Lightweight at only 18 lbs, use the large built-in handle to take Chillito wherever you want to share a fresh bite or refreshing sip.",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/vp\/49e37399975a46349d999b85b4d0ea52\/49e37399975a46349d999b85b4d0ea52.SD-480p-1.5Mbps-16096262.mp4"
+          }
+        },
+        "media_8R4weh": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Stay Charged Anywhere",
+            "tab_description": "Equipped with a lithium ion battery to run the fridge while \"off-grid\" you'll also have USB ports to charge your devices and 12 Volt appliances.",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/vp\/2479a9c1e7424ca5ac2d50c311074c19\/2479a9c1e7424ca5ac2d50c311074c19.HD-1080p-7.2Mbps-16096269.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "media_KWdQUg",
+        "media_H63yfr",
+        "media_8R4weh"
+      ],
+      "settings": {
+      }
+    },
     "title_section_wJHw3h": {
       "type": "title-section",
       "settings": {
@@ -226,6 +262,7 @@
     "main",
     "custom_liquid_3Ch4Hg",
     "bundles_ht8HAi",
+    "feature_tabs_rmMBz8",
     "title_section_wJHw3h",
     "1713136015e25a897a",
     "faq_product_wzwVAy",
