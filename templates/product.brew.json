@@ -155,6 +155,35 @@
         "title": "Default Heading"
       }
     },
+    "feature_tabs_ty46wc": {
+      "type": "feature-tabs",
+      "blocks": {
+        "media_cqbqi7": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Power to make coffee in the palm of your hand",
+            "tab_description": "Integrated electronics brew an incredible cup of coffee or tea, from start to finish, in an all in one cup you can take anywhere.",
+            "image": "shopify:\/\/shop_images\/brew_french_table.jpg",
+            "video_url": ""
+          }
+        },
+        "media_mfbirQ": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Heater, press, and travel mug",
+            "tab_description": "There are a bunch of appliances that become obsolete when you have the GoSun Brew. You no longer need: Grid Power, Fuel or Fire, Stove or Hot Plate or Microwave, Kettle to boil water, French press to brew coffee, Mug or cup to drink.",
+            "image": "shopify:\/\/shop_images\/brew_table_coffee.jpg",
+            "video_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "media_cqbqi7",
+        "media_mfbirQ"
+      ],
+      "settings": {
+      }
+    },
     "title_section_wJHw3h": {
       "type": "title-section",
       "settings": {
@@ -226,6 +255,7 @@
     "main",
     "custom_liquid_3Ch4Hg",
     "bundles_ht8HAi",
+    "feature_tabs_ty46wc",
     "title_section_wJHw3h",
     "1713136015e25a897a",
     "faq_product_wzwVAy",
