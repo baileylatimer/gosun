@@ -155,6 +155,35 @@
         "title": "Default Heading"
       }
     },
+    "feature_tabs_LpQVQC": {
+      "type": "feature-tabs",
+      "blocks": {
+        "media_tykUjN": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Powerful and convenient",
+            "tab_description": "Designed to recharge your Power 144 or Power 266 and provide and shade for the Chill. The SolarTable 60's lightweight aluminum frame folds into a portable package that is easy to carry and store.",
+            "image": "shopify:\/\/shop_images\/image_24.png",
+            "video_url": ""
+          }
+        },
+        "media_Cgn3WJ": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Camping table with built in solar charger",
+            "tab_description": "Dual purpose with a built in 60 watt solar panel, the SolarTable 60 charges from the Sun and includes space for a working surface.",
+            "image": "shopify:\/\/shop_images\/table_fusion_people.png",
+            "video_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "media_tykUjN",
+        "media_Cgn3WJ"
+      ],
+      "settings": {
+      }
+    },
     "title_section_wJHw3h": {
       "type": "title-section",
       "settings": {
@@ -226,6 +255,7 @@
     "main",
     "custom_liquid_3Ch4Hg",
     "bundles_ht8HAi",
+    "feature_tabs_LpQVQC",
     "title_section_wJHw3h",
     "1713136015e25a897a",
     "faq_product_wzwVAy",
