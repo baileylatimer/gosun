@@ -249,7 +249,7 @@
         "image_with_text_GhM8f9"
       ],
       "settings": {
-        "logo_position": "middle-left",
+        "logo_position": "middle-center",
         "menu": "main-menu-v2",
         "menu_type_desktop": "mega",
         "sticky_header_type": "on-scroll-up",
