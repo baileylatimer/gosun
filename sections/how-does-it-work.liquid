@@ -1,0 +1,127 @@
+{%- comment -%}
+  How does it work section
+{%- endcomment -%}
+
+{% schema %}
+{
+  "name": "How does it work",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background Image"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    }
+  ],
+  "presets": [
+    {
+      "name": "How does it work",
+      "category": "Custom"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "step",
+      "name": "Step",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Content"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+<section class="how-does-it-work-section" style="background-image: url('{{ section.settings.background_image | img_url: 'master' }}');">
+  <div class="container">
+    <h2>{{ section.settings.title }}</h2>
+    <div class="steps-container">
+      {% for block in section.blocks %}
+        <div class="step">
+          <div class="step-content scroll-trigger animate--slide-in">
+            <h3 class="step-title">{{ block.settings.title }}</h3>
+            <div class="step-paragraph">{{ block.settings.content }}</div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<style>
+  section.how-does-it-work-section h2 {
+    color: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.how-does-it-work-section {
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding-bottom: 100px;
+}
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .steps-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .step {
+    width: calc(33.33% - 20px);
+    padding: 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background: none; /* Remove background color */
+  }
+
+  .step-content {
+    display: flex;
+    flex-direction: row;
+  }
+
+.step-title {
+    margin-top: 0;
+    font-size: 100px;
+    font-weight: 300;
+    color: #ffffff;
+    min-width: 80px;
+    line-height: 100px;
+}
+
+  .step-paragraph {
+    margin-top: 10px;
+    color: #fff;
+  }
+.step-paragraph p {
+    margin-top: 10px;
+    color: #ffffff !important;
+    text-align: left;
+    font-size: 20px;
+}
+  @media screen and (max-width: 768px) {
+    .step {
+      width: calc(100% - 20px);
+    }
+  }
+</style>
