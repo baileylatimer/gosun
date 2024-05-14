@@ -155,6 +155,45 @@
         "title": "Default Heading"
       }
     },
+    "feature_tabs_Hem8JC": {
+      "type": "feature-tabs",
+      "blocks": {
+        "media_WHLH3F": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Recharge with ease",
+            "tab_description": "Recharge Power 266 from several power sources through its built-in MPPT charging circuit: 1) from a wall socket through the included AC Adapter (9 hours) 2) through USB-C PD (4 hours) or 3) from optional Solar Panels (in as little as 4 hours )",
+            "image": "shopify:\/\/shop_images\/Power_Inputs.png",
+            "video_url": ""
+          }
+        },
+        "media_kp7XJe": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Power for your devices",
+            "tab_description": "Power laptops, phones, drones, cameras, lights, action, fans, CPAP machines, etc. an adjustable DC outlet ranges from 12 to 24 Volts to match your device’s needs. Plus, a 12V cigarette port (world's most common port) provides up to 15Amps of current.",
+            "image": "shopify:\/\/shop_images\/Group_12.png",
+            "video_url": ""
+          }
+        },
+        "media_6yjyU4": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Bigger, not heavier, is better",
+            "tab_description": "The increased 266Wh capacity has enough charge to power your adventures and devices",
+            "image": "shopify:\/\/shop_images\/image_52.png",
+            "video_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "media_WHLH3F",
+        "media_kp7XJe",
+        "media_6yjyU4"
+      ],
+      "settings": {
+      }
+    },
     "title_section_wJHw3h": {
       "type": "title-section",
       "settings": {
@@ -226,6 +265,7 @@
     "main",
     "custom_liquid_3Ch4Hg",
     "bundles_ht8HAi",
+    "feature_tabs_Hem8JC",
     "title_section_wJHw3h",
     "1713136015e25a897a",
     "faq_product_wzwVAy",
