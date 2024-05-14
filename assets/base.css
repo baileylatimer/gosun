@@ -3432,6 +3432,10 @@ a#HeaderMenu-reserve-now {
 }
 
 /* Power LP template - Radu 05.05.2024 */
+.page-power-your-ev-with-solar .section-template--15144452391006__custom_liquid_eFMTKh-padding {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
 .page-power-your-ev-with-solar .utility-bar {
     display: none;
 }
