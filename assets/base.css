@@ -3440,6 +3440,14 @@ a#HeaderMenu-reserve-now {
     padding-right: 4em;
     border-bottom: .1rem solid rgba(var(--color-foreground), .08);
 }
+.page-power-your-ev-with-solar .header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page-power-your-ev-with-solar sticky-header.bg-primary-light.body-width.header-wrapper.color-scheme-1.gradient.header-wrapper--border-bottom {
+    display: none;
+}
 .page-power-your-ev-with-solar .utility-bar {
     display: none;
 }
