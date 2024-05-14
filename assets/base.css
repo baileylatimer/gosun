@@ -3444,6 +3444,7 @@ a#HeaderMenu-reserve-now {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 3rem !important;
 }
 .page-power-your-ev-with-solar sticky-header.bg-primary-light.body-width.header-wrapper.color-scheme-1.gradient.header-wrapper--border-bottom {
     display: none;
