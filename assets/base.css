@@ -3442,8 +3442,8 @@ a#HeaderMenu-reserve-now {
 }
 .page-power-your-ev-with-solar .header-inner {
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-end;
     padding: 10px 3rem !important;
 }
 
