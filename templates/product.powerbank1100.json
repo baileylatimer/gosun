@@ -155,6 +155,45 @@
         "title": "Default Heading"
       }
     },
+    "feature_tabs_DDcNKm": {
+      "type": "feature-tabs",
+      "blocks": {
+        "media_HmUQEn": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Real-time display",
+            "tab_description": "The intuitive display shows the current battery status regarding input and output wattage, as well as battery percentage remaining",
+            "image": "shopify:\/\/shop_images\/Power-1100-Picnic.png",
+            "video_url": ""
+          }
+        },
+        "media_KLn9bm": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Go Lightweight and Compact",
+            "tab_description": "At just 25 LBS (11 kgs) and only 12 inches long, it's still powerful enough to power most tools like saws, drills, fridges, pumps, fans and electronics",
+            "image": "shopify:\/\/shop_images\/image_70.png",
+            "video_url": ""
+          }
+        },
+        "media_9M4eEy": {
+          "type": "media",
+          "settings": {
+            "tab_title": "3 ways to charge",
+            "tab_description": "Charge via AC adapter, Solar, or 12 Volt",
+            "image": "shopify:\/\/shop_images\/solarpanel-100-100w-solar-panel-gosun-697758_aea49fe3-dc30-4086-b4d1-af17c55af5a2.jpg",
+            "video_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "media_HmUQEn",
+        "media_KLn9bm",
+        "media_9M4eEy"
+      ],
+      "settings": {
+      }
+    },
     "title_section_wJHw3h": {
       "type": "title-section",
       "settings": {
@@ -226,6 +265,7 @@
     "main",
     "custom_liquid_3Ch4Hg",
     "bundles_ht8HAi",
+    "feature_tabs_DDcNKm",
     "title_section_wJHw3h",
     "1713136015e25a897a",
     "faq_product_wzwVAy",
