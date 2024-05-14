@@ -155,6 +155,44 @@
         "title": "Default Heading"
       }
     },
+    "feature_tabs_TtnRFz": {
+      "type": "feature-tabs",
+      "blocks": {
+        "media_dAHfw9": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Ultimate Solar Companion",
+            "tab_description": "Shield is both a solar panel for your car windshield and a portable solution for all your charging needs. The Shield pairs nicely with GoSun's solar cooling appliances.",
+            "image": "shopify:\/\/shop_images\/shield_lifestyle1.png",
+            "video_url": ""
+          }
+        },
+        "media_PYHyhL": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Place Solar Shield Anywhere",
+            "tab_description": "Unfold to fill your windshield in seconds. Use the tilt legs to lean toward the Sun and generate electricity wherever life takes you.",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/vp\/1302797b55254f4b9fc4f4194bfb3df4\/1302797b55254f4b9fc4f4194bfb3df4.HD-1080p-2.5Mbps-16620016.mp4"
+          }
+        },
+        "media_XaxgNF": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Beat the Heat",
+            "tab_description": "When placed on the outside of your windshield, the all weather Shield blocks up to 80% of the sun's radiation from entering your vehicle. Keep cool, provide power for your car battery, charge your phone, or help charge your cooler’s battery.",
+            "image": "shopify:\/\/shop_images\/Block_Heat_Graphic_3.jpg",
+            "video_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "media_dAHfw9",
+        "media_PYHyhL",
+        "media_XaxgNF"
+      ],
+      "settings": {
+      }
+    },
     "title_section_wJHw3h": {
       "type": "title-section",
       "settings": {
@@ -226,6 +264,7 @@
     "main",
     "custom_liquid_3Ch4Hg",
     "bundles_ht8HAi",
+    "feature_tabs_TtnRFz",
     "title_section_wJHw3h",
     "1713136015e25a897a",
     "faq_product_wzwVAy",
