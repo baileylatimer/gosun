@@ -3,7 +3,7 @@
     "custom_liquid_eFMTKh": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"welcome\">\nWelcome\n<\/div>",
+        "custom_liquid": "<div class=\"custom-header-lp>\n<div class=\"header-inner\">\n<\/div>\n<\/div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
