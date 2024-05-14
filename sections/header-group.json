@@ -156,7 +156,6 @@
         },
         "image_with_text_CwdJUf": {
           "type": "image-with-text",
-          "disabled": true,
           "settings": {
             "parent_menu_item": "Ovens",
             "image": "shopify:\/\/shop_images\/fusion-hero.jpg",
@@ -166,7 +165,6 @@
         },
         "image_with_text_TVLXmj": {
           "type": "image-with-text",
-          "disabled": true,
           "settings": {
             "parent_menu_item": "Coolers",
             "image": "shopify:\/\/shop_images\/04_1_a8be786d-defc-4bea-93f8-c2b0cbf35386.png",
@@ -176,7 +174,6 @@
         },
         "image_with_text_NVDQBi": {
           "type": "image-with-text",
-          "disabled": true,
           "settings": {
             "parent_menu_item": "Power",
             "image": "shopify:\/\/shop_images\/249e42ba1cd719710d427e7e225b26fa_1832x_8664943c-b3f2-4ccf-8b88-91ef959d3d97.webp",
@@ -186,7 +183,6 @@
         },
         "image_with_text_VAcAfh": {
           "type": "image-with-text",
-          "disabled": true,
           "settings": {
             "parent_menu_item": "Water",
             "image": "shopify:\/\/shop_images\/outdoor_sink_coffee_gosun_1600x_d46fb70b-61fa-4dda-9dae-3cad984cee59.webp",
@@ -196,7 +192,6 @@
         },
         "image_with_text_iwT88h": {
           "type": "image-with-text",
-          "disabled": true,
           "settings": {
             "parent_menu_item": "Campers",
             "image": "shopify:\/\/shop_images\/gosun_camper_1280x_dca5d70c-5ad8-4c19-baf3-b6e9a2f60c2f.webp",
@@ -206,7 +201,6 @@
         },
         "image_with_text_hcNpDU": {
           "type": "image-with-text",
-          "disabled": true,
           "settings": {
             "parent_menu_item": "Boats",
             "image": "shopify:\/\/shop_images\/IMG_3388_600x_58cd7ffb-af49-4a77-8f57-a9799585bc94.webp",
@@ -216,7 +210,6 @@
         },
         "image_with_text_GhM8f9": {
           "type": "image-with-text",
-          "disabled": true,
           "settings": {
             "parent_menu_item": "Accessories",
             "image": "shopify:\/\/shop_images\/138d469f5dc024299fd42ca5c912b4fe_2000x_c092ca2d-45c2-49ee-a3a6-8d5db6fbdce1.webp",
