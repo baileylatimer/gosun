@@ -385,6 +385,7 @@
     },
     "need_help_cV6mQY": {
       "type": "need-help",
+      "disabled": true,
       "settings": {
         "section_title": "Need help deciding?"
       }
