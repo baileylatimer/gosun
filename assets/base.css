@@ -3433,10 +3433,10 @@ a#HeaderMenu-reserve-now {
 
 /* Power LP template - Radu 05.05.2024 */
 /* header */
-.page-power-your-ev-with-solar .header__icons.header__icons--localization.header-localization {
+.ev-solar-charger .header__icons.header__icons--localization.header-localization {
     display: none !important;
 }
-.page-power-your-ev-with-solar sticky-header.bg-primary-light.body-width.header-wrapper.color-scheme-1.gradient.header-wrapper--border-bottom {
+.ev-solar-charger sticky-header.bg-primary-light.body-width.header-wrapper.color-scheme-1.gradient.header-wrapper--border-bottom {
     background-color: #d6d6db;
     margin-left: 0px;
     margin-right: 0px;
@@ -3444,10 +3444,10 @@ a#HeaderMenu-reserve-now {
     padding-right: 4em;
     border-radius: 0px !important;
 }
-.page-power-your-ev-with-solar .header {
+.ev-solar-charger .header {
     padding: 10px 3rem 10px 3rem !important;
 }
-.page-power-your-ev-with-solar a#HeaderMenu-reserve-now {
+.ev-solar-charger a#HeaderMenu-reserve-now {
     background-color: #288bcc;
     color: #ffffff;
     padding: 19px 50px !important;
@@ -3458,12 +3458,12 @@ a#HeaderMenu-reserve-now {
 a#HeaderMenu-reserve-now {
     display: none !important;
 }
-.page-power-your-ev-with-solar .section-header {
+.ev-solar-charger .section-header {
     margin-bottom: 0px;
 }
 /* end of header */
 /* top section */
-.page-power-your-ev-with-solar .section-template--15140758093918__image_with_text_aUGJF4-padding.gradient.color-scheme-1 .page-width {
+.ev-solar-charger .section-template--15140758093918__image_with_text_aUGJF4-padding.gradient.color-scheme-1 .page-width {
     max-width: 100%;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -3471,16 +3471,16 @@ a#HeaderMenu-reserve-now {
 /* .section-template--15140758093918__image_with_text_aUGJF4-padding.gradient.color-scheme-1 .page-width .image-with-text__media-item .image-with-text__media.image-with-text__media--adapt.global-media-settings.gradient.color-scheme-1.image-with-text__media--placeholder.placeholder {
     display: none;
 } */
-.page-power-your-ev-with-solar .section-template--15140758093918__image_with_text_aUGJF4-padding.gradient.color-scheme-1 .image-with-text__media.image-with-text__media--adapt.global-media-settings.gradient.color-scheme-1.media {
+.ev-solar-charger .section-template--15140758093918__image_with_text_aUGJF4-padding.gradient.color-scheme-1 .image-with-text__media.image-with-text__media--adapt.global-media-settings.gradient.color-scheme-1.media {
     background-color: transparent !important;
     border: 0px;
 }
 @media screen and (min-width: 750px) {
-.page-power-your-ev-with-solar .section-template--15140758093918__image_with_text_aUGJF4-padding.gradient.color-scheme-1 .image-with-text__text-item.grid__item {
+.ev-solar-charger .section-template--15140758093918__image_with_text_aUGJF4-padding.gradient.color-scheme-1 .image-with-text__text-item.grid__item {
     width: 25%;
 }
 }
-.page-power-your-ev-with-solar .section-template--15140758093918__image_with_text_aUGJF4-padding.gradient.color-scheme-1 {
+.ev-solar-charger .section-template--15140758093918__image_with_text_aUGJF4-padding.gradient.color-scheme-1 {
     /* background-image: url(/cdn/shop/files/temp-bg.png?v=1714934428); */
     background-position: right center;
     background-size: cover;
@@ -3488,42 +3488,42 @@ a#HeaderMenu-reserve-now {
     padding-bottom: 100px;
     background-color: #D9D9DB;
 }
-.page-power-your-ev-with-solar .section-template--15140758093918__image_with_text_aUGJF4-padding.gradient.color-scheme-1 div#ImageWithText--template--15140758093918__image_with_text_aUGJF4 {
+.ev-solar-charger .section-template--15140758093918__image_with_text_aUGJF4-padding.gradient.color-scheme-1 div#ImageWithText--template--15140758093918__image_with_text_aUGJF4 {
     background-color: transparent !important;
 }
-.page-power-your-ev-with-solar .section-template--15140758093918__image_with_text_aUGJF4-padding.gradient.color-scheme-1 .image-with-text__content>:first-child:is(.image-with-text__heading) {
+.ev-solar-charger .section-template--15140758093918__image_with_text_aUGJF4-padding.gradient.color-scheme-1 .image-with-text__content>:first-child:is(.image-with-text__heading) {
     font-size: 55px;
     line-height: 65px;
     color: #288BCC;
     max-width: 500px;
 }
-.page-power-your-ev-with-solar .section-template--15140758093918__image_with_text_aUGJF4-padding.gradient.color-scheme-1  .image-with-text__text p {
+.ev-solar-charger .section-template--15140758093918__image_with_text_aUGJF4-padding.gradient.color-scheme-1  .image-with-text__text p {
     font-size: 25px;
     line-height: 35px;
     color: #000000;
     font-weight: 300 !important;
     max-width: 480px !important;
 }
-.page-power-your-ev-with-solar .section-template--15140758093918__image_with_text_aUGJF4-padding.gradient.color-scheme-1 a.button.button--primary {
+.ev-solar-charger .section-template--15140758093918__image_with_text_aUGJF4-padding.gradient.color-scheme-1 a.button.button--primary {
     width: fit-content;
     padding: 19px 42px;
     border-radius: 10px;
 }
 /* end of top section */
 /* 5 icons */
-.page-power-your-ev-with-solar .page-width.section-template--15140758093918__multicolumn_q7tDM6-padding.isolate.scroll-trigger.animate--slide-in img.multicolumn-card__image {
+.ev-solar-charger .page-width.section-template--15140758093918__multicolumn_q7tDM6-padding.isolate.scroll-trigger.animate--slide-in img.multicolumn-card__image {
     max-width: 100% !important;
     object-fit: none !important;
     object-position: unset !important;
 }
-.page-power-your-ev-with-solar .page-width.section-template--15140758093918__multicolumn_q7tDM6-padding.isolate.scroll-trigger.animate--slide-in .media.media--transparent.media--adapt {
+.ev-solar-charger .page-width.section-template--15140758093918__multicolumn_q7tDM6-padding.isolate.scroll-trigger.animate--slide-in .media.media--transparent.media--adapt {
     padding-bottom: 80px !important;
 }
-.page-power-your-ev-with-solar .page-width.section-template--15140758093918__multicolumn_q7tDM6-padding.isolate.scroll-trigger.animate--slide-in .multicolumn-card__info p {
+.ev-solar-charger .page-width.section-template--15140758093918__multicolumn_q7tDM6-padding.isolate.scroll-trigger.animate--slide-in .multicolumn-card__info p {
     font-size: 20px;
     line-height: 25px;
 }
-.page-power-your-ev-with-solar .page-width.section-template--15140758093918__multicolumn_q7tDM6-padding.isolate.scroll-trigger.animate--slide-in .multicolumn-card__info {
+.ev-solar-charger .page-width.section-template--15140758093918__multicolumn_q7tDM6-padding.isolate.scroll-trigger.animate--slide-in .multicolumn-card__info {
     padding-top: 10px !important;
 }
 section#shopify-section-template--15140758093918__multicolumn_q7tDM6 .page-width {
@@ -3532,17 +3532,17 @@ section#shopify-section-template--15140758093918__multicolumn_q7tDM6 .page-width
 }
 /* end of 5 icons */
 /* 4 icons and text in middle */
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_VBKWNf .page-width.section-template--15140758093918__multicolumn_VBKWNf-padding.isolate.scroll-trigger.animate--slide-in {
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_VBKWNf .page-width.section-template--15140758093918__multicolumn_VBKWNf-padding.isolate.scroll-trigger.animate--slide-in {
     width: 100% !important;
     max-width: 100% !important;
     padding-left: 2rem;
     padding-right: 2rem;
 }
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_VBKWNf .page-width.section-template--15140758093918__multicolumn_VBKWNf-padding.isolate.scroll-trigger.animate--slide-in .multicolumn-card__info p {
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_VBKWNf .page-width.section-template--15140758093918__multicolumn_VBKWNf-padding.isolate.scroll-trigger.animate--slide-in .multicolumn-card__info p {
     font-size: 25px;
     line-height: 35px;
 }
-.page-power-your-ev-with-solar ul#Slider-template--15140758093918__multicolumn_VBKWNf {
+.ev-solar-charger ul#Slider-template--15140758093918__multicolumn_VBKWNf {
     display: flex;
     align-items: center;
 }
@@ -3555,49 +3555,49 @@ li#Slide-template--15140758093918__multicolumn_VBKWNf-4 .media.media--transparen
 }
 /* end of 4 icons and text in middle */
 /* blue box and text middle */
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_6TpibX .page-width.section-template--15140758093918__multicolumn_6TpibX-padding.isolate.scroll-trigger.animate--slide-in {
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_6TpibX .page-width.section-template--15140758093918__multicolumn_6TpibX-padding.isolate.scroll-trigger.animate--slide-in {
     width: 100% !important;
     max-width: 100% !important;
     padding-left: 0px;
     padding-right: 0px;
     padding-bottom: 3rem;
 }
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_6TpibX .grid--3-col-desktop .grid__item:nth-child(2) {
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_6TpibX .grid--3-col-desktop .grid__item:nth-child(2) {
     background-color: #288bcc;
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_6TpibX .grid--3-col-desktop .grid__item:nth-child(2) h3 {
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_6TpibX .grid--3-col-desktop .grid__item:nth-child(2) h3 {
     font-size: 40px;
     line-height: 47px;
     color: #ffffff;
     margin-bottom: 20px;
 }
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_6TpibX .grid--3-col-desktop .grid__item:nth-child(2) p {
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_6TpibX .grid--3-col-desktop .grid__item:nth-child(2) p {
     color: #ffffff;
     font-size: 25px;
     line-height: 35px;
     margin-bottom: 20px;
 }
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_6TpibX .grid--3-col-desktop .grid__item:nth-child(2) .multicolumn-card__info {
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_6TpibX .grid--3-col-desktop .grid__item:nth-child(2) .multicolumn-card__info {
     max-width: 650px;
     margin-left: auto;
     margin-right: auto;
     display: block !important;
 }
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_6TpibX .grid--3-col-desktop .grid__item:nth-child(2) .multicolumn-card.content-container {
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_6TpibX .grid--3-col-desktop .grid__item:nth-child(2) .multicolumn-card.content-container {
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_6TpibX .grid--3-col-desktop .grid__item:nth-child(1) .multicolumn-card__info,
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_6TpibX .grid--3-col-desktop .grid__item:nth-child(3) .multicolumn-card__info{
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_6TpibX .grid--3-col-desktop .grid__item:nth-child(1) .multicolumn-card__info,
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_6TpibX .grid--3-col-desktop .grid__item:nth-child(3) .multicolumn-card__info{
         display: none !important;
 }
 /* end of blue box and text middle */
 /* car + text section */
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_bkMydG .page-width {
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_bkMydG .page-width {
     max-width: 100% !important;
     padding-left: 0 !important;
     padding-right: 0;
@@ -3610,16 +3610,16 @@ li#Slide-template--15140758093918__multicolumn_VBKWNf-4 .media.media--transparen
     border-radius: 10px;
     background-color: #D9D9DB;
 }
-.page-power-your-ev-with-solar  ul#Slider-template--15140758093918__multicolumn_bkMydG {
+.ev-solar-charger  ul#Slider-template--15140758093918__multicolumn_bkMydG {
     display: flex;
     align-items: center;
 }
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_bkMydG-2 h3.inline-richtext {
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_bkMydG-2 h3.inline-richtext {
     max-width: 480px !important;
     font-size: 40px !important;
     color: #288BCC;
 }
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_bkMydG-2 p {
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_bkMydG-2 p {
     font-size: 25px;
     line-height: 35px;
     max-width: 430px;
@@ -3627,7 +3627,7 @@ li#Slide-template--15140758093918__multicolumn_VBKWNf-4 .media.media--transparen
 }
 /* end of car + text section */
 /* left right title - big */
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__rich_text_cyiXUQ h2 {
+.ev-solar-charger section#shopify-section-template--15140758093918__rich_text_cyiXUQ h2 {
     font-size: 50px !important;
     line-height: 65px;
     margin-top: 60px;
@@ -3635,21 +3635,21 @@ li#Slide-template--15140758093918__multicolumn_VBKWNf-4 .media.media--transparen
 /* end of left right title - big */
 /* left right sections */
 /* make section full width */
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_qXibWL .page-width, 
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_iKwAHW .page-width,
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_kgQXUq .page-width,
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_trmLQP .page-width, 
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_trgzgx .page-width,
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_MXRRdC .page-width,
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_nqmwzT .page-width, 
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_UYipbq .page-width,
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_wzJHHL .page-width,
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_Yda4jR .page-width, 
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_4d4tj6 .page-width,
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_JCVpUa .page-width,
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_qfcE6k .page-width, 
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_KwxrNL .page-width,
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_Wbyd9n .page-width {
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_qXibWL .page-width, 
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_iKwAHW .page-width,
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_kgQXUq .page-width,
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_trmLQP .page-width, 
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_trgzgx .page-width,
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_MXRRdC .page-width,
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_nqmwzT .page-width, 
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_UYipbq .page-width,
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_wzJHHL .page-width,
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_Yda4jR .page-width, 
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_4d4tj6 .page-width,
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_JCVpUa .page-width,
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_qfcE6k .page-width, 
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_KwxrNL .page-width,
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_Wbyd9n .page-width {
     max-width: 100% !important;
     padding-left: 0px;
     padding-right: 0px;
@@ -3657,134 +3657,134 @@ li#Slide-template--15140758093918__multicolumn_VBKWNf-4 .media.media--transparen
     padding-top: 5px;
 }
 /* vertical align text to image */
-.page-power-your-ev-with-solar ul#Slider-template--15140758093918__multicolumn_qXibWL,
-.page-power-your-ev-with-solar ul#Slider-template--15140758093918__multicolumn_iKwAHW,
-.page-power-your-ev-with-solar ul#Slider-template--15140758093918__multicolumn_kgQXUq,
-.page-power-your-ev-with-solar ul#Slider-template--15140758093918__multicolumn_trmLQP,
-.page-power-your-ev-with-solar ul#Slider-template--15140758093918__multicolumn_trgzgx,
-.page-power-your-ev-with-solar ul#Slider-template--15140758093918__multicolumn_MXRRdC,
-.page-power-your-ev-with-solar ul#Slider-template--15140758093918__multicolumn_nqmwzT,
-.page-power-your-ev-with-solar ul#Slider-template--15140758093918__multicolumn_UYipbq,
-.page-power-your-ev-with-solar ul#Slider-template--15140758093918__multicolumn_wzJHHL,
-.page-power-your-ev-with-solar ul#Slider-template--15140758093918__multicolumn_Yda4jR,
-.page-power-your-ev-with-solar ul#Slider-template--15140758093918__multicolumn_4d4tj6,
-.page-power-your-ev-with-solar ul#Slider-template--15140758093918__multicolumn_JCVpUa,
-.page-power-your-ev-with-solar ul#Slider-template--15140758093918__multicolumn_qfcE6k,
-.page-power-your-ev-with-solar ul#Slider-template--15140758093918__multicolumn_KwxrNL,
-.page-power-your-ev-with-solar ul#Slider-template--15140758093918__multicolumn_Wbyd9n {
+.ev-solar-charger ul#Slider-template--15140758093918__multicolumn_qXibWL,
+.ev-solar-charger ul#Slider-template--15140758093918__multicolumn_iKwAHW,
+.ev-solar-charger ul#Slider-template--15140758093918__multicolumn_kgQXUq,
+.ev-solar-charger ul#Slider-template--15140758093918__multicolumn_trmLQP,
+.ev-solar-charger ul#Slider-template--15140758093918__multicolumn_trgzgx,
+.ev-solar-charger ul#Slider-template--15140758093918__multicolumn_MXRRdC,
+.ev-solar-charger ul#Slider-template--15140758093918__multicolumn_nqmwzT,
+.ev-solar-charger ul#Slider-template--15140758093918__multicolumn_UYipbq,
+.ev-solar-charger ul#Slider-template--15140758093918__multicolumn_wzJHHL,
+.ev-solar-charger ul#Slider-template--15140758093918__multicolumn_Yda4jR,
+.ev-solar-charger ul#Slider-template--15140758093918__multicolumn_4d4tj6,
+.ev-solar-charger ul#Slider-template--15140758093918__multicolumn_JCVpUa,
+.ev-solar-charger ul#Slider-template--15140758093918__multicolumn_qfcE6k,
+.ev-solar-charger ul#Slider-template--15140758093918__multicolumn_KwxrNL,
+.ev-solar-charger ul#Slider-template--15140758093918__multicolumn_Wbyd9n {
     display: flex;
     align-items: center;
 }
 /* text title */
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_qXibWL h3,
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_iKwAHW h3,
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_kgQXUq h3,
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_trmLQP h3,
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_trgzgx h3,
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_MXRRdC h3,
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_nqmwzT h3,
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_UYipbq h3,
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_wzJHHL h3,
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_Yda4jR h3,
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_4d4tj6 h3,
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_JCVpUa h3,
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_qfcE6k h3,
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_KwxrNL h3,
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_Wbyd9n h3 {
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_qXibWL h3,
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_iKwAHW h3,
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_kgQXUq h3,
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_trmLQP h3,
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_trgzgx h3,
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_MXRRdC h3,
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_nqmwzT h3,
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_UYipbq h3,
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_wzJHHL h3,
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_Yda4jR h3,
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_4d4tj6 h3,
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_JCVpUa h3,
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_qfcE6k h3,
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_KwxrNL h3,
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_Wbyd9n h3 {
     font-size: 40px;
     line-height: 47px;
     font-weight: bold;
 }
 /* text */
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_qXibWL p,
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_iKwAHW p,
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_kgQXUq p,
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_trmLQP p,
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_trgzgx p,
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_MXRRdC p,
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_nqmwzT p,
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_UYipbq p,
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_wzJHHL p,
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_Yda4jR p,
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_4d4tj6 p,
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_JCVpUa p,
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_qfcE6k p,
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_KwxrNL p,
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_Wbyd9n p {
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_qXibWL p,
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_iKwAHW p,
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_kgQXUq p,
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_trmLQP p,
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_trgzgx p,
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_MXRRdC p,
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_nqmwzT p,
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_UYipbq p,
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_wzJHHL p,
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_Yda4jR p,
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_4d4tj6 p,
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_JCVpUa p,
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_qfcE6k p,
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_KwxrNL p,
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_Wbyd9n p {
     font-size: 30px;
     line-height: 40px;
 }
 /* remove card under image */
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_qXibWL-1 .multicolumn-card__info,
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_iKwAHW-2 .multicolumn-card__info,
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_kgQXUq-1 .multicolumn-card__info,
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_trmLQP-2 .multicolumn-card__info,
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_trgzgx-1 .multicolumn-card__info,
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_MXRRdC-2 .multicolumn-card__info,
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_nqmwzT-1 .multicolumn-card__info,
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_UYipbq-2 .multicolumn-card__info,
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_wzJHHL-1 .multicolumn-card__info,
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_Yda4jR-2 .multicolumn-card__info,
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_4d4tj6-1 .multicolumn-card__info,
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_JCVpUa-2 .multicolumn-card__info,
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_qfcE6k-1 .multicolumn-card__info,
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_KwxrNL-2 .multicolumn-card__info,
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_Wbyd9n-1 .multicolumn-card__info {
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_qXibWL-1 .multicolumn-card__info,
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_iKwAHW-2 .multicolumn-card__info,
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_kgQXUq-1 .multicolumn-card__info,
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_trmLQP-2 .multicolumn-card__info,
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_trgzgx-1 .multicolumn-card__info,
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_MXRRdC-2 .multicolumn-card__info,
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_nqmwzT-1 .multicolumn-card__info,
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_UYipbq-2 .multicolumn-card__info,
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_wzJHHL-1 .multicolumn-card__info,
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_Yda4jR-2 .multicolumn-card__info,
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_4d4tj6-1 .multicolumn-card__info,
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_JCVpUa-2 .multicolumn-card__info,
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_qfcE6k-1 .multicolumn-card__info,
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_KwxrNL-2 .multicolumn-card__info,
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_Wbyd9n-1 .multicolumn-card__info {
     display: none;
 }
 /* increase image more than text */
 @media screen and (min-width: 990px) {
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_qXibWL-1,
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_iKwAHW-2,
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_kgQXUq-1,
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_trmLQP-2,
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_trgzgx-1,
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_MXRRdC-2,
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_nqmwzT-1, 
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_UYipbq-2, 
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_wzJHHL-1, 
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_Yda4jR-2,
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_4d4tj6-1, 
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_JCVpUa-2,  
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_qfcE6k-1, 
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_KwxrNL-2, 
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_Wbyd9n-1   {
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_qXibWL-1,
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_iKwAHW-2,
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_kgQXUq-1,
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_trmLQP-2,
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_trgzgx-1,
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_MXRRdC-2,
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_nqmwzT-1, 
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_UYipbq-2, 
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_wzJHHL-1, 
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_Yda4jR-2,
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_4d4tj6-1, 
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_JCVpUa-2,  
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_qfcE6k-1, 
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_KwxrNL-2, 
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_Wbyd9n-1   {
     width: calc(60% - var(--grid-desktop-horizontal-spacing) / 2);
     max-width: calc(60% - var(--grid-desktop-horizontal-spacing) / 2);
 }
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_qXibWL-2,
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_iKwAHW-1,
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_kgQXUq-2,
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_trmLQP-1,
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_trgzgx-2,
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_MXRRdC-1,
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_nqmwzT-2, 
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_UYipbq-1, 
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_wzJHHL-2, 
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_Yda4jR-1,
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_4d4tj6-2, 
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_JCVpUa-1,  
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_qfcE6k-2, 
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_KwxrNL-1, 
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_Wbyd9n-2  {
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_qXibWL-2,
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_iKwAHW-1,
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_kgQXUq-2,
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_trmLQP-1,
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_trgzgx-2,
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_MXRRdC-1,
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_nqmwzT-2, 
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_UYipbq-1, 
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_wzJHHL-2, 
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_Yda4jR-1,
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_4d4tj6-2, 
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_JCVpUa-1,  
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_qfcE6k-2, 
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_KwxrNL-1, 
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_Wbyd9n-2  {
     width: calc(40% - var(--grid-desktop-horizontal-spacing) / 2);
     max-width: calc(40% - var(--grid-desktop-horizontal-spacing) / 2);
 }
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_qXibWL-2 .multicolumn-card.content-container,
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_iKwAHW-1 .multicolumn-card.content-container,
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_kgQXUq-2 .multicolumn-card.content-container,
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_trmLQP-1 .multicolumn-card.content-container,
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_trgzgx-2 .multicolumn-card.content-container,
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_MXRRdC-1 .multicolumn-card.content-container,
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_nqmwzT-2 .multicolumn-card.content-container, 
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_UYipbq-1 .multicolumn-card.content-container, 
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_wzJHHL-2 .multicolumn-card.content-container, 
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_Yda4jR-1 .multicolumn-card.content-container,
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_4d4tj6-2 .multicolumn-card.content-container, 
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_JCVpUa-1 .multicolumn-card.content-container,  
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_qfcE6k-2 .multicolumn-card.content-container, 
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_KwxrNL-1 .multicolumn-card.content-container, 
-.page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_Wbyd9n-2  .multicolumn-card.content-container  {
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_qXibWL-2 .multicolumn-card.content-container,
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_iKwAHW-1 .multicolumn-card.content-container,
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_kgQXUq-2 .multicolumn-card.content-container,
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_trmLQP-1 .multicolumn-card.content-container,
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_trgzgx-2 .multicolumn-card.content-container,
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_MXRRdC-1 .multicolumn-card.content-container,
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_nqmwzT-2 .multicolumn-card.content-container, 
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_UYipbq-1 .multicolumn-card.content-container, 
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_wzJHHL-2 .multicolumn-card.content-container, 
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_Yda4jR-1 .multicolumn-card.content-container,
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_4d4tj6-2 .multicolumn-card.content-container, 
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_JCVpUa-1 .multicolumn-card.content-container,  
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_qfcE6k-2 .multicolumn-card.content-container, 
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_KwxrNL-1 .multicolumn-card.content-container, 
+.ev-solar-charger li#Slide-template--15140758093918__multicolumn_Wbyd9n-2  .multicolumn-card.content-container  {
     max-width: 540px;
     padding-left: 50px;
     padding-right: 50px;
@@ -3954,33 +3954,33 @@ section#shopify-section-template--15140758093918__multicolumn_wePedV h2.title.in
 }
 /* end of our promise */
 @media screen and (min-width: 990px) {
-    .page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_VBKWNf .grid--5-col-desktop .grid__item {
+    .ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_VBKWNf .grid--5-col-desktop .grid__item {
         width: calc(15% - var(--grid-desktop-horizontal-spacing)* 4 / 5);
         max-width: calc(15% - var(--grid-desktop-horizontal-spacing)* 4 / 5);
     }
-    .page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_VBKWNf .grid--5-col-desktop .grid__item:nth-child(3) {
+    .ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_VBKWNf .grid--5-col-desktop .grid__item:nth-child(3) {
     width: calc(40% - var(--grid-desktop-horizontal-spacing)* 4 / 5);
     max-width: calc(40% - var(--grid-desktop-horizontal-spacing)* 4 / 5);
     }
-    .page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_6TpibX .grid--3-col-desktop .grid__item {
+    .ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_6TpibX .grid--3-col-desktop .grid__item {
         width: calc(25% - var(--grid-desktop-horizontal-spacing)* 4 / 5);
         max-width: calc(25% - var(--grid-desktop-horizontal-spacing)* 4 / 5);
     }
-    .page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_6TpibX .grid--3-col-desktop .grid__item:nth-child(2) {
+    .ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_6TpibX .grid--3-col-desktop .grid__item:nth-child(2) {
     width: calc(50% - var(--grid-desktop-horizontal-spacing)* 4 / 5);
     max-width: calc(50% - var(--grid-desktop-horizontal-spacing)* 4 / 5);
     }  
-    .page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_bkMydG-1 {
+    .ev-solar-charger li#Slide-template--15140758093918__multicolumn_bkMydG-1 {
     width: calc(60% - var(--grid-desktop-horizontal-spacing) / 2);
     max-width: calc(60% - var(--grid-desktop-horizontal-spacing) / 2);
     }
-    .page-power-your-ev-with-solar li#Slide-template--15140758093918__multicolumn_bkMydG-2 {
+    .ev-solar-charger li#Slide-template--15140758093918__multicolumn_bkMydG-2 {
     width: calc(40% - var(--grid-desktop-horizontal-spacing) / 2);
     max-width: calc(40% - var(--grid-desktop-horizontal-spacing) / 2);
     }  
 }
 @media screen and (min-width: 990px) {
-    .page-power-your-ev-with-solar .header--middle-left {
+    .ev-solar-charger .header--middle-left {
         grid-template-areas: none !important;
         display: flex !important;
         justify-content: space-between !important;
@@ -3990,57 +3990,57 @@ section#shopify-section-template--15140758093918__multicolumn_wePedV h2.title.in
 /* MOBILE GENERAL UPDATES */
 @media screen and (max-width: 990px) {
 /* product footer banner */
-.page-power-your-ev-with-solar div#shopify-section-template--15140758093918__product_nav_yWVKQD .content-width.flex.justify-between.items-center.p-4 {
+.ev-solar-charger div#shopify-section-template--15140758093918__product_nav_yWVKQD .content-width.flex.justify-between.items-center.p-4 {
     display: flex;
     flex-direction: column;
 }
-.page-power-your-ev-with-solar .product-nav__details.flex.items-center.gap-12 {
+.ev-solar-charger .product-nav__details.flex.items-center.gap-12 {
     display: flex;
     flex-direction: column;
 } 
-.page-power-your-ev-with-solar div#ImageWithText--template--15140758093918__image_with_text_aUGJF4 {
+.ev-solar-charger div#ImageWithText--template--15140758093918__image_with_text_aUGJF4 {
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;
 }  
-.page-power-your-ev-with-solar .section-template--15140758093918__image_with_text_aUGJF4-padding.gradient.color-scheme-1 {
+.ev-solar-charger .section-template--15140758093918__image_with_text_aUGJF4-padding.gradient.color-scheme-1 {
     padding-bottom: 20px;
 }  
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_6TpibX .grid--3-col-desktop .grid__item:nth-child(2) h3 {
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_6TpibX .grid--3-col-desktop .grid__item:nth-child(2) h3 {
     font-size: 30px;
     line-height: 1.2em;
     margin-bottom: 20px;
 }
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_6TpibX .grid--3-col-desktop .grid__item:nth-child(2) p {
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_6TpibX .grid--3-col-desktop .grid__item:nth-child(2) p {
     font-size: 20px;
     line-height: 1.2em;
 }  
-.page-power-your-ev-with-solar .lp-container h2 {
+.ev-solar-charger .lp-container h2 {
     font-size: 40px !important;
     line-height: 45px;
 }
-.page-power-your-ev-with-solar div#shopify-section-template--15140758093918__flip_card_qJ6JyA .section-title h2 {
+.ev-solar-charger div#shopify-section-template--15140758093918__flip_card_qJ6JyA .section-title h2 {
     font-size: 40px;
 } 
-.page-power-your-ev-with-solar .step {
+.ev-solar-charger .step {
     padding-bottom: 0px;
     padding-top: 0px;
 } 
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__video_mE3FFp h2.title.inline-richtext.h1 {
+.ev-solar-charger section#shopify-section-template--15140758093918__video_mE3FFp h2.title.inline-richtext.h1 {
     font-size: 40px;
     line-height: 45px;
 } 
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_gT8HWa h2.title.inline-richtext.h1 {
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_gT8HWa h2.title.inline-richtext.h1 {
   font-size: 40px;
   line-height: 45px;
 } 
-.page-power-your-ev-with-solar .header-wrapper {
+.ev-solar-charger .header-wrapper {
         margin-top: 0 !important;
 }  
-.page-power-your-ev-with-solar section#shopify-section-template--15140758093918__multicolumn_VBKWNf .page-width.section-template--15140758093918__multicolumn_VBKWNf-padding.isolate.scroll-trigger.animate--slide-in .multicolumn-card__info p {
+.ev-solar-charger section#shopify-section-template--15140758093918__multicolumn_VBKWNf .page-width.section-template--15140758093918__multicolumn_VBKWNf-padding.isolate.scroll-trigger.animate--slide-in .multicolumn-card__info p {
   font-size: 20px;
 } 
-.page-power-your-ev-with-solar .section-template--15140758093918__image_with_text_aUGJF4-padding.gradient.color-scheme-1 .image-with-text__content>:first-child:is(.image-with-text__heading) {
+.ev-solar-charger .section-template--15140758093918__image_with_text_aUGJF4-padding.gradient.color-scheme-1 .image-with-text__content>:first-child:is(.image-with-text__heading) {
     font-size: 33px;
     line-height: 1.2em;
 }  
