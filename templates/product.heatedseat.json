@@ -155,6 +155,35 @@
         "title": "Default Heading"
       }
     },
+    "feature_tabs_UHPHMM": {
+      "type": "feature-tabs",
+      "blocks": {
+        "media_QQVb7a": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Take Warmth to Go",
+            "tab_description": "Providing push button heat and comfort, the Solar Seat can be the difference between an enjoyable or a miserable experience. Pressure activated heater prevents draining the compact Power 74 battery.",
+            "image": "shopify:\/\/shop_images\/CafeOutside1.png",
+            "video_url": ""
+          }
+        },
+        "media_dxg4NX": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Becomes Its Own Seat",
+            "tab_description": "The integrated aluminum frame and adjustable straps allow the Solar Seat to be set directly on the ground to become a comfortable recliner. Take it to the game, camping, or just hanging out in your back yard.",
+            "image": "shopify:\/\/shop_images\/SittingbyFire.png",
+            "video_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "media_QQVb7a",
+        "media_dxg4NX"
+      ],
+      "settings": {
+      }
+    },
     "title_section_wJHw3h": {
       "type": "title-section",
       "settings": {
@@ -226,6 +255,7 @@
     "main",
     "custom_liquid_3Ch4Hg",
     "bundles_ht8HAi",
+    "feature_tabs_UHPHMM",
     "title_section_wJHw3h",
     "1713136015e25a897a",
     "faq_product_wzwVAy",
