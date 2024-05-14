@@ -155,6 +155,45 @@
         "title": "Default Heading"
       }
     },
+    "feature_tabs_Hnp3tg": {
+      "type": "feature-tabs",
+      "blocks": {
+        "media_LUQe83": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Extreme portability for any adventure",
+            "tab_description": "Take this solar cooler with you on all of your adventures. Power with any 12V source like a boat, car, truck or RV to extend the run time. The built in telescoping handle is designed for on-the-go movement, with large all-terrain wheels to handle uneven ground.",
+            "image": "shopify:\/\/shop_images\/chillest-hero.jpg",
+            "video_url": ""
+          }
+        },
+        "media_q6EQJ4": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Cooling & freezing versatility",
+            "tab_description": "Two separate cooling zones allow you to set either zone as a freezer or fridge. The Chillest can get down to -4°F. With temperature control, keep both sides the perfect level of chill.",
+            "image": "shopify:\/\/shop_images\/chillest-dealer-electric-coolerfreezer-gosun-762281.jpg",
+            "video_url": ""
+          }
+        },
+        "media_TpkxEt": {
+          "type": "media",
+          "settings": {
+            "tab_title": "How it works",
+            "tab_description": "The Chillest can run off of it's built in 87Wh battery, external Power Banks like GoSun's Power 144 or 266, DC car outlet, wall adapter, or additional power from GoSun's Solar Panels like the 30 W Solar Panel, 60 W Solar Table, etc.",
+            "image": "shopify:\/\/shop_images\/image_16_1.png",
+            "video_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "media_LUQe83",
+        "media_q6EQJ4",
+        "media_TpkxEt"
+      ],
+      "settings": {
+      }
+    },
     "title_section_wJHw3h": {
       "type": "title-section",
       "settings": {
@@ -226,6 +265,7 @@
     "main",
     "custom_liquid_3Ch4Hg",
     "bundles_ht8HAi",
+    "feature_tabs_Hnp3tg",
     "title_section_wJHw3h",
     "1713136015e25a897a",
     "faq_product_wzwVAy",
