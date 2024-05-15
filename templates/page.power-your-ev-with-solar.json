@@ -325,7 +325,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<h3>EVs are great until you have to find a nearby public charging station<\/h3><p><\/p><p>Electric vehicles are the perfect amalgamation of engineering and tech—they offer more space, quieter rides, advanced tech features, and a more cost-effective and planet-friendly way to power up instead of using pollution-powered fossil fuels. <\/p><p>Everything is nice and breezy until you have to go to a public charging station or on a road trip. First, it’s hard to find one near you. Then come the connectivity issues, internal station faults, and lack of a standardized payment process. <\/p><p>So, what do you do? Lug a heavy gas generator and fire it up whenever you need to juice your car? Or, power your car seamlessly with the Sun.<\/p>",
+            "text": "<h3>EVs are great until you have to find a nearby public charging station<\/h3><p><\/p><p>Electric vehicles are the perfect combination of engineering and tech—they offer more space, quieter rides, advanced features, and a cost-effective and planet-friendly way to drive. <\/p><p>Everything is breezy until you have to go to a public charging station. First, it’s hard to find one near you. Then come the connectivity issues, internal station faults, and lack of a standardization.  <\/p><p>So, what do you do? Lug a heavy generator and fire it up whenever you need power? Or,<strong> power your car seamlessly with the Sun<\/strong>.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -380,7 +380,7 @@
           "type": "column",
           "settings": {
             "title": "Charge Anywhere, Anytime",
-            "text": "<p>GoSun’s compact rooftop carrier contains twelve hundred watts of solar panels, which is enough to make around 30 miles of fuel daily, 80% of the vehicle’s annual mileage.<\/p><p>Don’t tie yourself down to public charging stations and don’t resort to carrying heavy, low-output gas generators and batteries on every adventure.<\/p>",
+            "text": "<p>GoSun’s compact rooftop carrier contains twelve hundred watts of solar panels, which is enough to make around 80% of the vehicle’s annual mileage.<\/p><p>Don’t tie yourself down to public charging stations or resort to carrying heavy, low-output gas generators and batteries on every adventure.<\/p>",
             "link_label": "",
             "link": ""
           }
