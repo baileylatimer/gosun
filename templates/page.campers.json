@@ -16,7 +16,7 @@
         "background_image": "shopify:\/\/shop_images\/image_21_828x_39a94b11-9510-478f-82c3-3254926c7f72.webp",
         "overline": "",
         "heading": "Campers",
-        "paragraph": "Live off-grid with our all-in-one campers.",
+        "paragraph": "Thrive off-grid with our solar powered campers and tiny homes. Complete with all the GoSun appliances you need to adventure further, and more often.",
         "button1_text": "",
         "button1_url": "",
         "play_button_1": false,
@@ -28,6 +28,7 @@
     "feature_image_qi7PHt": {
       "type": "feature-image",
       "settings": {
+        "product_reference": "",
         "invert_order": true,
         "shrink_height": true,
         "top_padding": true,
@@ -35,7 +36,9 @@
         "heading": "Camp365",
         "text": "Off-Grid Solar Trailer that is ultralight and easy to tow. The ultimate solar powered off-grid camper for adventurers seeking the roads less traveled.",
         "price": "33950",
+        "video_url": "",
         "image": "shopify:\/\/shop_images\/Placeholder_Image-4.jpg",
+        "img-fit": false,
         "button_url": "shopify:\/\/products\/camp365",
         "button_label": "Buy Now",
         "button_url_2": "",
@@ -45,14 +48,17 @@
     "feature_image_B7RwwW": {
       "type": "feature-image",
       "settings": {
+        "product_reference": "",
         "invert_order": false,
         "shrink_height": true,
         "top_padding": true,
         "overline": "Tiny home",
         "heading": "Dream",
-        "text": "A cooler that doesn't need ice. The Chill can keep food cold, frozen, dry, and organized - never buy ice again. The included PowerBank (Power 144) let's you charge devices and power your Chill day and night.",
+        "text": "A solar-powered off-grid, tiny house designed  to help you live a more independent, healthy, and resilient life. No strings attached. Take any place; tows and hooks up like an RV.",
         "price": "699",
+        "video_url": "",
         "image": "shopify:\/\/shop_images\/5fb54d397b94e80011de9b94.webp",
+        "img-fit": false,
         "button_url": "shopify:\/\/products\/chill-camping-electric-cooler",
         "button_label": "Buy Now",
         "button_url_2": "shopify:\/\/pages\/dream-tiny-house",
@@ -61,7 +67,9 @@
     },
     "feature_image_nKd8pc": {
       "type": "feature-image",
+      "disabled": true,
       "settings": {
+        "product_reference": "",
         "invert_order": true,
         "shrink_height": true,
         "top_padding": true,
@@ -69,7 +77,9 @@
         "heading": "Custom Van Builds",
         "text": "Planning your dream van build? Looking to upgrade your rig with more solar gear? GoSun has the perfect suite of reliable solar powered appliances for your home away from home.",
         "price": "",
+        "video_url": "",
         "image": "shopify:\/\/shop_images\/Van_MegaMenu_1280x_f5d7b558-53be-464e-a5a4-744e63532bb9.webp",
+        "img-fit": false,
         "button_url": "",
         "button_label": "",
         "button_url_2": "shopify:\/\/pages\/van-builds",
@@ -82,13 +92,15 @@
         "product_column_86MV4G": {
           "type": "product_column",
           "settings": {
-            "product_reference": "camp365"
+            "product_reference": "camp365",
+            "button_url": ""
           }
         },
         "product_column_PgLWmc": {
           "type": "product_column",
           "settings": {
-            "product_reference": "dream-tiny-house"
+            "product_reference": "dream-tiny-house",
+            "button_url": ""
           }
         }
       },
