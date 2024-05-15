@@ -442,7 +442,7 @@
           "settings": {
             "title": "Keep Your Vehicle Cool",
             "text": "Shading on both windshields also helps reduce heat build-up inside your vehicle, making for a cooler driving experience.",
-            "image": "shopify:\/\/shop_images\/Rectangle_160.png",
+            "image": "shopify:\/\/shop_images\/keep_your_vehicle_cool.png",
             "reverse_row": true
           }
         },
@@ -451,7 +451,7 @@
           "settings": {
             "title": "Longer Battery Life",
             "text": "Extend your battery's lifespan and save yourself a chunk of money in the future by avoiding costly battery replacements.",
-            "image": "shopify:\/\/shop_images\/Rectangle_161.png",
+            "image": "shopify:\/\/shop_images\/longer_battery_life.png",
             "reverse_row": false
           }
         },
