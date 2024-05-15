@@ -952,6 +952,15 @@
         "padding_bottom": 36
       }
     },
+    "product_page_faq_PMQyFH": {
+      "type": "product-page-faq",
+      "settings": {
+        "product_reference": "ev-solar-charger-deposit",
+        "invert_order": false,
+        "shrink_height": false,
+        "top_padding": false
+      }
+    },
     "product_nav_yWVKQD": {
       "type": "product-nav",
       "settings": {
@@ -978,6 +987,7 @@
     "multicolumn_69y6Rm",
     "image_banner_njG33d",
     "multicolumn_wePedV",
+    "product_page_faq_PMQyFH",
     "product_nav_yWVKQD"
   ]
 }
