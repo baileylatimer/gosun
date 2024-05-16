@@ -155,6 +155,35 @@
         "title": "Default Heading"
       }
     },
+    "feature_tabs_UAPVaU": {
+      "type": "feature-tabs",
+      "blocks": {
+        "media_LFYExb": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Energy efficient heat relief",
+            "tab_description": "With the highest efficiency rating on the market, the Breeze can run directly from GoSun Solar Chargers. Stay cool for as long as the sun shines, then switch to a powerbank to continue running overnight.",
+            "image": "shopify:\/\/shop_images\/gosun_breeze_fan_solar_charged.jpg",
+            "video_url": ""
+          }
+        },
+        "media_ydQfrG": {
+          "type": "media",
+          "settings": {
+            "tab_title": "360˚ of cooling power",
+            "tab_description": "Designed with a vertical tilting head, the Breeze offers amazing versatility - use on a table and in the sand at the beach or hang overhead in a tent, RV, or cabin.",
+            "image": "shopify:\/\/shop_images\/solar_energy_efficient_fan_12v.jpg",
+            "video_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "media_LFYExb",
+        "media_ydQfrG"
+      ],
+      "settings": {
+      }
+    },
     "title_section_wJHw3h": {
       "type": "title-section",
       "settings": {
@@ -226,6 +255,7 @@
     "main",
     "custom_liquid_3Ch4Hg",
     "bundles_ht8HAi",
+    "feature_tabs_UAPVaU",
     "title_section_wJHw3h",
     "1713136015e25a897a",
     "faq_product_wzwVAy",
