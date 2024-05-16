@@ -22,6 +22,7 @@
         "title": {
           "type": "title",
           "settings": {
+            "hide_sale_price": false
           }
         },
         "caption": {
@@ -54,6 +55,7 @@
           "type": "buy_buttons",
           "disabled": true,
           "settings": {
+            "buy_button_text": "Add to cart",
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
           }
@@ -61,6 +63,7 @@
         "price": {
           "type": "price",
           "settings": {
+            "hide_sale_price": false
           }
         },
         "description": {
@@ -125,6 +128,45 @@
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 12
+      }
+    },
+    "feature_tabs_cKcGGG": {
+      "type": "feature-tabs",
+      "blocks": {
+        "media_xPJ4Yd": {
+          "type": "media",
+          "settings": {
+            "tab_title": "How It Works",
+            "tab_description": "How It Works\nVersatile, compatible, and complete, the GoSun Grid is an ecosystem of super efficient products that work in unison. Cook, chill, clean, purify, charge, and brew - all with the power of the Sun",
+            "image": "shopify:\/\/shop_images\/fusion_fall_hero_1.jpg",
+            "video_url": ""
+          }
+        },
+        "media_nNkK7j": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Dual Cooling Zones",
+            "tab_description": "The dual cooling zones mean you have a freezer and fridge in the same device. You can set the temperature for each side anywhere from -4°F to 68°F (-20°C to 20°C) using the buttons",
+            "image": "shopify:\/\/shop_images\/Freezer.gif",
+            "video_url": ""
+          }
+        },
+        "media_iMBPzq": {
+          "type": "media",
+          "settings": {
+            "tab_title": "All-weather performance",
+            "tab_description": "Cooking under full sun is always nice with a solar cooker, but GoSun operates under a wide range of conditions; cloudy, freezing, muggy, snowing, windy, dusty, you name it, nothing is off limits. Now, with the electric heater, the cooking never ends.",
+            "image": "shopify:\/\/shop_images\/image_29.png",
+            "video_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "media_xPJ4Yd",
+        "media_nNkK7j",
+        "media_iMBPzq"
+      ],
+      "settings": {
       }
     },
     "title_section_wJHw3h": {
@@ -196,6 +238,7 @@
   },
   "order": [
     "main",
+    "feature_tabs_cKcGGG",
     "title_section_wJHw3h",
     "1713136015e25a897a",
     "faq_product_wzwVAy",
