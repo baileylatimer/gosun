@@ -22,6 +22,7 @@
         "title": {
           "type": "title",
           "settings": {
+            "hide_sale_price": false
           }
         },
         "caption": {
@@ -54,6 +55,7 @@
           "type": "buy_buttons",
           "disabled": true,
           "settings": {
+            "buy_button_text": "Add to cart",
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
           }
@@ -62,6 +64,7 @@
           "type": "price",
           "disabled": true,
           "settings": {
+            "hide_sale_price": false
           }
         },
         "description": {
@@ -134,6 +137,45 @@
         "title": "Default Heading"
       }
     },
+    "feature_tabs_tLFjCw": {
+      "type": "feature-tabs",
+      "blocks": {
+        "media_DEcKfq": {
+          "type": "media",
+          "settings": {
+            "tab_title": "No compromise, solar is simply better",
+            "tab_description": "You don't have to worry about re-supplying ice, re-fueling the fire or swapping dead batteries. This self-contained, autonomous set-up will meet your families needs in good times and during tough times.",
+            "image": "shopify:\/\/shop_images\/Solar_Kitchen_Still.Griffin_Christensen.Keihe_Lunch._1.17.1_1600x_7c7782b9-ff29-44ce-aa47-b24dd26f5a8a.jpg",
+            "video_url": ""
+          }
+        },
+        "media_PbagXX": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Solar by day, electric by night",
+            "tab_description": "Breakthrough vacuum solar oven cooks delicious meals for six in an hour under full Sun. If you’re out of sunlight, the GoSun Fusion can be powered from 12V found in your car, boat, RV, or GoSun's Powerbanks.",
+            "image": "shopify:\/\/shop_images\/fusion-powerbank-hybrid-solar-oven-bundle-gosun-365252.jpg",
+            "video_url": ""
+          }
+        },
+        "media_LiaMqp": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Stay cool with the sun",
+            "tab_description": "To keep the adventure going, the GoSun Chill minimizes space needed for ice and maximizes space for fresh food, cold drinks, and fun times.",
+            "image": "shopify:\/\/shop_images\/Chill_Game_74740371-e947-4b03-910e-0e7f397ee3bb.jpg",
+            "video_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "media_DEcKfq",
+        "media_PbagXX",
+        "media_LiaMqp"
+      ],
+      "settings": {
+      }
+    },
     "title_section_wJHw3h": {
       "type": "title-section",
       "settings": {
@@ -204,6 +246,7 @@
   "order": [
     "main",
     "bundles_ReVT9y",
+    "feature_tabs_tLFjCw",
     "title_section_wJHw3h",
     "1713136015e25a897a",
     "faq_product_wzwVAy",
