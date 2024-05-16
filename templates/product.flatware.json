@@ -155,6 +155,35 @@
         "title": "Default Heading"
       }
     },
+    "feature_tabs_AjbcKR": {
+      "type": "feature-tabs",
+      "blocks": {
+        "media_wgmMmw": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Easy to Clean",
+            "tab_description": "Clean Flatware like any other utensil, it's also dishwasher safe. The included carrying case allows you to secure dirty or lightly used Flatware back in your pockets without getting other items dirty",
+            "image": "shopify:\/\/shop_images\/flatware-dealer-wallet-sized-flatware-set-gosun-808721.jpg",
+            "video_url": ""
+          }
+        },
+        "media_cy77dH": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Simple. Compact. Versatile.",
+            "tab_description": "Using Flatware is easy. Just pop it out of its case, slide the utensil until it clicks into place, and enjoy. There is no compromise of strength, comfort or ability to scoop, skewer, slice, stir, or spread.",
+            "image": "shopify:\/\/shop_images\/Flatware_Explode_14ddea18-8031-4b39-983c-0f00a7117d3c.gif",
+            "video_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "media_wgmMmw",
+        "media_cy77dH"
+      ],
+      "settings": {
+      }
+    },
     "title_section_wJHw3h": {
       "type": "title-section",
       "settings": {
@@ -226,6 +255,7 @@
     "main",
     "custom_liquid_3Ch4Hg",
     "bundles_ht8HAi",
+    "feature_tabs_AjbcKR",
     "title_section_wJHw3h",
     "1713136015e25a897a",
     "faq_product_wzwVAy",
