@@ -155,6 +155,35 @@
         "title": "Default Heading"
       }
     },
+    "feature_tabs_QkUXYr": {
+      "type": "feature-tabs",
+      "blocks": {
+        "media_Meqc7H": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Light On the Go",
+            "tab_description": "Our backpack is the only solar backpack that includes a powerful LED camping light that gives you the ability to see into the backpack when traveling, and to even light your tent or campsite.",
+            "image": "shopify:\/\/shop_images\/AdobeStock_102858124_Preview_copy.jpg",
+            "video_url": ""
+          }
+        },
+        "media_bTYKbV": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Charge On the Go",
+            "tab_description": "Included is a large 10-watt solar panel and lithium battery, for you to capture and store solar energy to charge your devices even in the most remote locations, allowing you to enjoy the outdoors without being totally off the grid.",
+            "image": "shopify:\/\/shop_images\/IMG_9303_copy_1.jpg",
+            "video_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "media_Meqc7H",
+        "media_bTYKbV"
+      ],
+      "settings": {
+      }
+    },
     "title_section_wJHw3h": {
       "type": "title-section",
       "settings": {
@@ -226,6 +255,7 @@
     "main",
     "custom_liquid_3Ch4Hg",
     "bundles_ht8HAi",
+    "feature_tabs_QkUXYr",
     "title_section_wJHw3h",
     "1713136015e25a897a",
     "faq_product_wzwVAy",
