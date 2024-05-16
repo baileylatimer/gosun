@@ -58,6 +58,14 @@
             "video_url": ""
           }
         },
+        "media_fyTUE3": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Tab Title",
+            "tab_description": "This is the tab description.",
+            "video_url": ""
+          }
+        },
         "media_Hkpygk": {
           "type": "media",
           "settings": {
@@ -88,6 +96,7 @@
       },
       "block_order": [
         "media_q9xfqk",
+        "media_fyTUE3",
         "media_Hkpygk",
         "media_rdCkmY",
         "media_PWLTtA"
