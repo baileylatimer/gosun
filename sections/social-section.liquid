@@ -16,6 +16,7 @@
   width: 300px; /* Set your desired width */
   height: auto; /* Set your desired height */
   position: relative;
+  display: block;
 }
 
 
@@ -69,9 +70,9 @@
   <div class="social-row scroll-left flex gap-6 mb-6" aria-hidden="true">
     {% for block in section.blocks %}
       {% if block.settings.row == 'row_1' %}
-        <div class="social-block">
+        <a class="social-block" href="{{ block.settings.url }}">
           <img src="{{ block.settings.image | img_url: 'x800' }}" alt="" class="social-image">
-        </div>
+        </a>
       {% endif %}
     {% endfor %}
   </div>
@@ -79,9 +80,9 @@
   <div class="social-row scroll-right flex gap-6" aria-hidden="true">
     {% for block in section.blocks %}
       {% if block.settings.row == 'row_2' %}
-        <div class="social-block">
+        <a class="social-block"  href="{{ block.settings.url }}">
           <img src="{{ block.settings.image | img_url: 'x800' }}" alt="" class="social-image">
-        </div>
+        </a>
       {% endif %}
     {% endfor %}
   </div>
