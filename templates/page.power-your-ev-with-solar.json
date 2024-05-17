@@ -422,7 +422,7 @@
         "feature_4Jfedr": {
           "type": "feature",
           "settings": {
-            "title": "Works With Any EV",
+            "title": "Fits On Any EV",
             "text": "Fits all EV's and Hybrids, from compact cars to large luxury SUVs and trucks. It simply requires a roof rack or a luggage rack.",
             "image": "shopify:\/\/shop_images\/IMG_4337.jpg",
             "reverse_row": true
@@ -440,8 +440,8 @@
         "feature_EzkmKc": {
           "type": "feature",
           "settings": {
-            "title": "Keep Your Vehicle Cool",
-            "text": "Shading on both windshields also helps reduce heat build-up inside your vehicle, making for a cooler driving experience.",
+            "title": "Keep Vehicle Cool",
+            "text": "Catch the solar power you want, block the heat you don't want",
             "image": "shopify:\/\/shop_images\/keep_your_vehicle_cool.png",
             "reverse_row": true
           }
