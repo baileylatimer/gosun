@@ -575,8 +575,8 @@
           "settings": {
             "background_image": "shopify:\/\/shop_images\/Rectangle_172_9f2ea9f3-6112-44eb-a6ed-142a942d0317.png",
             "title": "Parking Lot:",
-            "text": "<p>Charge your EV while parked.<\/p>",
-            "back_text": "<p>Use the time your car is parked outside to juice it up and go wherever the road takes you without having to wait<\/p>"
+            "text": "<p>Charge EV while parked<\/p>",
+            "back_text": "<p>Use the time your car is parked outside to juice it up, no more fighting to the only parking spot with a charger<\/p>"
           }
         },
         "container_dnWnnR": {
@@ -584,8 +584,8 @@
           "settings": {
             "background_image": "shopify:\/\/shop_images\/Rectangle_173.png",
             "title": "Urban Commuting:",
-            "text": "<p>Maximize EV battery life with solar charging.<\/p>",
-            "back_text": "<p>Have a long daily commute? Don’t damage your EV’s battery life by fast charging it from public stations. Use sunshine power to maximize battery life and charge up without the long lines<\/p>"
+            "text": "<p>Maximize battery life with solar charging<\/p>",
+            "back_text": "<p>Don’t compromise your EV’s battery life by fast charging it from public stations. Use sunshine power to maximize battery life and charge up without the long lines<\/p>"
           }
         },
         "container_9tHcrr": {
