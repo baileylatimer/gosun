@@ -522,7 +522,7 @@
           "type": "feature",
           "settings": {
             "title": "Power Accessories",
-            "text": "Use AC Output, DC & USB Outputs to power up your devices in case of emergencies and when you’re out and about—on a job site or festival.",
+            "text": "Use AC, DC, & USB Outputs to power up devices in case of emergencies and when you’re out and about—on a job site or festival.",
             "image": "shopify:\/\/shop_images\/Rectangle_166.png",
             "reverse_row": false
           }
@@ -531,7 +531,7 @@
           "type": "feature",
           "settings": {
             "title": "30% Federal Tax Credit",
-            "text": "Your GoSun EV Solar Charger may make you eligible for a 30% credit from the IRS and other local rebates and incentives (please consult your tax advisor).",
+            "text": "Eligible for a 30% credit from the IRS, plus local rebates and incentives (please consult your tax advisor).",
             "image": "shopify:\/\/shop_images\/Rectangle_170.png",
             "reverse_row": true
           }
