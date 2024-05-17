@@ -92,7 +92,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Solar_panel.png",
             "title": "",
-            "text": "<p>Charge anywhere with a 1,200-watt solar array<\/p>",
+            "text": "<p>Charge anywhere with 1,200 watts<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -102,7 +102,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Light_2x_56845c19-3919-4328-971d-a8f6c558352f.png",
             "title": "",
-            "text": "<p>Lightweight, weighs only 90 lbs <\/p>",
+            "text": "<p>Lightweight, weighs only 70lbs (32kg) <\/p>",
             "link_label": "",
             "link": ""
           }
@@ -112,7 +112,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Uv_protective_fabric.png",
             "title": "",
-            "text": "<p> Made with durable UV-resistant polymers<\/p>",
+            "text": "<p>Durable design for the elements<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -169,7 +169,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Founded in a small suburban garage in Cincinnati, Ohio, GoSun grew quickly thanks to our community of committed customers, shareholders, and a team of designers, engineers, and change-makers intent on serving the world with unparalleled clean energy solutions that offer the freedom to explore.<\/p>",
+            "text": "<p>GoSun is a team of designers, engineers, and change-makers intent on serving the world with unparalleled clean energy solutions that offer the freedom to explore.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -325,7 +325,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<h3>EVs are great until you have to find a nearby public charging station<\/h3><p><\/p><p>Electric vehicles are the perfect combination of engineering and tech—they offer more space, quieter rides, advanced features, and a cost-effective and planet-friendly way to drive. <\/p><p>Everything is breezy until you have to go to a public charging station. First, it’s hard to find one near you. Then come the connectivity issues, internal station faults, and lack of a standardization.  <\/p><p>So, what do you do? Lug a heavy generator and fire it up whenever you need power? Or,<strong> power your car seamlessly with the Sun<\/strong>.<\/p>",
+            "text": "<h3>EV's are great, but public charging isn't...<\/h3><p>As more individuals and businesses transition to electric vehicles to reduce dependence on fossil fuels, the demand for convenient and accessible charging infrastructure grows - <strong>especially for workplace and destination charging. <\/strong><\/p><p>GoSun develops sustainable transportation solutions to support EV adoption; enhancing the overall experience for drivers, providing peace of mind and confidence in their journey. <\/p>",
             "link_label": "",
             "link": ""
           }
