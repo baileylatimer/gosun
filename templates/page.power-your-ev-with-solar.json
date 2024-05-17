@@ -583,9 +583,9 @@
           "type": "container",
           "settings": {
             "background_image": "shopify:\/\/shop_images\/Rectangle_173.png",
-            "title": "Urban Commuting:",
-            "text": "<p>Maximize battery life with solar charging<\/p>",
-            "back_text": "<p>Don’t compromise your EV’s battery life by fast charging it from public stations. Use sunshine power to maximize battery life and charge up without the long lines<\/p>"
+            "title": "Work Commuting:",
+            "text": "<p>Workplace and daytime charging<\/p>",
+            "back_text": "<p>The 9-to-5 grind is perfect for capturing a solar charge, just unfold in the morning and wrap up in the afternoon<\/p>"
           }
         },
         "container_9tHcrr": {
@@ -593,8 +593,8 @@
           "settings": {
             "background_image": "shopify:\/\/shop_images\/emergency.webp",
             "title": "Emergencies:",
-            "text": "<p>Use solar power during outages.<\/p>",
-            "back_text": "<p>Experiencing power outages? Use the EV Solar Charger’s separate external power bank to charge your necessary appliances and all entertainment systems<\/p>"
+            "text": "<p>Use solar power during outages<\/p>",
+            "back_text": "<p>Ready for power outages? Use the EV Solar Charger’s power bank to charge your necessary appliances and devices<\/p>"
           }
         },
         "container_H3dd4D": {
