@@ -495,7 +495,7 @@
           "type": "feature",
           "settings": {
             "title": "Aerodynamic + Lightweight",
-            "text": "GoSun’s Solar EV Charger’s rounded and streamlined profile reduces drag to give you minimal efficiency losses, and because the panels are lightweight, there’s minimal effect on range.",
+            "text": "Streamlined profile reduces drag and lightweight assembly reduces effect on range",
             "image": "shopify:\/\/shop_images\/Rectangle_169.png",
             "reverse_row": true
           }
@@ -504,7 +504,7 @@
           "type": "feature",
           "settings": {
             "title": "Range Extension",
-            "text": "The additional energy source gives you extended range and more peace of mind.",
+            "text": "Carrying a power source gives helps provide peace of mind when going further.",
             "image": "shopify:\/\/shop_images\/Rectangle_167.png",
             "reverse_row": false
           }
@@ -512,8 +512,8 @@
         "feature_AmGHgA": {
           "type": "feature",
           "settings": {
-            "title": "Environmentally Responsible",
-            "text": "With solar energy, you get to charge your carbon-neutral transportation with net-positive power from the Sun.",
+            "title": "Latest in Solar Tech",
+            "text": "New, flexible, monocrystaline solar cells enable the highest power to weight ratio ever.",
             "image": "shopify:\/\/shop_images\/Rectangle_171.png",
             "reverse_row": true
           }
