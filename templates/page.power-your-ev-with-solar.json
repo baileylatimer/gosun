@@ -675,35 +675,35 @@
           "type": "step",
           "settings": {
             "title": "2",
-            "content": "<p>Install it on your EV’s roof rack in 20 minutes with two people<\/p>"
+            "content": "<p>Install on vehicle’s roof rack in 20 minutes with two people<\/p>"
           }
         },
         "step_8ENhqU": {
           "type": "step",
           "settings": {
             "title": "3",
-            "content": "<p>Once your car is parked, just open the      EV Solar Charger’s lid to remove two sets of folding solar panels<\/p>"
+            "content": "<p>Once car is parked, open the lid and unfold solar panels<\/p>"
           }
         },
         "step_NfWHH7": {
           "type": "step",
           "settings": {
             "title": "4",
-            "content": "<p>Connect the NACS Charge Cable to your      vehicle's charge port with the SAE J3400 connector<\/p>"
+            "content": "<p>Connect charge cable to vehicle's charge port<\/p>"
           }
         },
         "step_eW6NMk": {
           "type": "step",
           "settings": {
             "title": "5",
-            "content": "<p>Green light indicates that integrated electronics are converting sunshine into Level I AC power sent directly to your vehicle<\/p>"
+            "content": "<p>Convert sunshine into Level I AC power sent to vehicle<\/p>"
           }
         },
         "step_467V9J": {
           "type": "step",
           "settings": {
             "title": "6",
-            "content": "<p>Fold up before taking off. Now you’re driving<\/p>"
+            "content": "<p>Fold up before taking off, Drive on solar power<\/p>"
           }
         }
       },
@@ -727,16 +727,16 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>We’ve Been Making Best Selling Solar Appliances for 10 Years<\/p>",
+            "text": "<p>GoSun Designs Best Selling Solar Appliances<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "shopify:\/\/collections\/todays-deals"
           }
         },
         "column_HCRek3": {
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>OVER<\/p><h5>$20 MILLION<\/h5><p>Generated With<\/p><h5>100,000+<\/h5><p>PRODUCTS SHIPPED<\/p>",
+            "text": "<p>OVER<\/p><h5>$23 MILLION<\/h5><p>Generated With<\/p><h5>165,000+<\/h5><p>PRODUCTS SHIPPED<\/p>",
             "link_label": "",
             "link": ""
           }
