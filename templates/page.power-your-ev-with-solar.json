@@ -646,9 +646,9 @@
           "type": "container",
           "settings": {
             "background_image": "shopify:\/\/shop_images\/Rectangle_179_cc853e7d-4d23-43e1-b574-f6f88fcfb8e3.png",
-            "title": "Camping with All the Perks:",
-            "text": "<p>Go off-grid while staying connected.<\/p>",
-            "back_text": "<p>Experience the great outdoors and go off-grid for as long as you want while enjoying all the perks of being connected to the grid. Power your devices with GoSun’s EV Solar Charger—stay connected to the internet and loved ones, watch movies, and listen to music out in the wild<\/p>"
+            "title": "Camp with All the Perks:",
+            "text": "<p>Stay connected while off-grid<\/p>",
+            "back_text": "<p>Experience the great outdoors and go off-grid for as long as you want while enjoying all the perks of portable power. Beyond car charging, run devices, watch movies, and listen to music out in the wild<\/p>"
           }
         }
       },
