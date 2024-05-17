@@ -459,7 +459,7 @@
           "type": "feature",
           "settings": {
             "title": "Self-Charging Convenience",
-            "text": "Takes care of your daily commute (up to 30 miles\/day with an average of 10-20 miles).\n\n\n* Mileage is dependent on vehicle and weather conditions",
+            "text": "Meet your daily commuting needs (up to 30 miles\/day; average of 10-20 miles). * Mileage dependent on vehicle and weather conditions",
             "image": "shopify:\/\/shop_images\/Rectangle_163.png",
             "reverse_row": true
           }
@@ -468,7 +468,7 @@
           "type": "feature",
           "settings": {
             "title": "Off-Grid Independence",
-            "text": "Free yourself of the grid—you don’t need external power sources, bills, and subscriptions. Charge your EV at the office, at home, or by the mountains, your choice.",
+            "text": "Free from external power sources, bills, and subscriptions. Charge your EV at the office, home, or in the mountains, your choice.",
             "image": "shopify:\/\/shop_images\/Independence.jpg",
             "reverse_row": false
           }
@@ -477,7 +477,7 @@
           "type": "feature",
           "settings": {
             "title": "Easy Installation",
-            "text": "The charger comes to you pre-assembled, and you can mount it to your car in just 20 minutes on any roof rack.",
+            "text": "EV Solar Charger ships pre-assembled, and can mount to your car's roof rack in just 20 minutes.",
             "image": "shopify:\/\/shop_images\/Rectangle_191.png",
             "reverse_row": true
           }
