@@ -602,17 +602,17 @@
           "settings": {
             "background_image": "shopify:\/\/shop_images\/Rectangle_180.png",
             "title": "Off-Grid:",
-            "text": "<p>Stay powered up, even off-grid.<\/p>",
-            "back_text": "<p>No matter how far you venture out, you don’t need to worry about powering up your EV, even in the wilderness. Wherever the Sun is shining, your EV has power, so you can stay off-grid for as long as your heart desires<\/p>"
+            "text": "<p>Stay powered up, even when remote<\/p>",
+            "back_text": "<p>No matter how far you venture out, you still have charging capability. Wherever the Sun is shining, your EV is charging, so you can stay off-grid for as long as your heart desires<\/p>"
           }
         },
         "container_C8bxHE": {
           "type": "container",
           "settings": {
             "background_image": "shopify:\/\/shop_images\/Rectangle_179.png",
-            "title": "Rural Travel:",
-            "text": "<p>Charge seamlessly in remote areas.<\/p>",
-            "back_text": "<p>Use clean, renewable energy no matter how remote you take your EV. Your EV gets seamlessly charged in all locations and all conditions<\/p>"
+            "title": "Destination Charging:",
+            "text": "<p>Go remote and still charge<\/p>",
+            "back_text": "<p>Use clean, renewable energy no matter how remote you go. Seamlessly charge in all locations with the ubiquitous power of the Sun.<\/p>"
           }
         },
         "container_xgTxn7": {
