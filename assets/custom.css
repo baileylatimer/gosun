@@ -678,3 +678,8 @@ div.snize * {
 .js details[open].menu-opening > .menu-drawer, details[open].menu-opening > .menu-drawer__submenu {
   background: var(--color-bg);
   }
+
+  .price .price-item {
+
+    font-size: 1.2em !important;
+  }
