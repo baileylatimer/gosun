@@ -414,7 +414,7 @@
           "type": "feature",
           "settings": {
             "title": "Drive On Sunshine",
-            "text": "You already drive the most environmentally responsible and carbon-neutral form of transportation. Combine that with the net-positive power coming from the Sun.",
+            "text": "You already drive the most carbon-neutral form of transportation. Combine that with net-positive power coming from the Sun.",
             "image": "shopify:\/\/shop_images\/Rectangle_157.png",
             "reverse_row": false
           }
@@ -485,8 +485,8 @@
         "feature_TphBG7": {
           "type": "feature",
           "settings": {
-            "title": "Rugged Build For Any Adventure",
-            "text": "We designed the charger to withstand all road conditions, speeds up to 100 MPH, and winds up to 30 MPH when extended.",
+            "title": "Rugged Build Quality",
+            "text": "Designed for durability, withstands all, speeds up to 100 MPH, and winds up to 30 MPH when extended.",
             "image": "shopify:\/\/shop_images\/render_14.png",
             "reverse_row": false
           }
