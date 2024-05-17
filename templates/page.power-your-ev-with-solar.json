@@ -521,8 +521,8 @@
         "feature_VtPtMQ": {
           "type": "feature",
           "settings": {
-            "title": "Power For Your Accessories",
-            "text": "Use the 1,200-watt AC Output + USB Outputs to power up your phones, cameras, and any other accessories you own in case of emergencies and when you’re out and about—on a job site or festival.",
+            "title": "Power Accessories",
+            "text": "Use AC Output, DC & USB Outputs to power up your devices in case of emergencies and when you’re out and about—on a job site or festival.",
             "image": "shopify:\/\/shop_images\/Rectangle_166.png",
             "reverse_row": false
           }
