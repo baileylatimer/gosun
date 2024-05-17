@@ -766,7 +766,7 @@
     "video_mE3FFp": {
       "type": "video",
       "settings": {
-        "heading": "Watch the Solar Charger in Action",
+        "heading": "Watch EV Solar Charger in Action",
         "heading_size": "h1",
         "enable_video_looping": false,
         "video": "shopify:\/\/files\/videos\/VID_20240505_145324_531.mp4",
@@ -785,7 +785,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<ul><li><strong>Solar Output Closed: <\/strong>200 watts, 25-40V DC<\/li><li><strong>Solar Output Open: <\/strong>1,200 watts, 80-120V DC<\/li><li><strong>Closed Dimensions:<\/strong> 46.75” long x 48” side to side x 5” tall<\/li><li><strong>Open Dimensions:<\/strong> 245” long x 48” wide,panels are 43” wide<\/li><li><strong>Weight:<\/strong> 90 lbs (41kg)<\/li><\/ul>",
+            "text": "<ul><li><strong>Solar Output Closed: <\/strong>200 watts, 25-40V DC<\/li><li><strong>Solar Output Open: <\/strong>1,200 watts, 80-120V DC<\/li><li><strong>Closed Dimensions:<\/strong> 46.75” long x 48” side to side x 5” tall<\/li><li><strong>Open Dimensions:<\/strong> 245” long x 48” wide,panels are 43” wide<\/li><li><strong>Weight:<\/strong> 70 lbs (32kg)<\/li><\/ul>",
             "link_label": "",
             "link": ""
           }
@@ -794,7 +794,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<ul><li><strong>Output:<\/strong> 1,200 Watt, 110V AC \/ USB-C PD \/ USB-A \/ 12V DC<\/li><li><strong>Battery:<\/strong> 600WH Lithium Iron Phosphate<\/li><li><strong>Safety:<\/strong> Meets all EVSE Level I charging protocols <\/li><li><strong>Materials:<\/strong> ABS Plastic, ETFE-coated monocrystalline solar PV, aluminum, stainless steel<\/li><\/ul>",
+            "text": "<ul><li><strong>Output:<\/strong> 110V AC, up to 15A, 12V DC, USB A&C<\/li><li><strong>Battery Type:<\/strong> Lithium Iron Phosphate to buffer solar intermittency<\/li><li><strong>Safety:<\/strong> Meets all EVSE Level I charging protocols <\/li><li><strong>Materials:<\/strong> ABS Plastic, ETFE-coated monocrystalline solar PV, aluminum, stainless steel<\/li><\/ul>",
             "link_label": "",
             "link": ""
           }
