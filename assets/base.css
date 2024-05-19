@@ -3534,8 +3534,8 @@ a#HeaderMenu-reserve-now {
 /* 5 icons */
 .page-power-your-ev-with-solar .page-width.section-template--15144452391006__multicolumn_q7tDM6-padding.isolate.scroll-trigger.animate--slide-in img.multicolumn-card__image {
     max-width: 100% !important;
-    object-fit: none !important;
-    object-position: unset !important;
+    /* object-fit: none !important;
+    object-position: unset !important; */
 }
 .page-power-your-ev-with-solar .page-width.section-template--15144452391006__multicolumn_q7tDM6-padding.isolate.scroll-trigger.animate--slide-in .media.media--transparent.media--adapt {
     padding-bottom: 80px !important;
