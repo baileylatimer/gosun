@@ -135,6 +135,45 @@
         "title": "Default Heading"
       }
     },
+    "feature_tabs_7nJH7K": {
+      "type": "feature-tabs",
+      "blocks": {
+        "media_LfPMcB": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Stay cool with the Sun",
+            "tab_description": "To keep the adventure going, we minimized space needed for ice and fuel and maximized space for fresh food, cold drinks, and fun times.",
+            "image": "shopify:\/\/shop_images\/GoSun_Chill_how_to_page_cover_image.jpg",
+            "video_url": ""
+          }
+        },
+        "media_GXiMjw": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Solar by day, electric by night",
+            "tab_description": "If you’re out of power and sunlight, the GoSun Fusion can be powered from your car, boat, RV, or any 12V power source.",
+            "image": "shopify:\/\/shop_images\/fusion_closed_plug_night_1.jpg",
+            "video_url": ""
+          }
+        },
+        "media_jVyTG7": {
+          "type": "media",
+          "settings": {
+            "tab_title": "One powerful charger",
+            "tab_description": "Designed to recharge your PowerBank+ and provide and shade for the Chill. The SolarTable 60's lightweight aluminum frame folds into a portable package that is easy to carry and store.",
+            "image": "shopify:\/\/shop_images\/chill-solartable-60-electric-cooler-60w-solar-charger-gosun-591152.jpg",
+            "video_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "media_LfPMcB",
+        "media_GXiMjw",
+        "media_jVyTG7"
+      ],
+      "settings": {
+      }
+    },
     "title_section_wJHw3h": {
       "type": "title-section",
       "settings": {
@@ -205,6 +244,7 @@
   "order": [
     "main",
     "bundles_ReVT9y",
+    "feature_tabs_7nJH7K",
     "title_section_wJHw3h",
     "1713136015e25a897a",
     "faq_product_wzwVAy",
