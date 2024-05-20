@@ -22,6 +22,7 @@
         "title": {
           "type": "title",
           "settings": {
+            "hide_sale_price": false
           }
         },
         "caption": {
@@ -52,16 +53,16 @@
         },
         "buy_buttons": {
           "type": "buy_buttons",
-          "disabled": true,
           "settings": {
+            "buy_button_text": "Add to cart",
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
           }
         },
         "price": {
           "type": "price",
-          "disabled": true,
           "settings": {
+            "hide_sale_price": false
           }
         },
         "description": {
