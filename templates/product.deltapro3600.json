@@ -155,6 +155,45 @@
         "title": "Default Heading"
       }
     },
+    "feature_tabs_XEQLdf": {
+      "type": "feature-tabs",
+      "blocks": {
+        "media_wa78Lt": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Power for any situation",
+            "tab_description": "From tailgate power to extreme blackouts that last for days on end, DELTA Pro delivers up to 10.8kWh of capacity. With that, you're covered for any situation. That's the industry gold standard.",
+            "image": "shopify:\/\/shop_images\/homebackup3-01.jpg",
+            "video_url": ""
+          }
+        },
+        "media_NW4BVc": {
+          "type": "media",
+          "settings": {
+            "tab_title": "The world's fastest charging portable power station",
+            "tab_description": "To reach record-breaking charging speeds at 6500W, combine AC, solar and smart generator together for multiple charging.",
+            "image": "shopify:\/\/shop_images\/DELTA_Max-PC_4_easy_ways_to_charge_ACa_1800x_8f7031bb-b7d2-4349-ab2a-2a622f24cf04.png",
+            "video_url": ""
+          }
+        },
+        "media_FiiAkh": {
+          "type": "media",
+          "settings": {
+            "tab_title": "All the AC output you'll need",
+            "tab_description": "A single DELTA Pro unit packs a 3600W AC output, which can be expanded up to 4500W with X-Boost technology. Power 99.99% heavy-duty devices at home, outdoors, or at work.",
+            "image": "shopify:\/\/shop_images\/homebackup-01.jpg",
+            "video_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "media_wa78Lt",
+        "media_NW4BVc",
+        "media_FiiAkh"
+      ],
+      "settings": {
+      }
+    },
     "title_section_wJHw3h": {
       "type": "title-section",
       "settings": {
@@ -226,6 +265,7 @@
     "main",
     "custom_liquid_3Ch4Hg",
     "bundles_ht8HAi",
+    "feature_tabs_XEQLdf",
     "title_section_wJHw3h",
     "1713136015e25a897a",
     "faq_product_wzwVAy",
