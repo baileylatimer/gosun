@@ -155,6 +155,45 @@
         "title": "Default Heading"
       }
     },
+    "feature_tabs_mfLKcw": {
+      "type": "feature-tabs",
+      "blocks": {
+        "media_PeyPCA": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Always prepared",
+            "tab_description": "Backup your home during power outages with DELTA Max portable power generator. With an expandable capacity that reaches up to 6kWh, dual charging, and the ability to power your home devices, you can stay powered on in any situation.",
+            "image": "shopify:\/\/shop_images\/20221207-101516_1800x_c4d9d22b-fd70-4b68-8969-d01f112541ae.jpg",
+            "video_url": ""
+          }
+        },
+        "media_PaiQCM": {
+          "type": "media",
+          "settings": {
+            "tab_title": "X-Stream fast charge",
+            "tab_description": "Rapid charging 0-80% in just 65 minutes. Fully charge via a wall outlet in a rapid 1.8hrs",
+            "image": "shopify:\/\/shop_images\/DELTA_Max-PC_4_easy_ways_to_charge_ACa_1800x_8f7031bb-b7d2-4349-ab2a-2a622f24cf04.png",
+            "video_url": ""
+          }
+        },
+        "media_AdbxgV": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Easy monitoring",
+            "tab_description": "Control DELTA Max from afar with the EcoFlow app, monitor energy use & more",
+            "image": "shopify:\/\/shop_images\/6_1800x_ce548339-5cc1-4c70-a57b-d8457650d7af.jpg",
+            "video_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "media_PeyPCA",
+        "media_PaiQCM",
+        "media_AdbxgV"
+      ],
+      "settings": {
+      }
+    },
     "title_section_wJHw3h": {
       "type": "title-section",
       "settings": {
@@ -226,6 +265,7 @@
     "main",
     "custom_liquid_3Ch4Hg",
     "bundles_ht8HAi",
+    "feature_tabs_mfLKcw",
     "title_section_wJHw3h",
     "1713136015e25a897a",
     "faq_product_wzwVAy",
