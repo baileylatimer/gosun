@@ -155,6 +155,35 @@
         "title": "Default Heading"
       }
     },
+    "feature_tabs_B9a7TN": {
+      "type": "feature-tabs",
+      "blocks": {
+        "media_Bamywa": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Fast charging",
+            "tab_description": "With a high conversion efficiency rate of up to 23%, the 400W panel charges your LFP batteries faster than similar-sized solar panels.",
+            "image": "shopify:\/\/shop_images\/400W_PC_1_1800x_7f25bec4-1ce6-4459-b150-22a2756943dc.webp",
+            "video_url": ""
+          }
+        },
+        "media_9czthx": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Universally compatible",
+            "tab_description": "The 400W solar panel includes a 300mm charging cable that gives you plenty of space, maximizing solar input. With an all-inclusive solar connector, the 400W rigid panel works with other 3rd party solar systems and power stations.",
+            "image": "shopify:\/\/shop_images\/400W_PC_5_1800x_7f2e3974-ffeb-400d-8a42-12d33b42ae2d.webp",
+            "video_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "media_Bamywa",
+        "media_9czthx"
+      ],
+      "settings": {
+      }
+    },
     "title_section_wJHw3h": {
       "type": "title-section",
       "settings": {
@@ -226,6 +255,7 @@
     "main",
     "custom_liquid_3Ch4Hg",
     "bundles_ht8HAi",
+    "feature_tabs_B9a7TN",
     "title_section_wJHw3h",
     "1713136015e25a897a",
     "faq_product_wzwVAy",
