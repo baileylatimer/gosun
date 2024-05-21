@@ -3510,6 +3510,9 @@ a#HeaderMenu-reserve-now {
     background-color: #D9D9DB;
     background-image: url(https://cdn.shopify.com/s/files/1/0789/1333/files/bg-40.jpg?v=1716314470);
 }
+.section-template--15144452391006__image_with_text_aUGJF4-padding.gradient.color-scheme-1 .image-with-text__media.image-with-text__media--adapt.global-media-settings.gradient.color-scheme-1.image-with-text__media--placeholder.placeholder {
+    display: none;
+}
 .page-power-your-ev-with-solar .section-template--15144452391006__image_with_text_aUGJF4-padding.gradient.color-scheme-1 div#ImageWithText--template--15144452391006__image_with_text_aUGJF4 {
     background-color: transparent !important;
 }
