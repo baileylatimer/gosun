@@ -141,6 +141,21 @@
         "padding_bottom": 92
       }
     },
+    "video_mE3FFp": {
+      "type": "video",
+      "settings": {
+        "heading": "Watch EV Solar Charger in Action",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify:\/\/files\/videos\/ev solar charger bounce.mp4",
+        "video_url": "",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 100
+      }
+    },
     "multicolumn_VBKWNf": {
       "type": "multicolumn",
       "blocks": {
@@ -762,21 +777,6 @@
         "padding_bottom": 36
       }
     },
-    "video_mE3FFp": {
-      "type": "video",
-      "settings": {
-        "heading": "Watch EV Solar Charger in Action",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video": "shopify:\/\/files\/videos\/VID_20240505_145324_531.mp4",
-        "video_url": "",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 100
-      }
-    },
     "multicolumn_gT8HWa": {
       "type": "multicolumn",
       "blocks": {
@@ -972,6 +972,7 @@
     "main",
     "image_with_text_aUGJF4",
     "multicolumn_q7tDM6",
+    "video_mE3FFp",
     "multicolumn_VBKWNf",
     "multicolumn_TmCaeK",
     "multicolumn_6TpibX",
@@ -981,7 +982,6 @@
     "flip_card_CGFMCY",
     "how_does_it_work_Kg8Mih",
     "multicolumn_fhC47k",
-    "video_mE3FFp",
     "multicolumn_gT8HWa",
     "multicolumn_69y6Rm",
     "image_banner_njG33d",
