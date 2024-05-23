@@ -161,6 +161,7 @@
       "blocks": {
         "column_q7UDny": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Rectangle_190.png",
             "title": "",
