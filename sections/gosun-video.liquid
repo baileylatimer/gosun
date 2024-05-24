@@ -28,6 +28,11 @@
           "type": "checkbox",
           "id": "loop",
           "label": "Loop"
+        },
+        {
+          "type": "checkbox",
+          "id": "muted",
+          "label": "Mute"
         }
       ]
     }
@@ -45,7 +50,8 @@
           "settings": {
             "video_file": "/path/to/default/video.mp4",
             "autoplay": true,
-            "loop": true
+            "loop": true,
+            "muted": true
           }
         }
       ]
@@ -61,6 +67,7 @@
       <video
         {% if block.settings.autoplay %}autoplay{% endif %}
         {% if block.settings.loop %}loop{% endif %}
+        {% if block.settings.muted %}muted{% endif %}
         controls
         style="width: 100%;">
         <source src="{{ block.settings.video_file }}" type="video/mp4">
@@ -73,22 +80,21 @@
 <style>
 .gosun-video-section {
   width: 100%;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .gosun-video-section video {
   width: 100%;
 }
-.gosun-video-section {
-    max-width: 1100px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 .gosun-video-section h1 {
-    font-size: 55px;
-    line-height: 65px;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 30px;
-    letter-spacing: -1px;
+  font-size: 55px;
+  line-height: 65px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
 }  
 </style>
