@@ -144,7 +144,7 @@
     "video_mE3FFp": {
       "type": "video",
       "settings": {
-        "heading": "Watch EV Solar Charger in Action",
+        "heading": "Fill Up Your EV With Sun Power",
         "heading_size": "h1",
         "enable_video_looping": false,
         "video": "shopify:\/\/files\/videos\/ev solar charger bounce.mp4",
@@ -154,172 +154,6 @@
         "color_scheme": "scheme-1",
         "padding_top": 36,
         "padding_bottom": 100
-      }
-    },
-    "multicolumn_VBKWNf": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_q7UDny": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_190.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_qzXKNr": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_187.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_drwY6R": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "<p>GoSun is a team of designers, engineers, and change-makers intent on serving the world with unparalleled clean energy solutions that offer the freedom to explore.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_dekrJa": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_188.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_RqgMVG": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_189.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_q7UDny",
-        "column_qzXKNr",
-        "column_drwY6R",
-        "column_dekrJa",
-        "column_RqgMVG"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 5,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 72,
-        "padding_bottom": 72
-      }
-    },
-    "multicolumn_TmCaeK": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_XNaQwb": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/cat1_d8b572d9-6f6d-41a3-a509-3fde604dbaf2.jpg",
-            "title": "POWER",
-            "text": "<p>SHIELDS | Solar Car Shade<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_NY3mUM": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/cat2_d6dce087-3a07-48e9-a311-e0c3ef3a1de7.jpg",
-            "title": "OVENS",
-            "text": "<p>Fusion<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_jqUa7L": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/cat3_81b35b42-1223-4e3c-afe1-3b6d8f0ad329.jpg",
-            "title": "COOLERS",
-            "text": "<p>Chilito<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_nTfwXr": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/cat4_06d3898d-be76-4531-a8d5-d9eab7a6991f.jpg",
-            "title": "WATER",
-            "text": "<p>Flow Pro<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_zj4CMR": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/cat5_0a052d10-958c-4269-a6d5-04cc900ce02b.jpg",
-            "title": "CAMPERS",
-            "text": "<p>Camp365<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_MKPR6U": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/cat6_7ce5dc22-d201-49fa-b35f-e727236aa75e.jpg",
-            "title": "BOATS",
-            "text": "<p>Elcat Splash<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_XNaQwb",
-        "column_NY3mUM",
-        "column_jqUa7L",
-        "column_nTfwXr",
-        "column_zj4CMR",
-        "column_MKPR6U"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "multicolumn_6TpibX": {
@@ -383,7 +217,7 @@
         "column_UHLx69": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_1_a653f428-663f-4d3e-b7de-564439bb9218.png",
+            "image": "shopify:\/\/shop_images\/output-onlinegiftools.gif",
             "title": "",
             "text": "",
             "link_label": "",
@@ -894,6 +728,172 @@
         "show_text_below": false
       }
     },
+    "multicolumn_VBKWNf": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_q7UDny": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bbb-business_3cb9c339-8da8-4660-b167-dbbc614bc063_1.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qzXKNr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_187.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_drwY6R": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>GoSun is a team of designers, engineers, and change-makers intent on serving the world with unparalleled clean energy solutions that offer the freedom to explore.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_dekrJa": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_188.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RqgMVG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_189.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_q7UDny",
+        "column_qzXKNr",
+        "column_drwY6R",
+        "column_dekrJa",
+        "column_RqgMVG"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
+    "multicolumn_TmCaeK": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_XNaQwb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cat1_d8b572d9-6f6d-41a3-a509-3fde604dbaf2.jpg",
+            "title": "POWER",
+            "text": "<p>SHIELDS | Solar Car Shade<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_NY3mUM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cat2_d6dce087-3a07-48e9-a311-e0c3ef3a1de7.jpg",
+            "title": "OVENS",
+            "text": "<p>Fusion<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_jqUa7L": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cat3_81b35b42-1223-4e3c-afe1-3b6d8f0ad329.jpg",
+            "title": "COOLERS",
+            "text": "<p>Chilito<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_nTfwXr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cat4_06d3898d-be76-4531-a8d5-d9eab7a6991f.jpg",
+            "title": "WATER",
+            "text": "<p>Flow Pro<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_zj4CMR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cat5_0a052d10-958c-4269-a6d5-04cc900ce02b.jpg",
+            "title": "CAMPERS",
+            "text": "<p>Camp365<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_MKPR6U": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cat6_7ce5dc22-d201-49fa-b35f-e727236aa75e.jpg",
+            "title": "BOATS",
+            "text": "<p>Elcat Splash<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_XNaQwb",
+        "column_NY3mUM",
+        "column_jqUa7L",
+        "column_nTfwXr",
+        "column_zj4CMR",
+        "column_MKPR6U"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn_wePedV": {
       "type": "multicolumn",
       "blocks": {
@@ -973,8 +973,6 @@
     "image_with_text_aUGJF4",
     "multicolumn_q7tDM6",
     "video_mE3FFp",
-    "multicolumn_VBKWNf",
-    "multicolumn_TmCaeK",
     "multicolumn_6TpibX",
     "multicolumn_bkMydG",
     "lp_features_fxVAqH",
@@ -985,6 +983,8 @@
     "multicolumn_gT8HWa",
     "multicolumn_69y6Rm",
     "image_banner_njG33d",
+    "multicolumn_VBKWNf",
+    "multicolumn_TmCaeK",
     "multicolumn_wePedV",
     "product_page_faq_PMQyFH",
     "product_nav_yWVKQD"
