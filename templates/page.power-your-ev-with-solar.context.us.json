@@ -1,8 +1,0 @@
-{
-  "parent": "page.power-your-ev-with-solar.json",
-  "context": {
-    "market": "us"
-  },
-  "sections": {
-  }
-}
