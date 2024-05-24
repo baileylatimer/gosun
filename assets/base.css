@@ -3508,7 +3508,7 @@ a#HeaderMenu-reserve-now {
     background-repeat: no-repeat;
     padding-bottom: 100px;
     background-color: #D9D9DB;
-    background-image: url(https://cdn.shopify.com/s/files/1/0789/1333/files/bg-40.jpg?v=1716314470);
+    /* background-image: url(https://cdn.shopify.com/s/files/1/0789/1333/files/bg-40.jpg?v=1716314470); */
     padding-top: 100px;
 }
 .section-template--15144452391006__image_with_text_aUGJF4-padding.gradient.color-scheme-1 .image-with-text__media.image-with-text__media--adapt.global-media-settings.gradient.color-scheme-1.image-with-text__media--placeholder.placeholder {
@@ -3520,13 +3520,13 @@ a#HeaderMenu-reserve-now {
 .page-power-your-ev-with-solar .section-template--15144452391006__image_with_text_aUGJF4-padding.gradient.color-scheme-1 .image-with-text__content>:first-child:is(.image-with-text__heading) {
     font-size: 55px;
     line-height: 65px;
-    color: #ffffff;
+    color: #298ccb;
     max-width: 500px;
 }
 .page-power-your-ev-with-solar .section-template--15144452391006__image_with_text_aUGJF4-padding.gradient.color-scheme-1  .image-with-text__text p {
     font-size: 25px;
     line-height: 35px;
-    color: #ffffff;
+    /* color: #ffffff; */
     font-weight: 300 !important;
     max-width: 480px !important;
 }
