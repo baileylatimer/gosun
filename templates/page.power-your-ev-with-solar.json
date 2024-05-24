@@ -158,6 +158,25 @@
         "padding_bottom": 100
       }
     },
+    "gosun_video_4ETwmB": {
+      "type": "gosun-video",
+      "blocks": {
+        "video_block_pK4mHM": {
+          "type": "video_block",
+          "settings": {
+            "video_file": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/93406fe1cd9d4ab087f6c26656901ca8.mp4",
+            "autoplay": true,
+            "loop": true
+          }
+        }
+      },
+      "block_order": [
+        "video_block_pK4mHM"
+      ],
+      "settings": {
+        "video_title": "Fill Up Your EV With Sun Power"
+      }
+    },
     "multicolumn_6TpibX": {
       "type": "multicolumn",
       "blocks": {
@@ -967,25 +986,6 @@
       "settings": {
         "product_reference": "ev-solar-charger-deposit"
       }
-    },
-    "gosun_video_4ETwmB": {
-      "type": "gosun-video",
-      "blocks": {
-        "video_block_pK4mHM": {
-          "type": "video_block",
-          "settings": {
-            "video_file": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/93406fe1cd9d4ab087f6c26656901ca8.mp4",
-            "autoplay": true,
-            "loop": true
-          }
-        }
-      },
-      "block_order": [
-        "video_block_pK4mHM"
-      ],
-      "settings": {
-        "video_title": "Fill Up Your EV With Sun Power"
-      }
     }
   },
   "order": [
@@ -994,6 +994,7 @@
     "image_with_text_aUGJF4",
     "multicolumn_q7tDM6",
     "video_mE3FFp",
+    "gosun_video_4ETwmB",
     "multicolumn_6TpibX",
     "multicolumn_bkMydG",
     "lp_features_fxVAqH",
@@ -1008,7 +1009,6 @@
     "multicolumn_TmCaeK",
     "multicolumn_wePedV",
     "product_page_faq_PMQyFH",
-    "product_nav_yWVKQD",
-    "gosun_video_4ETwmB"
+    "product_nav_yWVKQD"
   ]
 }
