@@ -146,7 +146,7 @@
       "settings": {
         "heading": "Fill Up Your EV With Sun Power",
         "heading_size": "h1",
-        "enable_video_looping": false,
+        "enable_video_looping": true,
         "video": "shopify:\/\/files\/videos\/ev solar charger bounce.mp4",
         "video_url": "",
         "description": "",
