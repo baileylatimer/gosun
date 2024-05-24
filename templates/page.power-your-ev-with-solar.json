@@ -144,6 +144,7 @@
     },
     "video_mE3FFp": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "Fill Up Your EV With Sun Power",
         "heading_size": "h1",
@@ -172,7 +173,6 @@
       "block_order": [
         "video_block_pK4mHM"
       ],
-      "disabled": true,
       "settings": {
         "video_title": "Fill Up Your EV With Sun Power"
       }
