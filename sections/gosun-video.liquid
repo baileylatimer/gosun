@@ -28,11 +28,6 @@
           "type": "checkbox",
           "id": "loop",
           "label": "Loop"
-        },
-        {
-          "type": "checkbox",
-          "id": "muted",
-          "label": "Mute"
         }
       ]
     }
@@ -50,8 +45,7 @@
           "settings": {
             "video_file": "/path/to/default/video.mp4",
             "autoplay": true,
-            "loop": true,
-            "muted": true
+            "loop": true
           }
         }
       ]
@@ -67,7 +61,7 @@
       <video
         {% if block.settings.autoplay %}autoplay{% endif %}
         {% if block.settings.loop %}loop{% endif %}
-        {% if block.settings.muted %}muted{% endif %}
+        {% if block.settings.autoplay %}muted{% endif %}
         controls
         style="width: 100%;">
         <source src="{{ block.settings.video_file }}" type="video/mp4">
