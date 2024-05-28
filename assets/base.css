@@ -3451,7 +3451,7 @@ a#HeaderMenu-reserve-now {
 
 .page-power-your-ev-with-solar sticky-header.bg-primary-light.body-width.header-wrapper.color-scheme-1.gradient.header-wrapper--border-bottom, {
 .page-sl-8909c63b sticky-header.bg-primary-light.body-width.header-wrapper.color-scheme-1.gradient.header-wrapper--border-bottom
-    display: none;
+    display: none !important;
 }
 .page-power-your-ev-with-solar .utility-bar,
 .page-sl-8909c63b .utility-bar {
