@@ -4021,10 +4021,10 @@ section#shopify-section-template--15144452391006__multicolumn_wePedV h2.title.in
 /* MOBILE GENERAL UPDATES */
 @media screen and (max-width: 990px) {
 /* product footer banner */
-.page-power-your-ev-with-solar div#shopify-section-template--15144452391006__product_nav_yWVKQD .content-width.flex.justify-between.items-center.p-4 {
+/* .page-power-your-ev-with-solar div#shopify-section-template--15144452391006__product_nav_yWVKQD .content-width.flex.justify-between.items-center.p-4 {
     display: flex;
     flex-direction: column;
-}
+} */
 .page-power-your-ev-with-solar .product-nav__details.flex.items-center.gap-12 {
     display: flex;
     flex-direction: column;
