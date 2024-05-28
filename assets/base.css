@@ -4096,7 +4096,7 @@ section#shopify-section-template--15144452391006__multicolumn_VBKWNf .page-width
     line-height: 1.2em;
 }  
 .section-template--15144452391006__custom_liquid_eFMTKh-padding {
-    padding: 0 10px;
+    padding: 0 10px !important;
 }
 }
 .page-power-your-ev-with-solar h1, .page-power-your-ev-with-solar h2, .page-power-your-ev-with-solar h3,
