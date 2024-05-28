@@ -3679,6 +3679,10 @@ section#shopify-section-template--15144452391006__multicolumn_bkMydG .page-width
 section#shopify-section-template--15220603027550__multicolumn_bkMydG .page-width li#Slide-template--15144452391006__multicolumn_bkMydG-1 .multicolumn-card__info{
     display: none;
 }
+section#shopify-section-template--15144452391006__multicolumn_bkMydG .page-width li#Slide-template--15144452391006__multicolumn_bkMydG-1 .multicolumn-card__image-wrapper.multicolumn-card__image-wrapper--full-width.multicolumn-card-spacing,
+section#shopify-section-template--15220603027550__multicolumn_bkMydG .page-width li#Slide-template--15144452391006__multicolumn_bkMydG-1 .multicolumn-card__image-wrapper.multicolumn-card__image-wrapper--full-width.multicolumn-card-spacing{
+    margin-left: 0px !important;
+}
 
 ul#Slider-template--15144452391006__multicolumn_bkMydG,
 ul#Slider-template--15220603027550__multicolumn_bkMydG {
