@@ -4044,6 +4044,9 @@ section#shopify-section-template--15220603027550__multicolumn_fhC47k .multicolum
     padding-top: 100px;
     padding-bottom: 100px;
 }
+section#shopify-section-template--15144452391006__multicolumn_bkMydG .page-width li#Slide-template--15144452391006__multicolumn_bkMydG-1 .multicolumn-card__image-wrapper.multicolumn-card__image-wrapper--full-width.multicolumn-card-spacing img {
+    border-bottom-left-radius: 10px !important;
+}  
 }
 /* end of 20m section */
 /* video section */
