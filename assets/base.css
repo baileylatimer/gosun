@@ -4022,11 +4022,17 @@ section#shopify-section-template--15144452391006__multicolumn_wePedV h2.title.in
 @media screen and (max-width: 990px) {
 /* product footer banner */
 .page-power-your-ev-with-solar div#shopify-section-template--15144452391006__product_nav_yWVKQD .content-width.flex.justify-between.items-center.p-4 {
-    display: flex !important;
+    display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;  /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
     flex-direction: column !important;
 }  
 .page-power-your-ev-with-solar .product-nav__details.flex.items-center.gap-12 {
-    display: flex !important;
+    display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;  /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
     flex-direction: column !important;
 }
 .page-power-your-ev-with-solar div#ImageWithText--template--15144452391006__image_with_text_aUGJF4 {
