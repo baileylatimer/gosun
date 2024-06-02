@@ -37,7 +37,7 @@
         "button_yGXWz3": {
           "type": "button",
           "settings": {
-            "button_label": "Reserve Now for $100",
+            "button_label": "Preorder Now for $100",
             "button_link": "https:\/\/gosun.co\/products\/ev-solar-charger-deposit",
             "button_style_secondary": false
           }
@@ -722,7 +722,7 @@
         "buttons_9GWMFf": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Reserve Your EV Solar Charger",
+            "button_label_1": "Preorder Your EV Solar Charger",
             "button_link_1": "https:\/\/gosun.co\/products\/ev-solar-charger-deposit",
             "button_style_secondary_1": false,
             "button_label_2": "",
