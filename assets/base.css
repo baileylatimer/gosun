@@ -4316,4 +4316,9 @@ section#shopify-section-template--15220603027550__multicolumn_VBKWNf .page-width
 .page-sl-8909c63b h1, .page-sl-8909c63b h2, .page-sl-8909c63b h3 {
   letter-spacing: -1px !important;
 }
+@media only screen and (max-width: 1400px) and (min-width: 767px)  {
+  ul#Slider-template--15144452391006__multicolumn_bkMydG, ul#Slider-template--15220603027550__multicolumn_bkMydG {
+    align-items: flex-end;
+  }
+}
 /* end of Power LP template */
