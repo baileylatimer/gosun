@@ -148,8 +148,8 @@
     "video_XzKQ9q": {
       "type": "video",
       "settings": {
-        "heading": "Video",
-        "heading_size": "h1",
+        "heading": "",
+        "heading_size": "h2",
         "enable_video_looping": false,
         "video": "shopify:\/\/files\/videos\/ev solar charger bounce.mp4",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
