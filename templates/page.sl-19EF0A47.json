@@ -1,0 +1,1014 @@
+{
+  "sections": {
+    "custom_liquid_eFMTKh": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"custom-header-lp\">\n\t<div class=\"header-inner\">\n\t\t<div class=\"logo\">\n\t\t<a href=\"\/\" class=\"header__heading-link link link--text focus-inset\">\n\t\t\t<img src=\"\/\/4bgsnk7rn7dcsu1p-7891333.shopifypreview.com\/cdn\/shop\/files\/logo_bbd3e42b-6491-466c-8597-b07934413665.png?v=1711155195&amp;width=600\" alt=\"GoSun\" srcset=\"\/\/4bgsnk7rn7dcsu1p-7891333.shopifypreview.com\/cdn\/shop\/files\/logo_bbd3e42b-6491-466c-8597-b07934413665.png?v=1711155195&amp;width=90 90w, \/\/4bgsnk7rn7dcsu1p-7891333.shopifypreview.com\/cdn\/shop\/files\/logo_bbd3e42b-6491-466c-8597-b07934413665.png?v=1711155195&amp;width=135 135w, \/\/4bgsnk7rn7dcsu1p-7891333.shopifypreview.com\/cdn\/shop\/files\/logo_bbd3e42b-6491-466c-8597-b07934413665.png?v=1711155195&amp;width=180 180w\" width=\"90\" height=\"25.5\" loading=\"eager\" class=\"header__heading-logo motion-reduce\" sizes=\"(max-width: 180px) 50vw, 90px\">\n\t\t<\/a>\n\t\t<\/div>\n\t\t<div class=\"reserve-now\">\n\t\t<a id=\"HeaderMenu-reserve-now\" href=\"https:\/\/gosun.co\/products\/ev-solar-charger-deposit\" class=\"header__menu-item list-menu__item link link--text focus-inset\">\n            <span>Reserve Now<\/span>\n        <\/a>\n\t\t<\/div>\n\t<\/div>\n<\/div>\n\n<style>\n    .sticky-solar-lp {\n        position: fixed;\n        top: 0;\n        width: 100%;\n        z-index: 1000;\n        opacity: 0; \/* Initially hidden *\/\n        transition: opacity 0.3s ease-in-out; \/* Smooth opacity transition *\/\n    }\n\n    .show {\n        opacity: 1; \/* Show with fade *\/\n    }\n<\/style>\n<script>\n    var lastScrollTop = 0;\n    var section = document.getElementById('shopify-section-template--15144452391006__custom_liquid_eFMTKh');\n    var isScrollingUp = false;\n\n    window.addEventListener('scroll', function() {\n        var currentScroll = window.pageYOffset || document.documentElement.scrollTop;\n\n        if (currentScroll > lastScrollTop) {\n            \/\/ Scrolling down\n            if (isScrollingUp) {\n                section.classList.remove('show'); \/\/ Fade out the section\n                isScrollingUp = false;\n            }\n        } else {\n            \/\/ Scrolling up\n            if (!isScrollingUp && currentScroll > 0) { \/\/ Check if not already at the top\n                section.classList.add('sticky-solar-lp'); \/\/ Add sticky class\n                section.classList.add('show'); \/\/ Fade in the section\n                isScrollingUp = true;\n            }\n        }\n\n        lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; \/\/ For Mobile or negative scrolling\n    });\n<\/script>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_with_text_aUGJF4": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_CaPJRm": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Drive<\/strong> your EV on pure <strong>Solar Power<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_CHzPkd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Meet GoSun's EV Solar Charger made <em>for your car<\/em> and stowed <em>on your car<\/em>. <\/p><p>Delivery in 2025<br\/>EST. $2,999 * <br\/>*(Eligible for 30% Tax Credit)<br\/><\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_yGXWz3": {
+          "type": "button",
+          "settings": {
+            "button_label": "Reserve Now for $100",
+            "button_link": "https:\/\/gosun.co\/products\/ev-solar-charger-deposit",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_CaPJRm",
+        "text_CHzPkd",
+        "button_yGXWz3"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1_1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_q7tDM6": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_d8Pe4V": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Solar_energy.png",
+            "title": "",
+            "text": "<p>Drive up to 30 miles\/day on solar<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_EbYfr8": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Easy_installation.png",
+            "title": "",
+            "text": "<p> Easy to install on all roof racks<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_aia37z": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Solar_panel.png",
+            "title": "",
+            "text": "<p>Charge anywhere with 1,200 watts<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_K37YfX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Light_2x_56845c19-3919-4328-971d-a8f6c558352f.png",
+            "title": "",
+            "text": "<p>Lightweight, weighs only 70lbs (32kg) <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_f4GJ4k": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Uv_protective_fabric.png",
+            "title": "",
+            "text": "<p>Durable design for the elements<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_d8Pe4V",
+        "column_EbYfr8",
+        "column_aia37z",
+        "column_K37YfX",
+        "column_f4GJ4k"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 92,
+        "padding_bottom": 92
+      }
+    },
+    "video_mE3FFp": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "Fill Up Your EV With Sun Power",
+        "heading_size": "h1",
+        "enable_video_looping": true,
+        "video": "shopify:\/\/files\/videos\/ev solar charger bounce.mp4",
+        "video_url": "",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 100
+      }
+    },
+    "gosun_video_4ETwmB": {
+      "type": "gosun-video",
+      "blocks": {
+        "video_block_pK4mHM": {
+          "type": "video_block",
+          "settings": {
+            "video_file": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ceb097cf2a28487d9167ae89a4b2848a.mp4",
+            "autoplay": true,
+            "loop": true
+          }
+        }
+      },
+      "block_order": [
+        "video_block_pK4mHM"
+      ],
+      "settings": {
+        "video_title": "Fill Up Your EV With Sun Power"
+      }
+    },
+    "multicolumn_6TpibX": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_DYkQ6B": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_152.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_xVgcd8": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<h3>EV's are great, but public charging isn't...<\/h3><p>As more individuals and businesses transition to electric vehicles to reduce dependence on fossil fuels, the demand for convenient and accessible charging infrastructure grows - <strong>especially for workplace and destination charging. <\/strong><\/p><p>GoSun develops sustainable transportation solutions to support EV adoption; enhancing the overall experience for drivers, providing peace of mind and confidence in their journey. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yf6c8y": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_152_2d6f2ea4-66b9-4fda-b25c-598d65396c0c.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_DYkQ6B",
+        "column_xVgcd8",
+        "column_yf6c8y"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_bkMydG": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_UHLx69": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/output-onlinegiftools.gif",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_p7xa8F": {
+          "type": "column",
+          "settings": {
+            "title": "Make up to 30 miles\/day via Solar Self-Charging",
+            "text": "<p>GoSun’s compact rooftop carrier contains twelve hundred watts of solar power, enough to make around 80% of the vehicle’s annual mileage.<\/p><p>Don’t tie yourself down to inconvenient public charging stations. Now, you can carry a power plant wherever you go.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_UHLx69",
+        "column_p7xa8F"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "lp_features_fxVAqH": {
+      "type": "lp-features",
+      "blocks": {
+        "feature_WtGNRq": {
+          "type": "feature",
+          "settings": {
+            "title": "Drive On Sunshine",
+            "text": "You already drive the most carbon-neutral form of transportation. Combine that with net-positive power coming from the Sun.",
+            "image": "shopify:\/\/shop_images\/Rectangle_157.png",
+            "reverse_row": false
+          }
+        },
+        "feature_4Jfedr": {
+          "type": "feature",
+          "settings": {
+            "title": "Fits On Any EV",
+            "text": "Fits all EV's and Hybrids, from compact cars to large luxury SUVs and trucks. It simply requires a roof rack or a luggage rack.",
+            "image": "shopify:\/\/shop_images\/4_1_copy_3ce384b2-0fb5-42de-ae5b-c8a9a6f0aea6.png",
+            "reverse_row": true
+          }
+        },
+        "feature_gjqPht": {
+          "type": "feature",
+          "settings": {
+            "title": "Forget Public Chargers",
+            "text": "No more waiting, or hunting around town to charge. Go off-grid without worrying about power.",
+            "image": "shopify:\/\/shop_images\/Rectangle_159.png",
+            "reverse_row": false
+          }
+        },
+        "feature_EzkmKc": {
+          "type": "feature",
+          "settings": {
+            "title": "Keep Vehicle Cool",
+            "text": "Catch the solar power you want, block the heat you don't want",
+            "image": "shopify:\/\/shop_images\/keep_your_vehicle_cool.png",
+            "reverse_row": true
+          }
+        },
+        "feature_4xamxe": {
+          "type": "feature",
+          "settings": {
+            "title": "Longer Battery Life",
+            "text": "Extend your battery's lifespan by charging regularly and slowly with the finest source of power.",
+            "image": "shopify:\/\/shop_images\/Longer_Battery_Life_2.png",
+            "reverse_row": false
+          }
+        },
+        "feature_gD7U8y": {
+          "type": "feature",
+          "settings": {
+            "title": "Self-Charging Convenience",
+            "text": "Meet your daily commuting needs (up to 30 miles\/day; average of 10-20 miles). * Mileage dependent on vehicle and weather conditions",
+            "image": "shopify:\/\/shop_images\/Rectangle_163.png",
+            "reverse_row": true
+          }
+        },
+        "feature_zjDBmk": {
+          "type": "feature",
+          "settings": {
+            "title": "Off-Grid Independence",
+            "text": "Free from external power sources, bills, and subscriptions. Charge your EV at the office, home, or in the mountains, your choice.",
+            "image": "shopify:\/\/shop_images\/OFGN_rounded.png",
+            "reverse_row": false
+          }
+        },
+        "feature_PRMzre": {
+          "type": "feature",
+          "settings": {
+            "title": "Easy Installation",
+            "text": "EV Solar Charger ships pre-assembled, and can mount to your car's roof rack in just 20 minutes.",
+            "image": "shopify:\/\/shop_images\/Rectangle_191.png",
+            "reverse_row": true
+          }
+        },
+        "feature_TphBG7": {
+          "type": "feature",
+          "settings": {
+            "title": "Rugged Build Quality",
+            "text": "Designed for durability, withstands all speeds up to 100 MPH and winds up to 30 MPH when extended.",
+            "image": "shopify:\/\/shop_images\/Rugged_Build_Quality-5.png",
+            "reverse_row": false
+          }
+        },
+        "feature_CJfkF3": {
+          "type": "feature",
+          "settings": {
+            "title": "Aerodynamic + Lightweight",
+            "text": "Streamlined profile reduces drag and lightweight assembly reduces effect on range",
+            "image": "shopify:\/\/shop_images\/Rectangle_169.png",
+            "reverse_row": true
+          }
+        },
+        "feature_HTzjmC": {
+          "type": "feature",
+          "settings": {
+            "title": "Range Extension",
+            "text": "Carrying a power source gives peace of mind when going further.",
+            "image": "shopify:\/\/shop_images\/Rectangle_167.png",
+            "reverse_row": false
+          }
+        },
+        "feature_AmGHgA": {
+          "type": "feature",
+          "settings": {
+            "title": "Latest in Solar Tech",
+            "text": "New, flexible, monocrystaline solar cells enable the highest power to weight ratio ever.",
+            "image": "shopify:\/\/shop_images\/Rectangle_171.png",
+            "reverse_row": true
+          }
+        },
+        "feature_VtPtMQ": {
+          "type": "feature",
+          "settings": {
+            "title": "Power Accessories",
+            "text": "Use AC, DC, & USB Outputs to power up devices in case of emergencies and when you’re out and about—on a job site or festival.",
+            "image": "shopify:\/\/shop_images\/Rectangle_166.png",
+            "reverse_row": false
+          }
+        },
+        "feature_MTwE3P": {
+          "type": "feature",
+          "settings": {
+            "title": "30% Federal Tax Credit",
+            "text": "Eligible for a 30% credit from the IRS, plus local rebates and incentives (please consult your tax advisor).",
+            "image": "shopify:\/\/shop_images\/Rectangle_170.png",
+            "reverse_row": true
+          }
+        },
+        "feature_pHY3Bb": {
+          "type": "feature",
+          "settings": {
+            "title": "Keep Thieves Away",
+            "text": "The entire system is protected from potential snatchers when you’re away from your EV.",
+            "image": "shopify:\/\/shop_images\/Keep_Thieves_Away2.png",
+            "reverse_row": false
+          }
+        }
+      },
+      "block_order": [
+        "feature_WtGNRq",
+        "feature_4Jfedr",
+        "feature_gjqPht",
+        "feature_EzkmKc",
+        "feature_4xamxe",
+        "feature_gD7U8y",
+        "feature_zjDBmk",
+        "feature_PRMzre",
+        "feature_TphBG7",
+        "feature_CJfkF3",
+        "feature_HTzjmC",
+        "feature_AmGHgA",
+        "feature_VtPtMQ",
+        "feature_MTwE3P",
+        "feature_pHY3Bb"
+      ],
+      "settings": {
+        "title": "Vehicle-Integrated Solar PV provides everything you need and more"
+      }
+    },
+    "flip_card_qJ6JyA": {
+      "type": "flip-card",
+      "blocks": {
+        "container_pgnPcF": {
+          "type": "container",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/Rectangle_172_9f2ea9f3-6112-44eb-a6ed-142a942d0317.png",
+            "title": "Parking Lot:",
+            "text": "<p>Charge EV while parked<\/p>",
+            "back_text": "<p>Use the time your car is parked outside to juice it up, no more fighting to the only parking spot with a charger<\/p>"
+          }
+        },
+        "container_dnWnnR": {
+          "type": "container",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/Rectangle_173.png",
+            "title": "Work Commuting:",
+            "text": "<p>Workplace and daytime charging<\/p>",
+            "back_text": "<p>The 9-to-5 grind is perfect for capturing a solar charge, just unfold in the morning and wrap up in the afternoon<\/p>"
+          }
+        },
+        "container_9tHcrr": {
+          "type": "container",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/emergency.webp",
+            "title": "Emergencies:",
+            "text": "<p>Use solar power during outages<\/p>",
+            "back_text": "<p>Ready for power outages? Use the EV Solar Charger’s power bank to charge your necessary appliances and devices<\/p>"
+          }
+        },
+        "container_H3dd4D": {
+          "type": "container",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/Rectangle_180.png",
+            "title": "Off-Grid:",
+            "text": "<p>Stay powered up, even when remote<\/p>",
+            "back_text": "<p>No matter how far you venture out, you still have charging capability. Wherever the Sun is shining, your EV is charging, so you can stay off-grid for as long as your heart desires<\/p>"
+          }
+        },
+        "container_C8bxHE": {
+          "type": "container",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/Rectangle_179.png",
+            "title": "Destination Charging:",
+            "text": "<p>Go remote and stay in charge<\/p>",
+            "back_text": "<p>Use clean, renewable energy no matter how remote you go. Seamlessly charge in all locations with the ubiquitous power of the Sun.<\/p>"
+          }
+        },
+        "container_xgTxn7": {
+          "type": "container",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/Rectangle_189_4de6bf16-fefb-4223-8d6b-dab92f3ebd54.png",
+            "title": "Energy Island:",
+            "text": "<p>Your vehicle is its own home<\/p>",
+            "back_text": "<p>Now your vehicle turns into a remote office or living room where you can stay for hours on end in comfort and control<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "container_pgnPcF",
+        "container_dnWnnR",
+        "container_9tHcrr",
+        "container_H3dd4D",
+        "container_C8bxHE",
+        "container_xgTxn7"
+      ],
+      "settings": {
+        "section_title": "Forget the grid, Self-Charge on sunshine",
+        "desktop_cards": 3,
+        "mobile_cards": 1
+      }
+    },
+    "flip_card_CGFMCY": {
+      "type": "flip-card",
+      "blocks": {
+        "container_h7Htyh": {
+          "type": "container",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/Rectangle_179_cc853e7d-4d23-43e1-b574-f6f88fcfb8e3.png",
+            "title": "Camp with All the Perks:",
+            "text": "<p>Stay connected while off-grid<\/p>",
+            "back_text": "<p>Experience the great outdoors and go off-grid for as long as you want while enjoying all the perks of portable power. Beyond car charging, use this to run devices, watch movies, and listen to music out in the wild.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "container_h7Htyh"
+      ],
+      "settings": {
+        "section_title": "",
+        "desktop_cards": 1,
+        "mobile_cards": 2
+      }
+    },
+    "how_does_it_work_Kg8Mih": {
+      "type": "how-does-it-work",
+      "blocks": {
+        "step_LBtd7g": {
+          "type": "step",
+          "settings": {
+            "title": "1",
+            "content": "<p>EV Solar Charger ships to your door<\/p>"
+          }
+        },
+        "step_VCmUWk": {
+          "type": "step",
+          "settings": {
+            "title": "2",
+            "content": "<p>Install on vehicle’s roof rack in 20 minutes with two people<\/p>"
+          }
+        },
+        "step_8ENhqU": {
+          "type": "step",
+          "settings": {
+            "title": "3",
+            "content": "<p>Once car is parked, open the lid and unfold solar panels<\/p>"
+          }
+        },
+        "step_NfWHH7": {
+          "type": "step",
+          "settings": {
+            "title": "4",
+            "content": "<p>Connect charge cable to vehicle's charge port<\/p>"
+          }
+        },
+        "step_eW6NMk": {
+          "type": "step",
+          "settings": {
+            "title": "5",
+            "content": "<p>Convert sunshine into Level I AC power sent to vehicle<\/p>"
+          }
+        },
+        "step_467V9J": {
+          "type": "step",
+          "settings": {
+            "title": "6",
+            "content": "<p>Fold up before taking off, Drive on solar power<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "step_LBtd7g",
+        "step_VCmUWk",
+        "step_8ENhqU",
+        "step_NfWHH7",
+        "step_eW6NMk",
+        "step_467V9J"
+      ],
+      "settings": {
+        "background_image": "shopify:\/\/shop_images\/Rectangle_182.png",
+        "title": "How Does it Work?"
+      }
+    },
+    "multicolumn_fhC47k": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_88AzFX": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>GoSun Designs Best Selling Solar Appliances<\/p>",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/todays-deals"
+          }
+        },
+        "column_HCRek3": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>OVER<\/p><h5>$23 MILLION<\/h5><p>Generated With<\/p><h5>165,000+<\/h5><p>PRODUCTS SHIPPED<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_88AzFX",
+        "column_HCRek3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_gT8HWa": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_DQrWPG": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<ul><li><strong>Solar Output Closed: <\/strong>200 watts, 25-40V DC<\/li><li><strong>Solar Output Open: <\/strong>1,200 watts, 80-120V DC<\/li><li><strong>Closed Dimensions:<\/strong> 46.75” long x 48” side to side x 5” tall<\/li><li><strong>Open Dimensions:<\/strong> 245” long x 48” wide,panels are 43” wide<\/li><li><strong>Weight:<\/strong> 70 lbs (32kg)<\/li><\/ul>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RAafew": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<ul><li><strong>Output:<\/strong> 110V AC, up to 15A, 12V DC, USB A&C<\/li><li><strong>Battery Type:<\/strong> Lithium Iron Phosphate to buffer solar intermittency<\/li><li><strong>Safety:<\/strong> Meets all EVSE Level I charging protocols <\/li><li><strong>Materials:<\/strong> ABS Plastic, ETFE-coated monocrystalline solar PV, aluminum, stainless steel<\/li><\/ul>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_DQrWPG",
+        "column_RAafew"
+      ],
+      "settings": {
+        "title": "The Specs",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_69y6Rm": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_giBzV4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_184_09762f98-2530-4dfc-aaef-2a1ccb423c62.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_giBzV4"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_njG33d": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_6K6b7t": {
+          "type": "heading",
+          "settings": {
+            "heading": "Make a gallon of \"solar gas\" everyday",
+            "heading_size": "h1"
+          }
+        },
+        "buttons_9GWMFf": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Reserve Your EV Solar Charger",
+            "button_link_1": "https:\/\/gosun.co\/products\/ev-solar-charger-deposit",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_6K6b7t",
+        "buttons_9GWMFf"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_185.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "multicolumn_VBKWNf": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_q7UDny": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bbb-business_3cb9c339-8da8-4660-b167-dbbc614bc063_1.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qzXKNr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_187.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_drwY6R": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>GoSun is a team of designers, engineers, and change-makers intent on serving the world with unparalleled clean energy solutions that offer the freedom to explore.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_dekrJa": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_188.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RqgMVG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_189.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_q7UDny",
+        "column_qzXKNr",
+        "column_drwY6R",
+        "column_dekrJa",
+        "column_RqgMVG"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
+    "multicolumn_TmCaeK": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_XNaQwb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cat1_d8b572d9-6f6d-41a3-a509-3fde604dbaf2.jpg",
+            "title": "POWER",
+            "text": "<p>SHIELDS | Solar Car Shade<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_NY3mUM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cat2_d6dce087-3a07-48e9-a311-e0c3ef3a1de7.jpg",
+            "title": "OVENS",
+            "text": "<p>Fusion<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_jqUa7L": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cat3_81b35b42-1223-4e3c-afe1-3b6d8f0ad329.jpg",
+            "title": "COOLERS",
+            "text": "<p>Chilito<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_nTfwXr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cat4_06d3898d-be76-4531-a8d5-d9eab7a6991f.jpg",
+            "title": "WATER",
+            "text": "<p>Flow Pro<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_zj4CMR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cat5_0a052d10-958c-4269-a6d5-04cc900ce02b.jpg",
+            "title": "CAMPERS",
+            "text": "<p>Camp365<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_MKPR6U": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cat6_7ce5dc22-d201-49fa-b35f-e727236aa75e.jpg",
+            "title": "BOATS",
+            "text": "<p>Elcat Splash<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_XNaQwb",
+        "column_NY3mUM",
+        "column_jqUa7L",
+        "column_nTfwXr",
+        "column_zj4CMR",
+        "column_MKPR6U"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_wePedV": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_VfMniW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_263.png",
+            "title": "",
+            "text": "<p>1 Year Warranty<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Xx34Km": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_262.png",
+            "title": "",
+            "text": "<p>Free Shipping in the Continental US<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rJq3Mp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_261.png",
+            "title": "",
+            "text": "<p>30-Day Returns & Exchanges<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_VfMniW",
+        "column_Xx34Km",
+        "column_rJq3Mp"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": " Our Promise",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "product_page_faq_PMQyFH": {
+      "type": "product-page-faq",
+      "settings": {
+        "product_reference": "ev-solar-charger-deposit",
+        "invert_order": false,
+        "shrink_height": false,
+        "top_padding": false
+      }
+    },
+    "product_nav_yWVKQD": {
+      "type": "product-nav",
+      "settings": {
+        "product_reference": "ev-solar-charger-deposit"
+      }
+    }
+  },
+  "order": [
+    "custom_liquid_eFMTKh",
+    "main",
+    "image_with_text_aUGJF4",
+    "multicolumn_q7tDM6",
+    "video_mE3FFp",
+    "gosun_video_4ETwmB",
+    "multicolumn_6TpibX",
+    "multicolumn_bkMydG",
+    "lp_features_fxVAqH",
+    "flip_card_qJ6JyA",
+    "flip_card_CGFMCY",
+    "how_does_it_work_Kg8Mih",
+    "multicolumn_fhC47k",
+    "multicolumn_gT8HWa",
+    "multicolumn_69y6Rm",
+    "image_banner_njG33d",
+    "multicolumn_VBKWNf",
+    "multicolumn_TmCaeK",
+    "multicolumn_wePedV",
+    "product_page_faq_PMQyFH",
+    "product_nav_yWVKQD"
+  ]
+}
