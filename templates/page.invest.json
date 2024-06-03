@@ -16,11 +16,11 @@
         "shrink_height": false,
         "top_padding": false,
         "overline": "",
-        "heading": "Thank you for your interest in Gosun.",
+        "heading": "Thank you for your interest in GoSun.",
         "text": "Gosun has over 3,000 shareholders. Join the fuel-free frontier.",
         "price": "",
         "video_url": "",
-        "image": "shopify:\/\/shop_images\/Invest_In_GoSun_edit-670-380-2_600x_e608c361-bc9b-479b-8b2d-5060433fa644.webp",
+        "image": "shopify:\/\/shop_images\/EVSolarChargerMainImageSmall.jpg",
         "img-fit": false,
         "button_url": "https:\/\/www.sec.gov\/cgi-bin\/browse-edgar?action=getcompany&CIK=0001706024&owner=include&count=40",
         "button_label": "View SEC financials",
@@ -31,7 +31,7 @@
     "title_section_9pXrQq": {
       "type": "title-section",
       "settings": {
-        "title": "If you would like more information on GOSUN, please fill out the from below."
+        "title": "If you would like more information on GoSun?, Please fill out the from below."
       }
     },
     "custom_liquid_HpyLTq": {
