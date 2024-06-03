@@ -333,6 +333,27 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     
   {% render 'gp-head' %}
 
+<script>
+  (function (p, i, x, e, l) {
+    if (typeof window !== undefined) {
+      window._dojoPixel = {};
+      window._dojoPixel.events_queue =  window._dojoPixel.events_queue || [];
+      window._ddq = function () {
+        window._dojoPixel.events_queue.push(arguments);
+      };
+      var f = p.getElementsByTagName(i)[0],
+        k = p.createElement(i);
+      k.async = 1;
+      k.src = "https://pixel.clickslogistics.com/load.js?id=665a25aa5558903ea20d08b7";
+      f.parentNode.insertBefore(k, f);
+    }
+  })(document, "script");
+  _ddq("PIXEL_INIT", {
+    // you can add your own custom data here...
+  });
+  _ddq("PAGE_VIEW");
+</script>
+
 </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }} {{ template | handleize }} {% endif %}">
