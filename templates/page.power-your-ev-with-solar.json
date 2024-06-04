@@ -310,7 +310,7 @@
           "type": "feature",
           "settings": {
             "title": "Keep Vehicle Cool",
-            "text": "Catch the solar power you want, block the heat you don't want",
+            "text": "Catch the solar power you want, block the heat you don't want.",
             "image": "shopify:\/\/shop_images\/keep_your_vehicle_cool.png",
             "reverse_row": true
           }
@@ -364,7 +364,7 @@
           "type": "feature",
           "settings": {
             "title": "Aerodynamic + Lightweight",
-            "text": "Streamlined profile reduces drag and lightweight assembly reduces effect on range",
+            "text": "Streamlined profile reduces drag and lightweight assembly reduces effect on range.",
             "image": "shopify:\/\/shop_images\/Rectangle_169.png",
             "reverse_row": true
           }
