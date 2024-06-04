@@ -191,6 +191,21 @@
         "include_margins": true
       }
     },
+    "video_NMYxed": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": true,
+        "video": "shopify:\/\/files\/videos\/ev solar charger bounce.mp4",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "faq_product_wzwVAy": {
       "type": "faq-product",
       "settings": {
@@ -237,6 +252,7 @@
     "bundles_ht8HAi",
     "title_section_wJHw3h",
     "1713136015e25a897a",
+    "video_NMYxed",
     "faq_product_wzwVAy",
     "need_help_cV6mQY",
     "related-products",
