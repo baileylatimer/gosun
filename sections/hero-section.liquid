@@ -2,7 +2,6 @@
 The Hero Section with video background
 {% endcomment %}
 
-
 <style>
   .hero-section {
     height: calc(100vh - var(--header-height) - var(--announcement-bar-height));
@@ -23,7 +22,6 @@ The Hero Section with video background
       position: relative;
     }
 
-
     @media screen and (max-width: 1280px) {
       .hero-section {
         height: calc(75vh - var(--header-height) - var(--announcement-bar-height));
@@ -39,8 +37,6 @@ The Hero Section with video background
     }
   {% endif %}
 
-
-
   .hero-overlay {
     position: absolute;
     top: 0;
@@ -51,11 +47,13 @@ The Hero Section with video background
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%);
     display: block !important;
   }
+  
   @media screen and (max-width: 990px) {
     .hero-overlay {
       background: linear-gradient(34.19deg, rgba(0, 0, 0, 0.7) 37.03%, rgba(0, 0, 0, 0) 102.98%);
     }
   }
+  
   .hero-content {
     position: relative;
     z-index: 2;
@@ -65,14 +63,29 @@ The Hero Section with video background
     fill: #000 !important;
   }
 </style>
-<div class="relative body-width br h-screen bg-cover bg-center hero-section" {% if page.metafields.custom.background_image_url != blank %}style="background-image: url('{{ page.metafields.custom.background_video_url | img_url: 'master' }}');"{% else %}style="background-image: url('{{ section.settings.background_image | img_url: 'master' }}');"{% endif %}>
+
+<div class="relative body-width br h-screen bg-cover bg-center hero-section" 
+  {% if page.metafields.custom.background_image_url != blank %} 
+    style="background-image: url('{{ page.metafields.custom.background_image_url | img_url: 'master' }}');"
+  {% else %}
+    style="background-image: url('{{ section.settings.background_image | img_url: 'master' }}');"
+  {% endif %}
+>
+
+  <img 
+    src="{% if page.metafields.custom.background_image_url != blank %}{{ page.metafields.custom.background_image_url | img_url: 'master' }}{% else %}{{ section.settings.background_image | img_url: 'master' }}{% endif %}" 
+    class="absolute w-full h-full object-cover" 
+    id="hero-image"
+  >
 
   <video
-    class="absolute w-full h-full object-cover lozad"
+    id="hero-video"
+    class="absolute w-full h-full object-cover lozad hidden"
     loop
     muted
     playsinline
-    preload="none">
+    preload="none"
+  >
     {% if page.metafields.custom.background_video_url %}
       <source data-src="{{ page.metafields.custom.background_video_url }}" type="video/mp4">
     {% else %}
@@ -123,8 +136,21 @@ The Hero Section with video background
     }
   });
   observer.observe();
-</script>
 
+  // Function to load and play the video after the rest of the page has loaded
+  window.addEventListener('load', function() {
+    const video = document.getElementById('hero-video');
+    const image = document.getElementById('hero-image');
+    
+    video.classList.remove('hidden');
+    observer.observe(video);
+    
+    // Hide the image after the video starts playing
+    video.addEventListener('play', function() {
+      image.style.display = 'none';
+    });
+  });
+</script>
 
 {% schema %}
   {
