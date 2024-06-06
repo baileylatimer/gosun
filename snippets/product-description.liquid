@@ -1,73 +1,76 @@
-<style>
-.product__description-wrapper {
-  max-height: 135px; /* Initial max-height */
-  overflow: hidden;
-  position: relative;
-  padding-bottom: 20px; /* Space for the 'Read more' button */
-}
+{%- unless block.settings.hide_read_more -%}
+  <style>
+    .product__description-wrapper {
+      max-height: 135px; /* Initial max-height */
+      overflow: hidden;
+      position: relative;
+      padding-bottom: 20px; /* Space for the 'Read more' button */
+    }
 
-.product__description {
-  margin-bottom: 20px; /* Adjust as needed */
-}
+    .product__description {
+      margin-bottom: 20px; /* Adjust as needed */
+    }
 
-.product__description-wrapper::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 130px; /* Height of the gradient effect */
-  background: linear-gradient(180deg, transparent, var(--color-bg) 100%);
-  pointer-events: none; /* Let clicks pass through to the button */
-  z-index: 1; /* Ensure it's behind the button */
-}
+    .product__description-wrapper::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 130px; /* Height of the gradient effect */
+      background: linear-gradient(180deg, transparent, var(--color-bg) 100%);
+      pointer-events: none; /* Let clicks pass through to the button */
+      z-index: 1; /* Ensure it's behind the button */
+    }
 
-.product__description-wrapper.show-after::after {
-  display: none; /* Hide the ::after element when show-after class is present */
-}
+    .product__description-wrapper.show-after::after {
+      display: none; /* Hide the ::after element when show-after class is present */
+    }
 
-.product__description-readmore {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  text-align: left; /* Align the text to the left */
-  cursor: pointer;
-  background: none;
-  border: none;
-  outline: none;
-  text-decoration: underline;
-  font-size: 16px; /* Adjust font size as necessary */
-  z-index: 2; /* Ensure it's above the gradient */
-}
-
-
-</style>
+    .product__description-readmore {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      text-align: left; /* Align the text to the left */
+      cursor: pointer;
+      background: none;
+      border: none;
+      outline: none;
+      text-decoration: underline;
+      font-size: 16px; /* Adjust font size as necessary */
+      z-index: 2; /* Ensure it's above the gradient */
+    }
+  </style>
+{%- endunless -%}
 
 <div class="product__description-wrapper">
   {%- if product.description != blank -%}
     <div class="product__description rte">
       {{ product.description }}
     </div>
-    <button class="product__description-readmore">Read more</button>
+    {%- unless block.settings.hide_read_more -%}
+      <button class="product__description-readmore">Read more</button>
+    {%- endunless -%}
   {%- endif -%}
 </div>
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  const descriptionWrapper = document.querySelector('.product__description-wrapper');
-  const readMoreButton = descriptionWrapper.querySelector('.product__description-readmore');
+{%- unless block.settings.hide_read_more -%}
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const descriptionWrapper = document.querySelector('.product__description-wrapper');
+      const readMoreButton = descriptionWrapper.querySelector('.product__description-readmore');
 
-  readMoreButton.addEventListener('click', function() {
-    descriptionWrapper.classList.toggle('show-after'); // Toggle the show-after class
-    if (this.innerText.toLowerCase() === 'read more') {
-      descriptionWrapper.style.maxHeight = 'none';
-      this.innerText = 'Read less';
-    } else {
-      descriptionWrapper.style.maxHeight = '135px';
-      this.innerText = 'Read more';
-    }
-  });
-});
-
-</script>
+      readMoreButton.addEventListener('click', function() {
+        descriptionWrapper.classList.toggle('show-after'); // Toggle the show-after class
+        if (this.innerText.toLowerCase() === 'read more') {
+          descriptionWrapper.style.maxHeight = 'none';
+          this.innerText = 'Read less';
+        } else {
+          descriptionWrapper.style.maxHeight = '135px';
+          this.innerText = 'Read more';
+        }
+      });
+    });
+  </script>
+{%- endunless -%}

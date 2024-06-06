@@ -240,7 +240,7 @@
                 </div>
               {%- when 'description' -%}
                 {%- if product.description != blank -%}
-                    {% render 'product-description' %}
+                    {% render 'product-description', block: block %}
                 {%- endif -%}
                   {% render 'value-icons' %}
               {%- when 'sku' -%}
@@ -1050,7 +1050,15 @@
     {
       "type": "description",
       "name": "t:sections.main-product.blocks.description.name",
-      "limit": 1
+      "limit": 1,
+      "settings": [
+        {
+          "id": "hide_read_more",
+          "type": "checkbox",
+          "label": "Hide Read More",
+          "default": false
+        }
+      ]
     },
     {
       "type": "share",

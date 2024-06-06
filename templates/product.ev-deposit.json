@@ -80,6 +80,7 @@
         "description": {
           "type": "description",
           "settings": {
+            "hide_read_more": true
           }
         },
         "collapsible_tab_wcr9wy": {
