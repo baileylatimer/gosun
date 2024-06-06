@@ -143,6 +143,13 @@ sticky-header {
   transform: translate(-50%, -50%); /* Centers the image */
 }
 
+.call-btn {
+  font-size: 14px !important;
+}
+
+.call-btn svg {
+  transform: scale(.6);
+}
 {%- endstyle -%}
 
 <script src="{{ 'details-disclosure.js' | asset_url }}" defer="defer"></script>
@@ -297,6 +304,9 @@ sticky-header {
           </localization-form>
         {%- endif -%}
       </div> {% endcomment %}
+
+<a class="flex items-center justify-center call-btn lg:mr-8" href="tel:+18888686154">{% render 'icon-phone' %}<span class="hide-mobile" style="margin-left: -.4em" >1 888.868.6154</span></a>
+
       {% render 'header-search', input_id: 'Search-In-Modal' %}
 
       {%- if shop.customer_accounts_enabled -%}
