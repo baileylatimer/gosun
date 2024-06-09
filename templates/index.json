@@ -305,6 +305,26 @@
         "button_label_2": ""
       }
     },
+    "feature_image_tbpk4q": {
+      "type": "feature-image",
+      "settings": {
+        "product_reference": "",
+        "invert_order": true,
+        "shrink_height": false,
+        "top_padding": false,
+        "overline": "",
+        "heading": "Drive on Sunshine",
+        "text": "Charge your electric vehicle anywhere with solar and make up to 30 miles a day. Lightweight 1,200 watt solar array unfolds over parked car to self-charge at work or on an adventure.",
+        "price": "",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/EVSolarChargerMainImageSmall.jpg",
+        "img-fit": false,
+        "button_url": "shopify:\/\/pages\/ev-solar-charger",
+        "button_label": "Learn More",
+        "button_url_2": "",
+        "button_label_2": ""
+      }
+    },
     "social_section_7jVYar": {
       "type": "social-section",
       "blocks": {
@@ -433,6 +453,7 @@
     "feature_banner_axfT4K",
     "product_row_2_ATJFhU",
     "feature_image_LWaCdC",
+    "feature_image_tbpk4q",
     "social_section_7jVYar"
   ]
 }
