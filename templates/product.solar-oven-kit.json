@@ -159,21 +159,21 @@
     "feature_tabs_XQydDM": {
       "type": "feature-tabs",
       "blocks": {
+        "media_tRkhp8": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Bake, boil, or fry",
+            "tab_description": "Compact enough to take on the go, you can cook anywhere the sun shines. Includes carrying bag that becomes a backpack.",
+            "image": "shopify:\/\/shop_images\/GoSun_solar_oven_kit_hero_image.jpg",
+            "video_url": ""
+          }
+        },
         "media_Mx3eGm": {
           "type": "media",
           "settings": {
             "tab_title": "Safe to touch",
-            "tab_description": "Other methods of cooking get dangerously hot on the outside, but the Solar Oven Kit traps all of its heat inside the vacuum cooking tube. Enjoy solar cooked food without the danger of burns.",
+            "tab_description": "Most methods of cooking get dangerously hot. Thanks to a vacuum tube, heat inside is super insulated so you can enjoy solar cooked food without the danger of burns.",
             "image": "shopify:\/\/shop_images\/Gosun_solar_oven_kit_cool_to_the_touch.jpg",
-            "video_url": ""
-          }
-        },
-        "media_tRkhp8": {
-          "type": "media",
-          "settings": {
-            "tab_title": "Bake, boil, or fry anywhere",
-            "tab_description": "Compact enough to take on the go. You can cook anywhere the sun shines. Plus every package includes a carrying bag with drawstrings to become a backpack.",
-            "image": "shopify:\/\/shop_images\/GoSun_solar_oven_kit_hero_image.jpg",
             "video_url": ""
           }
         },
@@ -181,15 +181,15 @@
           "type": "media",
           "settings": {
             "tab_title": "Set up in seconds",
-            "tab_description": "How To In Five Steps, 1) attach the brackets to the tube, 2) slide the reflectors in-between the brackets, 3) load the tray with food, 4) point at Sun, 5) enjoy a hot meal after 15 minutes",
+            "tab_description": "1) attach the brackets to the tube, 2) slide the reflectors in-between the brackets, 3) load the tray with food, 4) point at Sun, 5) enjoy a hot meal after 15 minutes",
             "image": "shopify:\/\/shop_images\/Gosun_solar_oven_kit_for_website_top_banner_f60eb2a0-4ac9-4460-bdc7-361c72f23479.jpg",
             "video_url": ""
           }
         }
       },
       "block_order": [
-        "media_Mx3eGm",
         "media_tRkhp8",
+        "media_Mx3eGm",
         "media_LRwNQF"
       ],
       "settings": {
