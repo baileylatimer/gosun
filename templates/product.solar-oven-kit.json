@@ -195,6 +195,21 @@
       "settings": {
       }
     },
+    "video_WbMCTq": {
+      "type": "video",
+      "settings": {
+        "heading": "Affordable. Advanced. Anywhere.",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/youtu.be\/2se316pFOrE",
+        "cover_image": "shopify:\/\/shop_images\/Gosun_solar_oven_kit_beachside_bar.jpg",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "title_section_wJHw3h": {
       "type": "title-section",
       "settings": {
@@ -260,21 +275,6 @@
       "type": "pdp-nav",
       "settings": {
       }
-    },
-    "video_WbMCTq": {
-      "type": "video",
-      "settings": {
-        "heading": "Perfect intro to GoSun's Solar Ovens",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https:\/\/youtu.be\/2se316pFOrE",
-        "cover_image": "shopify:\/\/shop_images\/Gosun_solar_oven_kit_beachside_bar.jpg",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -282,12 +282,12 @@
     "custom_liquid_3Ch4Hg",
     "bundles_ht8HAi",
     "feature_tabs_XQydDM",
+    "video_WbMCTq",
     "title_section_wJHw3h",
     "1713136015e25a897a",
     "faq_product_wzwVAy",
     "need_help_cV6mQY",
     "related-products",
-    "pdp_nav_fqQWcm",
-    "video_WbMCTq"
+    "pdp_nav_fqQWcm"
   ]
 }
