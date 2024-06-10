@@ -30,7 +30,7 @@
         "text_CHzPkd": {
           "type": "text",
           "settings": {
-            "text": "<p>Meet GoSun's EV Solar Charger made <em>for your car<\/em> and stowed <em>on your car<\/em>. <\/p><p>Delivery in 2025<br\/>EST. $2,999 * <br\/>*(Eligible for 30% Tax Credit)<br\/><\/p>",
+            "text": "<p>Meet GoSun's EV Solar Charger made <em>for your car<\/em> and stowed <em>on your car<\/em>. <\/p><p>Delivery in 2025<br\/>EST. $2,999 * <br\/>*(Potentially eligible for 30% Tax Credit)<br\/><\/p>",
             "text_style": "body"
           }
         },
@@ -400,7 +400,7 @@
           "type": "feature",
           "settings": {
             "title": "30% Federal Tax Credit",
-            "text": "Eligible for a 30% credit from the IRS, plus local rebates and incentives (please consult your tax advisor).",
+            "text": "Potentially eligible for a 30% credit from the IRS, plus local rebates and incentives (please consult your tax advisor).",
             "image": "shopify:\/\/shop_images\/Rectangle_170.png",
             "reverse_row": true
           }
