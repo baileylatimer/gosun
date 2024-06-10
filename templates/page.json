@@ -1,4 +1,3 @@
-
 {
   "sections": {
     "main": {
@@ -7,10 +6,57 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "image_with_text_nWaTjG": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_6E3ht6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Catch the latest news",
+            "heading_size": "h1"
+          }
+        },
+        "text_gNbgkV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>GoSun is constantly innovating, pushing the Fuel-Free Frontier with consumer solar products that create a brighter future. <br\/>Click below to access our Press Kit and to learn more, please contact our VP of Development, Gary Starr, at: gary@gosun.co <\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_WPFxXq": {
+          "type": "button",
+          "settings": {
+            "button_label": "Download Press Kit",
+            "button_link": "https:\/\/www.dropbox.com\/home\/GoSun%20Dropbox\/Website\/Media%20Kit",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_6E3ht6",
+        "text_gNbgkV",
+        "button_WPFxXq"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/EVSolarChargerMainImageSmall.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_with_text_nWaTjG"
   ]
 }
-
