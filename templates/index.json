@@ -285,26 +285,6 @@
         "collection": false
       }
     },
-    "feature_image_LWaCdC": {
-      "type": "feature-image",
-      "settings": {
-        "product_reference": "",
-        "invert_order": false,
-        "shrink_height": false,
-        "top_padding": false,
-        "overline": "",
-        "heading": "Meet Elcat Solar Electric Boat",
-        "text": "Boating should lighten up and focus on smiles per hour instead of miles per hour. Elcat is an inflatable, highly portable, six passenger silent electric boat plus sun deck.",
-        "price": "",
-        "video_url": "",
-        "image": "shopify:\/\/shop_images\/elcat-splash-2.webp",
-        "img-fit": false,
-        "button_url": "shopify:\/\/pages\/elcat-splash",
-        "button_label": "Learn More",
-        "button_url_2": "",
-        "button_label_2": ""
-      }
-    },
     "feature_image_tbpk4q": {
       "type": "feature-image",
       "settings": {
@@ -320,6 +300,26 @@
         "image": "shopify:\/\/shop_images\/EVSolarChargerMainImageSmall.jpg",
         "img-fit": false,
         "button_url": "shopify:\/\/pages\/ev-solar-charger",
+        "button_label": "Learn More",
+        "button_url_2": "",
+        "button_label_2": ""
+      }
+    },
+    "feature_image_LWaCdC": {
+      "type": "feature-image",
+      "settings": {
+        "product_reference": "",
+        "invert_order": false,
+        "shrink_height": false,
+        "top_padding": false,
+        "overline": "",
+        "heading": "Meet Elcat Solar Electric Boat",
+        "text": "Boating should lighten up and focus on smiles per hour instead of miles per hour. Elcat is an inflatable, highly portable, six passenger silent electric boat plus sun deck.",
+        "price": "",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/elcat-splash-2.webp",
+        "img-fit": false,
+        "button_url": "shopify:\/\/pages\/elcat-splash",
         "button_label": "Learn More",
         "button_url_2": "",
         "button_label_2": ""
@@ -452,8 +452,8 @@
     "mission_section_criUKL",
     "feature_banner_axfT4K",
     "product_row_2_ATJFhU",
-    "feature_image_LWaCdC",
     "feature_image_tbpk4q",
+    "feature_image_LWaCdC",
     "social_section_7jVYar"
   ]
 }
