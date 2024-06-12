@@ -3433,7 +3433,7 @@ a#HeaderMenu-reserve-now {
 
 /* Power LP template - Radu 05.05.2024 */
 .page-power-your-ev-with-solar .section-template--15144452391006__custom_liquid_eFMTKh-padding,
-.page-sl-8909c63b .section-template--15220603027550__custom_liquid_eFMTKh-padding {
+.page-sl-b66a0018 .section-template--15220603027550__custom_liquid_eFMTKh-padding {
     padding-top: 0;
     padding-bottom: 0;
     background-color: #d6d6db;
@@ -3442,7 +3442,7 @@ a#HeaderMenu-reserve-now {
     border-bottom: .1rem solid rgba(var(--color-foreground), .08);
 }
 .page-power-your-ev-with-solar .header-inner,
-.page-sl-8909c63b .header-inner {
+.page-sl-b66a0018 .header-inner {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -3450,20 +3450,20 @@ a#HeaderMenu-reserve-now {
 }
 
 .page-power-your-ev-with-solar sticky-header.bg-primary-light.body-width.header-wrapper.color-scheme-1.gradient.header-wrapper--border-bottom, 
-.page-sl-8909c63b sticky-header.bg-primary-light.body-width.header-wrapper.color-scheme-1.gradient.header-wrapper--border-bottom {
+.page-sl-b66a0018 sticky-header.bg-primary-light.body-width.header-wrapper.color-scheme-1.gradient.header-wrapper--border-bottom {
     display: none !important;
 }
 .page-power-your-ev-with-solar .utility-bar,
-.page-sl-8909c63b .utility-bar {
+.page-sl-b66a0018 .utility-bar {
     display: none;
 }
 /* header */
 .page-power-your-ev-with-solar .header__icons.header__icons--localization.header-localization,
-.page-sl-8909c63b .header__icons.header__icons--localization.header-localization {
+.page-sl-b66a0018 .header__icons.header__icons--localization.header-localization {
     display: none !important;
 }
 .page-power-your-ev-with-solar sticky-header.bg-primary-light.body-width.header-wrapper.color-scheme-1.gradient.header-wrapper--border-bottom,
-.page-sl-8909c63b sticky-header.bg-primary-light.body-width.header-wrapper.color-scheme-1.gradient.header-wrapper--border-bottom {
+.page-sl-b66a0018 sticky-header.bg-primary-light.body-width.header-wrapper.color-scheme-1.gradient.header-wrapper--border-bottom {
     background-color: #d6d6db;
     margin-left: 0px;
     margin-right: 0px;
@@ -3472,11 +3472,11 @@ a#HeaderMenu-reserve-now {
     border-radius: 0px !important;
 }
 .page-power-your-ev-with-solar .header,
-.page-sl-8909c63b .header {
+.page-sl-b66a0018 .header {
     padding: 10px 3rem 10px 3rem !important;
 }
 .page-power-your-ev-with-solar a#HeaderMenu-reserve-now,
-.page-sl-8909c63b a#HeaderMenu-reserve-now  {
+.page-sl-b66a0018 a#HeaderMenu-reserve-now  {
     background-color: #288bcc;
     color: #ffffff;
     padding: 19px 30px !important;
@@ -3488,7 +3488,7 @@ a#HeaderMenu-reserve-now {
     display: none !important;
 }
 .page-power-your-ev-with-solar .section-header,
-.page-sl-8909c63b .section-header {
+.page-sl-b66a0018 .section-header {
     margin-bottom: 0px;
 }
 /* end of header */
@@ -4233,7 +4233,7 @@ section#shopify-section-template--15220603027550__multicolumn_wePedV h2.title.in
 @media screen and (max-width: 990px) {
 /* product footer banner */
 .page-power-your-ev-with-solar div#shopify-section-template--15144452391006__product_nav_yWVKQD .content-width.flex.justify-between.items-center.p-4,
-.page-sl-8909c63b div#shopify-section-template--15220603027550__product_nav_yWVKQD .content-width.flex.justify-between.items-center.p-4,
+.page-sl-b66a0018 div#shopify-section-template--15220603027550__product_nav_yWVKQD .content-width.flex.justify-between.items-center.p-4,
 .product-ev-deposit div#product-nav .content-width.flex.justify-between.items-center.p-4,
 .product-ev-deposit div#product-nav .content-width.flex.justify-between.items-center.p-4 .product-nav__details.flex.items-center.gap-12 {
     display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
@@ -4246,7 +4246,7 @@ section#shopify-section-template--15220603027550__multicolumn_wePedV h2.title.in
     margin-bottom: 15px;
 }  
 .page-power-your-ev-with-solar .product-nav__details.flex.items-center.gap-12,
-.page-sl-8909c63b .product-nav__details.flex.items-center.gap-12  {
+.page-sl-b66a0018 .product-nav__details.flex.items-center.gap-12  {
     display: -webkit-box;   /* OLD - iOS 6-, Safari 3.1-6, BB7 */
     display: -ms-flexbox;  /* TWEENER - IE 10 */
     display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
@@ -4276,7 +4276,7 @@ section#shopify-section-template--15220603027550__multicolumn_6TpibX .grid--3-co
     line-height: 1.2em;
 }  
 .page-power-your-ev-with-solar .lp-container h2,
-.page-sl-8909c63b .lp-container h2 {
+.page-sl-b66a0018 .lp-container h2 {
     font-size: 40px !important;
     line-height: 45px;
 }
@@ -4285,7 +4285,7 @@ div#shopify-section-template--15220603027550__flip_card_qJ6JyA .section-title h2
     font-size: 40px;
 } 
 .page-power-your-ev-with-solar .step,
-.page-sl-8909c63b .step {
+.page-sl-b66a0018 .step {
     padding-bottom: 0px;
     padding-top: 0px;
 } 
@@ -4300,7 +4300,7 @@ section#shopify-section-template--15220603027550__multicolumn_gT8HWa h2.title.in
   line-height: 45px;
 } 
 .page-power-your-ev-with-solar .header-wrapper,
-.page-sl-8909c63b .header-wrapper {
+.page-sl-b66a0018 .header-wrapper {
         margin-top: 0 !important;
 }  
 section#shopify-section-template--15144452391006__multicolumn_VBKWNf .page-width.section-template--15144452391006__multicolumn_VBKWNf-padding.isolate.scroll-trigger.animate--slide-in .multicolumn-card__info p,
@@ -4318,7 +4318,7 @@ section#shopify-section-template--15220603027550__multicolumn_VBKWNf .page-width
 }
 }
 .page-power-your-ev-with-solar h1, .page-power-your-ev-with-solar h2, .page-power-your-ev-with-solar h3,
-.page-sl-8909c63b h1, .page-sl-8909c63b h2, .page-sl-8909c63b h3 {
+.page-sl-b66a0018 h1, .page-sl-b66a0018 h2, .page-sl-b66a0018 h3 {
   letter-spacing: -1px !important;
 }
 @media only screen and (max-width: 1400px) and (min-width: 767px)  {
