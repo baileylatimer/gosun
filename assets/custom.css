@@ -693,5 +693,16 @@ div.snize * {
     .hide-mobile {
       display: block;
     }
-  
+
   }
+
+
+
+.call-btn {
+  color: var(--color-primary);
+}
+
+.call-btn svg path {
+  stroke: var(--color-primary);
+}
+

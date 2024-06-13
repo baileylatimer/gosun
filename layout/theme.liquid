@@ -58,6 +58,7 @@
     {%- endif -%}
 
     {{ content_for_header }}
+    
 
     {%- liquid
       assign body_font_bold = settings.type_body_font | font_modify: 'weight', 'bold'
@@ -353,6 +354,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   });
   _ddq("PAGE_VIEW");
 </script>
+
+    <!-- Extend -- Load Extend SDK Configuration script -->
+    {% render 'extend-configuration' %}
+    <!-- Extend -- End Extend code -->
 
 </head>
 
