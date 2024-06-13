@@ -46,8 +46,8 @@
         "text_mJkQ34"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "desktop_content_position": "right",
+        "content_alignment": "left",
         "color_scheme": "scheme-2",
         "full_width": true,
         "padding_top": 40,
