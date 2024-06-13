@@ -113,6 +113,7 @@
 
 
 
+
     <script>
   document.addEventListener("DOMContentLoaded", function() {
     const footer = document.querySelector('.total-line-table__footer');
@@ -141,10 +142,11 @@
           Secure checkout
         </div>
       `;
-      footer.appendChild(newElement);
+      footer.insertAdjacentElement('afterend', newElement);
     }
   });
 </script>
+
 
   </body>
 </html>
