@@ -12,6 +12,62 @@
 
     {{ checkout_stylesheets }}
     {{ checkout_scripts }}
+
+<style>
+  .br {
+  border-radius: 20px !important;
+  -webkit-border-radius: 20px !important;
+  -moz-border-radius: 20px !important;
+  -ms-border-radius: 20px !important;
+  -o-border-radius: 20px !important;
+  overflow: hidden;
+}
+.tw-grid {
+  display: grid;
+}
+.bg-primary-light {
+  background-color: var(--color-primary-light);
+}
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.text-xs {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+.gap-3 {
+  gap: 0.75rem;
+}
+.justify-center {
+  justify-content: center;
+}
+.items-center {
+  align-items: center;
+}
+.flex {
+  display: flex;
+}
+  
+</style>
+
   </head>
   <body>
     {{ skip_to_content_link }}
