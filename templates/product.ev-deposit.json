@@ -85,7 +85,6 @@
         },
         "collapsible_tab_wcr9wy": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Weight & Dimensions",
             "icon": "none",
@@ -95,7 +94,6 @@
         },
         "collapsible_tab_peG8ey": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Tech Specs",
             "icon": "none",
