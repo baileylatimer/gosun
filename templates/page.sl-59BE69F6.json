@@ -432,6 +432,7 @@
         "feature_MTwE3P",
         "feature_pHY3Bb"
       ],
+      "disabled": true,
       "settings": {
         "title": "Vehicle-Integrated Solar PV provides everything you need and more"
       }
@@ -502,6 +503,7 @@
         "container_C8bxHE",
         "container_xgTxn7"
       ],
+      "disabled": true,
       "settings": {
         "section_title": "Forget the grid, Self-Charge on sunshine",
         "desktop_cards": 3,
@@ -524,6 +526,7 @@
       "block_order": [
         "container_h7Htyh"
       ],
+      "disabled": true,
       "settings": {
         "section_title": "",
         "desktop_cards": 1,
@@ -615,6 +618,7 @@
         "column_88AzFX",
         "column_HCRek3"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -898,6 +902,7 @@
         "column_zj4CMR",
         "column_MKPR6U"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
