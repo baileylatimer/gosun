@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "name": "t:sections.header.name",
   "type": "header",
@@ -8,7 +17,14 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Free Shipping + Money Back Warranty",
+            "text": "Money Back Guarantee & Extended Warranties Available",
+            "link": ""
+          }
+        },
+        "announcement_NDHFg3": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free Shipping & Returns",
             "link": ""
           }
         },
@@ -31,6 +47,7 @@
       },
       "block_order": [
         "announcement-bar-0",
+        "announcement_NDHFg3",
         "announcement_BL3gLg",
         "announcement_pidxap"
       ],
@@ -38,7 +55,7 @@
         "color_scheme": "",
         "show_line_separator": true,
         "show_social": false,
-        "auto_rotate": false,
+        "auto_rotate": true,
         "change_slides_speed": 5,
         "enable_country_selector": false,
         "enable_language_selector": false
@@ -81,13 +98,13 @@
           "type": "images-for-dropdown",
           "settings": {
             "parent_link_handle": "Power",
-            "image_1": "shopify:\/\/shop_images\/newshield2_9b83cf52-3c21-4797-8728-ed1ec5b45018.png",
-            "description_1": "Foldable 60W Solar Car Shield",
-            "image_2": "shopify:\/\/shop_images\/power-266-portable-266wh-power-bank-gosun-265176.jpg",
-            "description_2": "Portable 266wh Power Bank",
-            "image_3": "shopify:\/\/shop_images\/power-1100-1100wh-power-bank-gosun-121088.jpg",
-            "description_3": "1100Wh Power Bank",
-            "image_4": "shopify:\/\/shop_images\/solartable-120-charge-power-gosun-591323.jpg",
+            "image_1": "shopify:\/\/shop_images\/EVSolarChargerMainImageSmall.jpg",
+            "description_1": "1,200 Watt EV Solar Self-Charger",
+            "image_2": "shopify:\/\/shop_images\/newshield2_9b83cf52-3c21-4797-8728-ed1ec5b45018.png",
+            "description_2": "Foldable 60W Solar Car Shield",
+            "image_3": "shopify:\/\/shop_images\/power-266-portable-266wh-power-bank-gosun-265176.jpg",
+            "description_3": "Portable 266wh Power Bank",
+            "image_4": "shopify:\/\/shop_images\/solartable-60-portable-60w-solar-table-gosun-184958.jpg",
             "description_4": "Portable 60W Solar Table",
             "image_5": "shopify:\/\/shop_images\/solartable-120-charge-power-gosun-661208_4ed8bd31-f07e-4dd7-9814-b67d18dd8190.jpg",
             "description_5": "120W Solar Table + Powerbank"
