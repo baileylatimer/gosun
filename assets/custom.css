@@ -706,3 +706,13 @@ div.snize * {
   stroke: var(--color-primary);
 }
 
+
+
+.product__media-icon {
+  display: none !important;
+}
+
+
+.announcement-bar__message.h5 {
+  color: var(--color-bg) !important;
+}
