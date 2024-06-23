@@ -16,8 +16,9 @@
       "blocks": {
         "announcement-bar-0": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
-            "text": "Money Back Guarantee & Extended Warranties Available",
+            "text": "Money Back Guarantee & One Year Warranty",
             "link": ""
           }
         },
