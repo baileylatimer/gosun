@@ -116,9 +116,9 @@
             let variantId = (url && url.match(regEx)) ? url.match(regEx)[0] : localCart.items[index].id;
 
             // Select quantity value
-            let quantity = product.querySelector(cartRowItemQuantity).value;
+            let quantity = parseInt(product.querySelector(cartRowItemQuantity).innerText.split('\n')[1]);
 
-            if (!variantId || (!isNaN(quantity) || quantity.length > 0)) {
+            if (!variantId || (!isNaN(quantity)) {
                 throw new Error("Exiting - Error with variantId {0} or quantity {1}", variantId, quantity);
             }
 
