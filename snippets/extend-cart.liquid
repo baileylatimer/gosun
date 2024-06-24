@@ -2,7 +2,7 @@
 
     // run scripts on DOMContentLoaded to avoid affecting site load time
     window.addEventListener('DOMContentLoaded', function () {
-
+console.log('LOADED CART');
         // Only run ajax integration if Extend and ExtendShopify is defined, and the currency is set to USD
         if (!Extend || !ExtendShopify || !Shopify || !Shopify.currency || Shopify.currency.active !== Extend.integration.currency) {
             return;
@@ -39,7 +39,7 @@
         }
 
         // Add quantity wrapper selector to disable use of quantity selector on Extend items, ignored if empty string
-        const quantityWrapper = isMainCart ? '' : '';
+        const quantityWrapper = isMainCart ? '' : '.rebuy-cart__flyout-item-quantity';
 
         const offerClass = !isMainCart ? 'extend-side-cart-offer' : 'extend-cart-offer'; // This is the class that will be assigned to each Extend offer
         const cartEvent = !isMainCart ? 'refreshAjaxSideCart' : 'refreshAjaxCart';
