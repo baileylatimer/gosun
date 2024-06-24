@@ -116,7 +116,7 @@
             let variantId = (url && url.match(regEx)) ? url.match(regEx)[0] : localCart.items[index].id;
 
             // Select quantity value
-            let quantity = isMain ? product.querySelector(cartRowItemQuantity).value
+            let quantity = isMainCart ? product.querySelector(cartRowItemQuantity).value
             : parseInt(product.querySelector(cartRowItemQuantity).innerText.split('\n')[1]);
 
             if (!variantId) {
