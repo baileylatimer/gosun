@@ -1,7 +1,7 @@
 <script>
 
     // run scripts on DOMContentLoaded to avoid affecting site load time
-    window.addEventListener('load', function () {
+    window.addEventListener('DOMContentLoaded', function () {
 
         // Only run ajax integration if Extend and ExtendShopify is defined, and the currency is set to USD
         if (!Extend || !ExtendShopify || !Shopify || !Shopify.currency || Shopify.currency.active !== Extend.integration.currency) {
