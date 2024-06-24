@@ -281,9 +281,7 @@
             // Listen for SP dispatching refresh
             window.addEventListener('refreshSP', refreshCart);
 
-            document.addEventListener('rebuy:cart.change', () => {
-                console.log('CALL');
-            });
+            document.addEventListener('rebuy:cart.change', refreshCartOffer);
 
         }
 
