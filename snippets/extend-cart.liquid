@@ -117,8 +117,8 @@
 
             // Select quantity value
             let quantity = parseInt(product.querySelector(cartRowItemQuantity).innerText.split('\n')[1]);
-console.log('EXTEND:', quantity);
-            if (!variantId || (!isNaN(quantity)) {
+
+            if (!variantId || !isNaN(quantity)) {
                 throw new Error("Exiting - Error with variantId {0} or quantity {1}", variantId, quantity);
             }
 
