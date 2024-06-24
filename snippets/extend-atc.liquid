@@ -1,0 +1,74 @@
+<script>
+
+    //run scripts on DOMContentLoaded to avoid affecting site load time
+    window.addEventListener('DOMContentLoaded', function () {
+
+        // Checks if Extend and Extend Shopify are active, and the currency is set to USD
+        if (Extend && ExtendShopify && Shopify && Shopify.currency && Shopify.currency.active === Extend.integration.currency && Extend.integration.atcOffer) {
+
+            /*****************************************/
+            /* Selectors - THEME SPECIFIC */
+            /*****************************************/
+            const atcSelector = 'button[data-quick-buy]'
+            const dispatchSideCart = false; // Set to true if a sidecart opens after adding to cart via atc
+
+            /*****************************************/
+            /* runATC - Runs once an ATC is clicked */
+            /*****************************************/
+            function runATC(e) {
+                if (e.target && e.target.closest(atcSelector)) {
+                    const el = e.target.closest(atcSelector)
+                    e.preventDefault();
+                    e.stopImmediatePropagation();
+                    document.removeEventListener('click', runATC, true);
+
+                    // Find the closest form and get the variantId from that form, may need modification to grab variantId a different way
+                    // const variantId = el.closest('form').id.value
+                    const variantId = el.getAttribute('data-variant-id')
+
+                    // Grab the products category and price, should be working by default but may need modification
+                    let productCategory;
+                    let productPrice;
+
+                    // OBC - This works on many themes to grab price and category, but may need modification
+                    // meta.products.forEach(each => {
+                    //     if (each.variants.filter(variant => variant.id.toString() === variantId.toString()).length === 1) {
+                    //         productCategory = each.type
+                    //         productPrice = each.variants.filter(variant => variant.id.toString() === variantId.toString())[0].price
+                    //     }
+                    // })
+
+                    // Open Extend offer modal to present offers on add to cart
+                    Extend.modal.open({
+                        referenceId: variantId,
+                        price: productPrice,
+                        category: productCategory,
+                        onClose: function (plan, product) {
+                            if (plan && product) {
+                                // A user has selected a plan. Add it to their cart.
+                                ExtendShopify.addPlanToCart(
+                                    {
+                                        plan: plan,
+                                        product: product,
+                                        quantity: 1,
+                                    },
+                                    function (err) {
+                                        if (err) return;
+                                    }
+                                );
+                            }
+                            // Click button
+                            el.click();
+                            // Re-add event listener 
+                            document.addEventListener('click', runATC, true);
+                            // If variable set to true, dispatches Extend side cart integration to run after adding to cart via atc
+                            if (dispatchSideCart) window.setTimeout(function () { window.dispatchEvent(new Event('refreshAjaxSideCart')) }, 500)
+                        },
+                    })
+                }
+            }
+            // Listens for atc click
+            document.addEventListener('click', runATC, true)
+        }
+    }, { once: true });
+</script>

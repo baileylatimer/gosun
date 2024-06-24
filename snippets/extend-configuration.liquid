@@ -1,21 +1,97 @@
 <!-- Extend - Add necessary SDK script tags and configure the store -->
-<script src='https://sdk.helloextend.com/extend-sdk-client/v1/extend-sdk-client.min.js' defer='defer'></script>  
-<script src='https://sdk.helloextend.com/extend-sdk-client-shopify-addon/v1/extend-sdk-client-shopify-addon.min.js' defer='defer'></script>  
+<script src='https://sdk.helloextend.com/extend-sdk-client/v1/extend-sdk-client.min.js' defer='defer'></script>
+<script src='https://sdk.helloextend.com/extend-sdk-client-shopify-addon/v1/extend-sdk-client-shopify-addon.min.js' defer='defer'></script>
+
 <script>
- window.addEventListener('DOMContentLoaded', function(){
-  window.Extend.config({ storeId: 'edd5150e-7904-4dd1-a159-94d4d15fcbe2', environment: 'production' })
-  window.Extend.integration = {};
-  window.Extend.integration.analytics = true;
-  // Extend - QA Cypress booleans
-  window.Extend.integration.isExtendPdpOfferEnabled = true;
-  window.Extend.integration.isExtendOfferModalEnabled = true;
-  window.Extend.integration.isExtendMainCartOfferEnabled = true;
- })
+    window.addEventListener('DOMContentLoaded', function () {
+        // Set store ID
+        const storeId = 'edd5150e-7904-4dd1-a159-94d4d15fcbe2';
+        // Set environment (production, demo, or development)
+        const env = 'production';
+
+        window.Extend.config({ storeId: storeId, environment: env });
+
+        // Only sets window variables if Extend and ExtendShopify is defined
+        if (window.Extend && window.ExtendShopify) {
+            // Contains window variables used in integration
+            window.Extend.integration = {};
+
+            // Configurables - Start
+            // Set currency required to display offers (USD or CAD)
+            window.Extend.integration.currency = 'USD';
+            // Analytics
+            window.Extend.integration.analytics = true;
+            // PDP Visible Offer
+            window.Extend.integration.pdpOffer = true;
+            // PDP Modal Offer
+            window.Extend.integration.pdpModalOffer = true;
+            // PDP Offer Properties
+            window.Extend.integration.offerProperties = {};
+            // Cart Offers
+            window.Extend.integration.cartOffer = true;
+            // Sidecart Offers
+            window.Extend.integration.sidecartOffer = true;
+            // Cart Balancing
+            window.Extend.integration.cartBalancing = true;
+            // Aftermarket Modal
+            window.Extend.integration.aftermarketModal = true;
+            // ATC Modal Offer
+            window.Extend.integration.atcOffer = true;
+            // Quickview visible offer
+            window.Extend.integration.quickviewOffer = true;
+            // Quickview modal offer
+            window.Extend.integration.quickviewModalOffer = true;
+			// Cart SP
+			window.Extend.integration.cartSP = false;
+            // Configurables - End
+
+            // Aftermarket Code
+            if (Shopify && Shopify.currency && Shopify.currency.active === Extend.integration.currency && Extend.integration.aftermarketModal) {
+                try {
+                    // Get params from URL
+                    const params = (new URL(document.location)).searchParams;
+
+                    // Check if leadToken or leadtoken is in the URL
+                    let leadToken = params.get('leadToken')
+                        ? params.get('leadToken')
+                        : params.get('leadtoken');
+
+                    if (leadToken) {
+                        Extend.aftermarketModal.open({
+                            leadToken: leadToken,
+                            onClose: function (plan, product, quantity) {
+                                if (plan && product) {
+                                    ExtendShopify.addPlanToCart({
+                                        plan: plan,
+                                        product: product,
+                                        leadToken: leadToken,
+                                        quantity: quantity || 1
+                                    }, function () {
+                                        location = '/cart'
+                                    })
+                                }
+                            }
+                        });
+                    }
+                } catch (error) {
+                    console.error("EXTEND: " + error);
+                }
+            }
+        }
+    }, { once: true });
 </script>
 
-<!-- Extend - Render aftermarket integration snippet -->
-{% render 'extend-aftermarket-integration' %}
 <!-- Extend - Render analytics -->
 {% render 'extend-analytics' %}
+<!-- Extend - Render product page -->
+{% render 'extend-product-page' %}
+<!-- Extend - Render cart -->
+{% render 'extend-cart' %}
+
+<!-- Optional -->
 <!-- Extend - Render atc -->
-{% render 'extend-atc-integration' %}
+{% comment %} {% render 'extend-atc' %} {% endcomment %}
+<!-- Extend - Render quickview -->
+{% comment %} {% render 'extend-quickview' %} {% endcomment %}
+<!-- Extend - Render cart shipping protection -->
+{% comment %} {% render 'extend-shipping' %} {% endcomment %}

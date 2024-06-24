@@ -1,0 +1,103 @@
+<script>
+
+    // Run scripts on DOMContentLoaded to avoid affecting site load time
+    window.addEventListener('DOMContentLoaded', function () {
+        // Checks if Extend lives in the window and the active currency is USD before showing Extend offers
+        if (Extend && ExtendShopify && Shopify && Shopify.currency && Shopify.currency.active === Extend.integration.currency && meta.page.pageType == 'product') {
+
+            /************************/
+            /* Initial Variables    */
+            /************************/
+            const productForm = document.querySelector('form[action="/cart/add"]'); // Change this to the product form element
+            const addToCartButton = productForm.querySelector('button[name="add"]'); // Change this to the Add-To-Cart element
+            const dispatchSideCart = false; // Set to true if a sidecart opens after adding to cart via pdp
+            const productCategory = (meta && meta.product) ? meta.product.type : null; // Grabs product category from meta object, works on most themes
+
+            // Handles creating and prepending Extend offer div
+            const extendOffer = document.createElement('div');
+            if (!Extend.integration.pdpOffer) extendOffer.style.display = 'none';
+            extendOffer.className = 'extend-offer';
+            productForm.prepend(extendOffer);
+
+            /************************/
+            /* initProductOffer     */
+            /************************/
+            // Initializes product offers and handles ATC button functionality for the main PDP ATC
+            function initProductOffer() {
+                try {
+
+                    // Fail safes
+                    if (!productForm || !addToCartButton || !extendOffer) {
+                        throw new Error("Exiting - missing productForm, addToCartButton, or extendOffer")
+                    }
+
+                    // Disables ATC if product is Extend
+                    if (meta && meta.product && meta.product.vendor === 'Extend') addToCartButton.disabled = true;
+
+                    // Grabs the variantId from the productForm and renders the initial offers for it
+                    let variantId = productForm.id.value;
+
+                    // Grabs the product price from the metadata, works on most themes
+                    let productPrice = (meta && meta.product && meta.product.variants) ? parseInt(meta.product.variants.filter(variant => variant.id.toString() === variantId.toString())[0].price) : null;
+
+                    // Saves the offer properties to an easily accessible window object that is initialized in the config
+                    Extend.integration.offerProperties = {variant: variantId, category: productCategory, price: productPrice}
+
+                    // Renders Extend offer
+                    Extend.buttons.render(extendOffer, { referenceId: variantId, price: productPrice, category: productCategory });
+
+                    // Listens for changes to the productForm and sets the activeProduct for extend via variantID
+                    productForm.addEventListener('change', function () {
+                        variantId = productForm.id.value
+                        if (variantId) {
+                            productPrice = (meta && meta.product && meta.product.variants) ? parseInt(meta.product.variants.filter(variant => variant.id.toString() === variantId.toString())[0].price) : null;
+                            Extend.setActiveProduct(extendOffer, { referenceId: variantId, price: productPrice, category: productCategory });
+                            if (meta && meta.product && meta.product.vendor === 'Extend') addToCartButton.disabled = true;
+                            Extend.integration.offerProperties = {variant: variantId, category: productCategory, price: productPrice}
+                        }
+                    });
+
+                    // click simulation handling add to cart
+                    function handleAddToCart(e) {
+                        e.preventDefault();
+                        e.stopImmediatePropagation();
+
+                        const quantityEl = productForm.querySelector('[name="quantity"]');
+                        const quantity = quantityEl && quantityEl.value ? quantityEl.value : 1;
+
+                        ExtendShopify.handleAddToCart(extendOffer, {
+                            quantity: quantity,
+                            modal: Extend.integration.pdpModalOffer,
+                            done: function () {
+                                // Trigger Analytics
+                                if (Extend.integration.analytics) Extend.integration.productAnalytics(variantId, quantity);
+                                // remove default click listener
+                                addToCartButton.removeEventListener('click', handleAddToCart, true);
+                                // click atc button
+                                addToCartButton.click();
+                                // add default click listener back
+                                addToCartButton.addEventListener('click', handleAddToCart, true);
+                                // If variable set to true, dispatches Extend side cart integration to run after adding to cart via pdp
+                                if (dispatchSideCart) window.setTimeout(function () { window.dispatchEvent(new Event('refreshAjaxSideCart')) }, 500)
+                            }
+                        });
+                    }
+                    // run handleCaddtoCart when we click ATC, capturing event
+                    addToCartButton.addEventListener('click', handleAddToCart, true);
+                } catch (error) {
+                    console.error("EXTEND:", error)
+                }
+            }
+            // Initial product offer render
+            if (!Extend.buttons.instance(extendOffer)) {
+                initProductOffer();
+            }
+        }
+    }, { once: true });
+</script>
+
+<style>
+    .extend-offer {
+        margin: 0 0 -15px 0 !important;
+    }
+</style>
