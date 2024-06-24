@@ -119,7 +119,7 @@
             let quantity = parseInt(product.querySelector(cartRowItemQuantity).innerText.split('\n')[1]);
 
             if (!variantId || !isNaN(quantity)) {
-                throw new Error("Exiting - Error with variantId {0} or quantity {1}", variantId, quantity);
+                throw new Error(`Exiting - Error with variantId ${variantId} or quantity ${quantity}`);
             }
 
             // Removes existing offer elements before creating new ones
