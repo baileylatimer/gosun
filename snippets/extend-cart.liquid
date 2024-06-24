@@ -33,7 +33,7 @@
             cartRowItemImage = '.rebuy-cart__flyout-item-media'; // This is the product image or image anchor element
             cartRowItemTitle = '.rebuy-cart__flyout-item-product-title'; // This is the title anchor element for the product
             cartRowItemQuantity = '.rebuy-cart__flyout-item-quantity-widget-label'; // This is the input element containing the product quantity
-            warrantyOriginalMeta = '.null'; // Each warranty metadata item we want to remove.
+            warrantyOriginalMeta = '.rebuy-cart__flyout-item-variant-title'; // Each warranty metadata item we want to remove.
             warrantyContainer = '.rebuy-cart__flyout-item-info'; // This is the container where the offer will be appended
             metadataContainer = '.rebuy-cart__flyout-item-variant-title'; // This is where warranty metadata will be appended (Product and Term)
         }
@@ -188,7 +188,7 @@ console.log('EXTEND:', ExtendShopify.warrantyAlreadyInCart(variantId, localCart.
                         // Removes old metadata
                         if (el.querySelector(warrantyOriginalMeta)) {
                             el.querySelectorAll(warrantyOriginalMeta).forEach(function (each) {
-                                each.remove();
+                                each.innerHTML = '';
                             })
                         }
 
