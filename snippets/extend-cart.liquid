@@ -71,7 +71,7 @@
              let productCategory = localCart.items[index].product_type;
              let productPrice = localCart.items[index].price;
 
-console.log('EXTEND:', el);
+console.log('EXTEND:', ExtendShopify.warrantyAlreadyInCart(variantId, localCart.items));
             if (ExtendShopify.warrantyAlreadyInCart(variantId, localCart.items)) {
                 return;
             } else {
