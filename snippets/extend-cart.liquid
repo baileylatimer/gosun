@@ -39,7 +39,7 @@
         }
 
         // Add quantity wrapper selector to disable use of quantity selector on Extend items, ignored if empty string
-        const quantityWrapper = isMainCart ? '' : '.rebuy-cart__flyout-item-quantity';
+        const quantityWrapper = isMainCart ? '.quantity-popover-container' : '.rebuy-cart__flyout-item-quantity';
 
         const offerClass = !isMainCart ? 'extend-side-cart-offer' : 'extend-cart-offer'; // This is the class that will be assigned to each Extend offer
         const cartEvent = !isMainCart ? 'refreshAjaxSideCart' : 'refreshAjaxCart';
@@ -137,6 +137,7 @@
 
             // Fail safes
             if (!variantId || !quantity || !container) {
+                console.log('EXTEND:', variantId, quantity, container)
                 throw new Error("Exiting - variant, quantity or container unavailable");
             }
 
