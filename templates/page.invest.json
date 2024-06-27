@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -6,6 +15,48 @@
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
+      }
+    },
+    "rich_text_Lh8qmF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_X973PX": {
+          "type": "heading",
+          "settings": {
+            "heading": "Investments Now Open",
+            "heading_size": "h1"
+          }
+        },
+        "text_MnKXjk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Interested in owning a part of the solar future? GoSun is currently raising funds via an equity crowdfund campaign on StartEngine. Learn all about the business and offering here. <\/p>"
+          }
+        },
+        "button_3yCcUW": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": "https:\/\/www.startengine.com\/offering\/gosun",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_X973PX",
+        "text_MnKXjk",
+        "button_3yCcUW"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "feature_image_B8Mhcw": {
@@ -31,7 +82,7 @@
     "title_section_9pXrQq": {
       "type": "title-section",
       "settings": {
-        "title": "If you would like more information on GoSun?, Please fill out the from below."
+        "title": "If you would like more information on GoSun? Please fill out the from below."
       }
     },
     "custom_liquid_HpyLTq": {
@@ -46,6 +97,7 @@
   },
   "order": [
     "main",
+    "rich_text_Lh8qmF",
     "feature_image_B8Mhcw",
     "title_section_9pXrQq",
     "custom_liquid_HpyLTq"
