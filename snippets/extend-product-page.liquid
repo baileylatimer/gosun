@@ -10,7 +10,7 @@
             /************************/
             const productForm = document.querySelector('form[action="/cart/add"]'); // Change this to the product form element
             const addToCartButton = productForm.querySelector('button[name="add"]'); // Change this to the Add-To-Cart element
-            const dispatchSideCart = true; // Set to true if a sidecart opens after adding to cart via pdp
+            const dispatchSideCart = false; // Set to true if a sidecart opens after adding to cart via pdp
             const productCategory = (meta && meta.product) ? meta.product.type : null; // Grabs product category from meta object, works on most themes
 
             // Handles creating and prepending Extend offer div
@@ -74,7 +74,7 @@
                                 // remove default click listener
                                 addToCartButton.removeEventListener('click', handleAddToCart, true);
                                 // click atc button
-                                addToCartButton.click();
+                                setTimeout(function () { addToCartButton.click() }, 500);
                                 // add default click listener back
                                 addToCartButton.addEventListener('click', handleAddToCart, true);
                                 // If variable set to true, dispatches Extend side cart integration to run after adding to cart via pdp
