@@ -74,7 +74,7 @@
                                 // remove default click listener
                                 addToCartButton.removeEventListener('click', handleAddToCart, true);
                                 // click atc button
-                                setTimeout(function () { addToCartButton.click() }, 500);
+                                addToCartButton.click();
                                 // add default click listener back
                                 addToCartButton.addEventListener('click', handleAddToCart, true);
                                 // If variable set to true, dispatches Extend side cart integration to run after adding to cart via pdp
