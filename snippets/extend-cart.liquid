@@ -331,7 +331,7 @@
             if(isMainCart) {
               initializeCartOffer();
             } else {
-              settimeout(() => { initializeCartOffer() }, 500);
+              setTimeout(() => { initializeCartOffer() }, 500);
             }
         } catch (err) {
             console.error('EXTEND: ', err);
