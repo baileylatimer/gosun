@@ -78,7 +78,7 @@
                                 // add default click listener back
                                 addToCartButton.addEventListener('click', handleAddToCart, true);
                                 // If variable set to true, dispatches Extend side cart integration to run after adding to cart via pdp
-                                if (dispatchSideCart) window.setTimeout(function () { window.dispatchEvent(new Event('refreshAjaxSideCart')) }, 500)
+                                if (dispatchSideCart) window.setTimeout(function () { window.dispatchEvent(new Event('refreshAjaxSideCart')) }, 1000)
                             }
                         });
                     }
