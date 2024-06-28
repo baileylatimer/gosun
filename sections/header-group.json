@@ -31,10 +31,9 @@
         },
         "announcement_BL3gLg": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "Mother's Day FLASH SALE on Sport-E",
-            "link": "shopify:\/\/products\/sport-e"
+            "text": "Independence Day Sale",
+            "link": "shopify:\/\/collections\/todays-deals"
           }
         },
         "announcement_pidxap": {
