@@ -73,6 +73,53 @@
         "padding_bottom": 0
       }
     },
+    "image_with_text_jGn7iK": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_bh8pNH": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>\"GoSun Finally Pulled It Off! We Now Have a Solar Charger for Our EVs Everywhere We Park\"<\/strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_3wbXPh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>\"Yes, people, we finally have a device that will recharge your EV\" - autoevolution.com<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_MeWUam": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read Full Article",
+            "button_link": "https:\/\/www.autoevolution.com\/news\/gosun-finally-pulled-it-off-we-now-have-a-solar-charger-for-our-evs-everywhere-we-park-236164.html",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_bh8pNH",
+        "text_3wbXPh",
+        "button_MeWUam"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/gosun-finally-pulled-it-off-we-now-have-a-solar-charger-for-our-evs-everywhere-we-park_5.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn_q7tDM6": {
       "type": "multicolumn",
       "blocks": {
@@ -1001,6 +1048,7 @@
     "custom_liquid_eFMTKh",
     "main",
     "image_with_text_aUGJF4",
+    "image_with_text_jGn7iK",
     "multicolumn_q7tDM6",
     "video_mE3FFp",
     "gosun_video_4ETwmB",
