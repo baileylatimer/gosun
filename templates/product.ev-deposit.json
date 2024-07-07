@@ -82,6 +82,7 @@
         },
         "value_row_mcDY3E": {
           "type": "value_row",
+          "disabled": true,
           "settings": {
             "deposit": true
           }
@@ -201,6 +202,7 @@
     },
     "video_NMYxed": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -214,6 +216,26 @@
         "padding_bottom": 36
       }
     },
+    "feature_tabs_QFb7cB": {
+      "type": "feature-tabs",
+      "blocks": {
+        "media_XBdzTt": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Featured By Autoevolution",
+            "tab_description": "\"GoSun Finally Pulled It Off! We Now Have a Solar Charger for Our EVs Everywhere We Park\"",
+            "image": "shopify:\/\/shop_images\/7_302be1d9-2dd3-46bb-a174-5656d52f62b9.jpg",
+            "video_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "media_XBdzTt"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    },
     "faq_product_wzwVAy": {
       "type": "faq-product",
       "settings": {
@@ -224,7 +246,6 @@
     },
     "need_help_cV6mQY": {
       "type": "need-help",
-      "disabled": true,
       "settings": {
         "section_title": "Need help deciding?"
       }
@@ -261,6 +282,7 @@
     "title_section_wJHw3h",
     "1713136015e25a897a",
     "video_NMYxed",
+    "feature_tabs_QFb7cB",
     "faq_product_wzwVAy",
     "need_help_cV6mQY",
     "related-products",
