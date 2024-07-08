@@ -100,26 +100,6 @@
         "play_button_2": false
       }
     },
-    "feature_image_qi7PHt": {
-      "type": "feature-image",
-      "settings": {
-        "product_reference": "",
-        "invert_order": false,
-        "shrink_height": true,
-        "top_padding": true,
-        "overline": "",
-        "heading": "Solar cooler gives you more room to chill.",
-        "text": "Whether it’s camping, bbq, fishing, or just relaxing in the Sun, we love the outdoors.  Nothing kills the trip like rotten food, soggy bread, or warm beer. To keep the adventure going, the Chill minimizes space needed for ice and fuel and maximizes space for fresh food, cold drinks, and fun times. It's like having a fridge on wheels.",
-        "price": "",
-        "video_url": "",
-        "image": "shopify:\/\/shop_images\/solar_cooler_compare_695x_af12ce44-8394-479d-939b-ccc09c3b5efe.webp",
-        "img-fit": true,
-        "button_url": "",
-        "button_label": "",
-        "button_url_2": "",
-        "button_label_2": ""
-      }
-    },
     "feature_image_B7RwwW": {
       "type": "feature-image",
       "settings": {
@@ -133,6 +113,26 @@
         "price": "",
         "video_url": "",
         "image": "shopify:\/\/shop_images\/image_16_700x_b402180e-87e8-42da-8496-1ebbf8bd486d.webp",
+        "img-fit": true,
+        "button_url": "",
+        "button_label": "",
+        "button_url_2": "",
+        "button_label_2": ""
+      }
+    },
+    "feature_image_qi7PHt": {
+      "type": "feature-image",
+      "settings": {
+        "product_reference": "",
+        "invert_order": false,
+        "shrink_height": true,
+        "top_padding": true,
+        "overline": "",
+        "heading": "Solar cooler gives you more room to chill.",
+        "text": "Whether it’s camping, bbq, fishing, or just relaxing in the Sun, we love the outdoors.  Nothing kills the trip like rotten food, soggy bread, or warm beer. To keep the adventure going, the Chill minimizes space needed for ice and fuel and maximizes space for fresh food, cold drinks, and fun times. It's like having a fridge on wheels.",
+        "price": "",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/solar_cooler_compare_695x_af12ce44-8394-479d-939b-ccc09c3b5efe.webp",
         "img-fit": true,
         "button_url": "",
         "button_label": "",
@@ -233,8 +233,8 @@
     "hero_product_V8NU4k",
     "feature_tabs_YWndzJ",
     "hero_section_fBBVEg",
-    "feature_image_qi7PHt",
     "feature_image_B7RwwW",
+    "feature_image_qi7PHt",
     "feature_image_yAb8Cw",
     "hero_section_48ikpG",
     "compare_guide_mCCJtX",
