@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -17,16 +26,15 @@
     },
     "hero_product_V8NU4k": {
       "type": "hero-product",
-      "disabled": true,
       "settings": {
-        "product_reference": "chill-camping-electric-cooler",
+        "product_reference": "ev-solar-charger-deposit",
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/184dc84962b34cdc8882420c34c01e2b.mp4",
-        "background_image": "shopify:\/\/shop_images\/Rectangle_4.jpg",
-        "description": "A cooler that doesn't need ice.",
-        "feature_1_title": "Temp Control",
-        "feature_1_description": "-4°F to 68°F",
-        "feature_2_title": "Capacity",
-        "feature_2_description": "40 L"
+        "background_image": "shopify:\/\/shop_images\/EVSolarChargerMainImageSmall.jpg",
+        "description": "Drive On Sunshine",
+        "feature_1_title": "",
+        "feature_1_description": "Up to 30 miles\/day",
+        "feature_2_title": "",
+        "feature_2_description": "1,200 watts"
       }
     },
     "feature_tabs_YWndzJ": {
@@ -73,13 +81,11 @@
         "media_Hkpygk",
         "media_rdCkmY"
       ],
-      "disabled": true,
       "settings": {
       }
     },
     "hero_section_fBBVEg": {
       "type": "hero-section",
-      "disabled": true,
       "settings": {
         "shrink_height": false,
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/edc107f487b14cffacd3b99f1c53e6d1.mp4",
@@ -96,7 +102,6 @@
     },
     "feature_image_qi7PHt": {
       "type": "feature-image",
-      "disabled": true,
       "settings": {
         "product_reference": "",
         "invert_order": false,
@@ -117,7 +122,6 @@
     },
     "feature_image_B7RwwW": {
       "type": "feature-image",
-      "disabled": true,
       "settings": {
         "product_reference": "",
         "invert_order": true,
@@ -138,7 +142,6 @@
     },
     "feature_image_yAb8Cw": {
       "type": "feature-image",
-      "disabled": true,
       "settings": {
         "product_reference": "",
         "invert_order": true,
@@ -159,7 +162,6 @@
     },
     "hero_section_48ikpG": {
       "type": "hero-section",
-      "disabled": true,
       "settings": {
         "shrink_height": false,
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e9b46de931d6458e97abbbd6a6811ad7.mp4",
