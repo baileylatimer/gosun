@@ -73,6 +73,30 @@
         "padding_bottom": 0
       }
     },
+    "logo_marquee_zEHQit": {
+      "type": "logo-marquee",
+      "blocks": {
+        "logo_bPwq4R": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/channels4_profile.jpg"
+          }
+        },
+        "logo_fF3HPJ": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_22.png"
+          }
+        }
+      },
+      "block_order": [
+        "logo_bPwq4R",
+        "logo_fF3HPJ"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    },
     "image_with_text_jGn7iK": {
       "type": "image-with-text",
       "blocks": {
@@ -118,6 +142,118 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "multicolumn_VBKWNf": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_q7UDny": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bbb-business.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qzXKNr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_187.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_drwY6R": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>GoSun is a team of designers, engineers, and change-makers intent on serving the world with unparalleled clean energy solutions that offer the freedom to explore.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_dekrJa": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_188.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RqgMVG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_189.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_q7UDny",
+        "column_qzXKNr",
+        "column_drwY6R",
+        "column_dekrJa",
+        "column_RqgMVG"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
+    "video_mE3FFp": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "Fill Up Your EV With Sun Power",
+        "heading_size": "h1",
+        "enable_video_looping": true,
+        "video": "shopify:\/\/files\/videos\/ev solar charger bounce.mp4",
+        "video_url": "",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 100
+      }
+    },
+    "gosun_video_4ETwmB": {
+      "type": "gosun-video",
+      "blocks": {
+        "video_block_pK4mHM": {
+          "type": "video_block",
+          "settings": {
+            "video_file": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ceb097cf2a28487d9167ae89a4b2848a.mp4",
+            "autoplay": true,
+            "loop": true
+          }
+        }
+      },
+      "block_order": [
+        "video_block_pK4mHM"
+      ],
+      "settings": {
+        "video_title": "Fill Up Your EV With Sun Power"
       }
     },
     "multicolumn_q7tDM6": {
@@ -196,41 +332,6 @@
         "swipe_on_mobile": false,
         "padding_top": 92,
         "padding_bottom": 92
-      }
-    },
-    "video_mE3FFp": {
-      "type": "video",
-      "disabled": true,
-      "settings": {
-        "heading": "Fill Up Your EV With Sun Power",
-        "heading_size": "h1",
-        "enable_video_looping": true,
-        "video": "shopify:\/\/files\/videos\/ev solar charger bounce.mp4",
-        "video_url": "",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 100
-      }
-    },
-    "gosun_video_4ETwmB": {
-      "type": "gosun-video",
-      "blocks": {
-        "video_block_pK4mHM": {
-          "type": "video_block",
-          "settings": {
-            "video_file": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ceb097cf2a28487d9167ae89a4b2848a.mp4",
-            "autoplay": true,
-            "loop": true
-          }
-        }
-      },
-      "block_order": [
-        "video_block_pK4mHM"
-      ],
-      "settings": {
-        "video_title": "Fill Up Your EV With Sun Power"
       }
     },
     "multicolumn_6TpibX": {
@@ -805,83 +906,6 @@
         "show_text_below": false
       }
     },
-    "multicolumn_VBKWNf": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_q7UDny": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/bbb-business.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_qzXKNr": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_187.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_drwY6R": {
-          "type": "column",
-          "settings": {
-            "title": "",
-            "text": "<p>GoSun is a team of designers, engineers, and change-makers intent on serving the world with unparalleled clean energy solutions that offer the freedom to explore.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_dekrJa": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_188.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_RqgMVG": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_189.png",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_q7UDny",
-        "column_qzXKNr",
-        "column_drwY6R",
-        "column_dekrJa",
-        "column_RqgMVG"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 5,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 72,
-        "padding_bottom": 72
-      }
-    },
     "multicolumn_TmCaeK": {
       "type": "multicolumn",
       "blocks": {
@@ -1048,10 +1072,12 @@
     "custom_liquid_eFMTKh",
     "main",
     "image_with_text_aUGJF4",
+    "logo_marquee_zEHQit",
     "image_with_text_jGn7iK",
-    "multicolumn_q7tDM6",
+    "multicolumn_VBKWNf",
     "video_mE3FFp",
     "gosun_video_4ETwmB",
+    "multicolumn_q7tDM6",
     "multicolumn_6TpibX",
     "multicolumn_bkMydG",
     "lp_features_fxVAqH",
@@ -1062,7 +1088,6 @@
     "multicolumn_gT8HWa",
     "multicolumn_69y6Rm",
     "image_banner_njG33d",
-    "multicolumn_VBKWNf",
     "multicolumn_TmCaeK",
     "multicolumn_wePedV",
     "product_page_faq_PMQyFH",
