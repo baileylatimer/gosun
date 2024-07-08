@@ -280,6 +280,69 @@
         "padding_bottom": 52
       }
     },
+    "video_QqcYFe": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify:\/\/files\/videos\/ev solar charger bounce.mp4",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_4RiECM": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_JhJR88": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>\"GoSun Finally Pulled It Off! We Now Have a Solar Charger for Our EVs Everywhere We Park\"<\/strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_zjc3kY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>\"Yes, people, we finally have a device that will recharge your EV\" - autoevolution.com<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_EQCMzC": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_JhJR88",
+        "text_zjc3kY",
+        "button_EQCMzC"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/gosun-finally-pulled-it-off-we-now-have-a-solar-charger-for-our-evs-everywhere-we-park_5.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "faq_product_wzwVAy": {
       "type": "faq-product",
       "settings": {
@@ -328,6 +391,8 @@
     "video_NMYxed",
     "feature_tabs_QFb7cB",
     "rich_text_FXaRR8",
+    "video_QqcYFe",
+    "image_with_text_4RiECM",
     "faq_product_wzwVAy",
     "need_help_cV6mQY",
     "related-products",
