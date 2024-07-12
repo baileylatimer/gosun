@@ -31,6 +31,7 @@
         },
         "announcement_BL3gLg": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Independence Day Sale",
             "link": "shopify:\/\/collections\/todays-deals"
