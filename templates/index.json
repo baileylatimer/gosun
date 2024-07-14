@@ -279,6 +279,15 @@
             "description": "120W Table + Battery",
             "link": "shopify:\/\/products\/solartable-pro"
           }
+        },
+        "product_iKR7BB": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sport_46fbf846-59e8-4749-8dca-4dd59ba6d631.jpg",
+            "title": "Sport-E",
+            "description": "Product Description",
+            "link": "shopify:\/\/products\/sport-e"
+          }
         }
       },
       "block_order": [
@@ -288,7 +297,8 @@
         "product_CwrV3q",
         "product_caJxEe",
         "product_khApUD",
-        "product_cYyP7r"
+        "product_cYyP7r",
+        "product_iKR7BB"
       ],
       "settings": {
         "section_title": "Best Sellers",
