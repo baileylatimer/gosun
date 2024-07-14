@@ -170,6 +170,43 @@
         "button_label_2": ""
       }
     },
+    "feature_image_TkcHRk": {
+      "type": "feature-image",
+      "settings": {
+        "product_reference": "",
+        "invert_order": true,
+        "shrink_height": false,
+        "top_padding": false,
+        "overline": "",
+        "heading": "All aboard, Party of six",
+        "text": "Seating all over, including the upper deck, Elcat Splash carries up to six adults, over 1,300 pounds, and measures 14’8\" Long by 8' Wide and 6‘6” Tall.",
+        "price": "",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/UGC_Seattle_Donut_4_1.png",
+        "img-fit": false,
+        "button_url": "",
+        "button_label": "",
+        "button_url_2": "",
+        "button_label_2": ""
+      }
+    },
+    "hero_section_PGj3x3": {
+      "type": "hero-section",
+      "settings": {
+        "shrink_height": false,
+        "video_url": "",
+        "background_image": "shopify:\/\/shop_images\/ElCat_Collapsing.gif",
+        "overline": "",
+        "heading": "Inflate & Go",
+        "paragraph": "Four air chambers are fused together to form a lightweight, durable, and stable vessel that has the lowest draft of any boat. Seating is all around and on the upper deck.",
+        "button1_text": "",
+        "button1_url": "",
+        "play_button_1": false,
+        "button2_text": "",
+        "button2_url": "",
+        "play_button_2": false
+      }
+    },
     "custom_liquid_FL9Xtc": {
       "type": "custom-liquid",
       "settings": {
@@ -233,45 +270,6 @@
       ],
       "disabled": true,
       "settings": {
-      }
-    },
-    "feature_image_TkcHRk": {
-      "type": "feature-image",
-      "disabled": true,
-      "settings": {
-        "product_reference": "",
-        "invert_order": true,
-        "shrink_height": false,
-        "top_padding": false,
-        "overline": "",
-        "heading": "Compact, Lightweight, and Easy to Tow",
-        "text": "The all aluminum frame provides durability while weighing less than 1,800 lbs. Superb aerodynamics mean less drag and much better gas mileage.",
-        "price": "",
-        "video_url": "",
-        "image": "shopify:\/\/shop_images\/camp365_1.jpg",
-        "img-fit": false,
-        "button_url": "",
-        "button_label": "",
-        "button_url_2": "",
-        "button_label_2": ""
-      }
-    },
-    "hero_section_PGj3x3": {
-      "type": "hero-section",
-      "disabled": true,
-      "settings": {
-        "shrink_height": false,
-        "video_url": "",
-        "background_image": "shopify:\/\/shop_images\/trailer_camper_gosun_camp365_outdoor_solar_8e53f582-6384-466d-9ecf-97951ff1e467.jpg",
-        "overline": "",
-        "heading": "Camp off-grid. Anywhere. Everywhere.",
-        "paragraph": "Complete with all the appliances you need to adventure further and more often. It’s time to consider traveling lighter, easier, and with more freedom - all powered by the Sun.",
-        "button1_text": "",
-        "button1_url": "",
-        "play_button_1": false,
-        "button2_text": "",
-        "button2_url": "",
-        "play_button_2": false
       }
     },
     "feature_image_FnmW3X": {
@@ -488,11 +486,11 @@
   "order": [
     "main",
     "feature_image_4cRTCj",
+    "feature_image_TkcHRk",
+    "hero_section_PGj3x3",
     "custom_liquid_FL9Xtc",
     "bundles_ht8HAi",
     "feature_tabs_4yKUxY",
-    "feature_image_TkcHRk",
-    "hero_section_PGj3x3",
     "feature_image_FnmW3X",
     "feature_image_V6A6zC",
     "feature_image_LzDkQT",
