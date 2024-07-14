@@ -183,7 +183,7 @@
         "price": "",
         "video_url": "",
         "image": "shopify:\/\/shop_images\/Layers_Callout.jpg",
-        "img-fit": false,
+        "img-fit": true,
         "button_url": "",
         "button_label": "",
         "button_url_2": "",
