@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -16,6 +25,7 @@
     },
     "hero_product_V8NU4k": {
       "type": "hero-product",
+      "disabled": true,
       "settings": {
         "product_reference": "chill-camping-electric-cooler",
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/184dc84962b34cdc8882420c34c01e2b.mp4",
@@ -32,6 +42,7 @@
       "blocks": {
         "media_PWLTtA": {
           "type": "media",
+          "disabled": true,
           "settings": {
             "tab_title": "Temp. Control",
             "tab_description": "Touch-screen gives you control from -4°F to 68°F",
@@ -40,6 +51,7 @@
         },
         "media_q9xfqk": {
           "type": "media",
+          "disabled": true,
           "settings": {
             "tab_title": "Easy to use.",
             "tab_description": "Plug into the included PowerBank 144 or any DC outlet and you're good to go.",
@@ -49,6 +61,7 @@
         },
         "media_Hkpygk": {
           "type": "media",
+          "disabled": true,
           "settings": {
             "tab_title": "Make ice",
             "tab_description": "Instead of melting ice, you can make it, or store ice cream",
@@ -58,6 +71,7 @@
         },
         "media_rdCkmY": {
           "type": "media",
+          "disabled": true,
           "settings": {
             "tab_title": "Charge Devices",
             "tab_description": "Run off of 12 or 24 V DC, AC power, solar, or battery",
@@ -71,11 +85,13 @@
         "media_Hkpygk",
         "media_rdCkmY"
       ],
+      "disabled": true,
       "settings": {
       }
     },
     "hero_section_fBBVEg": {
       "type": "hero-section",
+      "disabled": true,
       "settings": {
         "shrink_height": false,
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/edc107f487b14cffacd3b99f1c53e6d1.mp4",
@@ -92,6 +108,7 @@
     },
     "feature_image_qi7PHt": {
       "type": "feature-image",
+      "disabled": true,
       "settings": {
         "product_reference": "",
         "invert_order": false,
@@ -133,6 +150,7 @@
     },
     "feature_image_yAb8Cw": {
       "type": "feature-image",
+      "disabled": true,
       "settings": {
         "product_reference": "",
         "invert_order": true,
