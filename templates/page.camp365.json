@@ -27,14 +27,14 @@
       "type": "hero-product",
       "disabled": true,
       "settings": {
-        "product_reference": "chill-camping-electric-cooler",
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/184dc84962b34cdc8882420c34c01e2b.mp4",
-        "background_image": "shopify:\/\/shop_images\/Rectangle_4.jpg",
-        "description": "A cooler that doesn't need ice.",
-        "feature_1_title": "Temp Control",
-        "feature_1_description": "-4°F to 68°F",
-        "feature_2_title": "Capacity",
-        "feature_2_description": "40 L"
+        "product_reference": "camp365",
+        "video_url": "",
+        "background_image": "shopify:\/\/shop_images\/camper_trailer_gosun_camp365_outdoor_space_ca2c23c2-516e-49fa-a18b-3d85f9650004.jpg",
+        "description": "",
+        "feature_1_title": "",
+        "feature_1_description": "",
+        "feature_2_title": "",
+        "feature_2_description": ""
       }
     },
     "feature_tabs_YWndzJ": {
@@ -91,15 +91,15 @@
     },
     "hero_section_fBBVEg": {
       "type": "hero-section",
-      "disabled": true,
       "settings": {
         "shrink_height": false,
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/edc107f487b14cffacd3b99f1c53e6d1.mp4",
+        "video_url": "",
+        "background_image": "shopify:\/\/shop_images\/gosun_camp365_off_grid_trailer_compact_ceaabf3f-2179-4e8b-b9ee-6a8f05bdaf2a.jpg",
         "overline": "",
-        "heading": "14+ hour runtime",
-        "paragraph": "Power 144 will keep Chill cool for 14 hours on an 80°F day",
-        "button1_text": "",
-        "button1_url": "",
+        "heading": "GoSun Camp365",
+        "paragraph": "Off-Grid Solar Trailer that is ultralight and easy to tow. The ultimate solar powered off-grid camper for adventurers seeking the roads less traveled.",
+        "button1_text": "Learn More",
+        "button1_url": "shopify:\/\/products\/camp365",
         "play_button_1": false,
         "button2_text": "",
         "button2_url": "",
@@ -216,11 +216,13 @@
         "product_column_PgLWmc",
         "product_column_tMK3Ur"
       ],
+      "disabled": true,
       "settings": {
       }
     },
     "product_page_faq_EDKyqz": {
       "type": "product-page-faq",
+      "disabled": true,
       "settings": {
         "product_reference": "chill-camping-electric-cooler",
         "invert_order": false,
@@ -230,6 +232,7 @@
     },
     "need_help_gCLBEz": {
       "type": "need-help",
+      "disabled": true,
       "settings": {
         "section_title": "Need help deciding?"
       }
