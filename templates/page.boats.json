@@ -23,7 +23,7 @@
         "shrink_height": false,
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f62af29c3916489096a81567be27664a.mp4",
         "overline": "",
-        "heading": "Electric Boats",
+        "heading": "Solar Electric Boats & Campers",
         "paragraph": "Solar Electric Boats are smooth, silent, and safe. Being inflatable, they are much easier to transport, store and maintain.",
         "button1_text": "",
         "button1_url": "",
@@ -33,7 +33,7 @@
         "play_button_2": false
       }
     },
-    "feature_image_B7RwwW": {
+    "feature_image_dxMerm": {
       "type": "feature-image",
       "settings": {
         "product_reference": "gosun-elcat-splash",
@@ -41,7 +41,7 @@
         "shrink_height": true,
         "top_padding": true,
         "overline": "Electric Boat",
-        "heading": "Elcat Splash",
+        "heading": "Splash",
         "text": "ELCAT Splash is a bigger and easier-to-steer version of the all-electric Elcat boat. Complete with a NEW design 2024 Steering Console for easy navigation, speed, and battery management. Extra headroom beneath the sundeck is increased by 16 inches compared to the Elcat.",
         "price": "15900",
         "video_url": "",
@@ -53,7 +53,7 @@
         "button_label_2": "Learn More"
       }
     },
-    "feature_image_qi7PHt": {
+    "feature_image_q8C34R": {
       "type": "feature-image",
       "settings": {
         "product_reference": "gosun-electric-boat-solar",
@@ -75,6 +75,7 @@
     },
     "feature_image_nKd8pc": {
       "type": "feature-image",
+      "disabled": true,
       "settings": {
         "product_reference": "jet-boat",
         "invert_order": false,
@@ -95,6 +96,7 @@
     },
     "feature_image_aTedmP": {
       "type": "feature-image",
+      "disabled": true,
       "settings": {
         "product_reference": "ferry-boat",
         "invert_order": true,
@@ -132,6 +134,7 @@
         },
         "product_column_tMK3Ur": {
           "type": "product_column",
+          "disabled": true,
           "settings": {
             "product_reference": "jet-boat",
             "button_url": ""
@@ -139,6 +142,7 @@
         },
         "product_column_LzQnTp": {
           "type": "product_column",
+          "disabled": true,
           "settings": {
             "product_reference": "ferry-boat",
             "button_url": ""
@@ -152,6 +156,63 @@
         "product_column_LzQnTp"
       ],
       "settings": {
+      }
+    },
+    "hero_section_Q6DTFB": {
+      "type": "hero-section",
+      "settings": {
+        "shrink_height": false,
+        "video_url": "",
+        "background_image": "shopify:\/\/shop_images\/gosun_camper_1280x_dca5d70c-5ad8-4c19-baf3-b6e9a2f60c2f.webp",
+        "overline": "",
+        "heading": "Off-Grid Campers",
+        "paragraph": "Thrive off-grid with our solar powered campers and tiny homes. Complete with all the GoSun appliances you need to adventure further, and more often.",
+        "button1_text": "",
+        "button1_url": "",
+        "play_button_1": false,
+        "button2_text": "",
+        "button2_url": "",
+        "play_button_2": false
+      }
+    },
+    "feature_image_B7RwwW": {
+      "type": "feature-image",
+      "settings": {
+        "product_reference": "camp365",
+        "invert_order": false,
+        "shrink_height": true,
+        "top_padding": true,
+        "overline": "Cabin On Wheels",
+        "heading": "Camp365",
+        "text": "",
+        "price": "",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/trailer_camper_gosun_camp365_outdoor_solar_8e53f582-6384-466d-9ecf-97951ff1e467.jpg",
+        "img-fit": false,
+        "button_url": "shopify:\/\/products\/camp365",
+        "button_label": "Learn More",
+        "button_url_2": "shopify:\/\/pages\/elcat-splash",
+        "button_label_2": ""
+      }
+    },
+    "feature_image_qi7PHt": {
+      "type": "feature-image",
+      "settings": {
+        "product_reference": "dream-tiny-house",
+        "invert_order": true,
+        "shrink_height": true,
+        "top_padding": true,
+        "overline": "Off-Grid Tiny Home",
+        "heading": "Dream",
+        "text": "",
+        "price": "",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/gosun-GoSun-Dream-Solar-Off-Grid-Tiny-House-render_2000x2000_c106a7df-46e2-4d02-aa9e-bd9f42c5d8f9.jpg",
+        "img-fit": false,
+        "button_url": "shopify:\/\/products\/dream-tiny-house",
+        "button_label": "Learn More",
+        "button_url_2": "shopify:\/\/products\/dream-tiny-house",
+        "button_label_2": ""
       }
     },
     "featured_collection_Fxzf7q": {
@@ -229,6 +290,7 @@
         "faq_item_xD63w7",
         "faq_item_cXDjT3"
       ],
+      "disabled": true,
       "settings": {
         "invert_order": true,
         "shrink_height": false,
@@ -246,11 +308,14 @@
   "order": [
     "main",
     "hero_section_acdCzL",
-    "feature_image_B7RwwW",
-    "feature_image_qi7PHt",
+    "feature_image_dxMerm",
+    "feature_image_q8C34R",
     "feature_image_nKd8pc",
     "feature_image_aTedmP",
     "compare_guide_mCCJtX",
+    "hero_section_Q6DTFB",
+    "feature_image_B7RwwW",
+    "feature_image_qi7PHt",
     "featured_collection_Fxzf7q",
     "faq_3UD6WA",
     "need_help_gCLBEz"
