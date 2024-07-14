@@ -151,7 +151,7 @@
         "product_mJMRaL": {
           "type": "product",
           "settings": {
-            "image": "shopify:\/\/shop_images\/GoSun_Mega_Menu_Breeze.jpg",
+            "image": "shopify:\/\/shop_images\/solar_fan_12V_offgrid_hero_cd1f6e70-b02a-4e55-9f05-82d92613e0ae.jpg",
             "title": "Accessories",
             "description": "Product Description",
             "link": "shopify:\/\/pages\/accessories"
@@ -168,7 +168,7 @@
         "product_mJMRaL"
       ],
       "settings": {
-        "section_title": "Shop by category",
+        "section_title": "Shop by Solution",
         "collection": true
       }
     },
