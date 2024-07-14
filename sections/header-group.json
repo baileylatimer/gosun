@@ -128,6 +128,7 @@
         },
         "images_for_dropdown_k4phtK": {
           "type": "images-for-dropdown",
+          "disabled": true,
           "settings": {
             "parent_link_handle": "Campers",
             "image_1": "shopify:\/\/shop_images\/camper_trailer_gosun_camp365_closed_1000x1000_700x-jpg-700x700_77b72e04-dd62-4039-81d0-9b5ad00d5958.png",
@@ -148,10 +149,10 @@
             "description_1": "Electric Boat • 14.8'",
             "image_2": "shopify:\/\/shop_images\/Elcat_480x_2b6223a0-ffb6-4cce-a5d2-6045cd5afb7d.webp",
             "description_2": "Electric Boat • 15'",
-            "image_3": "shopify:\/\/shop_images\/Cover_961e9841-f9bb-4339-8f14-6c2138071437.jpg",
-            "description_3": "Inflatable Jet Boat",
-            "image_4": "shopify:\/\/shop_images\/Ferryboat_480x_6ae659ec-c754-40ea-902a-d5f99db15cbc.webp",
-            "description_4": "Electric Boat • 26'",
+            "image_3": "shopify:\/\/shop_images\/camper_trailer_gosun_camp365_closed_1000x1000_700x-jpg-700x700_77b72e04-dd62-4039-81d0-9b5ad00d5958.png",
+            "description_3": "Camp365",
+            "image_4": "shopify:\/\/shop_images\/gosun-dream-solar-off-grid-tiny-house-gosun-201210.jpg",
+            "description_4": "Off-Grid Tiny House",
             "image_5": "shopify:\/\/shop_images\/Elcat-Electric-Boat.webp",
             "description_5": "Rental Fleet Owners"
           }
@@ -210,6 +211,7 @@
         },
         "image_with_text_iwT88h": {
           "type": "image-with-text",
+          "disabled": true,
           "settings": {
             "parent_menu_item": "Campers",
             "image": "shopify:\/\/shop_images\/gosun_camper_1280x_dca5d70c-5ad8-4c19-baf3-b6e9a2f60c2f.webp",
@@ -221,8 +223,8 @@
           "type": "image-with-text",
           "settings": {
             "parent_menu_item": "Boats",
-            "image": "shopify:\/\/shop_images\/IMG_3388_600x_58cd7ffb-af49-4a77-8f57-a9799585bc94.webp",
-            "text": "Electric boats that are fun, affordable, strong, solar powered and one of the world’s most energy efficient sources - the sun.",
+            "image": "shopify:\/\/shop_images\/Boat_Pic_1_1024x1024_e310326b-8875-4c23-bc36-4413410b7f61.webp",
+            "text": "Electric boats and campers are fun, affordable, durable and powered by the world’s most abundant sources - the Sun.",
             "url": "shopify:\/\/pages\/boats"
           }
         },
