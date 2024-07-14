@@ -227,6 +227,7 @@
         },
         "product_dPMcy9": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/flatware-utensils-gosun-285765.jpg",
             "title": "Flatware",
@@ -246,10 +247,10 @@
         "product_CwrV3q": {
           "type": "product",
           "settings": {
-            "image": "shopify:\/\/shop_images\/go_a8285fd8-eaa4-4ad2-8da7-9f4fe1204094.jpg",
-            "title": "Go",
-            "description": "Portable Solar Oven • 1-2 Meals",
-            "link": "shopify:\/\/pages\/go"
+            "image": "shopify:\/\/shop_images\/Chill_electriccoolerPower144_200w_1.png",
+            "title": "Chill",
+            "description": "Portable Cooler",
+            "link": "shopify:\/\/products\/chill-camping-electric-cooler"
           }
         },
         "product_caJxEe": {
@@ -264,7 +265,7 @@
         "product_khApUD": {
           "type": "product",
           "settings": {
-            "image": "shopify:\/\/shop_images\/flow-pro-filter-sink-shower-gosun-929591.jpg",
+            "image": "shopify:\/\/shop_images\/flow-pro-dealer-filter-sink-shower-gosun-268714.jpg",
             "title": "Flow Pro",
             "description": "Solar Water Purifier + Sink + Shower",
             "link": "shopify:\/\/products\/flow-pro-portable-handwashing-station"
@@ -290,7 +291,7 @@
         "product_cYyP7r"
       ],
       "settings": {
-        "section_title": "Most popular",
+        "section_title": "Best Sellers",
         "collection": false
       }
     },
