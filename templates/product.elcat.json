@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -78,6 +87,7 @@
         "description": {
           "type": "description",
           "settings": {
+            "hide_read_more": false
           }
         },
         "collapsible_tab_wcr9wy": {
@@ -138,6 +148,26 @@
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 12
+      }
+    },
+    "feature_image_4cRTCj": {
+      "type": "feature-image",
+      "settings": {
+        "product_reference": "",
+        "invert_order": false,
+        "shrink_height": true,
+        "top_padding": false,
+        "overline": "",
+        "heading": "Fun on and off the water",
+        "text": "Light enough to drag up on the beach, it's hard to believe the Elcat Splash's combination of performance, comfort, and ease. This versatile watercraft is sure to deliver a memorable ride every time.",
+        "price": "",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/elcat_a960b3f3-84fe-461a-b4c1-e9bf69eb6b7e.jpg",
+        "img-fit": false,
+        "button_url": "",
+        "button_label": "",
+        "button_url_2": "",
+        "button_label_2": ""
       }
     },
     "custom_liquid_FL9Xtc": {
@@ -202,27 +232,6 @@
       ],
       "disabled": true,
       "settings": {
-      }
-    },
-    "feature_image_4cRTCj": {
-      "type": "feature-image",
-      "disabled": true,
-      "settings": {
-        "product_reference": "",
-        "invert_order": false,
-        "shrink_height": true,
-        "top_padding": false,
-        "overline": "",
-        "heading": "Wake up with nature",
-        "text": "A one of a kind off-grid cabin on wheels, completely integrated with GoSun's breakthrough solar products. Innovative design and super efficient appliances allow you to go much further than traditional campers and RV’s.",
-        "price": "",
-        "video_url": "",
-        "image": "shopify:\/\/shop_images\/camper_trailer_gosun_camp365_inside_layout_d1bbb385-5b2f-47d9-bf58-402e13fb66fe.jpg",
-        "img-fit": false,
-        "button_url": "",
-        "button_label": "",
-        "button_url_2": "",
-        "button_label_2": ""
       }
     },
     "feature_image_TkcHRk": {
@@ -361,7 +370,7 @@
         "text_eEp8MT": {
           "type": "text",
           "settings": {
-            "text": "<h4>Interested in adding to an existing rental fleet or building your own and seeing an ROI in as little as six weeks? Find more information by clicking the link below!<\/h4>"
+            "text": "<h4>Interested in adding to your rental fleet? Easy to own, maintain, insure and store. Low cost and quick ROI.<\/h4>"
           }
         },
         "button_VQYPmr": {
@@ -378,7 +387,7 @@
         "text_9gixGm": {
           "type": "text",
           "settings": {
-            "text": "<h4>Dealers wanted for resale! Email <a href=\"mailto:boat@gosun.co\" target=\"_blank\" title=\"mailto:boat@gosun.co\">boat@gosun.co<\/a> to join the crew!<\/h4>"
+            "text": "<h4>Email: <a href=\"mailto:boat@gosun.co\" target=\"_blank\" title=\"mailto:boat@gosun.co\">boat@gosun.co<\/a> for more info<\/h4>"
           }
         }
       },
@@ -478,10 +487,10 @@
   },
   "order": [
     "main",
+    "feature_image_4cRTCj",
     "custom_liquid_FL9Xtc",
     "bundles_ht8HAi",
     "feature_tabs_4yKUxY",
-    "feature_image_4cRTCj",
     "feature_image_TkcHRk",
     "hero_section_PGj3x3",
     "feature_image_FnmW3X",
