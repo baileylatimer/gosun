@@ -274,10 +274,10 @@
         "product_cYyP7r": {
           "type": "product",
           "settings": {
-            "image": "shopify:\/\/shop_images\/power-1100-1100wh-power-bank-gosun-121088.jpg",
-            "title": "Power 1100",
-            "description": "1100Wh Power Bank",
-            "link": "shopify:\/\/products\/power-1100-solar-charger-power-bank"
+            "image": "shopify:\/\/shop_images\/ShieldMenu.png",
+            "title": "Shield",
+            "description": "60W Sun Shade",
+            "link": "shopify:\/\/products\/solar-car-shade-charger"
           }
         }
       },
