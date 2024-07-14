@@ -229,10 +229,10 @@
           "type": "product",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/flatware-utensils-gosun-285765.jpg",
-            "title": "Flatware",
-            "description": "Portable Utensil Set",
-            "link": "shopify:\/\/products\/reusable-travel-utensil-set"
+            "image": "shopify:\/\/shop_images\/power-266-portable-266wh-power-bank-gosun-370949_9196ad95-4500-420c-815c-096fe63e3fa5.jpg",
+            "title": "Power 266",
+            "description": "266wh Powerbank",
+            "link": "shopify:\/\/products\/best-portable-solar-power-bank"
           }
         },
         "product_HdR8UG": {
@@ -271,15 +271,6 @@
             "link": "shopify:\/\/products\/flow-pro-portable-handwashing-station"
           }
         },
-        "product_cYyP7r": {
-          "type": "product",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/solartable-120-charge-power-gosun-591323.jpg",
-            "title": "Solar Table",
-            "description": "120W Table + Battery",
-            "link": "shopify:\/\/products\/solartable-pro"
-          }
-        },
         "product_iKR7BB": {
           "type": "product",
           "settings": {
@@ -287,6 +278,15 @@
             "title": "Sport-E",
             "description": "Product Description",
             "link": "shopify:\/\/products\/sport-e"
+          }
+        },
+        "product_cYyP7r": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/solartable-120-charge-power-gosun-591323.jpg",
+            "title": "Solar Table",
+            "description": "120W Table + Battery",
+            "link": "shopify:\/\/products\/solartable-pro"
           }
         }
       },
@@ -297,8 +297,8 @@
         "product_CwrV3q",
         "product_caJxEe",
         "product_khApUD",
-        "product_cYyP7r",
-        "product_iKR7BB"
+        "product_iKR7BB",
+        "product_cYyP7r"
       ],
       "settings": {
         "section_title": "Best Sellers",
