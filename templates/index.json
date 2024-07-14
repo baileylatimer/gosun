@@ -225,15 +225,6 @@
             "link": "shopify:\/\/pages\/fusion-1"
           }
         },
-        "product_dPMcy9": {
-          "type": "product",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/power-266-portable-266wh-power-bank-gosun-370949_9196ad95-4500-420c-815c-096fe63e3fa5.jpg",
-            "title": "Power 266",
-            "description": "266wh Powerbank",
-            "link": "shopify:\/\/products\/best-portable-solar-power-bank"
-          }
-        },
         "product_HdR8UG": {
           "type": "product",
           "settings": {
@@ -250,6 +241,15 @@
             "title": "Chill",
             "description": "40L Portable Cooler",
             "link": "shopify:\/\/products\/chill-camping-electric-cooler"
+          }
+        },
+        "product_dPMcy9": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/power-266-portable-266wh-power-bank-gosun-370949_9196ad95-4500-420c-815c-096fe63e3fa5.jpg",
+            "title": "Power 266",
+            "description": "266wh Powerbank",
+            "link": "shopify:\/\/products\/best-portable-solar-power-bank"
           }
         },
         "product_caJxEe": {
@@ -291,9 +291,9 @@
       },
       "block_order": [
         "product_4fDDNQ",
-        "product_dPMcy9",
         "product_HdR8UG",
         "product_CwrV3q",
+        "product_dPMcy9",
         "product_caJxEe",
         "product_khApUD",
         "product_iKR7BB",
@@ -333,7 +333,7 @@
         "top_padding": false,
         "overline": "",
         "heading": "Invest in the Solar Future",
-        "text": "Join over 3,000 investors who have supported GoSun's mission to advance solar innovations for recreation and resilience and let's build a brighter tomorrow, together.",
+        "text": "Join over 3,000 investors who are a part of GoSun's mission to advance solar innovations for recreation and resilience. Invest where sustainability and profitability merge.",
         "price": "",
         "video_url": "",
         "image": "shopify:\/\/shop_images\/3_fa98bdb5-bbbc-4bd2-9f45-a982ef2a11ff.jpg",
