@@ -170,6 +170,22 @@
         "button_label_2": ""
       }
     },
+    "hero_section_PGj3x3": {
+      "type": "hero-section",
+      "settings": {
+        "shrink_height": false,
+        "video_url": "https:\/\/youtu.be\/_U_uEQN3MAU?si=2xNp2vNRb7TkGCJ1",
+        "overline": "",
+        "heading": "Smiles for Miles",
+        "paragraph": "Any excuse to be on the water isa good excuse. Watch the solar electric Elcat perform nearly as well as any boat, but with much less fuss, noise, weight, and expense.",
+        "button1_text": "",
+        "button1_url": "https:\/\/youtu.be\/_U_uEQN3MAU?si=2xNp2vNRb7TkGCJ1",
+        "play_button_1": true,
+        "button2_text": "",
+        "button2_url": "",
+        "play_button_2": false
+      }
+    },
     "feature_image_TkcHRk": {
       "type": "feature-image",
       "settings": {
@@ -188,22 +204,6 @@
         "button_label": "",
         "button_url_2": "",
         "button_label_2": ""
-      }
-    },
-    "hero_section_PGj3x3": {
-      "type": "hero-section",
-      "settings": {
-        "shrink_height": false,
-        "video_url": "https:\/\/youtu.be\/_U_uEQN3MAU?si=2xNp2vNRb7TkGCJ1",
-        "overline": "",
-        "heading": "Smiles for Miles",
-        "paragraph": "Any excuse to be on the water isa good excuse. Watch the solar electric Elcat perform nearly as well as any boat, but with much less fuss, noise, weight, and expense.",
-        "button1_text": "",
-        "button1_url": "https:\/\/youtu.be\/_U_uEQN3MAU?si=2xNp2vNRb7TkGCJ1",
-        "play_button_1": true,
-        "button2_text": "",
-        "button2_url": "",
-        "play_button_2": false
       }
     },
     "hero_section_AaxCT4": {
@@ -502,8 +502,8 @@
   "order": [
     "main",
     "feature_image_4cRTCj",
-    "feature_image_TkcHRk",
     "hero_section_PGj3x3",
+    "feature_image_TkcHRk",
     "hero_section_AaxCT4",
     "custom_liquid_FL9Xtc",
     "bundles_ht8HAi",
