@@ -5,6 +5,7 @@
 {% render 'shoplift' %}
 <!-- End of Shoplift scripts -->
 
+    
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -359,6 +360,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     {% render 'extend-configuration' %}
     <!-- Extend -- End Extend code -->
 
+    <!-- FigPii Asynchronous Tracking Code -->
+<script>!function(w,d,u){var n=d.createElement('script');n.crossOrigin='anonymous',n.async='async',n.src=u,d.head.append(n),w._fpEvent=w._fpEvent||[]}(window,document,'https://tracking-cdn.figpii.com/092b002a26a74d13e31a0ad0ffef7cef.js');</script>
+<!-- End FigPii Asynchronous Tracking Code -->
+    
 </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }} {{ template | handleize }} {% endif %}">
