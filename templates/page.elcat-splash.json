@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -100,8 +109,8 @@
       "settings": {
         "product_reference": "",
         "invert_order": false,
-        "shrink_height": false,
-        "top_padding": false,
+        "shrink_height": true,
+        "top_padding": true,
         "overline": "",
         "heading": "Party of Six, All Aboard",
         "text": "Seating all over, including the upper deck, Elcat Splash carries up to six adults, over 1,300 pounds, and measures 14’8\" Long by 8' Wide and 6‘6” Tall. Splash has Headroom of 58\" (4' 8\").",
@@ -120,8 +129,8 @@
       "settings": {
         "product_reference": "",
         "invert_order": true,
-        "shrink_height": false,
-        "top_padding": false,
+        "shrink_height": true,
+        "top_padding": true,
         "overline": "",
         "heading": "Optional Solar Panels + Controller",
         "text": "Keep your batteries charged while running an array of appliances on the water. Flexible solar panels can be dispatched where and when needed.",
@@ -140,8 +149,8 @@
       "settings": {
         "product_reference": "",
         "invert_order": false,
-        "shrink_height": false,
-        "top_padding": false,
+        "shrink_height": true,
+        "top_padding": true,
         "overline": "",
         "heading": "Charge via Grid or Solar",
         "text": "The Elcat battery monitor provides three accurate data streams to help you determine how long you can motor along. With charging available from grid or solar power you can stay out longer.",
@@ -160,6 +169,7 @@
       "settings": {
         "shrink_height": false,
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2dfc5f889c0d4ff0bba69f088deeef10.mp4",
+        "background_image": "shopify:\/\/shop_images\/Splash_POV.jpg",
         "overline": "",
         "heading": "One Year Warranty",
         "paragraph": "GoSun has you covered with award winning customer service",
@@ -176,8 +186,8 @@
       "settings": {
         "product_reference": "",
         "invert_order": true,
-        "shrink_height": false,
-        "top_padding": false,
+        "shrink_height": true,
+        "top_padding": true,
         "overline": "",
         "heading": "Inflatable & Durable",
         "text": "Four air chambers are glued together to form a lightweight, durable, and stable vessel that has the lowest draft of any boat. Seating is all around and on the upper deck.",
@@ -196,8 +206,8 @@
       "settings": {
         "product_reference": "",
         "invert_order": false,
-        "shrink_height": false,
-        "top_padding": false,
+        "shrink_height": true,
+        "top_padding": true,
         "overline": "",
         "heading": "Elcat Splash Components",
         "text": "",
@@ -216,7 +226,7 @@
       "settings": {
         "product_reference": "",
         "invert_order": true,
-        "shrink_height": false,
+        "shrink_height": true,
         "top_padding": true,
         "overline": "",
         "heading": "Rugged Durability",
