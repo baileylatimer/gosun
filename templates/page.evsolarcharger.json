@@ -28,13 +28,13 @@
       "type": "hero-product",
       "settings": {
         "product_reference": "ev-solar-charger-deposit",
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/184dc84962b34cdc8882420c34c01e2b.mp4",
-        "background_image": "shopify:\/\/shop_images\/EVSolarChargerMainImageSmall.jpg",
-        "description": "Drive On Sunshine",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ceb097cf2a28487d9167ae89a4b2848a.mp4",
+        "background_image": "shopify:\/\/shop_images\/Screenshot_2024-07-16_at_3.05.29_PM.png",
+        "description": "Drive your EV on pure Solar Power",
         "feature_1_title": "",
         "feature_1_description": "Up to 30 miles\/day",
         "feature_2_title": "",
-        "feature_2_description": "1,200 watts"
+        "feature_2_description": "Reserve yours for $100 today"
       }
     },
     "feature_tabs_YWndzJ": {
@@ -43,43 +43,45 @@
         "media_PWLTtA": {
           "type": "media",
           "settings": {
-            "tab_title": "Temp. Control",
-            "tab_description": "Touch-screen gives you control from -4°F to 68°F",
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/1cd1627d79cc4b51863f69b10d388d41.mp4"
-          }
-        },
-        "media_q9xfqk": {
-          "type": "media",
-          "settings": {
-            "tab_title": "Easy to use.",
-            "tab_description": "Plug into the included PowerBank 144 or any DC outlet and you're good to go.",
-            "image": "shopify:\/\/shop_images\/ezgif-2-326c59b5b0_600x_6ac9669e-c6d8-42dd-8ceb-969d88de51d2.webp",
-            "video_url": ""
-          }
-        },
-        "media_Hkpygk": {
-          "type": "media",
-          "settings": {
-            "tab_title": "Make ice",
-            "tab_description": "Instead of melting ice, you can make it, or store ice cream",
-            "image": "shopify:\/\/shop_images\/GoSun_Chill_how_to_page_cover_image.jpg",
-            "video_url": ""
+            "tab_title": "$2,000,000+ pre-sold in the first 45 days.",
+            "tab_description": "",
+            "image": "shopify:\/\/shop_images\/gosun-finally-pulled-it-off-we-now-have-a-solar-charger-for-our-evs-everywhere-we-park_3.jpg",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ceb097cf2a28487d9167ae89a4b2848a.mp4"
           }
         },
         "media_rdCkmY": {
           "type": "media",
           "settings": {
-            "tab_title": "Charge Devices",
-            "tab_description": "Run off of 12 or 24 V DC, AC power, solar, or battery",
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/8e8407b9d8ff4446af05c9ab936148bd.mp4"
+            "tab_title": "Fits on almost any EV, all that's needed is a rack.",
+            "tab_description": "",
+            "image": "shopify:\/\/shop_images\/render_6_2.png",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ceb097cf2a28487d9167ae89a4b2848a.mp4"
+          }
+        },
+        "media_q9xfqk": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Limited units remaining with early bird pricing.",
+            "tab_description": "",
+            "image": "shopify:\/\/shop_images\/5_9b2b3df1-386e-45f2-83c4-64300873a047.jpg",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ceb097cf2a28487d9167ae89a4b2848a.mp4"
+          }
+        },
+        "media_Hkpygk": {
+          "type": "media",
+          "settings": {
+            "tab_title": "Delivery in 2025. Fully refundable deposit.",
+            "tab_description": "",
+            "image": "shopify:\/\/shop_images\/rener_4_1_1.png",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ceb097cf2a28487d9167ae89a4b2848a.mp4"
           }
         }
       },
       "block_order": [
         "media_PWLTtA",
+        "media_rdCkmY",
         "media_q9xfqk",
-        "media_Hkpygk",
-        "media_rdCkmY"
+        "media_Hkpygk"
       ],
       "settings": {
       }
@@ -88,11 +90,12 @@
       "type": "hero-section",
       "settings": {
         "shrink_height": false,
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/edc107f487b14cffacd3b99f1c53e6d1.mp4",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ceb097cf2a28487d9167ae89a4b2848a.mp4",
+        "background_image": "shopify:\/\/shop_images\/output-onlinegiftools.gif",
         "overline": "",
-        "heading": "14+ hour runtime",
-        "paragraph": "Power 144 will keep Chill cool for 14 hours on an 80°F day",
-        "button1_text": "",
+        "heading": "Fill Up Your EV With Sun Power",
+        "paragraph": "Make up to 30 miles\/day via solar self-charging",
+        "button1_text": "Place A Deposit",
         "button1_url": "",
         "play_button_1": false,
         "button2_text": "",
@@ -108,8 +111,8 @@
         "shrink_height": false,
         "top_padding": true,
         "overline": "",
-        "heading": "How it works",
-        "text": "The Chillest can run off of it's built in 87Wh battery, external Power Banks like GoSun's Power 144 or 266, DC car outlet, wall adapter, or additional power from GoSun's Solar Panels like the 30 W Solar Panel, 60 W Solar Table, etc.",
+        "heading": "Drive On Sunshine",
+        "text": "You already drive the most carbon-neutral form of transportation. Combine that with net-positive power coming from the Sun.",
         "price": "",
         "video_url": "",
         "image": "shopify:\/\/shop_images\/image_16_700x_b402180e-87e8-42da-8496-1ebbf8bd486d.webp",
@@ -120,7 +123,7 @@
         "button_label_2": ""
       }
     },
-    "feature_image_qi7PHt": {
+    "feature_image_BMX4mb": {
       "type": "feature-image",
       "settings": {
         "product_reference": "",
@@ -128,8 +131,8 @@
         "shrink_height": true,
         "top_padding": true,
         "overline": "",
-        "heading": "Solar cooler gives you more room to chill.",
-        "text": "Whether it’s camping, bbq, fishing, or just relaxing in the Sun, we love the outdoors.  Nothing kills the trip like rotten food, soggy bread, or warm beer. To keep the adventure going, the Chill minimizes space needed for ice and fuel and maximizes space for fresh food, cold drinks, and fun times. It's like having a fridge on wheels.",
+        "heading": "Forget Public Chargers",
+        "text": "No more waiting, or hunting around town to charge. Go off-grid without worrying about power.",
         "price": "",
         "video_url": "",
         "image": "shopify:\/\/shop_images\/solar_cooler_compare_695x_af12ce44-8394-479d-939b-ccc09c3b5efe.webp",
@@ -148,11 +151,31 @@
         "shrink_height": false,
         "top_padding": false,
         "overline": "",
-        "heading": "Multi-modal power, means you've got options.",
-        "text": "GoSun Chill can be powered by multiple power sources, including: Powerbank, AC Adapter, 12 Volt Cord (car port charger), Solar Table, or Flexible Solar Panels. This way, you can access the most convenient power sources when you need it. To charge the Powerbank, plug in the included AC Adapter into any wall socket (100-250VAC) or use one of our two solar charging options - the Solar Table or Flexible Solar Panel.",
+        "heading": "Keep Your Vehicle Cool",
+        "text": "Catch the solar power you want, block the heat you don't want.",
         "price": "",
         "video_url": "",
         "image": "shopify:\/\/shop_images\/download-_2_700x_79fd0e44-8a37-4cb9-bde5-e61eac24993b.webp",
+        "img-fit": true,
+        "button_url": "",
+        "button_label": "",
+        "button_url_2": "",
+        "button_label_2": ""
+      }
+    },
+    "feature_image_qi7PHt": {
+      "type": "feature-image",
+      "settings": {
+        "product_reference": "",
+        "invert_order": false,
+        "shrink_height": true,
+        "top_padding": true,
+        "overline": "",
+        "heading": "Latest in Solar Tech",
+        "text": "New, flexible, monocrystaline solar cells enable the highest power to weight ratio ever.",
+        "price": "",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/solar_cooler_compare_695x_af12ce44-8394-479d-939b-ccc09c3b5efe.webp",
         "img-fit": true,
         "button_url": "",
         "button_label": "",
@@ -165,10 +188,108 @@
       "settings": {
         "shrink_height": false,
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e9b46de931d6458e97abbbd6a6811ad7.mp4",
+        "background_image": "shopify:\/\/shop_images\/309468570_6299871260039833_7074377368308733982_n.jpg",
         "overline": "",
-        "heading": "Built for the future",
-        "paragraph": "The Fusion's patented solar evacuated tube creates the most efficient insulation in modern cooking technology. Two parabolic reflectors concentrate the sunlight into the cooking chamber - trapping the energy inside for cooking.",
-        "button1_text": "",
+        "heading": "Look Who's Talking",
+        "paragraph": "\"GoSun Finally Pulled It Off! We Now Have a Solar Charger for Our EVs Everywhere We Park\" - autoevolution.com",
+        "button1_text": "Read Review",
+        "button1_url": "",
+        "play_button_1": false,
+        "button2_text": "",
+        "button2_url": "",
+        "play_button_2": false
+      }
+    },
+    "feature_image_qVrzq3": {
+      "type": "feature-image",
+      "settings": {
+        "product_reference": "",
+        "invert_order": true,
+        "shrink_height": false,
+        "top_padding": false,
+        "overline": "",
+        "heading": "Keep Thieves Away",
+        "text": "The entire system is protected from potential snatchers when you’re away from your EV.",
+        "price": "",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/download-_2_700x_79fd0e44-8a37-4cb9-bde5-e61eac24993b.webp",
+        "img-fit": true,
+        "button_url": "",
+        "button_label": "",
+        "button_url_2": "",
+        "button_label_2": ""
+      }
+    },
+    "feature_image_VmWh9w": {
+      "type": "feature-image",
+      "settings": {
+        "product_reference": "",
+        "invert_order": false,
+        "shrink_height": true,
+        "top_padding": true,
+        "overline": "",
+        "heading": "Rugged Build Quality",
+        "text": "Designed for durability, withstands all speeds up to 100 MPH and winds up to 30 MPH when extended.",
+        "price": "",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/solar_cooler_compare_695x_af12ce44-8394-479d-939b-ccc09c3b5efe.webp",
+        "img-fit": true,
+        "button_url": "",
+        "button_label": "",
+        "button_url_2": "",
+        "button_label_2": ""
+      }
+    },
+    "feature_image_kmEbpF": {
+      "type": "feature-image",
+      "settings": {
+        "product_reference": "",
+        "invert_order": true,
+        "shrink_height": false,
+        "top_padding": false,
+        "overline": "",
+        "heading": "Power Accessories",
+        "text": "Use AC, DC, & USB Outputs to power up devices in case of emergencies and when you’re out and about—on a job site or festival.",
+        "price": "",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/download-_2_700x_79fd0e44-8a37-4cb9-bde5-e61eac24993b.webp",
+        "img-fit": true,
+        "button_url": "",
+        "button_label": "",
+        "button_url_2": "",
+        "button_label_2": ""
+      }
+    },
+    "feature_image_EVA8Bn": {
+      "type": "feature-image",
+      "settings": {
+        "product_reference": "",
+        "invert_order": false,
+        "shrink_height": true,
+        "top_padding": true,
+        "overline": "",
+        "heading": "30% Federal Tax Credit",
+        "text": "Potentially eligible for a 30% credit from the IRS, plus local rebates and incentives (please consult your tax advisor).",
+        "price": "",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/solar_cooler_compare_695x_af12ce44-8394-479d-939b-ccc09c3b5efe.webp",
+        "img-fit": true,
+        "button_url": "",
+        "button_label": "",
+        "button_url_2": "",
+        "button_label_2": ""
+      }
+    },
+    "hero_section_A4iE4X": {
+      "type": "hero-section",
+      "settings": {
+        "shrink_height": false,
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e9b46de931d6458e97abbbd6a6811ad7.mp4",
+        "background_image": "shopify:\/\/shop_images\/OFGN_rounded.png",
+        "overline": "",
+        "heading": "Forget The Grid, Self-Charge On Sunshine",
+        "paragraph": "",
+        "button1_text": "Place A Deposit",
         "button1_url": "",
         "play_button_1": false,
         "button2_text": "",
@@ -221,7 +342,6 @@
     },
     "need_help_gCLBEz": {
       "type": "need-help",
-      "disabled": true,
       "settings": {
         "section_title": "Need help deciding?"
       }
@@ -234,9 +354,15 @@
     "feature_tabs_YWndzJ",
     "hero_section_fBBVEg",
     "feature_image_B7RwwW",
-    "feature_image_qi7PHt",
+    "feature_image_BMX4mb",
     "feature_image_yAb8Cw",
+    "feature_image_qi7PHt",
     "hero_section_48ikpG",
+    "feature_image_qVrzq3",
+    "feature_image_VmWh9w",
+    "feature_image_kmEbpF",
+    "feature_image_EVA8Bn",
+    "hero_section_A4iE4X",
     "compare_guide_mCCJtX",
     "product_page_faq_EDKyqz",
     "need_help_gCLBEz"
