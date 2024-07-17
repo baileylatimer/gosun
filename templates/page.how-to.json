@@ -21,12 +21,13 @@
       "type": "hero-section",
       "settings": {
         "shrink_height": false,
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f62af29c3916489096a81567be27664a.mp4",
+        "video_url": "",
+        "background_image": "shopify:\/\/shop_images\/fusion-flow-solar-shower-bundles-gosun-305542.jpg",
         "overline": "",
-        "heading": "Solar Electric Boats & Campers",
-        "paragraph": "Solar Electric Boats are smooth, silent, and safe. Being inflatable, they are much easier to transport, store and maintain.",
-        "button1_text": "",
-        "button1_url": "",
+        "heading": "How To Flow",
+        "paragraph": "Congrats on your purchase of the Flow and welcome to the GoSun ecosystem. Below, you'll find a quickstart video for setting up the Flow with some tips and tricks to get started.",
+        "button1_text": "Download Manual",
+        "button1_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0789\/1333\/files\/GoSun_Flow_User_Manual.pdf?v=1679588119",
         "play_button_1": false,
         "button2_text": "",
         "button2_url": "",
@@ -35,6 +36,7 @@
     },
     "feature_image_dxMerm": {
       "type": "feature-image",
+      "disabled": true,
       "settings": {
         "product_reference": "gosun-elcat-splash",
         "invert_order": false,
@@ -55,6 +57,7 @@
     },
     "feature_image_q8C34R": {
       "type": "feature-image",
+      "disabled": true,
       "settings": {
         "product_reference": "gosun-electric-boat-solar",
         "invert_order": true,
@@ -155,6 +158,7 @@
         "product_column_tMK3Ur",
         "product_column_LzQnTp"
       ],
+      "disabled": true,
       "settings": {
       }
     },
@@ -163,13 +167,13 @@
       "settings": {
         "shrink_height": false,
         "video_url": "",
-        "background_image": "shopify:\/\/shop_images\/gosun_camper_1280x_dca5d70c-5ad8-4c19-baf3-b6e9a2f60c2f.webp",
+        "background_image": "shopify:\/\/shop_images\/flow-pro-filter-sink-shower-gosun-505769_0ebd1f80-d7c5-48d1-8d42-efddc70d97c1.jpg",
         "overline": "",
-        "heading": "Off-Grid Campers",
-        "paragraph": "Thrive off-grid with our solar powered campers and tiny homes. Complete with all the GoSun appliances you need to adventure further, and more often.",
-        "button1_text": "",
-        "button1_url": "",
-        "play_button_1": false,
+        "heading": "Watch How To Flow Video",
+        "paragraph": "Pumps one liter of clean water per minute, and can function as a portable handwashing station, hot shower, source of clean drinking water, and much more. Watch the video how to use a  Solar Water Purifier and Sanitation System",
+        "button1_text": "Watch Video",
+        "button1_url": "https:\/\/www.youtube.com\/watch?v=p-a2wQwkDBk&t=98s&pp=ygURZ29zdW4gZmxvdyBob3cgdG8%3D",
+        "play_button_1": true,
         "button2_text": "",
         "button2_url": "",
         "play_button_2": false
@@ -177,6 +181,7 @@
     },
     "feature_image_B7RwwW": {
       "type": "feature-image",
+      "disabled": true,
       "settings": {
         "product_reference": "camp365",
         "invert_order": false,
@@ -197,6 +202,7 @@
     },
     "feature_image_qi7PHt": {
       "type": "feature-image",
+      "disabled": true,
       "settings": {
         "product_reference": "dream-tiny-house",
         "invert_order": true,
@@ -249,6 +255,7 @@
       "blocks": {
         "faq_item_DmHqXq": {
           "type": "faq_item",
+          "disabled": true,
           "settings": {
             "question": "What sets the Elcat Electric Boat apart from other boats on the market?",
             "answer": "The Elcat Electric Boat stands out for its combination of fun, affordability, strength, and eco-friendliness. It's one of the world's most energy-efficient boats, powered by solar energy and featuring lightweight yet durable DWF dropstitch construction for efficient gliding on the water."
@@ -256,6 +263,7 @@
         },
         "faq_item_mycfMj": {
           "type": "faq_item",
+          "disabled": true,
           "settings": {
             "question": "What are the key features of the ELCAT Splash compared to the standard Elcat boat?",
             "answer": "The ELCAT Splash offers a larger and easier-to-steer design compared to the standard Elcat boat. With a new 2024 Steering Console for easy navigation, speed control, and battery management, along with increased headroom beneath the sundeck, it provides an enhanced boating experience."
@@ -263,6 +271,7 @@
         },
         "faq_item_MPdccz": {
           "type": "faq_item",
+          "disabled": true,
           "settings": {
             "question": "What makes the Jet Boat a unique watercraft accessory?",
             "answer": "The Jet Boat is an innovative inflatable boat designed to attach seamlessly to the front of a jetski, transforming the riding experience for up to six passengers. With easy attachment and exhilarating performance, it offers a new level of fun and excitement on the water."
@@ -270,6 +279,7 @@
         },
         "faq_item_xD63w7": {
           "type": "faq_item",
+          "disabled": true,
           "settings": {
             "question": "What are the capabilities of the Ferry Boat, particularly in terms of transportation and speed?",
             "answer": "The Ferry Boat is a robust inflatable vessel capable of carrying vehicles, heavy equipment, or passengers weighing up to 10,000 pounds. Measuring 26 feet long and weighing 450 lbs, it's designed for low to mid-speed transportation, reaching speeds of up to 20 knots (23 mph)."
@@ -277,6 +287,7 @@
         },
         "faq_item_cXDjT3": {
           "type": "faq_item",
+          "disabled": true,
           "settings": {
             "question": "Is the Jet Boat compatible with all jetski models, and how easy is it to attach?",
             "answer": "The Jet Boat is designed to attach to the front of most jetski models, providing an easy and seamless transformation into a multi-passenger watercraft. Its user-friendly attachment mechanism ensures quick setup and hassle-free operation for riders of all skill levels."
@@ -295,13 +306,13 @@
         "invert_order": true,
         "shrink_height": false,
         "top_padding": false,
-        "image": "shopify:\/\/shop_images\/image_7.jpg"
+        "image": "shopify:\/\/shop_images\/flowDrink_Source.jpg"
       }
     },
     "need_help_gCLBEz": {
       "type": "need-help",
       "settings": {
-        "section_title": "Need help deciding?"
+        "section_title": "Still Need Help?"
       }
     }
   },
