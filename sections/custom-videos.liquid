@@ -85,15 +85,17 @@
     <p>{{ section.settings.section_description }}</p>
   </div>
   <div class="custom-videos__container {% if section.settings.center_text %}text-center{% endif %}">
-    {% for block in section.blocks %}
-      <div class="custom-videos__item">
-        <div class="video-wrapper">
-          <iframe src="{{ block.settings.video_url }}" frameborder="0" allowfullscreen></iframe>
+    <div class="custom-videos__grid">
+      {% for block in section.blocks %}
+        <div class="custom-videos__item">
+          <div class="video-wrapper">
+            <iframe src="{{ block.settings.video_url }}" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <p class="h4 mt-4">{{ block.settings.video_title }}</p>
+          <p>{{ block.settings.video_description }}</p>
         </div>
-        <p class="h4 mt-4">{{ block.settings.video_title }}</p>
-        <p>{{ block.settings.video_description }}</p>
-      </div>
-    {% endfor %}
+      {% endfor %}
+    </div>
   </div>
 </div>
 
@@ -111,15 +113,20 @@
 }
 
 .custom-videos__container {
+  text-align: center;
+}
+
+.custom-videos__grid {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .custom-videos__item {
-  flex: 1 1 100%; /* Each item takes full width */
+  flex: 0 0 calc(100% / 2 - 20px); /* Two items per row with spacing */
+  max-width: calc(50% - 20px);
   box-sizing: border-box;
-  padding: 10px;
+  margin: 10px;
   text-align: center; /* Center align video item content */
 }
 
@@ -127,16 +134,9 @@
   text-align: center;
 }
 
-.custom-videos.layout-full_width .custom-videos__container {
-  margin-left: 0;
-  margin-right: 0;
-}
-
-@media (min-width: 768px) {
-  .custom-videos.layout-boxed .custom-videos__container {
-    margin-left: 9rem;
-    margin-right: 9rem;
-  }
+.custom-videos.layout-full_width .custom-videos__grid {
+  margin-left: -10px;
+  margin-right: -10px;
 }
 
 .custom-videos__item .video-wrapper {
@@ -156,5 +156,12 @@
 .custom-videos__item p {
   margin-top: 5px;
   margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .custom-videos__item {
+    flex: 0 0 calc(100% - 20px); /* One item per row on smaller screens */
+    max-width: calc(100% - 20px);
+  }
 }
 </style>
