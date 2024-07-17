@@ -200,6 +200,15 @@
         "button_label_2": ""
       }
     },
+    "product_page_faq_j4YA8n": {
+      "type": "product-page-faq",
+      "settings": {
+        "product_reference": "flow-solar-water-purifier-camping",
+        "invert_order": false,
+        "shrink_height": false,
+        "top_padding": false
+      }
+    },
     "feature_image_qi7PHt": {
       "type": "feature-image",
       "disabled": true,
@@ -326,6 +335,7 @@
     "compare_guide_mCCJtX",
     "hero_section_Q6DTFB",
     "feature_image_B7RwwW",
+    "product_page_faq_j4YA8n",
     "feature_image_qi7PHt",
     "featured_collection_Fxzf7q",
     "faq_3UD6WA",
