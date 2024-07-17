@@ -391,7 +391,7 @@
       "settings": {
         "section_title": "Custom Logos Section",
         "section_description": "This is a section description text",
-        "layout_type": "full_width",
+        "layout_type": "boxed",
         "center_text": true,
         "padding_top_bottom": 9,
         "background_color": "#e5dcdc"
