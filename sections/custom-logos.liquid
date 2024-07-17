@@ -115,10 +115,11 @@
 }
 
 .custom-logos__item {
-  flex: 1 1 calc(100% / {{ section.blocks | size }});
+  flex: 1 1 100%; /* One logo per row on mobile */
   box-sizing: border-box;
   padding: 10px;
   text-align: center; /* Center align logo item content */
+  margin-bottom: 20px; /* Adjust margin between each logo */
 }
 
 .custom-logos .text-center {
@@ -126,18 +127,13 @@
 }
 
 .custom-logos.layout-full_width .custom-logos__container {
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: -20px;
+  margin-right: -20px;
 }
-.custom-logos p.h4.mt-4 {
-    margin-top: 20px;
-}  
 
-@media (min-width: 768px) {
-  .custom-logos.layout-boxed .custom-logos__container {
-    margin-left: 9rem;
-    margin-right: 9rem;
-  }
+.custom-logos.layout-boxed {
+  padding-left: 9rem;
+  padding-right: 9rem;
 }
 
 .custom-logos__item img {
@@ -148,5 +144,15 @@
 .custom-logos__item p {
   margin-top: 5px;
   margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .custom-logos__item {
+    flex: 1 1 calc(100% / {{ section.blocks | size }}); /* Calculate based on number of logos per row */
+  }
+  .custom-logos.layout-boxed .custom-logos__container {
+    margin-left: 9rem;
+    margin-right: 9rem;
+  }
 }
 </style>
