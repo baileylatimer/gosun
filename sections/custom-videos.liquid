@@ -44,7 +44,8 @@
       "type": "text",
       "id": "custom_max_width",
       "label": "Custom Max Width (px)",
-      "default": "1200"
+      "default": "1200",
+      "info": "Enter the custom max width in pixels."
     },
     {
       "type": "color",
@@ -91,6 +92,12 @@
 <div class="custom-videos {% if section.settings.layout_type == 'full_width' %}layout-full_width{% elsif section.settings.layout_type == 'boxed' %}layout-boxed{% else %}layout-custom{% endif %}"
   style="padding-top: {{ section.settings.padding_top_bottom }}rem; padding-bottom: {{ section.settings.padding_top_bottom }}rem; {% if section.settings.layout_type == 'custom' and section.settings.custom_max_width != blank %}max-width: {{ section.settings.custom_max_width }}px; margin: 0 auto;{% endif %}; background-color: {{ section.settings.background_color }};">
   <div class="custom-videos__container {% if section.settings.center_text %}text-center{% endif %}">
+    {% if section.settings.layout_type == 'custom' %}
+      <div class="custom-max-width">
+        <label for="custom_max_width">Custom Max Width (px)</label>
+        <input type="text" id="custom_max_width" name="custom_max_width" value="{{ section.settings.custom_max_width }}">
+      </div>
+    {% endif %}
     <div class="custom-videos__header {% if section.settings.center_text %}text-center{% endif %}">
       <h2 id="section_title" class="text-center mt-6 mb-24">{{ section.settings.section_title }}</h2>
       <p>{{ section.settings.section_description }}</p>
@@ -185,5 +192,28 @@
     padding-left: 20px;
     padding-right: 20px;
   }
+}
+
+.custom-max-width {
+  display: none; /* Hide by default */
+  margin-top: 10px;
+}
+
+.custom-videos.layout-custom .custom-max-width {
+  display: block; /* Show only when layout_type is custom */
+}
+
+.custom-max-width label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.custom-max-width input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
 }
 </style>
