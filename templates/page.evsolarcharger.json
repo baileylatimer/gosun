@@ -345,6 +345,42 @@
       "settings": {
         "section_title": "Need help deciding?"
       }
+    },
+    "custom_logos_dDFXG9": {
+      "type": "custom-logos",
+      "blocks": {
+        "logo_pWFUwe": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/microsoft44289.logowik.com.webp",
+            "title": "Microsoft",
+            "text": "This is some text description about Microsoft"
+          }
+        },
+        "logo_mYQhXG": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/facebook-old-wordmark4881.logowik.com.webp",
+            "title": "Facebook",
+            "text": "This is some text description about Microsoft"
+          }
+        },
+        "logo_wtLqmt": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/yahoo5699.logowik.com.webp",
+            "title": "Yahoo!",
+            "text": "This is some text description about Yahoo!"
+          }
+        }
+      },
+      "block_order": [
+        "logo_pWFUwe",
+        "logo_mYQhXG",
+        "logo_wtLqmt"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -365,6 +401,7 @@
     "hero_section_A4iE4X",
     "compare_guide_mCCJtX",
     "product_page_faq_EDKyqz",
-    "need_help_gCLBEz"
+    "need_help_gCLBEz",
+    "custom_logos_dDFXG9"
   ]
 }
