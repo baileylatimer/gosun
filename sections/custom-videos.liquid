@@ -117,7 +117,7 @@
 }
 
 .custom-videos__item {
-  flex: 1 1 calc(100% / {{ section.blocks | size }});
+  flex: 1 1 100%; /* Each item takes full width */
   box-sizing: border-box;
   padding: 10px;
   text-align: center; /* Center align video item content */
@@ -143,8 +143,6 @@
   position: relative;
   padding-bottom: 56.25%; /* 16:9 aspect ratio (height:width) */
   overflow: hidden;
-  max-width: 100%;
-  margin: 0 auto;
 }
 
 .custom-videos__item .video-wrapper iframe {
