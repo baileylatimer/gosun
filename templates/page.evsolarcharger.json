@@ -389,7 +389,10 @@
         "logo_item_bR4zYt"
       ],
       "settings": {
-        "layout_type": "boxed"
+        "section_title": "Custom Logos Section",
+        "section_description": "This is a section description text",
+        "layout_type": "boxed",
+        "center_text": true
       }
     },
     "custom_videos_EPQgxd": {
