@@ -71,12 +71,14 @@
   flex: 1 1 calc(100% / {{ section.blocks | size }});
   box-sizing: border-box;
   padding: 10px;
+  text-align: left; /* Adjust text alignment */
 }
 .video-wrapper {
   position: relative;
   width: 100%;
   padding-bottom: 56.25%; /* 16:9 aspect ratio */
   overflow: hidden;
+  margin-bottom: 10px; /* Adjust margin between each video item */
 }
 .video-wrapper video {
   display: block;
@@ -87,12 +89,15 @@
 .custom-videos__item h2 {
   font-size: 16px;
   margin-top: 10px;
+  margin-bottom: 5px; /* Adjust margin between title and video */
 }
 .custom-videos__item p {
   font-size: 14px;
-  margin-top: 5px;
+  margin-top: 0; /* Remove default top margin */
+  margin-bottom: 10px; /* Adjust margin between text and video */
 }
 </style>
+
 
 
 
