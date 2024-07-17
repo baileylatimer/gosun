@@ -4765,3 +4765,8 @@ section#shopify-section-template--15346285117534__multicolumn_VBKWNf .page-width
   }
 }
 /* end of Power LP template */
+
+/* evosolarcharger page template */
+.page-evsolarcharger .product-hero {
+    min-height: 720px;
+}
