@@ -3,6 +3,18 @@
   "name": "Custom Logos",
   "settings": [
     {
+      "type": "text",
+      "id": "section_title",
+      "label": "Section Title",
+      "default": "Custom Logos Section"
+    },
+    {
+      "type": "textarea",
+      "id": "section_description",
+      "label": "Section Description",
+      "default": "Add a brief description about your custom logos."
+    },
+    {
       "type": "radio",
       "id": "layout_type",
       "label": "Layout Type",
@@ -11,6 +23,12 @@
         { "value": "boxed", "label": "Boxed" }
       ],
       "default": "full_width"
+    },
+    {
+      "type": "checkbox",
+      "id": "center_text",
+      "label": "Center Text",
+      "default": false
     }
   ],
   "blocks": [
@@ -45,12 +63,11 @@
 }
 {% endschema %}
 
-{% assign layout_class = 'layout-full_width' %}
-{% if section.settings.layout_type == 'boxed' %}
-  {% assign layout_class = 'layout-boxed' %}
-{% endif %}
-
-<div class="custom-logos {{ layout_class }}">
+<div class="custom-logos {% if section.settings.layout_type == 'boxed' %}layout-boxed{% else %}layout-full_width{% endif %}">
+  <div class="custom-logos__header {% if section.settings.center_text %}text-center{% endif %}">
+    <h2>{{ section.settings.section_title }}</h2>
+    <p>{{ section.settings.section_description }}</p>
+  </div>
   <div class="custom-logos__container">
     {% for block in section.blocks %}
       <div class="custom-logos__item">
@@ -64,8 +81,19 @@
 
 <style>
 .custom-logos {
-  text-align: center;
   padding: 20px;
+}
+
+.custom-logos__header {
+  margin-bottom: 20px;
+}
+
+.custom-logos__header h2 {
+  font-size: 24px;
+}
+
+.custom-logos__header p {
+  font-size: 16px;
 }
 
 .custom-logos__container {
@@ -78,15 +106,18 @@
   flex: 1 1 calc(100% / {{ section.blocks | size }});
   box-sizing: border-box;
   padding: 10px;
+  text-align: left; /* Default text alignment */
 }
 
-/* Full Width Layout */
+.custom-logos .text-center {
+  text-align: center;
+}
+
 .custom-logos.layout-full_width .custom-logos__container {
   margin-left: 0;
   margin-right: 0;
 }
 
-/* Boxed Layout - Desktop Only */
 @media (min-width: 768px) {
   .custom-logos.layout-boxed .custom-logos__container {
     margin-left: 9rem;
