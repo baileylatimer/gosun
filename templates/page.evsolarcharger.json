@@ -400,37 +400,24 @@
     "custom_videos_EPQgxd": {
       "type": "custom-videos",
       "blocks": {
-        "video_rxWyKD": {
-          "type": "video",
+        "video_item_J4tqHj": {
+          "type": "video_item",
           "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2e9b48923ec041db8bb9b253b4262ffb.mp4",
-            "title": "This is a video",
-            "text": "This is some text description of the video"
-          }
-        },
-        "video_aTr9pj": {
-          "type": "video",
-          "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2e9b48923ec041db8bb9b253b4262ffb.mp4",
-            "title": "This is a video",
-            "text": "This is some text description of the video"
-          }
-        },
-        "video_D38qcg": {
-          "type": "video",
-          "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2e9b48923ec041db8bb9b253b4262ffb.mp4",
-            "title": "This is a video",
-            "text": "This is some text description of the video"
+            "video_title": "",
+            "video_url": ""
           }
         }
       },
       "block_order": [
-        "video_rxWyKD",
-        "video_aTr9pj",
-        "video_D38qcg"
+        "video_item_J4tqHj"
       ],
       "settings": {
+        "section_title": "Custom Videos Section",
+        "section_description": "Add a brief description about your custom videos.",
+        "layout_type": "full_width",
+        "center_text": true,
+        "padding_top_bottom": 9,
+        "background_color": "#e2e2e2"
       }
     }
   },
