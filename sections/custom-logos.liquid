@@ -16,7 +16,24 @@
   "blocks": [
     {
       "type": "logo_item",
-      "name": "Logo Item"
+      "name": "Logo Item",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "logo_image",
+          "label": "Logo Image"
+        },
+        {
+          "type": "text",
+          "id": "logo_title",
+          "label": "Title"
+        },
+        {
+          "type": "textarea",
+          "id": "logo_description",
+          "label": "Description"
+        }
+      ]
     }
   ],
   "presets": [
@@ -37,7 +54,7 @@
   <div class="custom-logos__container">
     {% for block in section.blocks %}
       <div class="custom-logos__item">
-        <img src="{{ block.settings.logo_image | img_url: 'master' }}" alt="{{ block.settings.logo_alt_text }}">
+        <img src="{{ block.settings.logo_image | img_url: 'master' }}" alt="{{ block.settings.logo_title }}">
         <h3>{{ block.settings.logo_title }}</h3>
         <p>{{ block.settings.logo_description }}</p>
       </div>
