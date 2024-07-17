@@ -349,46 +349,47 @@
     "custom_logos_dDFXG9": {
       "type": "custom-logos",
       "blocks": {
-        "logo_pWFUwe": {
-          "type": "logo",
+        "logo_item_RnAQjz": {
+          "type": "logo_item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/microsoft44289.logowik.com.webp",
-            "title": "Microsoft",
-            "text": "This is some text description about Microsoft"
+            "logo_image": "shopify:\/\/shop_images\/microsoft44289.logowik.com.webp",
+            "logo_title": "Logo 1",
+            "logo_description": "Description 1"
           }
         },
-        "logo_mYQhXG": {
-          "type": "logo",
+        "logo_item_UmjLCL": {
+          "type": "logo_item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/facebook-old-wordmark4881.logowik.com.webp",
-            "title": "Facebook",
-            "text": "This is some text description about Microsoft"
+            "logo_image": "shopify:\/\/shop_images\/facebook-old-wordmark4881.logowik.com.webp",
+            "logo_title": "Logo 2",
+            "logo_description": "Description 2"
           }
         },
-        "logo_wtLqmt": {
-          "type": "logo",
+        "logo_item_hBcDaD": {
+          "type": "logo_item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/yahoo5699.logowik.com.webp",
-            "title": "Yahoo!",
-            "text": "This is some text description about Yahoo!"
+            "logo_image": "shopify:\/\/shop_images\/yahoo5699.logowik.com.webp",
+            "logo_title": "Logo 3",
+            "logo_description": "Description 3"
           }
         },
-        "logo_MnmfGE": {
-          "type": "logo",
+        "logo_item_bR4zYt": {
+          "type": "logo_item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/gmail-with-text4662.logowik.com.webp",
-            "title": "Gmail",
-            "text": "This is some text description about Gmail"
+            "logo_image": "shopify:\/\/shop_images\/gmail-with-text4662.logowik.com.webp",
+            "logo_title": "Logo 4",
+            "logo_description": "Description 4"
           }
         }
       },
       "block_order": [
-        "logo_pWFUwe",
-        "logo_mYQhXG",
-        "logo_wtLqmt",
-        "logo_MnmfGE"
+        "logo_item_RnAQjz",
+        "logo_item_UmjLCL",
+        "logo_item_hBcDaD",
+        "logo_item_bR4zYt"
       ],
       "settings": {
+        "layout_type": "full_width"
       }
     },
     "custom_videos_EPQgxd": {
