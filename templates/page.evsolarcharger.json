@@ -392,7 +392,9 @@
         "section_title": "Custom Logos Section",
         "section_description": "This is a section description text",
         "layout_type": "boxed",
-        "center_text": true
+        "center_text": true,
+        "padding_top_bottom": 9,
+        "background_color": "#f3f3f3"
       }
     },
     "custom_videos_EPQgxd": {
