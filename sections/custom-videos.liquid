@@ -57,6 +57,11 @@
           "label": "Video Title"
         },
         {
+          "type": "textarea",
+          "id": "video_description",
+          "label": "Video Description"
+        },
+        {
           "type": "url",
           "id": "video_url",
           "label": "Video URL"
@@ -86,6 +91,7 @@
           <iframe src="{{ block.settings.video_url }}" frameborder="0" allowfullscreen></iframe>
         </div>
         <p class="h4 mt-4">{{ block.settings.video_title }}</p>
+        <p>{{ block.settings.video_description }}</p>
       </div>
     {% endfor %}
   </div>
