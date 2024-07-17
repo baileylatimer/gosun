@@ -80,11 +80,11 @@
 
 <div class="custom-videos {% if section.settings.layout_type == 'boxed' %}layout-boxed{% else %}layout-full_width{% endif %}"
   style="padding-top: {{ section.settings.padding_top_bottom }}rem; padding-bottom: {{ section.settings.padding_top_bottom }}rem; background-color: {{ section.settings.background_color }};">
-  <div class="custom-videos__header {% if section.settings.center_text %}text-center{% endif %}">
-    <h2 id="section_title" class="text-center mt-6 mb-24">{{ section.settings.section_title }}</h2>
-    <p>{{ section.settings.section_description }}</p>
-  </div>
   <div class="custom-videos__container {% if section.settings.center_text %}text-center{% endif %}">
+    <div class="custom-videos__header {% if section.settings.center_text %}text-center{% endif %}">
+      <h2 id="section_title" class="text-center mt-6 mb-24">{{ section.settings.section_title }}</h2>
+      <p>{{ section.settings.section_description }}</p>
+    </div>
     <div class="custom-videos__grid">
       {% for block in section.blocks %}
         <div class="custom-videos__item">
@@ -125,10 +125,6 @@
 
 .custom-videos__item {
   text-align: center; /* Center align video item content */
-  width: calc(33.33% - 20px); /* Three items per row with spacing */
-  max-width: calc(33.33% - 20px);
-  box-sizing: border-box;
-  margin: 10px;
 }
 
 .custom-videos .text-center {
@@ -144,7 +140,6 @@
   position: relative;
   padding-bottom: 56.25%; /* 16:9 aspect ratio (height:width) */
   overflow: hidden;
-  width: 100%; /* Ensure video wrapper spans full width of item */
 }
 
 .custom-videos__item .video-wrapper iframe {
@@ -161,9 +156,9 @@
 }
 
 @media (max-width: 768px) {
-  .custom-videos__item {
-    width: calc(100% - 20px); /* One item per row on smaller screens */
-    max-width: calc(100% - 20px);
+  .custom-videos__grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
   }
 }
 </style>
