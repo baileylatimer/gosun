@@ -1,6 +1,80 @@
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Custom Logos",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "logo",
+      "name": "Logo",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "This is a title"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Text",
+          "default": "This is some text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Logos",
+      "category": "Custom"
+    }
+  ]
+}
 {% endschema %}
+
+<div class="custom-logos">
+  <div class="custom-logos__container">
+    {% for block in section.blocks %}
+      <div class="custom-logos__item">
+        {% if block.settings.image %}
+          <img src="{{ block.settings.image | img_url: 'master' }}" alt="{{ block.settings.title }}">
+        {% endif %}
+        <h2>{{ block.settings.title }}</h2>
+        <p>{{ block.settings.text }}</p>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<style>
+.custom-logos {
+  text-align: center;
+  padding: 20px;
+}
+.custom-logos__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.custom-logos__item {
+  flex: 1 1 calc(100% / {{ section.blocks | size }});
+  box-sizing: border-box;
+  padding: 10px;
+}
+.custom-logos__item img {
+  max-width: 100%;
+  height: auto;
+}
+.custom-logos__item h2 {
+  font-size: 16px;
+  margin-top: 10px;
+}
+.custom-logos__item p {
+  font-size: 14px;
+  margin-top: 5px;
+}
+</style>
