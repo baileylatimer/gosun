@@ -88,7 +88,7 @@
     {% for block in section.blocks %}
       <div class="custom-logos__item">
         <img src="{{ block.settings.logo_image | img_url: 'master' }}" alt="{{ block.settings.logo_title }}">
-        <p class="h4 mt-4">{{ block.settings.logo_title }}</p>
+        <p>{{ block.settings.logo_title }}</p>
         <p>{{ block.settings.logo_description }}</p>
       </div>
     {% endfor %}
@@ -140,11 +140,6 @@
 .custom-logos__item img {
   max-width: 100%;
   height: auto;
-}
-
-.custom-logos__item p.h4 {
-  font-size: 18px;
-  margin-top: 10px;
 }
 
 .custom-logos__item p {
