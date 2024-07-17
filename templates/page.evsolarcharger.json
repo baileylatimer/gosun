@@ -433,7 +433,7 @@
       "settings": {
         "section_title": "Custom Videos Section",
         "section_description": "Add a brief description about your custom videos.",
-        "layout_type": "full_width",
+        "layout_type": "boxed",
         "center_text": false,
         "padding_top_bottom": 9,
         "background_color": "#d2e2cc"
