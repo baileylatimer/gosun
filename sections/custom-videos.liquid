@@ -125,7 +125,10 @@
 
 .custom-videos__item {
   text-align: center; /* Center align video item content */
-  min-width: 250px; /* Minimum width for each video item */
+  width: calc(33.33% - 20px); /* Three items per row with spacing */
+  max-width: calc(33.33% - 20px);
+  box-sizing: border-box;
+  margin: 10px;
 }
 
 .custom-videos .text-center {
@@ -141,6 +144,7 @@
   position: relative;
   padding-bottom: 56.25%; /* 16:9 aspect ratio (height:width) */
   overflow: hidden;
+  width: 100%; /* Ensure video wrapper spans full width of item */
 }
 
 .custom-videos__item .video-wrapper iframe {
@@ -157,9 +161,9 @@
 }
 
 @media (max-width: 768px) {
-  .custom-videos__grid {
-    grid-template-columns: 1fr;
-    gap: 10px;
+  .custom-videos__item {
+    width: calc(100% - 20px); /* One item per row on smaller screens */
+    max-width: calc(100% - 20px);
   }
 }
 </style>
