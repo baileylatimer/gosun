@@ -82,7 +82,7 @@
 {% endschema %}
 
 <div class="custom-videos {% if section.settings.layout_type == 'boxed' %}layout-boxed{% else %}layout-full_width{% endif %}"
-  style="padding-top: {{ section.settings.padding_top_bottom }}rem; padding-bottom: {{ section.settings.padding_top_bottom }}rem; background-color: {{ section.settings.background_color }};">
+  style="padding-top: {% if section.settings.layout_type == 'boxed' %}{{ section.settings.padding_top_bottom }}rem{% else %}20px{% endif %}; padding-bottom: {% if section.settings.layout_type == 'boxed' %}{{ section.settings.padding_top_bottom }}rem{% else %}20px{% endif %}; background-color: {{ section.settings.background_color }};">
   <div class="custom-videos__container {% if section.settings.center_text %}text-center{% endif %}">
     <div class="custom-videos__header {% if section.settings.center_text %}text-center{% endif %}">
       <h2 id="section_title" class="text-center mt-6 mb-24">{{ section.settings.section_title }}</h2>
@@ -100,7 +100,7 @@
               </video>
             </div>
           {% endif %}
-          <h2>{{ block.settings.title }}</h2>
+          <p class="h4 mt-4">{{ block.settings.title }}</p>
           <p>{{ block.settings.text }}</p>
         </div>
       {% endfor %}
@@ -110,7 +110,7 @@
 
 <style>
 .custom-videos {
-  padding: 20px;
+  text-align: center;
 }
 
 .custom-videos__header {
@@ -147,8 +147,9 @@
 
 .custom-videos__item .video-wrapper {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio (height:width) */
+  width: 100%; /* Ensure the video takes full width of its container */
   overflow: hidden;
+  margin-bottom: 20px; /* Adjust margin between each video item */
 }
 
 .custom-videos__item .video-wrapper video {
@@ -156,18 +157,6 @@
   width: 100%; /* Ensure the video takes full width of its container */
   height: auto; /* Let the video's height adjust based on aspect ratio */
   object-fit: cover; /* Maintain aspect ratio and fill the container */
-}
-
-.custom-videos__item h2 {
-  font-size: 16px;
-  margin-top: 10px;
-  margin-bottom: 5px; /* Adjust margin between title and video */
-}
-
-.custom-videos__item p {
-  font-size: 14px;
-  margin-top: 0; /* Remove default top margin */
-  margin-bottom: 10px; /* Adjust margin between text and video */
 }
 
 @media (max-width: 768px) {
