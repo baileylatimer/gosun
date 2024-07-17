@@ -372,12 +372,21 @@
             "title": "Yahoo!",
             "text": "This is some text description about Yahoo!"
           }
+        },
+        "logo_MnmfGE": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gmail-with-text4662.logowik.com.webp",
+            "title": "Gmail",
+            "text": "This is some text description about Gmail"
+          }
         }
       },
       "block_order": [
         "logo_pWFUwe",
         "logo_mYQhXG",
-        "logo_wtLqmt"
+        "logo_wtLqmt",
+        "logo_MnmfGE"
       ],
       "settings": {
       }
