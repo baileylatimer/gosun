@@ -71,19 +71,18 @@
   flex: 1 1 calc(100% / {{ section.blocks | size }});
   box-sizing: border-box;
   padding: 10px;
-  text-align: left; /* Adjust text alignment */
+  text-align: center; /* Center align text */
 }
 .video-wrapper {
   position: relative;
   width: 100%;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio */
   overflow: hidden;
-  margin-bottom: 10px; /* Adjust margin between each video item */
+  margin-bottom: 20px; /* Adjust margin between each video item */
 }
 .video-wrapper video {
   display: block;
   width: 100%; /* Ensure the video takes full width of its container */
-  height: 100%; /* Ensure the video takes full height of its container */
+  height: auto; /* Let the video's height adjust based on aspect ratio */
   object-fit: cover; /* Maintain aspect ratio and fill the container */
 }
 .custom-videos__item h2 {
@@ -97,6 +96,7 @@
   margin-bottom: 10px; /* Adjust margin between text and video */
 }
 </style>
+
 
 
 
