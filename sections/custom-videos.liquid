@@ -1,51 +1,6 @@
 {% schema %}
 {
   "name": "Custom Videos",
-  "settings": [
-    {
-      "type": "text",
-      "id": "section_title",
-      "label": "Section Title",
-      "default": "Custom Videos Section"
-    },
-    {
-      "type": "textarea",
-      "id": "section_description",
-      "label": "Section Description",
-      "default": "Add a brief description about your custom videos."
-    },
-    {
-      "type": "radio",
-      "id": "layout_type",
-      "label": "Layout Type",
-      "options": [
-        { "value": "full_width", "label": "Full Width" },
-        { "value": "boxed", "label": "Boxed" }
-      ],
-      "default": "full_width"
-    },
-    {
-      "type": "checkbox",
-      "id": "center_text",
-      "label": "Center Text",
-      "default": false
-    },
-    {
-      "type": "range",
-      "id": "padding_top_bottom",
-      "label": "Padding Top and Bottom (rem)",
-      "min": 0,
-      "max": 20,
-      "step": 1,
-      "default": 9
-    },
-    {
-      "type": "color",
-      "id": "background_color",
-      "label": "Background Color",
-      "default": "#ffffff"
-    }
-  ],
   "blocks": [
     {
       "type": "video_item",
@@ -78,13 +33,8 @@
 }
 {% endschema %}
 
-<div class="custom-videos {% if section.settings.layout_type == 'boxed' %}layout-boxed{% else %}layout-full_width{% endif %}"
-  style="padding-top: {{ section.settings.padding_top_bottom }}rem; padding-bottom: {{ section.settings.padding_top_bottom }}rem; background-color: {{ section.settings.background_color }};">
-  <div class="custom-videos__container {% if section.settings.center_text %}text-center{% endif %}">
-    <div class="custom-videos__header {% if section.settings.center_text %}text-center{% endif %}">
-      <h2 id="section_title" class="text-center mt-6 mb-24">{{ section.settings.section_title }}</h2>
-      <p>{{ section.settings.section_description }}</p>
-    </div>
+<div class="custom-videos">
+  <div class="custom-videos__container">
     <div class="custom-videos__grid">
       {% for block in section.blocks %}
         <div class="custom-videos__item">
@@ -100,20 +50,9 @@
 </div>
 
 <style>
-.custom-videos {
-  padding: 20px;
-}
-
-.custom-videos__header {
-  margin-bottom: 20px;
-}
-
-.custom-videos__header p {
-  font-size: 16px;
-}
-
 .custom-videos__container {
-  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .custom-videos__grid {
@@ -124,16 +63,7 @@
 }
 
 .custom-videos__item {
-  text-align: center; /* Center align video item content */
-}
-
-.custom-videos .text-center {
   text-align: center;
-}
-
-.custom-videos.layout-full_width .custom-videos__grid {
-  margin-left: -20px;
-  margin-right: -20px;
 }
 
 .custom-videos__item .video-wrapper {
@@ -153,12 +83,5 @@
 .custom-videos__item p {
   margin-top: 5px;
   margin-bottom: 10px;
-}
-
-@media (max-width: 768px) {
-  .custom-videos__grid {
-    grid-template-columns: 1fr;
-    gap: 10px;
-  }
 }
 </style>
