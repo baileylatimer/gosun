@@ -82,7 +82,7 @@
 {% endschema %}
 
 <div class="custom-videos {% if section.settings.layout_type == 'boxed' %}layout-boxed{% else %}layout-full_width{% endif %}"
-  style="padding-top: {% if section.settings.layout_type == 'boxed' %}{{ section.settings.padding_top_bottom }}rem{% else %}20px{% endif %}; padding-bottom: {% if section.settings.layout_type == 'boxed' %}{{ section.settings.padding_top_bottom }}rem{% else %}20px{% endif %}; background-color: {{ section.settings.background_color }};">
+  style="padding-top: {{ section.settings.padding_top_bottom }}rem; padding-bottom: {{ section.settings.padding_top_bottom }}rem; padding-left: 20px; padding-right: 20px; background-color: {{ section.settings.background_color }};">
   <div class="custom-videos__container {% if section.settings.center_text %}text-center{% endif %}">
     <div class="custom-videos__header {% if section.settings.center_text %}text-center{% endif %}">
       <h2 id="section_title" class="text-center mt-6 mb-24">{{ section.settings.section_title }}</h2>
@@ -145,6 +145,11 @@
   margin-right: -20px;
 }
 
+.custom-videos.layout-boxed {
+  margin-left: 9rem;
+  margin-right: 9rem;
+}
+
 .custom-videos__item .video-wrapper {
   position: relative;
   width: 100%; /* Ensure the video takes full width of its container */
@@ -163,6 +168,10 @@
   .custom-videos__grid {
     grid-template-columns: 1fr;
     gap: 10px;
+  }
+  .custom-videos.layout-boxed {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 </style>
