@@ -29,6 +29,21 @@
       "id": "center_text",
       "label": "Center Text",
       "default": false
+    },
+    {
+      "type": "range",
+      "id": "padding_top_bottom",
+      "label": "Padding Top and Bottom (rem)",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "default": 9
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#ffffff"
     }
   ],
   "blocks": [
@@ -63,9 +78,10 @@
 }
 {% endschema %}
 
-<div class="custom-logos {% if section.settings.layout_type == 'boxed' %}layout-boxed{% else %}layout-full_width{% endif %}">
+<div class="custom-logos {% if section.settings.layout_type == 'boxed' %}layout-boxed{% else %}layout-full_width{% endif %}"
+  style="padding-top: {{ section.settings.padding_top_bottom }}rem; padding-bottom: {{ section.settings.padding_top_bottom }}rem; background-color: {{ section.settings.background_color }};">
   <div class="custom-logos__header {% if section.settings.center_text %}text-center{% endif %}">
-    <h2>{{ section.settings.section_title }}</h2>
+    <h2 id="section_title" class="text-center mt-6 mb-24">{{ section.settings.section_title }}</h2>
     <p>{{ section.settings.section_description }}</p>
   </div>
   <div class="custom-logos__container">
