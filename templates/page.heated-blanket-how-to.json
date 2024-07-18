@@ -167,12 +167,12 @@
       "settings": {
         "shrink_height": false,
         "video_url": "",
-        "background_image": "shopify:\/\/shop_images\/flow-pro-filter-sink-shower-gosun-505769_0ebd1f80-d7c5-48d1-8d42-efddc70d97c1.jpg",
+        "background_image": "shopify:\/\/shop_images\/BlanketCar.png",
         "overline": "",
         "heading": "Watch How To Video",
         "paragraph": "",
         "button1_text": "Watch Video",
-        "button1_url": "https:\/\/www.youtube.com\/watch?v=p-a2wQwkDBk&t=98s&pp=ygURZ29zdW4gZmxvdyBob3cgdG8%3D",
+        "button1_url": "https:\/\/www.youtube.com\/watch?v=uUqjL_74taI",
         "play_button_1": true,
         "button2_text": "",
         "button2_url": "",
@@ -203,7 +203,7 @@
     "product_page_faq_j4YA8n": {
       "type": "product-page-faq",
       "settings": {
-        "product_reference": "flow-solar-water-purifier-camping",
+        "product_reference": "battery-operated-heated-blanket",
         "invert_order": false,
         "shrink_height": false,
         "top_padding": false
