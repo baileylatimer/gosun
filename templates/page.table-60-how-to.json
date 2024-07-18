@@ -167,12 +167,12 @@
       "settings": {
         "shrink_height": false,
         "video_url": "",
-        "background_image": "shopify:\/\/shop_images\/flow-pro-filter-sink-shower-gosun-505769_0ebd1f80-d7c5-48d1-8d42-efddc70d97c1.jpg",
+        "background_image": "shopify:\/\/shop_images\/GoSun_Go_how_to_page_cover_image_solar_table_120.jpg",
         "overline": "",
-        "heading": "Watch How To Flow Video",
-        "paragraph": "Pumps one liter of clean water per minute, and can function as a portable handwashing station, hot shower, source of clean drinking water, and much more. Watch the video how to use a  Solar Water Purifier and Sanitation System",
+        "heading": "Watch How To Solar Table 60",
+        "paragraph": "",
         "button1_text": "Watch Video",
-        "button1_url": "https:\/\/www.youtube.com\/watch?v=p-a2wQwkDBk&t=98s&pp=ygURZ29zdW4gZmxvdyBob3cgdG8%3D",
+        "button1_url": "https:\/\/www.youtube.com\/watch?v=EqEIqtG--Fs",
         "play_button_1": true,
         "button2_text": "",
         "button2_url": "",
@@ -203,7 +203,7 @@
     "product_page_faq_j4YA8n": {
       "type": "product-page-faq",
       "settings": {
-        "product_reference": "flow-solar-water-purifier-camping",
+        "product_reference": "solartable-60",
         "invert_order": false,
         "shrink_height": false,
         "top_padding": false
