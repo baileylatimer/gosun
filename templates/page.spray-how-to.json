@@ -22,10 +22,10 @@
       "settings": {
         "shrink_height": false,
         "video_url": "",
-        "background_image": "shopify:\/\/shop_images\/fusion-flow-solar-shower-bundles-gosun-305542.jpg",
+        "background_image": "shopify:\/\/shop_images\/Spray_Opening.png",
         "overline": "",
-        "heading": "How To Flow",
-        "paragraph": "Congrats on your purchase of the Flow and welcome to the GoSun ecosystem. Below, you'll find a quickstart video for setting up the product with some tips and tricks to get started.",
+        "heading": "How To Spray",
+        "paragraph": "Congrats on your purchase of the Spray and welcome to the GoSun ecosystem. Below, you'll find an operation manual for the Flow, and the same principles apply to the Spray",
         "button1_text": "Download Manual",
         "button1_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0789\/1333\/files\/GoSun_Flow_User_Manual.pdf?v=1679588119",
         "play_button_1": false,
@@ -164,6 +164,7 @@
     },
     "hero_section_Q6DTFB": {
       "type": "hero-section",
+      "disabled": true,
       "settings": {
         "shrink_height": false,
         "video_url": "",
@@ -203,7 +204,7 @@
     "product_page_faq_j4YA8n": {
       "type": "product-page-faq",
       "settings": {
-        "product_reference": "flow-solar-water-purifier-camping",
+        "product_reference": "portable-handwashing-water-pump-shower",
         "invert_order": false,
         "shrink_height": false,
         "top_padding": false
