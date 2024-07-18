@@ -22,12 +22,12 @@
       "settings": {
         "shrink_height": false,
         "video_url": "",
-        "background_image": "shopify:\/\/shop_images\/fusion-flow-solar-shower-bundles-gosun-305542.jpg",
+        "background_image": "shopify:\/\/shop_images\/Heated_Seat_Heating_Element_Grahpic.jpg",
         "overline": "",
-        "heading": "How To Flow",
-        "paragraph": "Congrats on your purchase of the Flow and welcome to the GoSun ecosystem. Below, you'll find a quickstart video for setting up the product with some tips and tricks to get started.",
+        "heading": "How To Power 74",
+        "paragraph": "Congrats on your purchase of the Power 74 and welcome to the GoSun ecosystem. Below, you'll find a link to the operation manual",
         "button1_text": "Download Manual",
-        "button1_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0789\/1333\/files\/GoSun_Flow_User_Manual.pdf?v=1679588119",
+        "button1_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0789\/1333\/files\/GoSun_Power_74_User_Manual.pdf?v=1698249762",
         "play_button_1": false,
         "button2_text": "",
         "button2_url": "",
@@ -164,6 +164,7 @@
     },
     "hero_section_Q6DTFB": {
       "type": "hero-section",
+      "disabled": true,
       "settings": {
         "shrink_height": false,
         "video_url": "",
@@ -202,6 +203,7 @@
     },
     "product_page_faq_j4YA8n": {
       "type": "product-page-faq",
+      "disabled": true,
       "settings": {
         "product_reference": "flow-solar-water-purifier-camping",
         "invert_order": false,
