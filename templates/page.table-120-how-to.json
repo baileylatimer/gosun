@@ -1,0 +1,344 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "hero_section_acdCzL": {
+      "type": "hero-section",
+      "settings": {
+        "shrink_height": false,
+        "video_url": "",
+        "background_image": "shopify:\/\/shop_images\/fusion-flow-solar-shower-bundles-gosun-305542.jpg",
+        "overline": "",
+        "heading": "How To Flow",
+        "paragraph": "Congrats on your purchase of the Flow and welcome to the GoSun ecosystem. Below, you'll find a quickstart video for setting up the Flow with some tips and tricks to get started.",
+        "button1_text": "Download Manual",
+        "button1_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0789\/1333\/files\/GoSun_Flow_User_Manual.pdf?v=1679588119",
+        "play_button_1": false,
+        "button2_text": "",
+        "button2_url": "",
+        "play_button_2": false
+      }
+    },
+    "feature_image_dxMerm": {
+      "type": "feature-image",
+      "disabled": true,
+      "settings": {
+        "product_reference": "gosun-elcat-splash",
+        "invert_order": false,
+        "shrink_height": true,
+        "top_padding": true,
+        "overline": "Electric Boat",
+        "heading": "Splash",
+        "text": "ELCAT Splash is a bigger and easier-to-steer version of the all-electric Elcat boat. Complete with a NEW design 2024 Steering Console for easy navigation, speed, and battery management. Extra headroom beneath the sundeck is increased by 16 inches compared to the Elcat.",
+        "price": "15900",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/image_7.jpg",
+        "img-fit": false,
+        "button_url": "shopify:\/\/products\/gosun-elcat-splash",
+        "button_label": "Buy Now",
+        "button_url_2": "shopify:\/\/pages\/elcat-splash",
+        "button_label_2": "Learn More"
+      }
+    },
+    "feature_image_q8C34R": {
+      "type": "feature-image",
+      "disabled": true,
+      "settings": {
+        "product_reference": "gosun-electric-boat-solar",
+        "invert_order": true,
+        "shrink_height": true,
+        "top_padding": true,
+        "overline": "Electric Boat",
+        "heading": "Elcat",
+        "text": "An Electric Boat that's fun, affordable, strong, solar powered and one of the world’s most energy efficient boats. Lightweight, yet durable DWF dropstitch construction allows it to glide on the water efficiently.",
+        "price": "10995",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/gosunimg3_585x_13c15478-6058-42f9-bf9d-732aebc97c69.webp",
+        "img-fit": false,
+        "button_url": "shopify:\/\/products\/gosun-electric-boat-solar",
+        "button_label": "Learn More",
+        "button_url_2": "shopify:\/\/products\/gosun-electric-boat-solar",
+        "button_label_2": ""
+      }
+    },
+    "feature_image_nKd8pc": {
+      "type": "feature-image",
+      "disabled": true,
+      "settings": {
+        "product_reference": "jet-boat",
+        "invert_order": false,
+        "shrink_height": true,
+        "top_padding": true,
+        "overline": "Inflatable Boat",
+        "heading": "Jet Boat",
+        "text": "Meet the Inflatable Jet Boat, a JetSki Attachment: Experience the water like never before with this easy and exhilarating watercraft accessory. The Jet Boat is a cutting-edge inflatable boat that seamlessly attaches to the front of a jetski, allowing up to six passengers to ride along in style and comfort.",
+        "price": "3499",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/Carosel4_700x_61ddfa5f-49a4-4228-8230-ee6fb74c04b3.webp",
+        "img-fit": false,
+        "button_url": "shopify:\/\/products\/jet-boat",
+        "button_label": "Buy Now",
+        "button_url_2": "shopify:\/\/products\/jet-boat",
+        "button_label_2": ""
+      }
+    },
+    "feature_image_aTedmP": {
+      "type": "feature-image",
+      "disabled": true,
+      "settings": {
+        "product_reference": "ferry-boat",
+        "invert_order": true,
+        "shrink_height": false,
+        "top_padding": false,
+        "overline": "For large groups",
+        "heading": "Ferry Boat",
+        "text": "Can carry vehicles, heavy equipment, or people up to 10,000 pounds! Inflatable Ferryboat measures 26 feet long and 450 lbs. Ferryboat is designed for low to mid speed transportation up to speeds 20 knots \/ 23 mph.",
+        "price": "23,000",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/Ferryboat1_700x_2215e0cc-2ec0-490c-80d7-5bc6b2511873.webp",
+        "img-fit": false,
+        "button_url": "shopify:\/\/products\/ferry-boat",
+        "button_label": "Learn More",
+        "button_url_2": "",
+        "button_label_2": ""
+      }
+    },
+    "compare_guide_mCCJtX": {
+      "type": "compare-guide",
+      "blocks": {
+        "product_column_PgLWmc": {
+          "type": "product_column",
+          "settings": {
+            "product_reference": "gosun-electric-boat-solar",
+            "button_url": ""
+          }
+        },
+        "product_column_86MV4G": {
+          "type": "product_column",
+          "settings": {
+            "product_reference": "gosun-elcat-splash",
+            "button_url": ""
+          }
+        },
+        "product_column_tMK3Ur": {
+          "type": "product_column",
+          "disabled": true,
+          "settings": {
+            "product_reference": "jet-boat",
+            "button_url": ""
+          }
+        },
+        "product_column_LzQnTp": {
+          "type": "product_column",
+          "disabled": true,
+          "settings": {
+            "product_reference": "ferry-boat",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_column_PgLWmc",
+        "product_column_86MV4G",
+        "product_column_tMK3Ur",
+        "product_column_LzQnTp"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "hero_section_Q6DTFB": {
+      "type": "hero-section",
+      "settings": {
+        "shrink_height": false,
+        "video_url": "",
+        "background_image": "shopify:\/\/shop_images\/flow-pro-filter-sink-shower-gosun-505769_0ebd1f80-d7c5-48d1-8d42-efddc70d97c1.jpg",
+        "overline": "",
+        "heading": "Watch How To Flow Video",
+        "paragraph": "Pumps one liter of clean water per minute, and can function as a portable handwashing station, hot shower, source of clean drinking water, and much more. Watch the video how to use a  Solar Water Purifier and Sanitation System",
+        "button1_text": "Watch Video",
+        "button1_url": "https:\/\/www.youtube.com\/watch?v=p-a2wQwkDBk&t=98s&pp=ygURZ29zdW4gZmxvdyBob3cgdG8%3D",
+        "play_button_1": true,
+        "button2_text": "",
+        "button2_url": "",
+        "play_button_2": false
+      }
+    },
+    "feature_image_B7RwwW": {
+      "type": "feature-image",
+      "disabled": true,
+      "settings": {
+        "product_reference": "camp365",
+        "invert_order": false,
+        "shrink_height": true,
+        "top_padding": true,
+        "overline": "Cabin On Wheels",
+        "heading": "Camp365",
+        "text": "Off-Grid Solar Trailer that is ultralight and easy to tow. The ultimate, super efficient, solar powered camper for adventurers seeking the roads less traveled.",
+        "price": "",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/trailer_camper_gosun_camp365_outdoor_solar_8e53f582-6384-466d-9ecf-97951ff1e467.jpg",
+        "img-fit": false,
+        "button_url": "shopify:\/\/products\/camp365",
+        "button_label": "Learn More",
+        "button_url_2": "shopify:\/\/pages\/elcat-splash",
+        "button_label_2": ""
+      }
+    },
+    "product_page_faq_j4YA8n": {
+      "type": "product-page-faq",
+      "settings": {
+        "product_reference": "flow-solar-water-purifier-camping",
+        "invert_order": false,
+        "shrink_height": false,
+        "top_padding": false
+      }
+    },
+    "feature_image_qi7PHt": {
+      "type": "feature-image",
+      "disabled": true,
+      "settings": {
+        "product_reference": "dream-tiny-house",
+        "invert_order": true,
+        "shrink_height": true,
+        "top_padding": true,
+        "overline": "Off-Grid Tiny Home",
+        "heading": "Dream",
+        "text": "A solar-powered off-grid, tiny house designed  to help you live a more independent, healthy, and resilient life. No strings attached. Take any place; tows and hooks up like an RV.",
+        "price": "",
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/gosun-GoSun-Dream-Solar-Off-Grid-Tiny-House-render_2000x2000_c106a7df-46e2-4d02-aa9e-bd9f42c5d8f9.jpg",
+        "img-fit": false,
+        "button_url": "shopify:\/\/products\/dream-tiny-house",
+        "button_label": "Learn More",
+        "button_url_2": "shopify:\/\/products\/dream-tiny-house",
+        "button_label_2": ""
+      }
+    },
+    "featured_collection_Fxzf7q": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "solar-coolers-accessories",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "faq_3UD6WA": {
+      "type": "faq",
+      "blocks": {
+        "faq_item_DmHqXq": {
+          "type": "faq_item",
+          "disabled": true,
+          "settings": {
+            "question": "What sets the Elcat Electric Boat apart from other boats on the market?",
+            "answer": "The Elcat Electric Boat stands out for its combination of fun, affordability, strength, and eco-friendliness. It's one of the world's most energy-efficient boats, powered by solar energy and featuring lightweight yet durable DWF dropstitch construction for efficient gliding on the water."
+          }
+        },
+        "faq_item_mycfMj": {
+          "type": "faq_item",
+          "disabled": true,
+          "settings": {
+            "question": "What are the key features of the ELCAT Splash compared to the standard Elcat boat?",
+            "answer": "The ELCAT Splash offers a larger and easier-to-steer design compared to the standard Elcat boat. With a new 2024 Steering Console for easy navigation, speed control, and battery management, along with increased headroom beneath the sundeck, it provides an enhanced boating experience."
+          }
+        },
+        "faq_item_MPdccz": {
+          "type": "faq_item",
+          "disabled": true,
+          "settings": {
+            "question": "What makes the Jet Boat a unique watercraft accessory?",
+            "answer": "The Jet Boat is an innovative inflatable boat designed to attach seamlessly to the front of a jetski, transforming the riding experience for up to six passengers. With easy attachment and exhilarating performance, it offers a new level of fun and excitement on the water."
+          }
+        },
+        "faq_item_xD63w7": {
+          "type": "faq_item",
+          "disabled": true,
+          "settings": {
+            "question": "What are the capabilities of the Ferry Boat, particularly in terms of transportation and speed?",
+            "answer": "The Ferry Boat is a robust inflatable vessel capable of carrying vehicles, heavy equipment, or passengers weighing up to 10,000 pounds. Measuring 26 feet long and weighing 450 lbs, it's designed for low to mid-speed transportation, reaching speeds of up to 20 knots (23 mph)."
+          }
+        },
+        "faq_item_cXDjT3": {
+          "type": "faq_item",
+          "disabled": true,
+          "settings": {
+            "question": "Is the Jet Boat compatible with all jetski models, and how easy is it to attach?",
+            "answer": "The Jet Boat is designed to attach to the front of most jetski models, providing an easy and seamless transformation into a multi-passenger watercraft. Its user-friendly attachment mechanism ensures quick setup and hassle-free operation for riders of all skill levels."
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_DmHqXq",
+        "faq_item_mycfMj",
+        "faq_item_MPdccz",
+        "faq_item_xD63w7",
+        "faq_item_cXDjT3"
+      ],
+      "disabled": true,
+      "settings": {
+        "invert_order": true,
+        "shrink_height": false,
+        "top_padding": false,
+        "image": "shopify:\/\/shop_images\/flowDrink_Source.jpg"
+      }
+    },
+    "need_help_gCLBEz": {
+      "type": "need-help",
+      "settings": {
+        "section_title": "Still Need Help?"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "hero_section_acdCzL",
+    "feature_image_dxMerm",
+    "feature_image_q8C34R",
+    "feature_image_nKd8pc",
+    "feature_image_aTedmP",
+    "compare_guide_mCCJtX",
+    "hero_section_Q6DTFB",
+    "feature_image_B7RwwW",
+    "product_page_faq_j4YA8n",
+    "feature_image_qi7PHt",
+    "featured_collection_Fxzf7q",
+    "faq_3UD6WA",
+    "need_help_gCLBEz"
+  ]
+}
