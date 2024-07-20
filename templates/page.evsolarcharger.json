@@ -331,23 +331,6 @@
         "button_label_2": ""
       }
     },
-    "hero_section_A4iE4X": {
-      "type": "hero-section",
-      "settings": {
-        "shrink_height": false,
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e9b46de931d6458e97abbbd6a6811ad7.mp4",
-        "background_image": "shopify:\/\/shop_images\/OFGN_rounded.png",
-        "overline": "",
-        "heading": "Forget The Grid, Self-Charge On Sunshine",
-        "paragraph": "",
-        "button1_text": "Place A Deposit",
-        "button1_url": "",
-        "play_button_1": false,
-        "button2_text": "",
-        "button2_url": "",
-        "play_button_2": false
-      }
-    },
     "compare_guide_mCCJtX": {
       "type": "compare-guide",
       "blocks": {
@@ -415,6 +398,23 @@
         "background_color": "#d2e2cc"
       }
     },
+    "hero_section_A4iE4X": {
+      "type": "hero-section",
+      "settings": {
+        "shrink_height": false,
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e9b46de931d6458e97abbbd6a6811ad7.mp4",
+        "background_image": "shopify:\/\/shop_images\/OFGN_rounded.png",
+        "overline": "",
+        "heading": "Forget The Grid, Self-Charge On Sunshine",
+        "paragraph": "",
+        "button1_text": "Place A Deposit",
+        "button1_url": "",
+        "play_button_1": false,
+        "button2_text": "",
+        "button2_url": "",
+        "play_button_2": false
+      }
+    },
     "product_page_faq_EDKyqz": {
       "type": "product-page-faq",
       "settings": {
@@ -447,9 +447,9 @@
     "feature_image_VmWh9w",
     "feature_image_kmEbpF",
     "feature_image_EVA8Bn",
-    "hero_section_A4iE4X",
     "compare_guide_mCCJtX",
     "custom_videos_EPQgxd",
+    "hero_section_A4iE4X",
     "product_page_faq_EDKyqz",
     "need_help_gCLBEz"
   ]
