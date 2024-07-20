@@ -86,6 +86,57 @@
       "settings": {
       }
     },
+    "custom_logos_dDFXG9": {
+      "type": "custom-logos",
+      "blocks": {
+        "logo_item_RnAQjz": {
+          "type": "logo_item",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/microsoft44289.logowik.com.webp",
+            "logo_title": "Logo 1",
+            "logo_description": "Description 1"
+          }
+        },
+        "logo_item_UmjLCL": {
+          "type": "logo_item",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/facebook-old-wordmark4881.logowik.com.webp",
+            "logo_title": "Logo 2",
+            "logo_description": "Description 2"
+          }
+        },
+        "logo_item_hBcDaD": {
+          "type": "logo_item",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/yahoo5699.logowik.com.webp",
+            "logo_title": "Logo 3",
+            "logo_description": "Description 3"
+          }
+        },
+        "logo_item_bR4zYt": {
+          "type": "logo_item",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/gmail-with-text4662.logowik.com.webp",
+            "logo_title": "Logo 4",
+            "logo_description": "Description 4"
+          }
+        }
+      },
+      "block_order": [
+        "logo_item_RnAQjz",
+        "logo_item_UmjLCL",
+        "logo_item_hBcDaD",
+        "logo_item_bR4zYt"
+      ],
+      "settings": {
+        "section_title": "Custom Logos Section",
+        "section_description": "",
+        "layout_type": "boxed",
+        "center_text": true,
+        "padding_top_bottom": 9,
+        "background_color": "#e5dcdc"
+      }
+    },
     "hero_section_fBBVEg": {
       "type": "hero-section",
       "settings": {
@@ -346,57 +397,6 @@
         "section_title": "Need help deciding?"
       }
     },
-    "custom_logos_dDFXG9": {
-      "type": "custom-logos",
-      "blocks": {
-        "logo_item_RnAQjz": {
-          "type": "logo_item",
-          "settings": {
-            "logo_image": "shopify:\/\/shop_images\/microsoft44289.logowik.com.webp",
-            "logo_title": "Logo 1",
-            "logo_description": "Description 1"
-          }
-        },
-        "logo_item_UmjLCL": {
-          "type": "logo_item",
-          "settings": {
-            "logo_image": "shopify:\/\/shop_images\/facebook-old-wordmark4881.logowik.com.webp",
-            "logo_title": "Logo 2",
-            "logo_description": "Description 2"
-          }
-        },
-        "logo_item_hBcDaD": {
-          "type": "logo_item",
-          "settings": {
-            "logo_image": "shopify:\/\/shop_images\/yahoo5699.logowik.com.webp",
-            "logo_title": "Logo 3",
-            "logo_description": "Description 3"
-          }
-        },
-        "logo_item_bR4zYt": {
-          "type": "logo_item",
-          "settings": {
-            "logo_image": "shopify:\/\/shop_images\/gmail-with-text4662.logowik.com.webp",
-            "logo_title": "Logo 4",
-            "logo_description": "Description 4"
-          }
-        }
-      },
-      "block_order": [
-        "logo_item_RnAQjz",
-        "logo_item_UmjLCL",
-        "logo_item_hBcDaD",
-        "logo_item_bR4zYt"
-      ],
-      "settings": {
-        "section_title": "Custom Logos Section",
-        "section_description": "This is a section description text",
-        "layout_type": "boxed",
-        "center_text": true,
-        "padding_top_bottom": 9,
-        "background_color": "#e5dcdc"
-      }
-    },
     "custom_videos_EPQgxd": {
       "type": "custom-videos",
       "blocks": {
@@ -445,6 +445,7 @@
     "product_nav_A3Ldaj",
     "hero_product_V8NU4k",
     "feature_tabs_YWndzJ",
+    "custom_logos_dDFXG9",
     "hero_section_fBBVEg",
     "feature_image_B7RwwW",
     "feature_image_BMX4mb",
@@ -459,7 +460,6 @@
     "compare_guide_mCCJtX",
     "product_page_faq_EDKyqz",
     "need_help_gCLBEz",
-    "custom_logos_dDFXG9",
     "custom_videos_EPQgxd"
   ]
 }
