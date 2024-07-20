@@ -86,57 +86,6 @@
       "settings": {
       }
     },
-    "custom_logos_dDFXG9": {
-      "type": "custom-logos",
-      "blocks": {
-        "logo_item_RnAQjz": {
-          "type": "logo_item",
-          "settings": {
-            "logo_image": "shopify:\/\/shop_images\/microsoft44289.logowik.com.webp",
-            "logo_title": "Logo 1",
-            "logo_description": "Description 1"
-          }
-        },
-        "logo_item_UmjLCL": {
-          "type": "logo_item",
-          "settings": {
-            "logo_image": "shopify:\/\/shop_images\/facebook-old-wordmark4881.logowik.com.webp",
-            "logo_title": "Logo 2",
-            "logo_description": "Description 2"
-          }
-        },
-        "logo_item_hBcDaD": {
-          "type": "logo_item",
-          "settings": {
-            "logo_image": "shopify:\/\/shop_images\/yahoo5699.logowik.com.webp",
-            "logo_title": "Logo 3",
-            "logo_description": "Description 3"
-          }
-        },
-        "logo_item_bR4zYt": {
-          "type": "logo_item",
-          "settings": {
-            "logo_image": "shopify:\/\/shop_images\/gmail-with-text4662.logowik.com.webp",
-            "logo_title": "Logo 4",
-            "logo_description": "Description 4"
-          }
-        }
-      },
-      "block_order": [
-        "logo_item_RnAQjz",
-        "logo_item_UmjLCL",
-        "logo_item_hBcDaD",
-        "logo_item_bR4zYt"
-      ],
-      "settings": {
-        "section_title": "Custom Logos Section",
-        "section_description": "",
-        "layout_type": "boxed",
-        "center_text": true,
-        "padding_top_bottom": 9,
-        "background_color": "#e5dcdc"
-      }
-    },
     "hero_section_fBBVEg": {
       "type": "hero-section",
       "settings": {
@@ -152,6 +101,57 @@
         "button2_text": "",
         "button2_url": "",
         "play_button_2": false
+      }
+    },
+    "custom_logos_dDFXG9": {
+      "type": "custom-logos",
+      "blocks": {
+        "logo_item_RnAQjz": {
+          "type": "logo_item",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/gmail-with-text4662.logowik.com.webp",
+            "logo_title": "Autoevolution",
+            "logo_description": ""
+          }
+        },
+        "logo_item_UmjLCL": {
+          "type": "logo_item",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/facebook-old-wordmark4881.logowik.com.webp",
+            "logo_title": "Whole Mars Catalog",
+            "logo_description": ""
+          }
+        },
+        "logo_item_hBcDaD": {
+          "type": "logo_item",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/yahoo5699.logowik.com.webp",
+            "logo_title": "Technstination",
+            "logo_description": ""
+          }
+        },
+        "logo_item_bR4zYt": {
+          "type": "logo_item",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/gmail-with-text4662.logowik.com.webp",
+            "logo_title": "RV News",
+            "logo_description": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_item_RnAQjz",
+        "logo_item_UmjLCL",
+        "logo_item_hBcDaD",
+        "logo_item_bR4zYt"
+      ],
+      "settings": {
+        "section_title": "As Featured By",
+        "section_description": "",
+        "layout_type": "boxed",
+        "center_text": true,
+        "padding_top_bottom": 9,
+        "background_color": "#e5dcdc"
       }
     },
     "feature_image_B7RwwW": {
@@ -239,12 +239,12 @@
       "settings": {
         "shrink_height": false,
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e9b46de931d6458e97abbbd6a6811ad7.mp4",
-        "background_image": "shopify:\/\/shop_images\/309468570_6299871260039833_7074377368308733982_n.jpg",
+        "background_image": "shopify:\/\/shop_images\/Render1.jpg",
         "overline": "",
-        "heading": "Look Who's Talking",
-        "paragraph": "\"GoSun Finally Pulled It Off! We Now Have a Solar Charger for Our EVs Everywhere We Park\" - autoevolution.com",
-        "button1_text": "Read Review",
-        "button1_url": "https:\/\/www.autoevolution.com\/news\/gosun-finally-pulled-it-off-we-now-have-a-solar-charger-for-our-evs-everywhere-we-park-236164.html",
+        "heading": "Make a gallon of \"solar gas\" everyday",
+        "paragraph": "",
+        "button1_text": "Place A Deposit",
+        "button1_url": "shopify:\/\/products\/ev-solar-charger-deposit",
         "play_button_1": false,
         "button2_text": "",
         "button2_url": "",
@@ -382,6 +382,39 @@
       "settings": {
       }
     },
+    "custom_videos_EPQgxd": {
+      "type": "custom-videos",
+      "blocks": {
+        "video_kLY3AQ": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2e9b48923ec041db8bb9b253b4262ffb.mp4",
+            "title": "",
+            "text": ""
+          }
+        },
+        "video_G6xpKq": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d416dde2efc247c58b26bf8204e227dc.mp4",
+            "title": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_kLY3AQ",
+        "video_G6xpKq"
+      ],
+      "settings": {
+        "section_title": "Hear What Beta Users Are Saying",
+        "section_description": "",
+        "layout_type": "boxed",
+        "center_text": false,
+        "padding_top_bottom": 9,
+        "background_color": "#d2e2cc"
+      }
+    },
     "product_page_faq_EDKyqz": {
       "type": "product-page-faq",
       "settings": {
@@ -396,48 +429,6 @@
       "settings": {
         "section_title": "Need help deciding?"
       }
-    },
-    "custom_videos_EPQgxd": {
-      "type": "custom-videos",
-      "blocks": {
-        "video_kLY3AQ": {
-          "type": "video",
-          "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2e9b48923ec041db8bb9b253b4262ffb.mp4",
-            "title": "This is video 1",
-            "text": "This is some text description for video 1"
-          }
-        },
-        "video_G6xpKq": {
-          "type": "video",
-          "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2e9b48923ec041db8bb9b253b4262ffb.mp4",
-            "title": "This is video 2",
-            "text": "This is some text description for video 2"
-          }
-        },
-        "video_ieeEW3": {
-          "type": "video",
-          "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2e9b48923ec041db8bb9b253b4262ffb.mp4",
-            "title": "This is video 3",
-            "text": "This is some text description for video 3"
-          }
-        }
-      },
-      "block_order": [
-        "video_kLY3AQ",
-        "video_G6xpKq",
-        "video_ieeEW3"
-      ],
-      "settings": {
-        "section_title": "Custom Videos Section",
-        "section_description": "Add a brief description about your custom videos.",
-        "layout_type": "boxed",
-        "center_text": false,
-        "padding_top_bottom": 9,
-        "background_color": "#d2e2cc"
-      }
     }
   },
   "order": [
@@ -445,8 +436,8 @@
     "product_nav_A3Ldaj",
     "hero_product_V8NU4k",
     "feature_tabs_YWndzJ",
-    "custom_logos_dDFXG9",
     "hero_section_fBBVEg",
+    "custom_logos_dDFXG9",
     "feature_image_B7RwwW",
     "feature_image_BMX4mb",
     "feature_image_yAb8Cw",
@@ -458,8 +449,8 @@
     "feature_image_EVA8Bn",
     "hero_section_A4iE4X",
     "compare_guide_mCCJtX",
+    "custom_videos_EPQgxd",
     "product_page_faq_EDKyqz",
-    "need_help_gCLBEz",
-    "custom_videos_EPQgxd"
+    "need_help_gCLBEz"
   ]
 }
