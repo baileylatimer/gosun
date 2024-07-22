@@ -18,7 +18,7 @@ if (!customElements.get('product-form')) {
 
       onSubmitHandler(evt) {
         evt.preventDefault();
-        evt.defaultPrevented = true;
+        evt.defaultPrevented = true; // Added this to prevent duplicate add to cart events for Google Analytics. Contact andrew.marshall@invesp.com or andydangermarshall@gmail.com for questions
         if (this.submitButton.getAttribute('aria-disabled') === 'true') return;
 
         this.handleErrorMessage();
