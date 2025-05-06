@@ -1,74 +1,110 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
+  "order": [
+    "hero_section_gpDrMe",
+    "logo_marquee_UTWfBi",
+    "product_row_qgepkc",
+    "mission_section_criUKL",
+    "feature_banner_axfT4K",
+    "product_row_2_ATJFhU",
+    "feature_image_tbpk4q",
+    "feature_image_LWaCdC",
+    "feature_image_EMi9ry",
+    "social_section_7jVYar"
+  ],
   "sections": {
-    "hero_section_gpDrMe": {
-      "type": "hero-section",
+    "feature_banner_axfT4K": {
       "settings": {
-        "shrink_height": false,
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/210f9753faf740fca93f94ca418ad88f.mp4",
-        "background_image": "shopify:\/\/shop_images\/hero.jpg",
+        "heading": "100k+ trees planted"
+      },
+      "type": "feature-banner"
+    },
+    "feature_image_EMi9ry": {
+      "settings": {
+        "button_label": "Learn More",
+        "button_label_2": "",
+        "button_url": "shopify://pages/elcat-splash",
+        "button_url_2": "",
+        "heading": "Boat Blowout Sale",
+        "image": "shopify://shop_images/SplashEmilyCarosel_8383ad5a-054d-488b-a7e7-912242fc24bb.jpg",
+        "img-fit": false,
+        "invert_order": true,
         "overline": "",
-        "heading": "Celebrate Earth Day with Solar Power",
-        "paragraph": "Elevate your off-grid adventures with GoSun's innovative solar products.  From cooking to cooling, charging to lighting, find everything you need  to stay powered  on the go.",
-        "button1_text": "Shop Now",
-        "button1_url": "shopify:\/\/collections\/todays-deals",
-        "play_button_1": false,
+        "price": "",
+        "product_reference": "",
+        "shrink_height": false,
+        "text": "The time is now, to grab an amazing deal on the easiest boat in the market. Elcat is an inflatable, highly portable, six passenger silent electric boat, plus sun deck.",
+        "top_padding": false,
+        "video_url": ""
+      },
+      "type": "feature-image"
+    },
+    "feature_image_LWaCdC": {
+      "settings": {
+        "button_label": "Learn More",
+        "button_label_2": "",
+        "button_url": "https://www.startengine.com/offering/gosun",
+        "button_url_2": "",
+        "heading": "Invest in the Solar Future",
+        "image": "shopify://shop_images/3_fa98bdb5-bbbc-4bd2-9f45-a982ef2a11ff.jpg",
+        "img-fit": false,
+        "invert_order": false,
+        "overline": "",
+        "price": "",
+        "product_reference": "",
+        "shrink_height": false,
+        "text": "Join over 3,000 investors who are a part of GoSun's mission to advance solar innovations for recreation and resilience. Invest where sustainability and profitability merge.",
+        "top_padding": false,
+        "video_url": ""
+      },
+      "type": "feature-image"
+    },
+    "feature_image_tbpk4q": {
+      "settings": {
+        "button_label": "Learn More",
+        "button_label_2": "",
+        "button_url": "shopify://pages/ev-solar-charger",
+        "button_url_2": "",
+        "heading": "Drive on Sunshine",
+        "image": "shopify://shop_images/Solar_EV_on_Car_1000x1000_11f624a3-c89a-40b6-be8f-b98450fb5bac.jpg",
+        "img-fit": false,
+        "invert_order": true,
+        "overline": "",
+        "price": "",
+        "product_reference": "",
+        "shrink_height": false,
+        "text": "Charge your electric vehicle anywhere with solar and make up to 30 miles a day. Lightweight 1,200 watt solar array unfolds over parked car to self-charge at work or on an adventure.",
+        "top_padding": false,
+        "video_url": ""
+      },
+      "type": "feature-image"
+    },
+    "hero_section_gpDrMe": {
+      "settings": {
+        "background_image": "shopify://shop_images/home-hero-prevideo.jpg",
+        "button1_text": "Today's Deals",
+        "button1_url": "shopify://collections/todays-deals",
         "button2_text": "",
         "button2_url": "",
-        "play_button_2": false
-      }
+        "heading": "Reliable Solar Gear For Every Adventure",
+        "overline": "",
+        "paragraph": "Elevate your off-grid adventures with GoSun's innovative solar products.  From cooking to cooling, charging to lighting, find everything you need  to stay powered on the go.",
+        "play_button_1": false,
+        "play_button_2": false,
+        "shrink_height": false,
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/210f9753faf740fca93f94ca418ad88f.mp4"
+      },
+      "type": "hero-section"
     },
     "logo_marquee_UTWfBi": {
-      "type": "logo-marquee",
-      "blocks": {
-        "logo_TfAHCj": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/forbes_67df095e-cd95-4130-9758-89e324bf682c.png"
-          }
-        },
-        "logo_yxKCGR": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/today.png"
-          }
-        },
-        "logo_PqKF36": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/gear-patrol.png"
-          }
-        },
-        "logo_kBxVRP": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/discovery-channel.png"
-          }
-        },
-        "logo_6ULjMF": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/inc_554253f4-f6bc-4266-902f-70eefcb768e0.png"
-          }
-        },
-        "logo_6z4gkH": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/business-insider.png"
-          }
-        },
-        "logo_kiRhKr": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/nat-geo.png"
-          }
-        },
-        "logo_Pg6wKR": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/new-york-times.png"
-          }
-        }
-      },
       "block_order": [
         "logo_TfAHCj",
         "logo_yxKCGR",
@@ -79,76 +115,186 @@
         "logo_kiRhKr",
         "logo_Pg6wKR"
       ],
-      "settings": {
-      }
-    },
-    "product_row_qgepkc": {
-      "type": "product-row",
       "blocks": {
-        "product_deXigy": {
-          "type": "product",
+        "logo_6ULjMF": {
           "settings": {
-            "image": "shopify:\/\/shop_images\/fusion_0c89b649-37a3-410a-b9c0-d0519ee65f06.jpg",
-            "title": "Solar Ovens",
-            "description": "Product Description",
-            "link": "shopify:\/\/pages\/solar-ovens"
-          }
+            "image": "shopify://shop_images/inc_554253f4-f6bc-4266-902f-70eefcb768e0.png"
+          },
+          "type": "logo"
         },
-        "product_dQACgj": {
-          "type": "product",
+        "logo_6z4gkH": {
           "settings": {
-            "image": "shopify:\/\/shop_images\/chill-no-powerbank-electric-cooler-gosun-129202.jpg",
-            "title": "Solar Coolers",
-            "description": "Product Description",
-            "link": "shopify:\/\/pages\/solar-coolers"
-          }
+            "image": "shopify://shop_images/business-insider.png"
+          },
+          "type": "logo"
         },
-        "product_VEzR8B": {
-          "type": "product",
+        "logo_Pg6wKR": {
           "settings": {
-            "image": "shopify:\/\/shop_images\/newshield2_9b83cf52-3c21-4797-8728-ed1ec5b45018.png",
-            "title": "Solar Chargers",
-            "description": "Product Description",
-            "link": "shopify:\/\/pages\/best-portable-solar-chargers"
-          }
+            "image": "shopify://shop_images/new-york-times.png"
+          },
+          "type": "logo"
         },
-        "product_RiyaD3": {
-          "type": "product",
+        "logo_PqKF36": {
           "settings": {
-            "image": "shopify:\/\/shop_images\/collection-image_301x_2_5afe72a5-9b9f-46f4-af4a-c8d2cc52be7c.jpg",
-            "title": "Water Purification",
-            "description": "Product Description",
-            "link": "shopify:\/\/pages\/portable-solar-water-purifiers"
-          }
+            "image": "shopify://shop_images/gear-patrol.png"
+          },
+          "type": "logo"
         },
-        "product_rPXLJc": {
-          "type": "product",
+        "logo_TfAHCj": {
           "settings": {
-            "image": "shopify:\/\/shop_images\/gosun-dream-solar-off-grid-tiny-house-gosun-201210.jpg",
-            "title": "Campers",
-            "description": "Product Description",
-            "link": "shopify:\/\/pages\/campers"
-          }
+            "image": "shopify://shop_images/forbes_67df095e-cd95-4130-9758-89e324bf682c.png"
+          },
+          "type": "logo"
         },
-        "product_keNQwp": {
-          "type": "product",
+        "logo_kBxVRP": {
           "settings": {
-            "image": "shopify:\/\/shop_images\/SplashCover_10608b7e-0550-41ff-baaf-92e8f22140c5.jpg",
-            "title": "Boats",
-            "description": "Product Description",
-            "link": "shopify:\/\/pages\/boats"
-          }
+            "image": "shopify://shop_images/discovery-channel.png"
+          },
+          "type": "logo"
         },
-        "product_mJMRaL": {
-          "type": "product",
+        "logo_kiRhKr": {
           "settings": {
-            "image": "shopify:\/\/shop_images\/flatware-utensils-gosun-285765_1.jpg",
-            "title": "Accessories",
-            "description": "Product Description",
-            "link": "shopify:\/\/pages\/accessories"
-          }
+            "image": "shopify://shop_images/nat-geo.png"
+          },
+          "type": "logo"
+        },
+        "logo_yxKCGR": {
+          "settings": {
+            "image": "shopify://shop_images/today.png"
+          },
+          "type": "logo"
         }
       },
+      "settings": {},
+      "type": "logo-marquee"
+    },
+    "mission_section_criUKL": {
+      "block_order": [
+        "text_with_image_3y73xg",
+        "text_with_image_6rmg8w",
+        "text_with_image_dYXQDp"
+      ],
+      "blocks": {
+        "text_with_image_3y73xg": {
+          "settings": {
+            "row_image": "shopify://shop_images/bbb-business_49aa12ac-2d70-4a5a-88f1-be40b20243f3.png",
+            "text": ""
+          },
+          "type": "text_with_image"
+        },
+        "text_with_image_6rmg8w": {
+          "settings": {
+            "row_image": "shopify://shop_images/climate-partner_af19b90f-efe5-471e-b0ae-12a95c3c0c25.png",
+            "text": ""
+          },
+          "type": "text_with_image"
+        },
+        "text_with_image_dYXQDp": {
+          "settings": {
+            "row_image": "shopify://shop_images/trees-for-the-future_e04f7aa6-cf31-4569-bac9-291f6b664637.png",
+            "text": ""
+          },
+          "type": "text_with_image"
+        }
+      },
+      "settings": {
+        "heading": "Powering the future with the Sun, we make clean living easy and accessible.",
+        "image": "shopify://shop_images/mission-img.png"
+      },
+      "type": "mission-section"
+    },
+    "product_row_2_ATJFhU": {
+      "block_order": [
+        "product_4fDDNQ",
+        "product_HdR8UG",
+        "product_CwrV3q",
+        "product_dPMcy9",
+        "product_caJxEe",
+        "product_khApUD",
+        "product_iKR7BB",
+        "product_cYyP7r"
+      ],
+      "blocks": {
+        "product_4fDDNQ": {
+          "settings": {
+            "description": "Hybrid Solar Oven • 4-5 Meals",
+            "image": "shopify://shop_images/fusion_0c89b649-37a3-410a-b9c0-d0519ee65f06.jpg",
+            "link": "shopify://pages/fusion-1",
+            "title": "Fusion"
+          },
+          "type": "product"
+        },
+        "product_CwrV3q": {
+          "settings": {
+            "description": "40L Portable Cooler • No Ice",
+            "image": "shopify://shop_images/chill-no-powerbank-electric-cooler-gosun-129202.jpg",
+            "link": "shopify://products/chill-camping-electric-cooler",
+            "title": "Chill"
+          },
+          "type": "product"
+        },
+        "product_HdR8UG": {
+          "settings": {
+            "description": "Solar Oven • 2-3 meals",
+            "image": "shopify://shop_images/sport-refurbished-refurbished-gosun-608500.jpg",
+            "link": "shopify://products/sport",
+            "title": "Sport"
+          },
+          "type": "product"
+        },
+        "product_cYyP7r": {
+          "settings": {
+            "description": "120W Table + Bag + Battery",
+            "image": "shopify://shop_images/solartable-120-charge-power-gosun-591323.jpg",
+            "link": "shopify://products/solartable-pro",
+            "title": "Solar Table"
+          },
+          "type": "product"
+        },
+        "product_caJxEe": {
+          "settings": {
+            "description": "Portable Coffee Maker + Mug",
+            "image": "shopify://shop_images/Brew2_cd557af4-134e-4161-9939-f6e80b5254a2.jpg",
+            "link": "shopify://products/best-travel-coffee-maker",
+            "title": "Brew"
+          },
+          "type": "product"
+        },
+        "product_dPMcy9": {
+          "settings": {
+            "description": "266wh Compact Powerbank",
+            "image": "shopify://shop_images/power-266-portable-266wh-power-bank-gosun-370949_9196ad95-4500-420c-815c-096fe63e3fa5.jpg",
+            "link": "shopify://products/best-portable-solar-power-bank",
+            "title": "Power 266"
+          },
+          "type": "product"
+        },
+        "product_iKR7BB": {
+          "settings": {
+            "description": "Hybrid Solar Oven • 2-3 Meals",
+            "image": "shopify://shop_images/sport_46fbf846-59e8-4749-8dca-4dd59ba6d631.jpg",
+            "link": "shopify://products/sport-e",
+            "title": "Sport-E"
+          },
+          "type": "product"
+        },
+        "product_khApUD": {
+          "settings": {
+            "description": "Water Filter + Sink + Shower",
+            "image": "shopify://shop_images/flow-pro-dealer-filter-sink-shower-gosun-268714.jpg",
+            "link": "shopify://products/flow-pro-portable-handwashing-station",
+            "title": "Flow Pro"
+          },
+          "type": "product"
+        }
+      },
+      "settings": {
+        "collection": false,
+        "section_title": "Best Sellers"
+      },
+      "type": "product-row-2"
+    },
+    "product_row_qgepkc": {
       "block_order": [
         "product_deXigy",
         "product_dQACgj",
@@ -158,241 +304,78 @@
         "product_keNQwp",
         "product_mJMRaL"
       ],
-      "settings": {
-        "section_title": "Shop by category",
-        "collection": true
-      }
-    },
-    "mission_section_criUKL": {
-      "type": "mission-section",
       "blocks": {
-        "text_with_image_3y73xg": {
-          "type": "text_with_image",
+        "product_RiyaD3": {
           "settings": {
-            "text": "",
-            "row_image": "shopify:\/\/shop_images\/bbb-business_49aa12ac-2d70-4a5a-88f1-be40b20243f3.png"
-          }
+            "description": "Product Description",
+            "image": "shopify://shop_images/Flowprowaterfilter_Ecosystem.png",
+            "link": "shopify://pages/portable-solar-water-purifiers",
+            "title": "Water Purification"
+          },
+          "type": "product"
         },
-        "text_with_image_6rmg8w": {
-          "type": "text_with_image",
+        "product_VEzR8B": {
           "settings": {
-            "text": "",
-            "row_image": "shopify:\/\/shop_images\/climate-partner_af19b90f-efe5-471e-b0ae-12a95c3c0c25.png"
-          }
+            "description": "Product Description",
+            "image": "shopify://shop_images/EVSolarChargerMainImageSmall.jpg",
+            "link": "shopify://pages/best-portable-solar-chargers",
+            "title": "Solar Chargers"
+          },
+          "type": "product"
         },
-        "text_with_image_dYXQDp": {
-          "type": "text_with_image",
+        "product_dQACgj": {
           "settings": {
-            "text": "",
-            "row_image": "shopify:\/\/shop_images\/trees-for-the-future_e04f7aa6-cf31-4569-bac9-291f6b664637.png"
-          }
+            "description": "Product Description",
+            "image": "shopify://shop_images/chill-no-powerbank-electric-cooler-gosun-129202.jpg",
+            "link": "shopify://pages/solar-coolers",
+            "title": "Solar Coolers"
+          },
+          "type": "product"
+        },
+        "product_deXigy": {
+          "settings": {
+            "description": "Product Description",
+            "image": "shopify://shop_images/fusion_0c89b649-37a3-410a-b9c0-d0519ee65f06.jpg",
+            "link": "shopify://pages/solar-ovens",
+            "title": "Solar Ovens"
+          },
+          "type": "product"
+        },
+        "product_keNQwp": {
+          "settings": {
+            "description": "Product Description",
+            "image": "shopify://shop_images/Parts_Callouts_Elcat.jpg",
+            "link": "shopify://pages/boats",
+            "title": "Boats"
+          },
+          "type": "product"
+        },
+        "product_mJMRaL": {
+          "settings": {
+            "description": "Product Description",
+            "image": "shopify://shop_images/solar_fan_12V_offgrid_hero_cd1f6e70-b02a-4e55-9f05-82d92613e0ae.jpg",
+            "link": "shopify://pages/accessories",
+            "title": "Accessories"
+          },
+          "type": "product"
+        },
+        "product_rPXLJc": {
+          "settings": {
+            "description": "Product Description",
+            "image": "shopify://shop_images/camper_trailer_gosun_camp365_closed_1000x1000_74f55162-8269-48d8-b1ae-f26591832e1e.jpg",
+            "link": "shopify://pages/campers",
+            "title": "Campers"
+          },
+          "type": "product"
         }
       },
-      "block_order": [
-        "text_with_image_3y73xg",
-        "text_with_image_6rmg8w",
-        "text_with_image_dYXQDp"
-      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/mission-img.png",
-        "heading": "Powering the future with the sun, we make sustainable living easy and accessible."
-      }
-    },
-    "feature_banner_axfT4K": {
-      "type": "feature-banner",
-      "settings": {
-        "heading": "100k+ trees planted"
-      }
-    },
-    "product_row_2_ATJFhU": {
-      "type": "product-row-2",
-      "blocks": {
-        "product_4fDDNQ": {
-          "type": "product",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/fusion_0c89b649-37a3-410a-b9c0-d0519ee65f06.jpg",
-            "title": "Fusion",
-            "description": "Hybrid Solar Oven • 4-5 Meals",
-            "link": "shopify:\/\/pages\/fusion-1"
-          }
-        },
-        "product_dPMcy9": {
-          "type": "product",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/flatware-utensils-gosun-285765.jpg",
-            "title": "Flatware",
-            "description": "Portable Utensil Set",
-            "link": "shopify:\/\/products\/reusable-travel-utensil-set"
-          }
-        },
-        "product_HdR8UG": {
-          "type": "product",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/sport_46fbf846-59e8-4749-8dca-4dd59ba6d631.jpg",
-            "title": "Sport-E",
-            "description": "Hybrid Solar Oven • 2-3 meals",
-            "link": "shopify:\/\/products\/sport-e"
-          }
-        },
-        "product_CwrV3q": {
-          "type": "product",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/go_a8285fd8-eaa4-4ad2-8da7-9f4fe1204094.jpg",
-            "title": "Go",
-            "description": "Portable Solar Oven • 1-2 Meals",
-            "link": "shopify:\/\/pages\/go"
-          }
-        },
-        "product_caJxEe": {
-          "type": "product",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Brew2_cd557af4-134e-4161-9939-f6e80b5254a2.jpg",
-            "title": "Brew",
-            "description": "Portable Coffee Maker",
-            "link": "shopify:\/\/products\/best-travel-coffee-maker"
-          }
-        },
-        "product_khApUD": {
-          "type": "product",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/flow-pro-filter-sink-shower-gosun-929591.jpg",
-            "title": "Flow Pro",
-            "description": "Solar Water Purifier + Sink + Shower",
-            "link": "shopify:\/\/products\/flow-pro-portable-handwashing-station"
-          }
-        },
-        "product_cYyP7r": {
-          "type": "product",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/power-1100-1100wh-power-bank-gosun-121088.jpg",
-            "title": "Power 1100",
-            "description": "1100Wh Power Bank",
-            "link": "shopify:\/\/products\/power-1100-solar-charger-power-bank"
-          }
-        }
+        "collection": true,
+        "section_title": "Shop by Solution"
       },
-      "block_order": [
-        "product_4fDDNQ",
-        "product_dPMcy9",
-        "product_HdR8UG",
-        "product_CwrV3q",
-        "product_caJxEe",
-        "product_khApUD",
-        "product_cYyP7r"
-      ],
-      "settings": {
-        "section_title": "Most popular",
-        "collection": false
-      }
-    },
-    "feature_image_LWaCdC": {
-      "type": "feature-image",
-      "settings": {
-        "product_reference": "",
-        "invert_order": false,
-        "shrink_height": false,
-        "top_padding": false,
-        "overline": "",
-        "heading": "Meet Elcat Splash, our newest innovation",
-        "text": "",
-        "price": "",
-        "video_url": "",
-        "image": "shopify:\/\/shop_images\/elcat-splash-2.webp",
-        "img-fit": false,
-        "button_url": "shopify:\/\/pages\/elcat-splash",
-        "button_label": "Learn More",
-        "button_url_2": "",
-        "button_label_2": ""
-      }
+      "type": "product-row"
     },
     "social_section_7jVYar": {
-      "type": "social-section",
-      "blocks": {
-        "image_7BXtB8": {
-          "type": "image",
-          "settings": {
-            "row": "row_1",
-            "image": "shopify:\/\/shop_images\/fusion_fall_hero_mobile.jpg"
-          }
-        },
-        "image_jUprHX": {
-          "type": "image",
-          "settings": {
-            "row": "row_1",
-            "image": "shopify:\/\/shop_images\/chillest-reward-reward-gosun-199933.jpg"
-          }
-        },
-        "image_CPwmxV": {
-          "type": "image",
-          "settings": {
-            "row": "row_1",
-            "image": "shopify:\/\/shop_images\/water_filter_gosun_flow.jpg"
-          }
-        },
-        "image_QPw9Kz": {
-          "type": "image",
-          "settings": {
-            "row": "row_1",
-            "image": "shopify:\/\/shop_images\/Chill_Game.jpg"
-          }
-        },
-        "image_z4txNj": {
-          "type": "image",
-          "settings": {
-            "row": "row_1",
-            "image": "shopify:\/\/shop_images\/ecoflow-ecoflow-delta-pro-portable-power-station-29805706117193_720x_d44b8e27-39c5-4528-8c63-75247870c63c.webp"
-          }
-        },
-        "image_kK8xjE": {
-          "type": "image",
-          "settings": {
-            "row": "row_1",
-            "image": "shopify:\/\/shop_images\/Boat_Pic_2_1024x1024_4d695916-1627-4ebc-8ab2-cc17a053f0a0.webp"
-          }
-        },
-        "image_bcmNVj": {
-          "type": "image",
-          "settings": {
-            "row": "row_2",
-            "image": "shopify:\/\/shop_images\/Placeholder_Image-1.jpg"
-          }
-        },
-        "image_pUGMaK": {
-          "type": "image",
-          "settings": {
-            "row": "row_2",
-            "image": "shopify:\/\/shop_images\/Placeholder_Image-3.jpg"
-          }
-        },
-        "image_Yk3rR7": {
-          "type": "image",
-          "settings": {
-            "row": "row_2",
-            "image": "shopify:\/\/shop_images\/Placeholder_Image-4.jpg"
-          }
-        },
-        "image_wqebpc": {
-          "type": "image",
-          "settings": {
-            "row": "row_2",
-            "image": "shopify:\/\/shop_images\/Placeholder_Image-7.jpg"
-          }
-        },
-        "image_Jtbafz": {
-          "type": "image",
-          "settings": {
-            "row": "row_2",
-            "image": "shopify:\/\/shop_images\/Placeholder_Image-6.jpg"
-          }
-        },
-        "image_mKXJUY": {
-          "type": "image",
-          "settings": {
-            "row": "row_2",
-            "image": "shopify:\/\/shop_images\/Placeholder_Image-5.jpg"
-          }
-        }
-      },
       "block_order": [
         "image_7BXtB8",
         "image_jUprHX",
@@ -407,20 +390,109 @@
         "image_Jtbafz",
         "image_mKXJUY"
       ],
+      "blocks": {
+        "image_7BXtB8": {
+          "settings": {
+            "image": "shopify://shop_images/fusion_fall_hero_mobile.jpg",
+            "row": "row_1",
+            "url": "shopify://products/best-solar-cooker-fusion"
+          },
+          "type": "image"
+        },
+        "image_CPwmxV": {
+          "settings": {
+            "image": "shopify://shop_images/water_filter_gosun_flow.jpg",
+            "row": "row_1",
+            "url": "shopify://products/flow-pro-portable-handwashing-station"
+          },
+          "type": "image"
+        },
+        "image_Jtbafz": {
+          "settings": {
+            "image": "shopify://shop_images/Placeholder_Image-6.jpg",
+            "row": "row_2",
+            "url": "shopify://products/flow-pro-portable-handwashing-station"
+          },
+          "type": "image"
+        },
+        "image_QPw9Kz": {
+          "settings": {
+            "image": "shopify://shop_images/Chill_Game.jpg",
+            "row": "row_1",
+            "url": "shopify://products/chill-camping-electric-cooler"
+          },
+          "type": "image"
+        },
+        "image_Yk3rR7": {
+          "settings": {
+            "image": "shopify://shop_images/Placeholder_Image-4.jpg",
+            "row": "row_2",
+            "url": "shopify://products/camp365"
+          },
+          "type": "image"
+        },
+        "image_bcmNVj": {
+          "settings": {
+            "image": "shopify://shop_images/Placeholder_Image-1.jpg",
+            "row": "row_2",
+            "url": "shopify://products/best-solar-phone-charger"
+          },
+          "type": "image"
+        },
+        "image_jUprHX": {
+          "settings": {
+            "image": "shopify://shop_images/chillest-reward-reward-gosun-199933.jpg",
+            "row": "row_1",
+            "url": "shopify://products/chillest-portable-electric-cooler"
+          },
+          "type": "image"
+        },
+        "image_kK8xjE": {
+          "settings": {
+            "image": "shopify://shop_images/Boat_Pic_2_1024x1024_4d695916-1627-4ebc-8ab2-cc17a053f0a0.webp",
+            "row": "row_1",
+            "url": "shopify://products/gosun-electric-boat-solar"
+          },
+          "type": "image"
+        },
+        "image_mKXJUY": {
+          "settings": {
+            "image": "shopify://shop_images/Placeholder_Image-5.jpg",
+            "row": "row_2",
+            "url": "shopify://products/gosunpro-portable-solar-oven"
+          },
+          "type": "image"
+        },
+        "image_pUGMaK": {
+          "settings": {
+            "image": "shopify://shop_images/Placeholder_Image-3.jpg",
+            "row": "row_2",
+            "url": "shopify://products/flow-pro-portable-handwashing-station"
+          },
+          "type": "image"
+        },
+        "image_wqebpc": {
+          "settings": {
+            "image": "shopify://shop_images/Placeholder_Image-7.jpg",
+            "row": "row_2",
+            "url": "shopify://products/portable-solar-charger-power-bank"
+          },
+          "type": "image"
+        },
+        "image_z4txNj": {
+          "settings": {
+            "image": "shopify://shop_images/ecoflow-ecoflow-delta-pro-portable-power-station-29805706117193_720x_d44b8e27-39c5-4528-8c63-75247870c63c.webp",
+            "row": "row_1",
+            "url": "shopify://products/delta-pro-portable-power-station"
+          },
+          "type": "image"
+        }
+      },
       "settings": {
-        "title": "Join thousands of solar enthusiasts",
-        "description": "Share your adventure with #usemoresun or @gosun"
-      }
+        "description": "Share your adventure with #usemoresun or @gosun",
+        "title": "Join thousands of solar enthusiasts"
+      },
+      "type": "social-section"
     }
-  },
-  "order": [
-    "hero_section_gpDrMe",
-    "logo_marquee_UTWfBi",
-    "product_row_qgepkc",
-    "mission_section_criUKL",
-    "feature_banner_axfT4K",
-    "product_row_2_ATJFhU",
-    "feature_image_LWaCdC",
-    "social_section_7jVYar"
-  ]
+  }
 }
