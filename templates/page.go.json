@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -18,8 +27,8 @@
       "type": "hero-product",
       "settings": {
         "product_reference": "gosunpro-portable-solar-oven",
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e7e8610fbff4483e8b434b322a7053b5.mp4",
-        "background_image": "shopify:\/\/shop_images\/Gosun_Go_how_to_video_cover.jpg",
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/e7e8610fbff4483e8b434b322a7053b5.mp4",
+        "background_image": "shopify://shop_images/Gosun_Go_how_to_video_cover.jpg",
         "description": "Cook meals and boil water anywhere",
         "feature_1_title": "Max Temperature",
         "feature_1_description": "550ºF",
@@ -39,7 +48,7 @@
         "text": "At just 2lbs, the Go is perfect for camping, backpacking, events, and survival. Like a turtle, it comes with its own protective home.",
         "price": "",
         "video_url": "",
-        "image": "shopify:\/\/shop_images\/Go-E_LifeStyle1.png",
+        "image": "shopify://shop_images/Go-E_LifeStyle1.png",
         "img-fit": false,
         "button_url": "",
         "button_label": "",
@@ -55,8 +64,8 @@
           "settings": {
             "tab_title": "Fits in your bag",
             "tab_description": "Go anywhere with our smallest oven ever (2 lbs)",
-            "image": "shopify:\/\/shop_images\/GoSun_Go_how_to_page_cover_image_d83b55c4-4333-4424-8570-522530b6f4c8.jpg",
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/7b43650dee1648cda5959a82f19fb8c0.mp4"
+            "image": "shopify://shop_images/GoSun_Go_how_to_page_cover_image_d83b55c4-4333-4424-8570-522530b6f4c8.jpg",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/7b43650dee1648cda5959a82f19fb8c0.mp4"
           }
         },
         "media_q9xfqk": {
@@ -64,7 +73,7 @@
           "settings": {
             "tab_title": "Boil liquids",
             "tab_description": "Perfect for tea, coffee, dehydrated foods and sterilizing water",
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/40d78696cf6540dba1d3ebe2402c772f.mp4"
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/40d78696cf6540dba1d3ebe2402c772f.mp4"
           }
         },
         "media_rdCkmY": {
@@ -72,7 +81,7 @@
           "settings": {
             "tab_title": "All-weather",
             "tab_description": "Rain, clouds, & snow. If you can see a shadow, it will cook.",
-            "image": "shopify:\/\/shop_images\/Go_E_Portable.jpg",
+            "image": "shopify://shop_images/Go_E_Portable.jpg",
             "video_url": ""
           }
         },
@@ -81,7 +90,7 @@
           "settings": {
             "tab_title": "Fuel-free",
             "tab_description": "Cooks most meals in 20-30 minutes under the sun",
-            "image": "shopify:\/\/shop_images\/GoSun_Go_how_to_page_cover_image_e3dca38e-c214-48ba-b338-850f54170a48.jpg",
+            "image": "shopify://shop_images/GoSun_Go_how_to_page_cover_image_e3dca38e-c214-48ba-b338-850f54170a48.jpg",
             "video_url": ""
           }
         }
@@ -92,8 +101,7 @@
         "media_rdCkmY",
         "media_PWLTtA"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "feature_image_B7RwwW": {
       "type": "feature-image",
@@ -107,7 +115,7 @@
         "text": "Perfect for tea & coffee, or if you're feeling hungry, add solar hot water to dry foods for a warm meal. Once heated, liquids stay hot and ready for hours.",
         "price": "",
         "video_url": "",
-        "image": "shopify:\/\/shop_images\/image_32_600x_bf4a54e2-e031-41f2-b474-efcdfe9add18.webp",
+        "image": "shopify://shop_images/image_32_600x_bf4a54e2-e031-41f2-b474-efcdfe9add18.webp",
         "img-fit": false,
         "button_url": "",
         "button_label": "",
@@ -120,7 +128,7 @@
       "disabled": true,
       "settings": {
         "shrink_height": false,
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e9b46de931d6458e97abbbd6a6811ad7.mp4",
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/e9b46de931d6458e97abbbd6a6811ad7.mp4",
         "overline": "",
         "heading": "Built for the future",
         "paragraph": "The Fusion's patented solar evacuated tube creates the most efficient insulation in modern cooking technology. Two parabolic reflectors concentrate the sunlight into the cooking chamber - trapping the energy inside for cooking.",
@@ -139,21 +147,21 @@
           "type": "product_column",
           "settings": {
             "product_reference": "best-solar-cooker-fusion",
-            "button_url": "shopify:\/\/pages\/fusion-1"
+            "button_url": "shopify://pages/fusion"
           }
         },
         "product_column_PgLWmc": {
           "type": "product_column",
           "settings": {
             "product_reference": "sport-e",
-            "button_url": "shopify:\/\/pages\/sport-e"
+            "button_url": "shopify://pages/sport-e"
           }
         },
         "product_column_tMK3Ur": {
           "type": "product_column",
           "settings": {
             "product_reference": "gosunpro-portable-solar-oven",
-            "button_url": "shopify:\/\/pages\/go"
+            "button_url": "shopify://pages/go"
           }
         }
       },
@@ -162,8 +170,7 @@
         "product_column_PgLWmc",
         "product_column_tMK3Ur"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "product_page_faq_LDayyV": {
       "type": "product-page-faq",
@@ -172,7 +179,7 @@
         "invert_order": false,
         "shrink_height": false,
         "top_padding": false,
-        "image": "shopify:\/\/shop_images\/Go-E_LifeStyle4.png"
+        "image": "shopify://shop_images/Go-E_LifeStyle4.png"
       }
     },
     "need_help_gCLBEz": {

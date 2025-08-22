@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -18,13 +27,13 @@
       "type": "hero-product",
       "settings": {
         "product_reference": "parabolic-solar-cooker-commercial",
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2cf55121929b4e299f7792e053ee89db.mp4",
-        "background_image": "shopify:\/\/shop_images\/Station_w_chicken.jpg",
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/2cf55121929b4e299f7792e053ee89db.mp4",
+        "background_image": "shopify://shop_images/Station_w_chicken.jpg",
         "description": "Outdoor Kitchen Reinvented with hot meals day or night without burning fuel",
         "feature_1_title": "Max Temperature",
         "feature_1_description": "450ºF",
         "feature_2_title": "Feeds up to",
-        "feature_2_description": "30 meals \/ hour"
+        "feature_2_description": "30 meals / hour"
       }
     },
     "feature_image_qi7PHt": {
@@ -39,7 +48,7 @@
         "text": "If you're out of sunlight, plug the Station into a 12V source to power heating elements. Use GoSun solar chargers to harness the power of the Sun to cook day and night.",
         "price": "",
         "video_url": "",
-        "image": "shopify:\/\/shop_images\/GoSun_Station_Lifestyle_Patio.jpg",
+        "image": "shopify://shop_images/GoSun_Station_Lifestyle_Patio.jpg",
         "img-fit": false,
         "button_url": "",
         "button_label": "",
@@ -55,7 +64,7 @@
           "settings": {
             "tab_title": "Portable",
             "tab_description": "Deploys in seconds and collapses into a durable package",
-            "image": "shopify:\/\/shop_images\/GoSun_Station_Lifestyle_Fold.jpg",
+            "image": "shopify://shop_images/GoSun_Station_Lifestyle_Fold.jpg",
             "video_url": ""
           }
         },
@@ -64,7 +73,7 @@
           "settings": {
             "tab_title": "Cook at night",
             "tab_description": "Hybrid solar + 12V electric heat so the cooking does not stop",
-            "image": "shopify:\/\/shop_images\/solar_oven_night_cooking_700x_c218ace3-c700-44c5-a34b-b2e38a8883b5.webp",
+            "image": "shopify://shop_images/solar_oven_night_cooking_700x_c218ace3-c700-44c5-a34b-b2e38a8883b5.webp",
             "video_url": ""
           }
         },
@@ -73,7 +82,7 @@
           "settings": {
             "tab_title": "Feed an army",
             "tab_description": "Capable of solar cooking 30 meals every hour",
-            "image": "shopify:\/\/shop_images\/ezgif-4-da27f4cb81.gif",
+            "image": "shopify://shop_images/ezgif-4-da27f4cb81.gif",
             "video_url": ""
           }
         },
@@ -82,7 +91,7 @@
           "settings": {
             "tab_title": "Durable",
             "tab_description": "Rugged frame with protection for any weather or terrain",
-            "image": "shopify:\/\/shop_images\/GoSun_Station_Lifestyle_Transport.jpg",
+            "image": "shopify://shop_images/GoSun_Station_Lifestyle_Transport.jpg",
             "video_url": ""
           }
         }
@@ -93,8 +102,7 @@
         "media_q9xfqk",
         "media_rdCkmY"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "feature_image_B7RwwW": {
       "type": "feature-image",
@@ -108,7 +116,7 @@
         "text": "The Station's patented evacuated tube creates the most efficient insulation in modern cooking technology. Adjustable parabolic reflectors concentrate the sunlight into the cooking chamber - trapping the energy inside for cooking.",
         "price": "",
         "video_url": "",
-        "image": "shopify:\/\/shop_images\/image_29_700x_c97952ca-3c19-4f06-ae37-ec22548ac3a6.webp",
+        "image": "shopify://shop_images/image_29_700x_c97952ca-3c19-4f06-ae37-ec22548ac3a6.webp",
         "img-fit": false,
         "button_url": "",
         "button_label": "",
@@ -120,7 +128,7 @@
       "type": "hero-section",
       "settings": {
         "shrink_height": false,
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/2cf55121929b4e299f7792e053ee89db.mp4",
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/2cf55121929b4e299f7792e053ee89db.mp4",
         "overline": "",
         "heading": "Built to feed a community",
         "paragraph": " Whether you're feeding a crowd, responding to emergencies, or hosting an outdoor feast, the GoSun Station is your ultimate cooking companion.",
@@ -139,21 +147,21 @@
           "type": "product_column",
           "settings": {
             "product_reference": "best-solar-cooker-fusion",
-            "button_url": "shopify:\/\/pages\/fusion-1"
+            "button_url": "shopify://pages/fusion"
           }
         },
         "product_column_PgLWmc": {
           "type": "product_column",
           "settings": {
             "product_reference": "sport-e",
-            "button_url": "shopify:\/\/pages\/sport-e"
+            "button_url": "shopify://pages/sport-e"
           }
         },
         "product_column_tMK3Ur": {
           "type": "product_column",
           "settings": {
             "product_reference": "gosunpro-portable-solar-oven",
-            "button_url": "shopify:\/\/pages\/go"
+            "button_url": "shopify://pages/go"
           }
         }
       },
@@ -162,8 +170,7 @@
         "product_column_PgLWmc",
         "product_column_tMK3Ur"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "need_help_gCLBEz": {
       "type": "need-help",

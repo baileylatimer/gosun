@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -18,8 +27,8 @@
       "type": "hero-product",
       "settings": {
         "product_reference": "sport-e",
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/b5349e6dc36f470aac9935942d3e78ce.mp4",
-        "background_image": "shopify:\/\/shop_images\/GoSun_Sport_how_to_page_cover_image.jpg",
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/b5349e6dc36f470aac9935942d3e78ce.mp4",
+        "background_image": "shopify://shop_images/GoSun_Sport_how_to_page_cover_image.jpg",
         "description": "Cook meals anywhere, day or night",
         "feature_1_title": "Max Temperature",
         "feature_1_description": "450ºF",
@@ -39,7 +48,7 @@
         "text": "Sport-E takes 20 minutes to cook a meal for two. The solar or electric heat is tuned at 350°F, so you're cooking rain or shine",
         "price": "",
         "video_url": "",
-        "image": "shopify:\/\/shop_images\/sport-open-box-fastest-solar-oven-2-3-meals-gosun-935765.jpg",
+        "image": "shopify://shop_images/sport-open-box-fastest-solar-oven-2-3-meals-gosun-935765.jpg",
         "img-fit": false,
         "button_url": "",
         "button_label": "",
@@ -55,8 +64,8 @@
           "settings": {
             "tab_title": "Easy to Use",
             "tab_description": "Unfold, load with food, point towards sun or plug into 12V",
-            "image": "shopify:\/\/shop_images\/Placeholder_Image-2.jpg",
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e580a2a16e9f43db9c831e01872ead84.mp4"
+            "image": "shopify://shop_images/Placeholder_Image-2.jpg",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/e580a2a16e9f43db9c831e01872ead84.mp4"
           }
         },
         "media_Hkpygk": {
@@ -64,7 +73,7 @@
           "settings": {
             "tab_title": "20 Mins to Meal",
             "tab_description": "Reliably cooks a meal for two in just 20 minutes",
-            "image": "shopify:\/\/shop_images\/sport_open_tray_wings_1.png",
+            "image": "shopify://shop_images/sport_open_tray_wings_1.png",
             "video_url": ""
           }
         },
@@ -73,7 +82,7 @@
           "settings": {
             "tab_title": "Compact + Portable",
             "tab_description": "Legs and reflectors fold up to protect and carry",
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/5681042879aa489792e573bb8462bed7.mp4"
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/5681042879aa489792e573bb8462bed7.mp4"
           }
         },
         "media_PWLTtA": {
@@ -81,7 +90,7 @@
           "settings": {
             "tab_title": "12V + Solar Oven",
             "tab_description": "Cook directly with the sun or with car, boat, RV, battery",
-            "image": "shopify:\/\/shop_images\/sport-silicone-baking-pans-silicone-baking-pans-for-sport-gosun-329776.jpg",
+            "image": "shopify://shop_images/sport-silicone-baking-pans-silicone-baking-pans-for-sport-gosun-329776.jpg",
             "video_url": ""
           }
         }
@@ -92,8 +101,7 @@
         "media_rdCkmY",
         "media_PWLTtA"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "feature_image_B7RwwW": {
       "type": "feature-image",
@@ -107,7 +115,7 @@
         "text": "The Sport-E's patented solar evacuated tube creates the most efficient insulation in modern cooking technology. Two parabolic reflectors concentrate the sunlight into the cooking chamber - trapping the energy inside for cooking.",
         "price": "",
         "video_url": "",
-        "image": "shopify:\/\/shop_images\/Sport_E_Exploded_View_Left_Column_081922_4x_Scale_1000x_jpg.webp",
+        "image": "shopify://shop_images/Sport_E_Exploded_View_Left_Column_081922_4x_Scale_1000x_jpg.webp",
         "img-fit": false,
         "button_url": "",
         "button_label": "",
@@ -119,7 +127,7 @@
       "type": "hero-section",
       "settings": {
         "shrink_height": false,
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0ff5128e4da14a2f995adeaa1af21f2a.mp4",
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/0ff5128e4da14a2f995adeaa1af21f2a.mp4",
         "overline": "",
         "heading": "Built for outdoor living",
         "paragraph": "The Sport-E is GoSun's top selling solar oven because it always delivers. Incredible hot meals made out in the field with no fuel and no fuss.",
@@ -138,21 +146,21 @@
           "type": "product_column",
           "settings": {
             "product_reference": "best-solar-cooker-fusion",
-            "button_url": "shopify:\/\/pages\/fusion-1"
+            "button_url": "shopify://pages/fusion"
           }
         },
         "product_column_PgLWmc": {
           "type": "product_column",
           "settings": {
             "product_reference": "sport-e",
-            "button_url": "shopify:\/\/pages\/sport-e"
+            "button_url": "shopify://pages/sport-e"
           }
         },
         "product_column_tMK3Ur": {
           "type": "product_column",
           "settings": {
             "product_reference": "gosunpro-portable-solar-oven",
-            "button_url": "shopify:\/\/pages\/go"
+            "button_url": "shopify://pages/go"
           }
         }
       },
@@ -161,8 +169,7 @@
         "product_column_PgLWmc",
         "product_column_tMK3Ur"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "product_page_faq_A6YJyW": {
       "type": "product-page-faq",
@@ -171,7 +178,7 @@
         "invert_order": false,
         "shrink_height": false,
         "top_padding": false,
-        "image": "shopify:\/\/shop_images\/gosun_sport_solar_oven_grill_mobile.jpg"
+        "image": "shopify://shop_images/gosun_sport_solar_oven_grill_mobile.jpg"
       }
     },
     "faq_3UD6WA": {
@@ -225,7 +232,7 @@
         "invert_order": true,
         "shrink_height": false,
         "top_padding": false,
-        "image": "shopify:\/\/shop_images\/Rectangle_5_b5b0dff2-0a9f-4a77-8b1d-0d21bc16fa70.jpg"
+        "image": "shopify://shop_images/Rectangle_5_b5b0dff2-0a9f-4a77-8b1d-0d21bc16fa70.jpg"
       }
     },
     "need_help_gCLBEz": {

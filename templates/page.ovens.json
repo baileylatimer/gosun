@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -21,8 +21,8 @@
       "type": "hero-section",
       "settings": {
         "shrink_height": false,
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/d59eaf45324c4af59081171ebd53873d.mp4",
-        "background_image": "shopify:\/\/shop_images\/fusion-hero.jpg",
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/d59eaf45324c4af59081171ebd53873d.mp4",
+        "background_image": "shopify://shop_images/fusion-hero.jpg",
         "overline": "",
         "heading": "Solar Ovens",
         "paragraph": "No fuel, no flames, no worries. Simply amazing meals made with the World's Most Reliable Solar Ovens.",
@@ -46,11 +46,11 @@
         "text": "Cook anywhere, sun or no sun. Our largest, most versatile solar oven yet, powered by solar or 12V. Unlimited, eco-friendly meals await. Adventure without limits.",
         "price": "",
         "video_url": "",
-        "image": "shopify:\/\/shop_images\/Rectangle_4.jpg",
+        "image": "shopify://shop_images/Rectangle_4.jpg",
         "img-fit": false,
-        "button_url": "shopify:\/\/products\/best-solar-cooker-fusion",
+        "button_url": "shopify://products/best-solar-cooker-fusion",
         "button_label": "Buy Now",
-        "button_url_2": "shopify:\/\/pages\/fusion-1",
+        "button_url_2": "shopify://pages/fusion",
         "button_label_2": "Learn More"
       }
     },
@@ -66,11 +66,11 @@
         "text": "Solar by day, electric by night—this all-rounder solar oven cooks your adventures in 20 minutes flat. Sized right between our Go and Fusion, it’s the eco-smart choice for meals that move with you. Cool outside, hot inside, and ready for anywhere.",
         "price": "219",
         "video_url": "",
-        "image": "shopify:\/\/shop_images\/Rectangle_5_b5b0dff2-0a9f-4a77-8b1d-0d21bc16fa70.jpg",
+        "image": "shopify://shop_images/Rectangle_5_b5b0dff2-0a9f-4a77-8b1d-0d21bc16fa70.jpg",
         "img-fit": false,
-        "button_url": "shopify:\/\/products\/sport-e",
+        "button_url": "shopify://products/sport-e",
         "button_label": "Buy Now",
-        "button_url_2": "shopify:\/\/pages\/sport-e",
+        "button_url_2": "shopify://pages/sport-e",
         "button_label_2": "Learn More"
       }
     },
@@ -86,11 +86,11 @@
         "text": "Your pocket-sized kitchen. Fast, affordable, and ultra-portable, it cooks meals or boils water in just 20 minutes. Ideal for camping, backpacking, or any adventure. Go anywhere, eat anything.",
         "price": "119",
         "video_url": "",
-        "image": "shopify:\/\/shop_images\/Rectangle_6.jpg",
+        "image": "shopify://shop_images/Rectangle_6.jpg",
         "img-fit": false,
-        "button_url": "shopify:\/\/products\/gosunpro-portable-solar-oven",
+        "button_url": "shopify://products/gosunpro-portable-solar-oven",
         "button_label": "Buy Now",
-        "button_url_2": "shopify:\/\/pages\/go",
+        "button_url_2": "shopify://pages/go",
         "button_label_2": "Learn More"
       }
     },
@@ -106,11 +106,11 @@
         "text": "Designed and built in America by the GoSun Team, the Station incorporates durability, performance and ease of use like all GoSun Stove products. The dual-axis base adjusts to the sun for cooking any time of the day. Evacuated tube insulation enables cooking in all weather, retaining heat for hours; serving meals hot, even at night.",
         "price": "",
         "video_url": "",
-        "image": "shopify:\/\/shop_images\/GoSun_Station_White_Open_362cca05-5a77-42e1-8ebc-c09a129ce39e.jpg",
+        "image": "shopify://shop_images/GoSun_Station_White_Open_362cca05-5a77-42e1-8ebc-c09a129ce39e.jpg",
         "img-fit": false,
-        "button_url": "shopify:\/\/products\/parabolic-solar-cooker-commercial",
+        "button_url": "shopify://products/parabolic-solar-cooker-commercial",
         "button_label": "Learn More",
-        "button_url_2": "shopify:\/\/pages\/station",
+        "button_url_2": "shopify://pages/station",
         "button_label_2": ""
       }
     },
@@ -126,11 +126,11 @@
         "text": "Experience the power of solar cooking with a reliable, vacuum insulated oven. Cook meals in 20 minutes and in all weather using light from the Sun.  Great for camping, travel, experiments, beach, boating, survival, and more. No fuel needed.",
         "price": "",
         "video_url": "",
-        "image": "shopify:\/\/shop_images\/03_700x_af68f294-3859-4673-8647-e1ad85d92695.webp",
+        "image": "shopify://shop_images/03_700x_af68f294-3859-4673-8647-e1ad85d92695.webp",
         "img-fit": false,
-        "button_url": "shopify:\/\/products\/solar-oven-kit",
+        "button_url": "shopify://products/solar-oven-kit",
         "button_label": "Buy Now",
-        "button_url_2": "shopify:\/\/pages\/solar-oven-kit",
+        "button_url_2": "shopify://pages/solar-oven-kit",
         "button_label_2": ""
       }
     },
@@ -169,21 +169,21 @@
           "type": "product_column",
           "settings": {
             "product_reference": "best-solar-cooker-fusion",
-            "button_url": "shopify:\/\/pages\/fusion-1"
+            "button_url": "shopify://pages/fusion"
           }
         },
         "product_column_pPAFpy": {
           "type": "product_column",
           "settings": {
             "product_reference": "sport-e",
-            "button_url": "shopify:\/\/pages\/sport-e"
+            "button_url": "shopify://pages/sport-e"
           }
         },
         "product_column_abPENP": {
           "type": "product_column",
           "settings": {
             "product_reference": "gosunpro-portable-solar-oven",
-            "button_url": "shopify:\/\/pages\/go"
+            "button_url": "shopify://pages/go"
           }
         }
       },
@@ -192,8 +192,7 @@
         "product_column_pPAFpy",
         "product_column_abPENP"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "featured_collection_Fxzf7q": {
       "type": "featured-collection",
@@ -273,7 +272,7 @@
         "invert_order": true,
         "shrink_height": false,
         "top_padding": false,
-        "image": "shopify:\/\/shop_images\/Rectangle_5_b5b0dff2-0a9f-4a77-8b1d-0d21bc16fa70.jpg"
+        "image": "shopify://shop_images/Rectangle_5_b5b0dff2-0a9f-4a77-8b1d-0d21bc16fa70.jpg"
       }
     },
     "need_help_gCLBEz": {
